@@ -1,0 +1,2515 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.Azure.Management.Cdn.ICdnManagementClient
+  commentId: T:Microsoft.Azure.Management.Cdn.ICdnManagementClient
+  id: ICdnManagementClient
+  parent: Microsoft.Azure.Management.Cdn
+  children:
+  - Microsoft.Azure.Management.Cdn.ICdnManagementClient.AcceptLanguage
+  - Microsoft.Azure.Management.Cdn.ICdnManagementClient.ApiVersion
+  - Microsoft.Azure.Management.Cdn.ICdnManagementClient.BaseUri
+  - Microsoft.Azure.Management.Cdn.ICdnManagementClient.CheckNameAvailabilityWithHttpMessagesAsync(System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)
+  - Microsoft.Azure.Management.Cdn.ICdnManagementClient.CheckResourceUsageNextWithHttpMessagesAsync(System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)
+  - Microsoft.Azure.Management.Cdn.ICdnManagementClient.CheckResourceUsageWithHttpMessagesAsync(System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)
+  - Microsoft.Azure.Management.Cdn.ICdnManagementClient.Credentials
+  - Microsoft.Azure.Management.Cdn.ICdnManagementClient.CustomDomains
+  - Microsoft.Azure.Management.Cdn.ICdnManagementClient.DeserializationSettings
+  - Microsoft.Azure.Management.Cdn.ICdnManagementClient.EdgeNodes
+  - Microsoft.Azure.Management.Cdn.ICdnManagementClient.Endpoints
+  - Microsoft.Azure.Management.Cdn.ICdnManagementClient.GenerateClientRequestId
+  - Microsoft.Azure.Management.Cdn.ICdnManagementClient.ListOperationsNextWithHttpMessagesAsync(System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)
+  - Microsoft.Azure.Management.Cdn.ICdnManagementClient.ListOperationsWithHttpMessagesAsync(System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)
+  - Microsoft.Azure.Management.Cdn.ICdnManagementClient.LongRunningOperationRetryTimeout
+  - Microsoft.Azure.Management.Cdn.ICdnManagementClient.Origins
+  - Microsoft.Azure.Management.Cdn.ICdnManagementClient.Profiles
+  - Microsoft.Azure.Management.Cdn.ICdnManagementClient.SerializationSettings
+  - Microsoft.Azure.Management.Cdn.ICdnManagementClient.SubscriptionId
+  langs:
+  - csharp
+  - vb
+  name: ICdnManagementClient
+  nameWithType: ICdnManagementClient
+  fullName: Microsoft.Azure.Management.Cdn.ICdnManagementClient
+  type: Interface
+  source:
+    remote:
+      path: src/ResourceManagement/Cdn/Microsoft.Azure.Management.Cdn/Generated/ICdnManagementClient.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: ICdnManagementClient
+    path: src/azure-sdk-for-net/src/ResourceManagement/Cdn/Microsoft.Azure.Management.Cdn/Generated/ICdnManagementClient.cs
+    startLine: 26
+  assemblies:
+  - Microsoft.Azure.Management.Cdn
+  namespace: Microsoft.Azure.Management.Cdn
+  summary: "\nUse these APIs to manage Azure CDN resources through the Azure Resource\nManager. You must make sure that requests made to these resources are\nsecure.\n"
+  example: []
+  syntax:
+    content: 'public interface ICdnManagementClient : IDisposable'
+    content.vb: >-
+      Public Interface ICdnManagementClient
+          Inherits IDisposable
+  inheritedMembers:
+  - System.IDisposable.Dispose
+  extensionMethods:
+  - Microsoft.Azure.Management.Cdn.ICdnManagementClient.Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.CheckNameAvailability(System.String)
+  - Microsoft.Azure.Management.Cdn.ICdnManagementClient.Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.CheckNameAvailabilityAsync(System.String,System.Threading.CancellationToken)
+  - Microsoft.Azure.Management.Cdn.ICdnManagementClient.Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.CheckResourceUsage
+  - Microsoft.Azure.Management.Cdn.ICdnManagementClient.Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.CheckResourceUsageAsync(System.Threading.CancellationToken)
+  - Microsoft.Azure.Management.Cdn.ICdnManagementClient.Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.ListOperations
+  - Microsoft.Azure.Management.Cdn.ICdnManagementClient.Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.ListOperationsAsync(System.Threading.CancellationToken)
+  - Microsoft.Azure.Management.Cdn.ICdnManagementClient.Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.CheckResourceUsageNext(System.String)
+  - Microsoft.Azure.Management.Cdn.ICdnManagementClient.Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.CheckResourceUsageNextAsync(System.String,System.Threading.CancellationToken)
+  - Microsoft.Azure.Management.Cdn.ICdnManagementClient.Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.ListOperationsNext(System.String)
+  - Microsoft.Azure.Management.Cdn.ICdnManagementClient.Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.ListOperationsNextAsync(System.String,System.Threading.CancellationToken)
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Microsoft.Azure.Management.Cdn.ICdnManagementClient.BaseUri
+  commentId: P:Microsoft.Azure.Management.Cdn.ICdnManagementClient.BaseUri
+  id: BaseUri
+  parent: Microsoft.Azure.Management.Cdn.ICdnManagementClient
+  langs:
+  - csharp
+  - vb
+  name: BaseUri
+  nameWithType: ICdnManagementClient.BaseUri
+  fullName: Microsoft.Azure.Management.Cdn.ICdnManagementClient.BaseUri
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/Cdn/Microsoft.Azure.Management.Cdn/Generated/ICdnManagementClient.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: BaseUri
+    path: src/azure-sdk-for-net/src/ResourceManagement/Cdn/Microsoft.Azure.Management.Cdn/Generated/ICdnManagementClient.cs
+    startLine: 31
+  assemblies:
+  - Microsoft.Azure.Management.Cdn
+  namespace: Microsoft.Azure.Management.Cdn
+  summary: "\nThe base URI of the service.\n"
+  example: []
+  syntax:
+    content: Uri BaseUri { get; set; }
+    content.vb: Property BaseUri As Uri
+    parameters: []
+    return:
+      type: System.Uri
+  overload: Microsoft.Azure.Management.Cdn.ICdnManagementClient.BaseUri*
+  modifiers.csharp:
+  - get
+  - set
+- uid: Microsoft.Azure.Management.Cdn.ICdnManagementClient.SerializationSettings
+  commentId: P:Microsoft.Azure.Management.Cdn.ICdnManagementClient.SerializationSettings
+  id: SerializationSettings
+  parent: Microsoft.Azure.Management.Cdn.ICdnManagementClient
+  langs:
+  - csharp
+  - vb
+  name: SerializationSettings
+  nameWithType: ICdnManagementClient.SerializationSettings
+  fullName: Microsoft.Azure.Management.Cdn.ICdnManagementClient.SerializationSettings
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/Cdn/Microsoft.Azure.Management.Cdn/Generated/ICdnManagementClient.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: SerializationSettings
+    path: src/azure-sdk-for-net/src/ResourceManagement/Cdn/Microsoft.Azure.Management.Cdn/Generated/ICdnManagementClient.cs
+    startLine: 36
+  assemblies:
+  - Microsoft.Azure.Management.Cdn
+  namespace: Microsoft.Azure.Management.Cdn
+  summary: "\nGets or sets json serialization settings.\n"
+  example: []
+  syntax:
+    content: JsonSerializerSettings SerializationSettings { get; }
+    content.vb: ReadOnly Property SerializationSettings As JsonSerializerSettings
+    parameters: []
+    return:
+      type: Newtonsoft.Json.JsonSerializerSettings
+  overload: Microsoft.Azure.Management.Cdn.ICdnManagementClient.SerializationSettings*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Microsoft.Azure.Management.Cdn.ICdnManagementClient.DeserializationSettings
+  commentId: P:Microsoft.Azure.Management.Cdn.ICdnManagementClient.DeserializationSettings
+  id: DeserializationSettings
+  parent: Microsoft.Azure.Management.Cdn.ICdnManagementClient
+  langs:
+  - csharp
+  - vb
+  name: DeserializationSettings
+  nameWithType: ICdnManagementClient.DeserializationSettings
+  fullName: Microsoft.Azure.Management.Cdn.ICdnManagementClient.DeserializationSettings
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/Cdn/Microsoft.Azure.Management.Cdn/Generated/ICdnManagementClient.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: DeserializationSettings
+    path: src/azure-sdk-for-net/src/ResourceManagement/Cdn/Microsoft.Azure.Management.Cdn/Generated/ICdnManagementClient.cs
+    startLine: 41
+  assemblies:
+  - Microsoft.Azure.Management.Cdn
+  namespace: Microsoft.Azure.Management.Cdn
+  summary: "\nGets or sets json deserialization settings.\n"
+  example: []
+  syntax:
+    content: JsonSerializerSettings DeserializationSettings { get; }
+    content.vb: ReadOnly Property DeserializationSettings As JsonSerializerSettings
+    parameters: []
+    return:
+      type: Newtonsoft.Json.JsonSerializerSettings
+  overload: Microsoft.Azure.Management.Cdn.ICdnManagementClient.DeserializationSettings*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Microsoft.Azure.Management.Cdn.ICdnManagementClient.Credentials
+  commentId: P:Microsoft.Azure.Management.Cdn.ICdnManagementClient.Credentials
+  id: Credentials
+  parent: Microsoft.Azure.Management.Cdn.ICdnManagementClient
+  langs:
+  - csharp
+  - vb
+  name: Credentials
+  nameWithType: ICdnManagementClient.Credentials
+  fullName: Microsoft.Azure.Management.Cdn.ICdnManagementClient.Credentials
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/Cdn/Microsoft.Azure.Management.Cdn/Generated/ICdnManagementClient.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: Credentials
+    path: src/azure-sdk-for-net/src/ResourceManagement/Cdn/Microsoft.Azure.Management.Cdn/Generated/ICdnManagementClient.cs
+    startLine: 46
+  assemblies:
+  - Microsoft.Azure.Management.Cdn
+  namespace: Microsoft.Azure.Management.Cdn
+  summary: "\nCredentials needed for the client to connect to Azure.\n"
+  example: []
+  syntax:
+    content: ServiceClientCredentials Credentials { get; }
+    content.vb: ReadOnly Property Credentials As ServiceClientCredentials
+    parameters: []
+    return:
+      type: Microsoft.Rest.ServiceClientCredentials
+  overload: Microsoft.Azure.Management.Cdn.ICdnManagementClient.Credentials*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Microsoft.Azure.Management.Cdn.ICdnManagementClient.SubscriptionId
+  commentId: P:Microsoft.Azure.Management.Cdn.ICdnManagementClient.SubscriptionId
+  id: SubscriptionId
+  parent: Microsoft.Azure.Management.Cdn.ICdnManagementClient
+  langs:
+  - csharp
+  - vb
+  name: SubscriptionId
+  nameWithType: ICdnManagementClient.SubscriptionId
+  fullName: Microsoft.Azure.Management.Cdn.ICdnManagementClient.SubscriptionId
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/Cdn/Microsoft.Azure.Management.Cdn/Generated/ICdnManagementClient.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: SubscriptionId
+    path: src/azure-sdk-for-net/src/ResourceManagement/Cdn/Microsoft.Azure.Management.Cdn/Generated/ICdnManagementClient.cs
+    startLine: 51
+  assemblies:
+  - Microsoft.Azure.Management.Cdn
+  namespace: Microsoft.Azure.Management.Cdn
+  summary: "\nAzure Subscription ID.\n"
+  example: []
+  syntax:
+    content: string SubscriptionId { get; set; }
+    content.vb: Property SubscriptionId As String
+    parameters: []
+    return:
+      type: System.String
+  overload: Microsoft.Azure.Management.Cdn.ICdnManagementClient.SubscriptionId*
+  modifiers.csharp:
+  - get
+  - set
+- uid: Microsoft.Azure.Management.Cdn.ICdnManagementClient.ApiVersion
+  commentId: P:Microsoft.Azure.Management.Cdn.ICdnManagementClient.ApiVersion
+  id: ApiVersion
+  parent: Microsoft.Azure.Management.Cdn.ICdnManagementClient
+  langs:
+  - csharp
+  - vb
+  name: ApiVersion
+  nameWithType: ICdnManagementClient.ApiVersion
+  fullName: Microsoft.Azure.Management.Cdn.ICdnManagementClient.ApiVersion
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/Cdn/Microsoft.Azure.Management.Cdn/Generated/ICdnManagementClient.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: ApiVersion
+    path: src/azure-sdk-for-net/src/ResourceManagement/Cdn/Microsoft.Azure.Management.Cdn/Generated/ICdnManagementClient.cs
+    startLine: 57
+  assemblies:
+  - Microsoft.Azure.Management.Cdn
+  namespace: Microsoft.Azure.Management.Cdn
+  summary: "\nVersion of the API to be used with the client request. Current\nversion is 2016-10-02.\n"
+  example: []
+  syntax:
+    content: string ApiVersion { get; }
+    content.vb: ReadOnly Property ApiVersion As String
+    parameters: []
+    return:
+      type: System.String
+  overload: Microsoft.Azure.Management.Cdn.ICdnManagementClient.ApiVersion*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Microsoft.Azure.Management.Cdn.ICdnManagementClient.AcceptLanguage
+  commentId: P:Microsoft.Azure.Management.Cdn.ICdnManagementClient.AcceptLanguage
+  id: AcceptLanguage
+  parent: Microsoft.Azure.Management.Cdn.ICdnManagementClient
+  langs:
+  - csharp
+  - vb
+  name: AcceptLanguage
+  nameWithType: ICdnManagementClient.AcceptLanguage
+  fullName: Microsoft.Azure.Management.Cdn.ICdnManagementClient.AcceptLanguage
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/Cdn/Microsoft.Azure.Management.Cdn/Generated/ICdnManagementClient.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: AcceptLanguage
+    path: src/azure-sdk-for-net/src/ResourceManagement/Cdn/Microsoft.Azure.Management.Cdn/Generated/ICdnManagementClient.cs
+    startLine: 62
+  assemblies:
+  - Microsoft.Azure.Management.Cdn
+  namespace: Microsoft.Azure.Management.Cdn
+  summary: "\nGets or sets the preferred language for the response.\n"
+  example: []
+  syntax:
+    content: string AcceptLanguage { get; set; }
+    content.vb: Property AcceptLanguage As String
+    parameters: []
+    return:
+      type: System.String
+  overload: Microsoft.Azure.Management.Cdn.ICdnManagementClient.AcceptLanguage*
+  modifiers.csharp:
+  - get
+  - set
+- uid: Microsoft.Azure.Management.Cdn.ICdnManagementClient.LongRunningOperationRetryTimeout
+  commentId: P:Microsoft.Azure.Management.Cdn.ICdnManagementClient.LongRunningOperationRetryTimeout
+  id: LongRunningOperationRetryTimeout
+  parent: Microsoft.Azure.Management.Cdn.ICdnManagementClient
+  langs:
+  - csharp
+  - vb
+  name: LongRunningOperationRetryTimeout
+  nameWithType: ICdnManagementClient.LongRunningOperationRetryTimeout
+  fullName: Microsoft.Azure.Management.Cdn.ICdnManagementClient.LongRunningOperationRetryTimeout
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/Cdn/Microsoft.Azure.Management.Cdn/Generated/ICdnManagementClient.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: LongRunningOperationRetryTimeout
+    path: src/azure-sdk-for-net/src/ResourceManagement/Cdn/Microsoft.Azure.Management.Cdn/Generated/ICdnManagementClient.cs
+    startLine: 68
+  assemblies:
+  - Microsoft.Azure.Management.Cdn
+  namespace: Microsoft.Azure.Management.Cdn
+  summary: "\nGets or sets the retry timeout in seconds for Long Running\nOperations. Default value is 30.\n"
+  example: []
+  syntax:
+    content: int ? LongRunningOperationRetryTimeout { get; set; }
+    content.vb: Property LongRunningOperationRetryTimeout As Integer?
+    parameters: []
+    return:
+      type: System.Nullable{System.Int32}
+  overload: Microsoft.Azure.Management.Cdn.ICdnManagementClient.LongRunningOperationRetryTimeout*
+  modifiers.csharp:
+  - get
+  - set
+- uid: Microsoft.Azure.Management.Cdn.ICdnManagementClient.GenerateClientRequestId
+  commentId: P:Microsoft.Azure.Management.Cdn.ICdnManagementClient.GenerateClientRequestId
+  id: GenerateClientRequestId
+  parent: Microsoft.Azure.Management.Cdn.ICdnManagementClient
+  langs:
+  - csharp
+  - vb
+  name: GenerateClientRequestId
+  nameWithType: ICdnManagementClient.GenerateClientRequestId
+  fullName: Microsoft.Azure.Management.Cdn.ICdnManagementClient.GenerateClientRequestId
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/Cdn/Microsoft.Azure.Management.Cdn/Generated/ICdnManagementClient.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: GenerateClientRequestId
+    path: src/azure-sdk-for-net/src/ResourceManagement/Cdn/Microsoft.Azure.Management.Cdn/Generated/ICdnManagementClient.cs
+    startLine: 74
+  assemblies:
+  - Microsoft.Azure.Management.Cdn
+  namespace: Microsoft.Azure.Management.Cdn
+  summary: "\nWhen set to true a unique x-ms-client-request-id value is generated\nand included in each request. Default is true.\n"
+  example: []
+  syntax:
+    content: bool ? GenerateClientRequestId { get; set; }
+    content.vb: Property GenerateClientRequestId As Boolean?
+    parameters: []
+    return:
+      type: System.Nullable{System.Boolean}
+  overload: Microsoft.Azure.Management.Cdn.ICdnManagementClient.GenerateClientRequestId*
+  modifiers.csharp:
+  - get
+  - set
+- uid: Microsoft.Azure.Management.Cdn.ICdnManagementClient.Profiles
+  commentId: P:Microsoft.Azure.Management.Cdn.ICdnManagementClient.Profiles
+  id: Profiles
+  parent: Microsoft.Azure.Management.Cdn.ICdnManagementClient
+  langs:
+  - csharp
+  - vb
+  name: Profiles
+  nameWithType: ICdnManagementClient.Profiles
+  fullName: Microsoft.Azure.Management.Cdn.ICdnManagementClient.Profiles
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/Cdn/Microsoft.Azure.Management.Cdn/Generated/ICdnManagementClient.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: Profiles
+    path: src/azure-sdk-for-net/src/ResourceManagement/Cdn/Microsoft.Azure.Management.Cdn/Generated/ICdnManagementClient.cs
+    startLine: 80
+  assemblies:
+  - Microsoft.Azure.Management.Cdn
+  namespace: Microsoft.Azure.Management.Cdn
+  summary: "\nGets the IProfilesOperations.\n"
+  example: []
+  syntax:
+    content: IProfilesOperations Profiles { get; }
+    content.vb: ReadOnly Property Profiles As IProfilesOperations
+    parameters: []
+    return:
+      type: Microsoft.Azure.Management.Cdn.IProfilesOperations
+  overload: Microsoft.Azure.Management.Cdn.ICdnManagementClient.Profiles*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Microsoft.Azure.Management.Cdn.ICdnManagementClient.Endpoints
+  commentId: P:Microsoft.Azure.Management.Cdn.ICdnManagementClient.Endpoints
+  id: Endpoints
+  parent: Microsoft.Azure.Management.Cdn.ICdnManagementClient
+  langs:
+  - csharp
+  - vb
+  name: Endpoints
+  nameWithType: ICdnManagementClient.Endpoints
+  fullName: Microsoft.Azure.Management.Cdn.ICdnManagementClient.Endpoints
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/Cdn/Microsoft.Azure.Management.Cdn/Generated/ICdnManagementClient.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: Endpoints
+    path: src/azure-sdk-for-net/src/ResourceManagement/Cdn/Microsoft.Azure.Management.Cdn/Generated/ICdnManagementClient.cs
+    startLine: 85
+  assemblies:
+  - Microsoft.Azure.Management.Cdn
+  namespace: Microsoft.Azure.Management.Cdn
+  summary: "\nGets the IEndpointsOperations.\n"
+  example: []
+  syntax:
+    content: IEndpointsOperations Endpoints { get; }
+    content.vb: ReadOnly Property Endpoints As IEndpointsOperations
+    parameters: []
+    return:
+      type: Microsoft.Azure.Management.Cdn.IEndpointsOperations
+  overload: Microsoft.Azure.Management.Cdn.ICdnManagementClient.Endpoints*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Microsoft.Azure.Management.Cdn.ICdnManagementClient.Origins
+  commentId: P:Microsoft.Azure.Management.Cdn.ICdnManagementClient.Origins
+  id: Origins
+  parent: Microsoft.Azure.Management.Cdn.ICdnManagementClient
+  langs:
+  - csharp
+  - vb
+  name: Origins
+  nameWithType: ICdnManagementClient.Origins
+  fullName: Microsoft.Azure.Management.Cdn.ICdnManagementClient.Origins
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/Cdn/Microsoft.Azure.Management.Cdn/Generated/ICdnManagementClient.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: Origins
+    path: src/azure-sdk-for-net/src/ResourceManagement/Cdn/Microsoft.Azure.Management.Cdn/Generated/ICdnManagementClient.cs
+    startLine: 90
+  assemblies:
+  - Microsoft.Azure.Management.Cdn
+  namespace: Microsoft.Azure.Management.Cdn
+  summary: "\nGets the IOriginsOperations.\n"
+  example: []
+  syntax:
+    content: IOriginsOperations Origins { get; }
+    content.vb: ReadOnly Property Origins As IOriginsOperations
+    parameters: []
+    return:
+      type: Microsoft.Azure.Management.Cdn.IOriginsOperations
+  overload: Microsoft.Azure.Management.Cdn.ICdnManagementClient.Origins*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Microsoft.Azure.Management.Cdn.ICdnManagementClient.CustomDomains
+  commentId: P:Microsoft.Azure.Management.Cdn.ICdnManagementClient.CustomDomains
+  id: CustomDomains
+  parent: Microsoft.Azure.Management.Cdn.ICdnManagementClient
+  langs:
+  - csharp
+  - vb
+  name: CustomDomains
+  nameWithType: ICdnManagementClient.CustomDomains
+  fullName: Microsoft.Azure.Management.Cdn.ICdnManagementClient.CustomDomains
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/Cdn/Microsoft.Azure.Management.Cdn/Generated/ICdnManagementClient.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: CustomDomains
+    path: src/azure-sdk-for-net/src/ResourceManagement/Cdn/Microsoft.Azure.Management.Cdn/Generated/ICdnManagementClient.cs
+    startLine: 95
+  assemblies:
+  - Microsoft.Azure.Management.Cdn
+  namespace: Microsoft.Azure.Management.Cdn
+  summary: "\nGets the ICustomDomainsOperations.\n"
+  example: []
+  syntax:
+    content: ICustomDomainsOperations CustomDomains { get; }
+    content.vb: ReadOnly Property CustomDomains As ICustomDomainsOperations
+    parameters: []
+    return:
+      type: Microsoft.Azure.Management.Cdn.ICustomDomainsOperations
+  overload: Microsoft.Azure.Management.Cdn.ICdnManagementClient.CustomDomains*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Microsoft.Azure.Management.Cdn.ICdnManagementClient.EdgeNodes
+  commentId: P:Microsoft.Azure.Management.Cdn.ICdnManagementClient.EdgeNodes
+  id: EdgeNodes
+  parent: Microsoft.Azure.Management.Cdn.ICdnManagementClient
+  langs:
+  - csharp
+  - vb
+  name: EdgeNodes
+  nameWithType: ICdnManagementClient.EdgeNodes
+  fullName: Microsoft.Azure.Management.Cdn.ICdnManagementClient.EdgeNodes
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/Cdn/Microsoft.Azure.Management.Cdn/Generated/ICdnManagementClient.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: EdgeNodes
+    path: src/azure-sdk-for-net/src/ResourceManagement/Cdn/Microsoft.Azure.Management.Cdn/Generated/ICdnManagementClient.cs
+    startLine: 100
+  assemblies:
+  - Microsoft.Azure.Management.Cdn
+  namespace: Microsoft.Azure.Management.Cdn
+  summary: "\nGets the IEdgeNodesOperations.\n"
+  example: []
+  syntax:
+    content: IEdgeNodesOperations EdgeNodes { get; }
+    content.vb: ReadOnly Property EdgeNodes As IEdgeNodesOperations
+    parameters: []
+    return:
+      type: Microsoft.Azure.Management.Cdn.IEdgeNodesOperations
+  overload: Microsoft.Azure.Management.Cdn.ICdnManagementClient.EdgeNodes*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Microsoft.Azure.Management.Cdn.ICdnManagementClient.CheckNameAvailabilityWithHttpMessagesAsync(System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)
+  commentId: M:Microsoft.Azure.Management.Cdn.ICdnManagementClient.CheckNameAvailabilityWithHttpMessagesAsync(System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)
+  id: CheckNameAvailabilityWithHttpMessagesAsync(System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)
+  parent: Microsoft.Azure.Management.Cdn.ICdnManagementClient
+  langs:
+  - csharp
+  - vb
+  name: CheckNameAvailabilityWithHttpMessagesAsync(String, Dictionary<String, List<String>>, CancellationToken)
+  nameWithType: ICdnManagementClient.CheckNameAvailabilityWithHttpMessagesAsync(String, Dictionary<String, List<String>>, CancellationToken)
+  fullName: Microsoft.Azure.Management.Cdn.ICdnManagementClient.CheckNameAvailabilityWithHttpMessagesAsync(System.String, System.Collections.Generic.Dictionary<System.String, System.Collections.Generic.List<System.String>>, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: src/ResourceManagement/Cdn/Microsoft.Azure.Management.Cdn/Generated/ICdnManagementClient.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: CheckNameAvailabilityWithHttpMessagesAsync
+    path: src/azure-sdk-for-net/src/ResourceManagement/Cdn/Microsoft.Azure.Management.Cdn/Generated/ICdnManagementClient.cs
+    startLine: 115
+  assemblies:
+  - Microsoft.Azure.Management.Cdn
+  namespace: Microsoft.Azure.Management.Cdn
+  summary: "\nCheck the availability of a resource name. This is needed for\nresources where name is globally unique, such as a CDN endpoint.\n"
+  example: []
+  syntax:
+    content: Task<AzureOperationResponse<CheckNameAvailabilityOutput>> CheckNameAvailabilityWithHttpMessagesAsync(string name, Dictionary<string, List<string>> customHeaders = null, CancellationToken cancellationToken = null)
+    content.vb: Function CheckNameAvailabilityWithHttpMessagesAsync(name As String, customHeaders As Dictionary(Of String, List(Of String)) = Nothing, cancellationToken As CancellationToken = Nothing) As Task(Of AzureOperationResponse(Of CheckNameAvailabilityOutput))
+    parameters:
+    - id: name
+      type: System.String
+      description: "\nThe resource name to validate.\n"
+    - id: customHeaders
+      type: System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}}
+      description: "\nThe headers that will be added to request.\n"
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: "\nThe cancellation token.\n"
+    return:
+      type: System.Threading.Tasks.Task{Microsoft.Rest.Azure.AzureOperationResponse{Microsoft.Azure.Management.Cdn.Models.CheckNameAvailabilityOutput}}
+  overload: Microsoft.Azure.Management.Cdn.ICdnManagementClient.CheckNameAvailabilityWithHttpMessagesAsync*
+  nameWithType.vb: ICdnManagementClient.CheckNameAvailabilityWithHttpMessagesAsync(String, Dictionary(Of String, List(Of String)), CancellationToken)
+  fullName.vb: Microsoft.Azure.Management.Cdn.ICdnManagementClient.CheckNameAvailabilityWithHttpMessagesAsync(System.String, System.Collections.Generic.Dictionary(Of System.String, System.Collections.Generic.List(Of System.String)), System.Threading.CancellationToken)
+  name.vb: CheckNameAvailabilityWithHttpMessagesAsync(String, Dictionary(Of String, List(Of String)), CancellationToken)
+- uid: Microsoft.Azure.Management.Cdn.ICdnManagementClient.CheckResourceUsageWithHttpMessagesAsync(System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)
+  commentId: M:Microsoft.Azure.Management.Cdn.ICdnManagementClient.CheckResourceUsageWithHttpMessagesAsync(System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)
+  id: CheckResourceUsageWithHttpMessagesAsync(System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)
+  parent: Microsoft.Azure.Management.Cdn.ICdnManagementClient
+  langs:
+  - csharp
+  - vb
+  name: CheckResourceUsageWithHttpMessagesAsync(Dictionary<String, List<String>>, CancellationToken)
+  nameWithType: ICdnManagementClient.CheckResourceUsageWithHttpMessagesAsync(Dictionary<String, List<String>>, CancellationToken)
+  fullName: Microsoft.Azure.Management.Cdn.ICdnManagementClient.CheckResourceUsageWithHttpMessagesAsync(System.Collections.Generic.Dictionary<System.String, System.Collections.Generic.List<System.String>>, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: src/ResourceManagement/Cdn/Microsoft.Azure.Management.Cdn/Generated/ICdnManagementClient.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: CheckResourceUsageWithHttpMessagesAsync
+    path: src/azure-sdk-for-net/src/ResourceManagement/Cdn/Microsoft.Azure.Management.Cdn/Generated/ICdnManagementClient.cs
+    startLine: 127
+  assemblies:
+  - Microsoft.Azure.Management.Cdn
+  namespace: Microsoft.Azure.Management.Cdn
+  summary: "\nCheck the quota and actual usage of the CDN profiles under the\ngiven subscription.\n"
+  example: []
+  syntax:
+    content: Task<AzureOperationResponse<IPage<ResourceUsage>>> CheckResourceUsageWithHttpMessagesAsync(Dictionary<string, List<string>> customHeaders = null, CancellationToken cancellationToken = null)
+    content.vb: Function CheckResourceUsageWithHttpMessagesAsync(customHeaders As Dictionary(Of String, List(Of String)) = Nothing, cancellationToken As CancellationToken = Nothing) As Task(Of AzureOperationResponse(Of IPage(Of ResourceUsage)))
+    parameters:
+    - id: customHeaders
+      type: System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}}
+      description: "\nThe headers that will be added to request.\n"
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: "\nThe cancellation token.\n"
+    return:
+      type: System.Threading.Tasks.Task{Microsoft.Rest.Azure.AzureOperationResponse{Microsoft.Rest.Azure.IPage{Microsoft.Azure.Management.Cdn.Models.ResourceUsage}}}
+  overload: Microsoft.Azure.Management.Cdn.ICdnManagementClient.CheckResourceUsageWithHttpMessagesAsync*
+  nameWithType.vb: ICdnManagementClient.CheckResourceUsageWithHttpMessagesAsync(Dictionary(Of String, List(Of String)), CancellationToken)
+  fullName.vb: Microsoft.Azure.Management.Cdn.ICdnManagementClient.CheckResourceUsageWithHttpMessagesAsync(System.Collections.Generic.Dictionary(Of System.String, System.Collections.Generic.List(Of System.String)), System.Threading.CancellationToken)
+  name.vb: CheckResourceUsageWithHttpMessagesAsync(Dictionary(Of String, List(Of String)), CancellationToken)
+- uid: Microsoft.Azure.Management.Cdn.ICdnManagementClient.ListOperationsWithHttpMessagesAsync(System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)
+  commentId: M:Microsoft.Azure.Management.Cdn.ICdnManagementClient.ListOperationsWithHttpMessagesAsync(System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)
+  id: ListOperationsWithHttpMessagesAsync(System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)
+  parent: Microsoft.Azure.Management.Cdn.ICdnManagementClient
+  langs:
+  - csharp
+  - vb
+  name: ListOperationsWithHttpMessagesAsync(Dictionary<String, List<String>>, CancellationToken)
+  nameWithType: ICdnManagementClient.ListOperationsWithHttpMessagesAsync(Dictionary<String, List<String>>, CancellationToken)
+  fullName: Microsoft.Azure.Management.Cdn.ICdnManagementClient.ListOperationsWithHttpMessagesAsync(System.Collections.Generic.Dictionary<System.String, System.Collections.Generic.List<System.String>>, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: src/ResourceManagement/Cdn/Microsoft.Azure.Management.Cdn/Generated/ICdnManagementClient.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: ListOperationsWithHttpMessagesAsync
+    path: src/azure-sdk-for-net/src/ResourceManagement/Cdn/Microsoft.Azure.Management.Cdn/Generated/ICdnManagementClient.cs
+    startLine: 138
+  assemblies:
+  - Microsoft.Azure.Management.Cdn
+  namespace: Microsoft.Azure.Management.Cdn
+  summary: "\nLists all of the available CDN REST API operations.\n"
+  example: []
+  syntax:
+    content: Task<AzureOperationResponse<IPage<Operation>>> ListOperationsWithHttpMessagesAsync(Dictionary<string, List<string>> customHeaders = null, CancellationToken cancellationToken = null)
+    content.vb: Function ListOperationsWithHttpMessagesAsync(customHeaders As Dictionary(Of String, List(Of String)) = Nothing, cancellationToken As CancellationToken = Nothing) As Task(Of AzureOperationResponse(Of IPage(Of Operation)))
+    parameters:
+    - id: customHeaders
+      type: System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}}
+      description: "\nThe headers that will be added to request.\n"
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: "\nThe cancellation token.\n"
+    return:
+      type: System.Threading.Tasks.Task{Microsoft.Rest.Azure.AzureOperationResponse{Microsoft.Rest.Azure.IPage{Microsoft.Azure.Management.Cdn.Models.Operation}}}
+  overload: Microsoft.Azure.Management.Cdn.ICdnManagementClient.ListOperationsWithHttpMessagesAsync*
+  nameWithType.vb: ICdnManagementClient.ListOperationsWithHttpMessagesAsync(Dictionary(Of String, List(Of String)), CancellationToken)
+  fullName.vb: Microsoft.Azure.Management.Cdn.ICdnManagementClient.ListOperationsWithHttpMessagesAsync(System.Collections.Generic.Dictionary(Of System.String, System.Collections.Generic.List(Of System.String)), System.Threading.CancellationToken)
+  name.vb: ListOperationsWithHttpMessagesAsync(Dictionary(Of String, List(Of String)), CancellationToken)
+- uid: Microsoft.Azure.Management.Cdn.ICdnManagementClient.CheckResourceUsageNextWithHttpMessagesAsync(System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)
+  commentId: M:Microsoft.Azure.Management.Cdn.ICdnManagementClient.CheckResourceUsageNextWithHttpMessagesAsync(System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)
+  id: CheckResourceUsageNextWithHttpMessagesAsync(System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)
+  parent: Microsoft.Azure.Management.Cdn.ICdnManagementClient
+  langs:
+  - csharp
+  - vb
+  name: CheckResourceUsageNextWithHttpMessagesAsync(String, Dictionary<String, List<String>>, CancellationToken)
+  nameWithType: ICdnManagementClient.CheckResourceUsageNextWithHttpMessagesAsync(String, Dictionary<String, List<String>>, CancellationToken)
+  fullName: Microsoft.Azure.Management.Cdn.ICdnManagementClient.CheckResourceUsageNextWithHttpMessagesAsync(System.String, System.Collections.Generic.Dictionary<System.String, System.Collections.Generic.List<System.String>>, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: src/ResourceManagement/Cdn/Microsoft.Azure.Management.Cdn/Generated/ICdnManagementClient.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: CheckResourceUsageNextWithHttpMessagesAsync
+    path: src/azure-sdk-for-net/src/ResourceManagement/Cdn/Microsoft.Azure.Management.Cdn/Generated/ICdnManagementClient.cs
+    startLine: 153
+  assemblies:
+  - Microsoft.Azure.Management.Cdn
+  namespace: Microsoft.Azure.Management.Cdn
+  summary: "\nCheck the quota and actual usage of the CDN profiles under the\ngiven subscription.\n"
+  example: []
+  syntax:
+    content: Task<AzureOperationResponse<IPage<ResourceUsage>>> CheckResourceUsageNextWithHttpMessagesAsync(string nextPageLink, Dictionary<string, List<string>> customHeaders = null, CancellationToken cancellationToken = null)
+    content.vb: Function CheckResourceUsageNextWithHttpMessagesAsync(nextPageLink As String, customHeaders As Dictionary(Of String, List(Of String)) = Nothing, cancellationToken As CancellationToken = Nothing) As Task(Of AzureOperationResponse(Of IPage(Of ResourceUsage)))
+    parameters:
+    - id: nextPageLink
+      type: System.String
+      description: "\nThe NextLink from the previous successful call to List operation.\n"
+    - id: customHeaders
+      type: System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}}
+      description: "\nThe headers that will be added to request.\n"
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: "\nThe cancellation token.\n"
+    return:
+      type: System.Threading.Tasks.Task{Microsoft.Rest.Azure.AzureOperationResponse{Microsoft.Rest.Azure.IPage{Microsoft.Azure.Management.Cdn.Models.ResourceUsage}}}
+  overload: Microsoft.Azure.Management.Cdn.ICdnManagementClient.CheckResourceUsageNextWithHttpMessagesAsync*
+  nameWithType.vb: ICdnManagementClient.CheckResourceUsageNextWithHttpMessagesAsync(String, Dictionary(Of String, List(Of String)), CancellationToken)
+  fullName.vb: Microsoft.Azure.Management.Cdn.ICdnManagementClient.CheckResourceUsageNextWithHttpMessagesAsync(System.String, System.Collections.Generic.Dictionary(Of System.String, System.Collections.Generic.List(Of System.String)), System.Threading.CancellationToken)
+  name.vb: CheckResourceUsageNextWithHttpMessagesAsync(String, Dictionary(Of String, List(Of String)), CancellationToken)
+- uid: Microsoft.Azure.Management.Cdn.ICdnManagementClient.ListOperationsNextWithHttpMessagesAsync(System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)
+  commentId: M:Microsoft.Azure.Management.Cdn.ICdnManagementClient.ListOperationsNextWithHttpMessagesAsync(System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)
+  id: ListOperationsNextWithHttpMessagesAsync(System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}},System.Threading.CancellationToken)
+  parent: Microsoft.Azure.Management.Cdn.ICdnManagementClient
+  langs:
+  - csharp
+  - vb
+  name: ListOperationsNextWithHttpMessagesAsync(String, Dictionary<String, List<String>>, CancellationToken)
+  nameWithType: ICdnManagementClient.ListOperationsNextWithHttpMessagesAsync(String, Dictionary<String, List<String>>, CancellationToken)
+  fullName: Microsoft.Azure.Management.Cdn.ICdnManagementClient.ListOperationsNextWithHttpMessagesAsync(System.String, System.Collections.Generic.Dictionary<System.String, System.Collections.Generic.List<System.String>>, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: src/ResourceManagement/Cdn/Microsoft.Azure.Management.Cdn/Generated/ICdnManagementClient.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: ListOperationsNextWithHttpMessagesAsync
+    path: src/azure-sdk-for-net/src/ResourceManagement/Cdn/Microsoft.Azure.Management.Cdn/Generated/ICdnManagementClient.cs
+    startLine: 167
+  assemblies:
+  - Microsoft.Azure.Management.Cdn
+  namespace: Microsoft.Azure.Management.Cdn
+  summary: "\nLists all of the available CDN REST API operations.\n"
+  example: []
+  syntax:
+    content: Task<AzureOperationResponse<IPage<Operation>>> ListOperationsNextWithHttpMessagesAsync(string nextPageLink, Dictionary<string, List<string>> customHeaders = null, CancellationToken cancellationToken = null)
+    content.vb: Function ListOperationsNextWithHttpMessagesAsync(nextPageLink As String, customHeaders As Dictionary(Of String, List(Of String)) = Nothing, cancellationToken As CancellationToken = Nothing) As Task(Of AzureOperationResponse(Of IPage(Of Operation)))
+    parameters:
+    - id: nextPageLink
+      type: System.String
+      description: "\nThe NextLink from the previous successful call to List operation.\n"
+    - id: customHeaders
+      type: System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}}
+      description: "\nThe headers that will be added to request.\n"
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: "\nThe cancellation token.\n"
+    return:
+      type: System.Threading.Tasks.Task{Microsoft.Rest.Azure.AzureOperationResponse{Microsoft.Rest.Azure.IPage{Microsoft.Azure.Management.Cdn.Models.Operation}}}
+  overload: Microsoft.Azure.Management.Cdn.ICdnManagementClient.ListOperationsNextWithHttpMessagesAsync*
+  nameWithType.vb: ICdnManagementClient.ListOperationsNextWithHttpMessagesAsync(String, Dictionary(Of String, List(Of String)), CancellationToken)
+  fullName.vb: Microsoft.Azure.Management.Cdn.ICdnManagementClient.ListOperationsNextWithHttpMessagesAsync(System.String, System.Collections.Generic.Dictionary(Of System.String, System.Collections.Generic.List(Of System.String)), System.Threading.CancellationToken)
+  name.vb: ListOperationsNextWithHttpMessagesAsync(String, Dictionary(Of String, List(Of String)), CancellationToken)
+references:
+- uid: Microsoft.Azure.Management.Cdn
+  commentId: N:Microsoft.Azure.Management.Cdn
+  isExternal: false
+  name: Microsoft.Azure.Management.Cdn
+  nameWithType: Microsoft.Azure.Management.Cdn
+  fullName: Microsoft.Azure.Management.Cdn
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    nameWithType: IDisposable.Dispose
+    fullName: System.IDisposable.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    nameWithType: IDisposable.Dispose
+    fullName: System.IDisposable.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Azure.Management.Cdn.ICdnManagementClient.Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.CheckNameAvailability(System.String)
+  commentId: M:Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.CheckNameAvailability(Microsoft.Azure.Management.Cdn.ICdnManagementClient,System.String)
+  parent: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions
+  definition: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.CheckNameAvailability(Microsoft.Azure.Management.Cdn.ICdnManagementClient,System.String)
+  name: CheckNameAvailability(String)
+  nameWithType: CdnManagementClientExtensions.CheckNameAvailability(String)
+  fullName: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.CheckNameAvailability(System.String)
+  spec.csharp:
+  - uid: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.CheckNameAvailability(System.String)
+    name: CheckNameAvailability
+    nameWithType: CdnManagementClientExtensions.CheckNameAvailability
+    fullName: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.CheckNameAvailability
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.CheckNameAvailability(System.String)
+    name: CheckNameAvailability
+    nameWithType: CdnManagementClientExtensions.CheckNameAvailability
+    fullName: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.CheckNameAvailability
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Azure.Management.Cdn.ICdnManagementClient.Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.CheckNameAvailabilityAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.CheckNameAvailabilityAsync(Microsoft.Azure.Management.Cdn.ICdnManagementClient,System.String,System.Threading.CancellationToken)
+  parent: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions
+  definition: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.CheckNameAvailabilityAsync(Microsoft.Azure.Management.Cdn.ICdnManagementClient,System.String,System.Threading.CancellationToken)
+  name: CheckNameAvailabilityAsync(String, CancellationToken)
+  nameWithType: CdnManagementClientExtensions.CheckNameAvailabilityAsync(String, CancellationToken)
+  fullName: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.CheckNameAvailabilityAsync(System.String, System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.CheckNameAvailabilityAsync(System.String,System.Threading.CancellationToken)
+    name: CheckNameAvailabilityAsync
+    nameWithType: CdnManagementClientExtensions.CheckNameAvailabilityAsync
+    fullName: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.CheckNameAvailabilityAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.CheckNameAvailabilityAsync(System.String,System.Threading.CancellationToken)
+    name: CheckNameAvailabilityAsync
+    nameWithType: CdnManagementClientExtensions.CheckNameAvailabilityAsync
+    fullName: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.CheckNameAvailabilityAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Azure.Management.Cdn.ICdnManagementClient.Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.CheckResourceUsage
+  commentId: M:Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.CheckResourceUsage(Microsoft.Azure.Management.Cdn.ICdnManagementClient)
+  parent: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions
+  definition: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.CheckResourceUsage(Microsoft.Azure.Management.Cdn.ICdnManagementClient)
+  name: CheckResourceUsage()
+  nameWithType: CdnManagementClientExtensions.CheckResourceUsage()
+  fullName: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.CheckResourceUsage()
+  spec.csharp:
+  - uid: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.CheckResourceUsage
+    name: CheckResourceUsage
+    nameWithType: CdnManagementClientExtensions.CheckResourceUsage
+    fullName: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.CheckResourceUsage
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.CheckResourceUsage
+    name: CheckResourceUsage
+    nameWithType: CdnManagementClientExtensions.CheckResourceUsage
+    fullName: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.CheckResourceUsage
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Azure.Management.Cdn.ICdnManagementClient.Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.CheckResourceUsageAsync(System.Threading.CancellationToken)
+  commentId: M:Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.CheckResourceUsageAsync(Microsoft.Azure.Management.Cdn.ICdnManagementClient,System.Threading.CancellationToken)
+  parent: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions
+  definition: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.CheckResourceUsageAsync(Microsoft.Azure.Management.Cdn.ICdnManagementClient,System.Threading.CancellationToken)
+  name: CheckResourceUsageAsync(CancellationToken)
+  nameWithType: CdnManagementClientExtensions.CheckResourceUsageAsync(CancellationToken)
+  fullName: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.CheckResourceUsageAsync(System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.CheckResourceUsageAsync(System.Threading.CancellationToken)
+    name: CheckResourceUsageAsync
+    nameWithType: CdnManagementClientExtensions.CheckResourceUsageAsync
+    fullName: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.CheckResourceUsageAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.CheckResourceUsageAsync(System.Threading.CancellationToken)
+    name: CheckResourceUsageAsync
+    nameWithType: CdnManagementClientExtensions.CheckResourceUsageAsync
+    fullName: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.CheckResourceUsageAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Azure.Management.Cdn.ICdnManagementClient.Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.ListOperations
+  commentId: M:Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.ListOperations(Microsoft.Azure.Management.Cdn.ICdnManagementClient)
+  parent: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions
+  definition: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.ListOperations(Microsoft.Azure.Management.Cdn.ICdnManagementClient)
+  name: ListOperations()
+  nameWithType: CdnManagementClientExtensions.ListOperations()
+  fullName: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.ListOperations()
+  spec.csharp:
+  - uid: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.ListOperations
+    name: ListOperations
+    nameWithType: CdnManagementClientExtensions.ListOperations
+    fullName: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.ListOperations
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.ListOperations
+    name: ListOperations
+    nameWithType: CdnManagementClientExtensions.ListOperations
+    fullName: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.ListOperations
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Azure.Management.Cdn.ICdnManagementClient.Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.ListOperationsAsync(System.Threading.CancellationToken)
+  commentId: M:Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.ListOperationsAsync(Microsoft.Azure.Management.Cdn.ICdnManagementClient,System.Threading.CancellationToken)
+  parent: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions
+  definition: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.ListOperationsAsync(Microsoft.Azure.Management.Cdn.ICdnManagementClient,System.Threading.CancellationToken)
+  name: ListOperationsAsync(CancellationToken)
+  nameWithType: CdnManagementClientExtensions.ListOperationsAsync(CancellationToken)
+  fullName: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.ListOperationsAsync(System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.ListOperationsAsync(System.Threading.CancellationToken)
+    name: ListOperationsAsync
+    nameWithType: CdnManagementClientExtensions.ListOperationsAsync
+    fullName: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.ListOperationsAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.ListOperationsAsync(System.Threading.CancellationToken)
+    name: ListOperationsAsync
+    nameWithType: CdnManagementClientExtensions.ListOperationsAsync
+    fullName: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.ListOperationsAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Azure.Management.Cdn.ICdnManagementClient.Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.CheckResourceUsageNext(System.String)
+  commentId: M:Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.CheckResourceUsageNext(Microsoft.Azure.Management.Cdn.ICdnManagementClient,System.String)
+  parent: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions
+  definition: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.CheckResourceUsageNext(Microsoft.Azure.Management.Cdn.ICdnManagementClient,System.String)
+  name: CheckResourceUsageNext(String)
+  nameWithType: CdnManagementClientExtensions.CheckResourceUsageNext(String)
+  fullName: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.CheckResourceUsageNext(System.String)
+  spec.csharp:
+  - uid: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.CheckResourceUsageNext(System.String)
+    name: CheckResourceUsageNext
+    nameWithType: CdnManagementClientExtensions.CheckResourceUsageNext
+    fullName: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.CheckResourceUsageNext
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.CheckResourceUsageNext(System.String)
+    name: CheckResourceUsageNext
+    nameWithType: CdnManagementClientExtensions.CheckResourceUsageNext
+    fullName: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.CheckResourceUsageNext
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Azure.Management.Cdn.ICdnManagementClient.Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.CheckResourceUsageNextAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.CheckResourceUsageNextAsync(Microsoft.Azure.Management.Cdn.ICdnManagementClient,System.String,System.Threading.CancellationToken)
+  parent: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions
+  definition: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.CheckResourceUsageNextAsync(Microsoft.Azure.Management.Cdn.ICdnManagementClient,System.String,System.Threading.CancellationToken)
+  name: CheckResourceUsageNextAsync(String, CancellationToken)
+  nameWithType: CdnManagementClientExtensions.CheckResourceUsageNextAsync(String, CancellationToken)
+  fullName: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.CheckResourceUsageNextAsync(System.String, System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.CheckResourceUsageNextAsync(System.String,System.Threading.CancellationToken)
+    name: CheckResourceUsageNextAsync
+    nameWithType: CdnManagementClientExtensions.CheckResourceUsageNextAsync
+    fullName: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.CheckResourceUsageNextAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.CheckResourceUsageNextAsync(System.String,System.Threading.CancellationToken)
+    name: CheckResourceUsageNextAsync
+    nameWithType: CdnManagementClientExtensions.CheckResourceUsageNextAsync
+    fullName: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.CheckResourceUsageNextAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Azure.Management.Cdn.ICdnManagementClient.Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.ListOperationsNext(System.String)
+  commentId: M:Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.ListOperationsNext(Microsoft.Azure.Management.Cdn.ICdnManagementClient,System.String)
+  parent: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions
+  definition: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.ListOperationsNext(Microsoft.Azure.Management.Cdn.ICdnManagementClient,System.String)
+  name: ListOperationsNext(String)
+  nameWithType: CdnManagementClientExtensions.ListOperationsNext(String)
+  fullName: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.ListOperationsNext(System.String)
+  spec.csharp:
+  - uid: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.ListOperationsNext(System.String)
+    name: ListOperationsNext
+    nameWithType: CdnManagementClientExtensions.ListOperationsNext
+    fullName: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.ListOperationsNext
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.ListOperationsNext(System.String)
+    name: ListOperationsNext
+    nameWithType: CdnManagementClientExtensions.ListOperationsNext
+    fullName: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.ListOperationsNext
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Azure.Management.Cdn.ICdnManagementClient.Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.ListOperationsNextAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.ListOperationsNextAsync(Microsoft.Azure.Management.Cdn.ICdnManagementClient,System.String,System.Threading.CancellationToken)
+  parent: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions
+  definition: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.ListOperationsNextAsync(Microsoft.Azure.Management.Cdn.ICdnManagementClient,System.String,System.Threading.CancellationToken)
+  name: ListOperationsNextAsync(String, CancellationToken)
+  nameWithType: CdnManagementClientExtensions.ListOperationsNextAsync(String, CancellationToken)
+  fullName: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.ListOperationsNextAsync(System.String, System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.ListOperationsNextAsync(System.String,System.Threading.CancellationToken)
+    name: ListOperationsNextAsync
+    nameWithType: CdnManagementClientExtensions.ListOperationsNextAsync
+    fullName: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.ListOperationsNextAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.ListOperationsNextAsync(System.String,System.Threading.CancellationToken)
+    name: ListOperationsNextAsync
+    nameWithType: CdnManagementClientExtensions.ListOperationsNextAsync
+    fullName: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.ListOperationsNextAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.CheckNameAvailability(Microsoft.Azure.Management.Cdn.ICdnManagementClient,System.String)
+  commentId: M:Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.CheckNameAvailability(Microsoft.Azure.Management.Cdn.ICdnManagementClient,System.String)
+  isExternal: true
+  name: CheckNameAvailability(ICdnManagementClient, String)
+  nameWithType: CdnManagementClientExtensions.CheckNameAvailability(ICdnManagementClient, String)
+  fullName: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.CheckNameAvailability(Microsoft.Azure.Management.Cdn.ICdnManagementClient, System.String)
+  spec.csharp:
+  - uid: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.CheckNameAvailability(Microsoft.Azure.Management.Cdn.ICdnManagementClient,System.String)
+    name: CheckNameAvailability
+    nameWithType: CdnManagementClientExtensions.CheckNameAvailability
+    fullName: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.CheckNameAvailability
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.Azure.Management.Cdn.ICdnManagementClient
+    name: ICdnManagementClient
+    nameWithType: ICdnManagementClient
+    fullName: Microsoft.Azure.Management.Cdn.ICdnManagementClient
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.CheckNameAvailability(Microsoft.Azure.Management.Cdn.ICdnManagementClient,System.String)
+    name: CheckNameAvailability
+    nameWithType: CdnManagementClientExtensions.CheckNameAvailability
+    fullName: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.CheckNameAvailability
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.Azure.Management.Cdn.ICdnManagementClient
+    name: ICdnManagementClient
+    nameWithType: ICdnManagementClient
+    fullName: Microsoft.Azure.Management.Cdn.ICdnManagementClient
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions
+  commentId: T:Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions
+  parent: Microsoft.Azure.Management.Cdn
+  isExternal: false
+  name: CdnManagementClientExtensions
+  nameWithType: CdnManagementClientExtensions
+  fullName: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions
+- uid: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.CheckNameAvailabilityAsync(Microsoft.Azure.Management.Cdn.ICdnManagementClient,System.String,System.Threading.CancellationToken)
+  commentId: M:Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.CheckNameAvailabilityAsync(Microsoft.Azure.Management.Cdn.ICdnManagementClient,System.String,System.Threading.CancellationToken)
+  isExternal: true
+  name: CheckNameAvailabilityAsync(ICdnManagementClient, String, CancellationToken)
+  nameWithType: CdnManagementClientExtensions.CheckNameAvailabilityAsync(ICdnManagementClient, String, CancellationToken)
+  fullName: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.CheckNameAvailabilityAsync(Microsoft.Azure.Management.Cdn.ICdnManagementClient, System.String, System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.CheckNameAvailabilityAsync(Microsoft.Azure.Management.Cdn.ICdnManagementClient,System.String,System.Threading.CancellationToken)
+    name: CheckNameAvailabilityAsync
+    nameWithType: CdnManagementClientExtensions.CheckNameAvailabilityAsync
+    fullName: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.CheckNameAvailabilityAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.Azure.Management.Cdn.ICdnManagementClient
+    name: ICdnManagementClient
+    nameWithType: ICdnManagementClient
+    fullName: Microsoft.Azure.Management.Cdn.ICdnManagementClient
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.CheckNameAvailabilityAsync(Microsoft.Azure.Management.Cdn.ICdnManagementClient,System.String,System.Threading.CancellationToken)
+    name: CheckNameAvailabilityAsync
+    nameWithType: CdnManagementClientExtensions.CheckNameAvailabilityAsync
+    fullName: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.CheckNameAvailabilityAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.Azure.Management.Cdn.ICdnManagementClient
+    name: ICdnManagementClient
+    nameWithType: ICdnManagementClient
+    fullName: Microsoft.Azure.Management.Cdn.ICdnManagementClient
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.CheckResourceUsage(Microsoft.Azure.Management.Cdn.ICdnManagementClient)
+  commentId: M:Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.CheckResourceUsage(Microsoft.Azure.Management.Cdn.ICdnManagementClient)
+  isExternal: false
+  name: CheckResourceUsage(ICdnManagementClient)
+  nameWithType: CdnManagementClientExtensions.CheckResourceUsage(ICdnManagementClient)
+  fullName: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.CheckResourceUsage(Microsoft.Azure.Management.Cdn.ICdnManagementClient)
+  spec.csharp:
+  - uid: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.CheckResourceUsage(Microsoft.Azure.Management.Cdn.ICdnManagementClient)
+    name: CheckResourceUsage
+    nameWithType: CdnManagementClientExtensions.CheckResourceUsage
+    fullName: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.CheckResourceUsage
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.Azure.Management.Cdn.ICdnManagementClient
+    name: ICdnManagementClient
+    nameWithType: ICdnManagementClient
+    fullName: Microsoft.Azure.Management.Cdn.ICdnManagementClient
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.CheckResourceUsage(Microsoft.Azure.Management.Cdn.ICdnManagementClient)
+    name: CheckResourceUsage
+    nameWithType: CdnManagementClientExtensions.CheckResourceUsage
+    fullName: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.CheckResourceUsage
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.Azure.Management.Cdn.ICdnManagementClient
+    name: ICdnManagementClient
+    nameWithType: ICdnManagementClient
+    fullName: Microsoft.Azure.Management.Cdn.ICdnManagementClient
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.CheckResourceUsageAsync(Microsoft.Azure.Management.Cdn.ICdnManagementClient,System.Threading.CancellationToken)
+  commentId: M:Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.CheckResourceUsageAsync(Microsoft.Azure.Management.Cdn.ICdnManagementClient,System.Threading.CancellationToken)
+  isExternal: true
+  name: CheckResourceUsageAsync(ICdnManagementClient, CancellationToken)
+  nameWithType: CdnManagementClientExtensions.CheckResourceUsageAsync(ICdnManagementClient, CancellationToken)
+  fullName: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.CheckResourceUsageAsync(Microsoft.Azure.Management.Cdn.ICdnManagementClient, System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.CheckResourceUsageAsync(Microsoft.Azure.Management.Cdn.ICdnManagementClient,System.Threading.CancellationToken)
+    name: CheckResourceUsageAsync
+    nameWithType: CdnManagementClientExtensions.CheckResourceUsageAsync
+    fullName: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.CheckResourceUsageAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.Azure.Management.Cdn.ICdnManagementClient
+    name: ICdnManagementClient
+    nameWithType: ICdnManagementClient
+    fullName: Microsoft.Azure.Management.Cdn.ICdnManagementClient
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.CheckResourceUsageAsync(Microsoft.Azure.Management.Cdn.ICdnManagementClient,System.Threading.CancellationToken)
+    name: CheckResourceUsageAsync
+    nameWithType: CdnManagementClientExtensions.CheckResourceUsageAsync
+    fullName: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.CheckResourceUsageAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.Azure.Management.Cdn.ICdnManagementClient
+    name: ICdnManagementClient
+    nameWithType: ICdnManagementClient
+    fullName: Microsoft.Azure.Management.Cdn.ICdnManagementClient
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.ListOperations(Microsoft.Azure.Management.Cdn.ICdnManagementClient)
+  commentId: M:Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.ListOperations(Microsoft.Azure.Management.Cdn.ICdnManagementClient)
+  isExternal: false
+  name: ListOperations(ICdnManagementClient)
+  nameWithType: CdnManagementClientExtensions.ListOperations(ICdnManagementClient)
+  fullName: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.ListOperations(Microsoft.Azure.Management.Cdn.ICdnManagementClient)
+  spec.csharp:
+  - uid: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.ListOperations(Microsoft.Azure.Management.Cdn.ICdnManagementClient)
+    name: ListOperations
+    nameWithType: CdnManagementClientExtensions.ListOperations
+    fullName: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.ListOperations
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.Azure.Management.Cdn.ICdnManagementClient
+    name: ICdnManagementClient
+    nameWithType: ICdnManagementClient
+    fullName: Microsoft.Azure.Management.Cdn.ICdnManagementClient
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.ListOperations(Microsoft.Azure.Management.Cdn.ICdnManagementClient)
+    name: ListOperations
+    nameWithType: CdnManagementClientExtensions.ListOperations
+    fullName: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.ListOperations
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.Azure.Management.Cdn.ICdnManagementClient
+    name: ICdnManagementClient
+    nameWithType: ICdnManagementClient
+    fullName: Microsoft.Azure.Management.Cdn.ICdnManagementClient
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.ListOperationsAsync(Microsoft.Azure.Management.Cdn.ICdnManagementClient,System.Threading.CancellationToken)
+  commentId: M:Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.ListOperationsAsync(Microsoft.Azure.Management.Cdn.ICdnManagementClient,System.Threading.CancellationToken)
+  isExternal: true
+  name: ListOperationsAsync(ICdnManagementClient, CancellationToken)
+  nameWithType: CdnManagementClientExtensions.ListOperationsAsync(ICdnManagementClient, CancellationToken)
+  fullName: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.ListOperationsAsync(Microsoft.Azure.Management.Cdn.ICdnManagementClient, System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.ListOperationsAsync(Microsoft.Azure.Management.Cdn.ICdnManagementClient,System.Threading.CancellationToken)
+    name: ListOperationsAsync
+    nameWithType: CdnManagementClientExtensions.ListOperationsAsync
+    fullName: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.ListOperationsAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.Azure.Management.Cdn.ICdnManagementClient
+    name: ICdnManagementClient
+    nameWithType: ICdnManagementClient
+    fullName: Microsoft.Azure.Management.Cdn.ICdnManagementClient
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.ListOperationsAsync(Microsoft.Azure.Management.Cdn.ICdnManagementClient,System.Threading.CancellationToken)
+    name: ListOperationsAsync
+    nameWithType: CdnManagementClientExtensions.ListOperationsAsync
+    fullName: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.ListOperationsAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.Azure.Management.Cdn.ICdnManagementClient
+    name: ICdnManagementClient
+    nameWithType: ICdnManagementClient
+    fullName: Microsoft.Azure.Management.Cdn.ICdnManagementClient
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.CheckResourceUsageNext(Microsoft.Azure.Management.Cdn.ICdnManagementClient,System.String)
+  commentId: M:Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.CheckResourceUsageNext(Microsoft.Azure.Management.Cdn.ICdnManagementClient,System.String)
+  isExternal: true
+  name: CheckResourceUsageNext(ICdnManagementClient, String)
+  nameWithType: CdnManagementClientExtensions.CheckResourceUsageNext(ICdnManagementClient, String)
+  fullName: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.CheckResourceUsageNext(Microsoft.Azure.Management.Cdn.ICdnManagementClient, System.String)
+  spec.csharp:
+  - uid: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.CheckResourceUsageNext(Microsoft.Azure.Management.Cdn.ICdnManagementClient,System.String)
+    name: CheckResourceUsageNext
+    nameWithType: CdnManagementClientExtensions.CheckResourceUsageNext
+    fullName: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.CheckResourceUsageNext
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.Azure.Management.Cdn.ICdnManagementClient
+    name: ICdnManagementClient
+    nameWithType: ICdnManagementClient
+    fullName: Microsoft.Azure.Management.Cdn.ICdnManagementClient
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.CheckResourceUsageNext(Microsoft.Azure.Management.Cdn.ICdnManagementClient,System.String)
+    name: CheckResourceUsageNext
+    nameWithType: CdnManagementClientExtensions.CheckResourceUsageNext
+    fullName: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.CheckResourceUsageNext
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.Azure.Management.Cdn.ICdnManagementClient
+    name: ICdnManagementClient
+    nameWithType: ICdnManagementClient
+    fullName: Microsoft.Azure.Management.Cdn.ICdnManagementClient
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.CheckResourceUsageNextAsync(Microsoft.Azure.Management.Cdn.ICdnManagementClient,System.String,System.Threading.CancellationToken)
+  commentId: M:Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.CheckResourceUsageNextAsync(Microsoft.Azure.Management.Cdn.ICdnManagementClient,System.String,System.Threading.CancellationToken)
+  isExternal: true
+  name: CheckResourceUsageNextAsync(ICdnManagementClient, String, CancellationToken)
+  nameWithType: CdnManagementClientExtensions.CheckResourceUsageNextAsync(ICdnManagementClient, String, CancellationToken)
+  fullName: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.CheckResourceUsageNextAsync(Microsoft.Azure.Management.Cdn.ICdnManagementClient, System.String, System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.CheckResourceUsageNextAsync(Microsoft.Azure.Management.Cdn.ICdnManagementClient,System.String,System.Threading.CancellationToken)
+    name: CheckResourceUsageNextAsync
+    nameWithType: CdnManagementClientExtensions.CheckResourceUsageNextAsync
+    fullName: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.CheckResourceUsageNextAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.Azure.Management.Cdn.ICdnManagementClient
+    name: ICdnManagementClient
+    nameWithType: ICdnManagementClient
+    fullName: Microsoft.Azure.Management.Cdn.ICdnManagementClient
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.CheckResourceUsageNextAsync(Microsoft.Azure.Management.Cdn.ICdnManagementClient,System.String,System.Threading.CancellationToken)
+    name: CheckResourceUsageNextAsync
+    nameWithType: CdnManagementClientExtensions.CheckResourceUsageNextAsync
+    fullName: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.CheckResourceUsageNextAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.Azure.Management.Cdn.ICdnManagementClient
+    name: ICdnManagementClient
+    nameWithType: ICdnManagementClient
+    fullName: Microsoft.Azure.Management.Cdn.ICdnManagementClient
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.ListOperationsNext(Microsoft.Azure.Management.Cdn.ICdnManagementClient,System.String)
+  commentId: M:Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.ListOperationsNext(Microsoft.Azure.Management.Cdn.ICdnManagementClient,System.String)
+  isExternal: true
+  name: ListOperationsNext(ICdnManagementClient, String)
+  nameWithType: CdnManagementClientExtensions.ListOperationsNext(ICdnManagementClient, String)
+  fullName: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.ListOperationsNext(Microsoft.Azure.Management.Cdn.ICdnManagementClient, System.String)
+  spec.csharp:
+  - uid: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.ListOperationsNext(Microsoft.Azure.Management.Cdn.ICdnManagementClient,System.String)
+    name: ListOperationsNext
+    nameWithType: CdnManagementClientExtensions.ListOperationsNext
+    fullName: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.ListOperationsNext
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.Azure.Management.Cdn.ICdnManagementClient
+    name: ICdnManagementClient
+    nameWithType: ICdnManagementClient
+    fullName: Microsoft.Azure.Management.Cdn.ICdnManagementClient
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.ListOperationsNext(Microsoft.Azure.Management.Cdn.ICdnManagementClient,System.String)
+    name: ListOperationsNext
+    nameWithType: CdnManagementClientExtensions.ListOperationsNext
+    fullName: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.ListOperationsNext
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.Azure.Management.Cdn.ICdnManagementClient
+    name: ICdnManagementClient
+    nameWithType: ICdnManagementClient
+    fullName: Microsoft.Azure.Management.Cdn.ICdnManagementClient
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.ListOperationsNextAsync(Microsoft.Azure.Management.Cdn.ICdnManagementClient,System.String,System.Threading.CancellationToken)
+  commentId: M:Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.ListOperationsNextAsync(Microsoft.Azure.Management.Cdn.ICdnManagementClient,System.String,System.Threading.CancellationToken)
+  isExternal: true
+  name: ListOperationsNextAsync(ICdnManagementClient, String, CancellationToken)
+  nameWithType: CdnManagementClientExtensions.ListOperationsNextAsync(ICdnManagementClient, String, CancellationToken)
+  fullName: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.ListOperationsNextAsync(Microsoft.Azure.Management.Cdn.ICdnManagementClient, System.String, System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.ListOperationsNextAsync(Microsoft.Azure.Management.Cdn.ICdnManagementClient,System.String,System.Threading.CancellationToken)
+    name: ListOperationsNextAsync
+    nameWithType: CdnManagementClientExtensions.ListOperationsNextAsync
+    fullName: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.ListOperationsNextAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.Azure.Management.Cdn.ICdnManagementClient
+    name: ICdnManagementClient
+    nameWithType: ICdnManagementClient
+    fullName: Microsoft.Azure.Management.Cdn.ICdnManagementClient
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.ListOperationsNextAsync(Microsoft.Azure.Management.Cdn.ICdnManagementClient,System.String,System.Threading.CancellationToken)
+    name: ListOperationsNextAsync
+    nameWithType: CdnManagementClientExtensions.ListOperationsNextAsync
+    fullName: Microsoft.Azure.Management.Cdn.CdnManagementClientExtensions.ListOperationsNextAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.Azure.Management.Cdn.ICdnManagementClient
+    name: ICdnManagementClient
+    nameWithType: ICdnManagementClient
+    fullName: Microsoft.Azure.Management.Cdn.ICdnManagementClient
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: System.Threading.CancellationToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Microsoft.Azure.Management.Cdn.ICdnManagementClient.BaseUri*
+  commentId: Overload:Microsoft.Azure.Management.Cdn.ICdnManagementClient.BaseUri
+  isExternal: false
+  name: BaseUri
+  nameWithType: ICdnManagementClient.BaseUri
+  fullName: Microsoft.Azure.Management.Cdn.ICdnManagementClient.BaseUri
+- uid: System.Uri
+  commentId: T:System.Uri
+  parent: System
+  isExternal: true
+  name: Uri
+  nameWithType: Uri
+  fullName: System.Uri
+- uid: Microsoft.Azure.Management.Cdn.ICdnManagementClient.SerializationSettings*
+  commentId: Overload:Microsoft.Azure.Management.Cdn.ICdnManagementClient.SerializationSettings
+  isExternal: false
+  name: SerializationSettings
+  nameWithType: ICdnManagementClient.SerializationSettings
+  fullName: Microsoft.Azure.Management.Cdn.ICdnManagementClient.SerializationSettings
+- uid: Newtonsoft.Json.JsonSerializerSettings
+  commentId: T:Newtonsoft.Json.JsonSerializerSettings
+  parent: Newtonsoft.Json
+  isExternal: true
+  name: JsonSerializerSettings
+  nameWithType: JsonSerializerSettings
+  fullName: Newtonsoft.Json.JsonSerializerSettings
+- uid: Newtonsoft.Json
+  commentId: N:Newtonsoft.Json
+  isExternal: false
+  name: Newtonsoft.Json
+  nameWithType: Newtonsoft.Json
+  fullName: Newtonsoft.Json
+- uid: Microsoft.Azure.Management.Cdn.ICdnManagementClient.DeserializationSettings*
+  commentId: Overload:Microsoft.Azure.Management.Cdn.ICdnManagementClient.DeserializationSettings
+  isExternal: false
+  name: DeserializationSettings
+  nameWithType: ICdnManagementClient.DeserializationSettings
+  fullName: Microsoft.Azure.Management.Cdn.ICdnManagementClient.DeserializationSettings
+- uid: Microsoft.Azure.Management.Cdn.ICdnManagementClient.Credentials*
+  commentId: Overload:Microsoft.Azure.Management.Cdn.ICdnManagementClient.Credentials
+  isExternal: false
+  name: Credentials
+  nameWithType: ICdnManagementClient.Credentials
+  fullName: Microsoft.Azure.Management.Cdn.ICdnManagementClient.Credentials
+- uid: Microsoft.Rest.ServiceClientCredentials
+  commentId: T:Microsoft.Rest.ServiceClientCredentials
+  parent: Microsoft.Rest
+  isExternal: false
+  name: ServiceClientCredentials
+  nameWithType: ServiceClientCredentials
+  fullName: Microsoft.Rest.ServiceClientCredentials
+- uid: Microsoft.Rest
+  commentId: N:Microsoft.Rest
+  isExternal: false
+  name: Microsoft.Rest
+  nameWithType: Microsoft.Rest
+  fullName: Microsoft.Rest
+- uid: Microsoft.Azure.Management.Cdn.ICdnManagementClient.SubscriptionId*
+  commentId: Overload:Microsoft.Azure.Management.Cdn.ICdnManagementClient.SubscriptionId
+  isExternal: false
+  name: SubscriptionId
+  nameWithType: ICdnManagementClient.SubscriptionId
+  fullName: Microsoft.Azure.Management.Cdn.ICdnManagementClient.SubscriptionId
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Microsoft.Azure.Management.Cdn.ICdnManagementClient.ApiVersion*
+  commentId: Overload:Microsoft.Azure.Management.Cdn.ICdnManagementClient.ApiVersion
+  isExternal: false
+  name: ApiVersion
+  nameWithType: ICdnManagementClient.ApiVersion
+  fullName: Microsoft.Azure.Management.Cdn.ICdnManagementClient.ApiVersion
+- uid: Microsoft.Azure.Management.Cdn.ICdnManagementClient.AcceptLanguage*
+  commentId: Overload:Microsoft.Azure.Management.Cdn.ICdnManagementClient.AcceptLanguage
+  isExternal: false
+  name: AcceptLanguage
+  nameWithType: ICdnManagementClient.AcceptLanguage
+  fullName: Microsoft.Azure.Management.Cdn.ICdnManagementClient.AcceptLanguage
+- uid: Microsoft.Azure.Management.Cdn.ICdnManagementClient.LongRunningOperationRetryTimeout*
+  commentId: Overload:Microsoft.Azure.Management.Cdn.ICdnManagementClient.LongRunningOperationRetryTimeout
+  isExternal: false
+  name: LongRunningOperationRetryTimeout
+  nameWithType: ICdnManagementClient.LongRunningOperationRetryTimeout
+  fullName: Microsoft.Azure.Management.Cdn.ICdnManagementClient.LongRunningOperationRetryTimeout
+- uid: System.Nullable{System.Int32}
+  commentId: T:System.Nullable{System.Int32}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<Int32>
+  nameWithType: Nullable<Int32>
+  fullName: System.Nullable<System.Int32>
+  nameWithType.vb: Nullable(Of Int32)
+  fullname.vb: System.Nullable(Of System.Int32)
+  name.vb: Nullable(Of Int32)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullname.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Azure.Management.Cdn.ICdnManagementClient.GenerateClientRequestId*
+  commentId: Overload:Microsoft.Azure.Management.Cdn.ICdnManagementClient.GenerateClientRequestId
+  isExternal: false
+  name: GenerateClientRequestId
+  nameWithType: ICdnManagementClient.GenerateClientRequestId
+  fullName: Microsoft.Azure.Management.Cdn.ICdnManagementClient.GenerateClientRequestId
+- uid: System.Nullable{System.Boolean}
+  commentId: T:System.Nullable{System.Boolean}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<Boolean>
+  nameWithType: Nullable<Boolean>
+  fullName: System.Nullable<System.Boolean>
+  nameWithType.vb: Nullable(Of Boolean)
+  fullname.vb: System.Nullable(Of System.Boolean)
+  name.vb: Nullable(Of Boolean)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Azure.Management.Cdn.ICdnManagementClient.Profiles*
+  commentId: Overload:Microsoft.Azure.Management.Cdn.ICdnManagementClient.Profiles
+  isExternal: false
+  name: Profiles
+  nameWithType: ICdnManagementClient.Profiles
+  fullName: Microsoft.Azure.Management.Cdn.ICdnManagementClient.Profiles
+- uid: Microsoft.Azure.Management.Cdn.IProfilesOperations
+  commentId: T:Microsoft.Azure.Management.Cdn.IProfilesOperations
+  parent: Microsoft.Azure.Management.Cdn
+  isExternal: false
+  name: IProfilesOperations
+  nameWithType: IProfilesOperations
+  fullName: Microsoft.Azure.Management.Cdn.IProfilesOperations
+- uid: Microsoft.Azure.Management.Cdn.ICdnManagementClient.Endpoints*
+  commentId: Overload:Microsoft.Azure.Management.Cdn.ICdnManagementClient.Endpoints
+  isExternal: false
+  name: Endpoints
+  nameWithType: ICdnManagementClient.Endpoints
+  fullName: Microsoft.Azure.Management.Cdn.ICdnManagementClient.Endpoints
+- uid: Microsoft.Azure.Management.Cdn.IEndpointsOperations
+  commentId: T:Microsoft.Azure.Management.Cdn.IEndpointsOperations
+  parent: Microsoft.Azure.Management.Cdn
+  isExternal: false
+  name: IEndpointsOperations
+  nameWithType: IEndpointsOperations
+  fullName: Microsoft.Azure.Management.Cdn.IEndpointsOperations
+- uid: Microsoft.Azure.Management.Cdn.ICdnManagementClient.Origins*
+  commentId: Overload:Microsoft.Azure.Management.Cdn.ICdnManagementClient.Origins
+  isExternal: false
+  name: Origins
+  nameWithType: ICdnManagementClient.Origins
+  fullName: Microsoft.Azure.Management.Cdn.ICdnManagementClient.Origins
+- uid: Microsoft.Azure.Management.Cdn.IOriginsOperations
+  commentId: T:Microsoft.Azure.Management.Cdn.IOriginsOperations
+  parent: Microsoft.Azure.Management.Cdn
+  isExternal: false
+  name: IOriginsOperations
+  nameWithType: IOriginsOperations
+  fullName: Microsoft.Azure.Management.Cdn.IOriginsOperations
+- uid: Microsoft.Azure.Management.Cdn.ICdnManagementClient.CustomDomains*
+  commentId: Overload:Microsoft.Azure.Management.Cdn.ICdnManagementClient.CustomDomains
+  isExternal: false
+  name: CustomDomains
+  nameWithType: ICdnManagementClient.CustomDomains
+  fullName: Microsoft.Azure.Management.Cdn.ICdnManagementClient.CustomDomains
+- uid: Microsoft.Azure.Management.Cdn.ICustomDomainsOperations
+  commentId: T:Microsoft.Azure.Management.Cdn.ICustomDomainsOperations
+  parent: Microsoft.Azure.Management.Cdn
+  isExternal: false
+  name: ICustomDomainsOperations
+  nameWithType: ICustomDomainsOperations
+  fullName: Microsoft.Azure.Management.Cdn.ICustomDomainsOperations
+- uid: Microsoft.Azure.Management.Cdn.ICdnManagementClient.EdgeNodes*
+  commentId: Overload:Microsoft.Azure.Management.Cdn.ICdnManagementClient.EdgeNodes
+  isExternal: false
+  name: EdgeNodes
+  nameWithType: ICdnManagementClient.EdgeNodes
+  fullName: Microsoft.Azure.Management.Cdn.ICdnManagementClient.EdgeNodes
+- uid: Microsoft.Azure.Management.Cdn.IEdgeNodesOperations
+  commentId: T:Microsoft.Azure.Management.Cdn.IEdgeNodesOperations
+  parent: Microsoft.Azure.Management.Cdn
+  isExternal: false
+  name: IEdgeNodesOperations
+  nameWithType: IEdgeNodesOperations
+  fullName: Microsoft.Azure.Management.Cdn.IEdgeNodesOperations
+- uid: Microsoft.Azure.Management.Cdn.ICdnManagementClient.CheckNameAvailabilityWithHttpMessagesAsync*
+  commentId: Overload:Microsoft.Azure.Management.Cdn.ICdnManagementClient.CheckNameAvailabilityWithHttpMessagesAsync
+  isExternal: false
+  name: CheckNameAvailabilityWithHttpMessagesAsync
+  nameWithType: ICdnManagementClient.CheckNameAvailabilityWithHttpMessagesAsync
+  fullName: Microsoft.Azure.Management.Cdn.ICdnManagementClient.CheckNameAvailabilityWithHttpMessagesAsync
+- uid: System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{System.String}}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<String, List<String>>
+  nameWithType: Dictionary<String, List<String>>
+  fullName: System.Collections.Generic.Dictionary<System.String, System.Collections.Generic.List<System.String>>
+  nameWithType.vb: Dictionary(Of String, List(Of String))
+  fullname.vb: System.Collections.Generic.Dictionary(Of System.String, System.Collections.Generic.List(Of System.String))
+  name.vb: Dictionary(Of String, List(Of String))
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{Microsoft.Rest.Azure.AzureOperationResponse{Microsoft.Azure.Management.Cdn.Models.CheckNameAvailabilityOutput}}
+  commentId: T:System.Threading.Tasks.Task{Microsoft.Rest.Azure.AzureOperationResponse{Microsoft.Azure.Management.Cdn.Models.CheckNameAvailabilityOutput}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<AzureOperationResponse<CheckNameAvailabilityOutput>>
+  nameWithType: Task<AzureOperationResponse<CheckNameAvailabilityOutput>>
+  fullName: System.Threading.Tasks.Task<Microsoft.Rest.Azure.AzureOperationResponse<Microsoft.Azure.Management.Cdn.Models.CheckNameAvailabilityOutput>>
+  nameWithType.vb: Task(Of AzureOperationResponse(Of CheckNameAvailabilityOutput))
+  fullname.vb: System.Threading.Tasks.Task(Of Microsoft.Rest.Azure.AzureOperationResponse(Of Microsoft.Azure.Management.Cdn.Models.CheckNameAvailabilityOutput))
+  name.vb: Task(Of AzureOperationResponse(Of CheckNameAvailabilityOutput))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Microsoft.Rest.Azure.AzureOperationResponse`1
+    name: AzureOperationResponse
+    nameWithType: AzureOperationResponse
+    fullName: Microsoft.Rest.Azure.AzureOperationResponse
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Microsoft.Azure.Management.Cdn.Models.CheckNameAvailabilityOutput
+    name: CheckNameAvailabilityOutput
+    nameWithType: CheckNameAvailabilityOutput
+    fullName: Microsoft.Azure.Management.Cdn.Models.CheckNameAvailabilityOutput
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Microsoft.Rest.Azure.AzureOperationResponse`1
+    name: AzureOperationResponse
+    nameWithType: AzureOperationResponse
+    fullName: Microsoft.Rest.Azure.AzureOperationResponse
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Microsoft.Azure.Management.Cdn.Models.CheckNameAvailabilityOutput
+    name: CheckNameAvailabilityOutput
+    nameWithType: CheckNameAvailabilityOutput
+    fullName: Microsoft.Azure.Management.Cdn.Models.CheckNameAvailabilityOutput
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullname.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: false
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: false
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullname.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: false
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+- uid: Microsoft.Azure.Management.Cdn.ICdnManagementClient.CheckResourceUsageWithHttpMessagesAsync*
+  commentId: Overload:Microsoft.Azure.Management.Cdn.ICdnManagementClient.CheckResourceUsageWithHttpMessagesAsync
+  isExternal: false
+  name: CheckResourceUsageWithHttpMessagesAsync
+  nameWithType: ICdnManagementClient.CheckResourceUsageWithHttpMessagesAsync
+  fullName: Microsoft.Azure.Management.Cdn.ICdnManagementClient.CheckResourceUsageWithHttpMessagesAsync
+- uid: System.Threading.Tasks.Task{Microsoft.Rest.Azure.AzureOperationResponse{Microsoft.Rest.Azure.IPage{Microsoft.Azure.Management.Cdn.Models.ResourceUsage}}}
+  commentId: T:System.Threading.Tasks.Task{Microsoft.Rest.Azure.AzureOperationResponse{Microsoft.Rest.Azure.IPage{Microsoft.Azure.Management.Cdn.Models.ResourceUsage}}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<AzureOperationResponse<IPage<ResourceUsage>>>
+  nameWithType: Task<AzureOperationResponse<IPage<ResourceUsage>>>
+  fullName: System.Threading.Tasks.Task<Microsoft.Rest.Azure.AzureOperationResponse<Microsoft.Rest.Azure.IPage<Microsoft.Azure.Management.Cdn.Models.ResourceUsage>>>
+  nameWithType.vb: Task(Of AzureOperationResponse(Of IPage(Of ResourceUsage)))
+  fullname.vb: System.Threading.Tasks.Task(Of Microsoft.Rest.Azure.AzureOperationResponse(Of Microsoft.Rest.Azure.IPage(Of Microsoft.Azure.Management.Cdn.Models.ResourceUsage)))
+  name.vb: Task(Of AzureOperationResponse(Of IPage(Of ResourceUsage)))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Microsoft.Rest.Azure.AzureOperationResponse`1
+    name: AzureOperationResponse
+    nameWithType: AzureOperationResponse
+    fullName: Microsoft.Rest.Azure.AzureOperationResponse
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Microsoft.Rest.Azure.IPage`1
+    name: IPage
+    nameWithType: IPage
+    fullName: Microsoft.Rest.Azure.IPage
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Microsoft.Azure.Management.Cdn.Models.ResourceUsage
+    name: ResourceUsage
+    nameWithType: ResourceUsage
+    fullName: Microsoft.Azure.Management.Cdn.Models.ResourceUsage
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Microsoft.Rest.Azure.AzureOperationResponse`1
+    name: AzureOperationResponse
+    nameWithType: AzureOperationResponse
+    fullName: Microsoft.Rest.Azure.AzureOperationResponse
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Microsoft.Rest.Azure.IPage`1
+    name: IPage
+    nameWithType: IPage
+    fullName: Microsoft.Rest.Azure.IPage
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Microsoft.Azure.Management.Cdn.Models.ResourceUsage
+    name: ResourceUsage
+    nameWithType: ResourceUsage
+    fullName: Microsoft.Azure.Management.Cdn.Models.ResourceUsage
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Azure.Management.Cdn.ICdnManagementClient.ListOperationsWithHttpMessagesAsync*
+  commentId: Overload:Microsoft.Azure.Management.Cdn.ICdnManagementClient.ListOperationsWithHttpMessagesAsync
+  isExternal: false
+  name: ListOperationsWithHttpMessagesAsync
+  nameWithType: ICdnManagementClient.ListOperationsWithHttpMessagesAsync
+  fullName: Microsoft.Azure.Management.Cdn.ICdnManagementClient.ListOperationsWithHttpMessagesAsync
+- uid: System.Threading.Tasks.Task{Microsoft.Rest.Azure.AzureOperationResponse{Microsoft.Rest.Azure.IPage{Microsoft.Azure.Management.Cdn.Models.Operation}}}
+  commentId: T:System.Threading.Tasks.Task{Microsoft.Rest.Azure.AzureOperationResponse{Microsoft.Rest.Azure.IPage{Microsoft.Azure.Management.Cdn.Models.Operation}}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<AzureOperationResponse<IPage<Operation>>>
+  nameWithType: Task<AzureOperationResponse<IPage<Operation>>>
+  fullName: System.Threading.Tasks.Task<Microsoft.Rest.Azure.AzureOperationResponse<Microsoft.Rest.Azure.IPage<Microsoft.Azure.Management.Cdn.Models.Operation>>>
+  nameWithType.vb: Task(Of AzureOperationResponse(Of IPage(Of Operation)))
+  fullname.vb: System.Threading.Tasks.Task(Of Microsoft.Rest.Azure.AzureOperationResponse(Of Microsoft.Rest.Azure.IPage(Of Microsoft.Azure.Management.Cdn.Models.Operation)))
+  name.vb: Task(Of AzureOperationResponse(Of IPage(Of Operation)))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Microsoft.Rest.Azure.AzureOperationResponse`1
+    name: AzureOperationResponse
+    nameWithType: AzureOperationResponse
+    fullName: Microsoft.Rest.Azure.AzureOperationResponse
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Microsoft.Rest.Azure.IPage`1
+    name: IPage
+    nameWithType: IPage
+    fullName: Microsoft.Rest.Azure.IPage
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Microsoft.Azure.Management.Cdn.Models.Operation
+    name: Operation
+    nameWithType: Operation
+    fullName: Microsoft.Azure.Management.Cdn.Models.Operation
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Microsoft.Rest.Azure.AzureOperationResponse`1
+    name: AzureOperationResponse
+    nameWithType: AzureOperationResponse
+    fullName: Microsoft.Rest.Azure.AzureOperationResponse
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Microsoft.Rest.Azure.IPage`1
+    name: IPage
+    nameWithType: IPage
+    fullName: Microsoft.Rest.Azure.IPage
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Microsoft.Azure.Management.Cdn.Models.Operation
+    name: Operation
+    nameWithType: Operation
+    fullName: Microsoft.Azure.Management.Cdn.Models.Operation
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Azure.Management.Cdn.ICdnManagementClient.CheckResourceUsageNextWithHttpMessagesAsync*
+  commentId: Overload:Microsoft.Azure.Management.Cdn.ICdnManagementClient.CheckResourceUsageNextWithHttpMessagesAsync
+  isExternal: false
+  name: CheckResourceUsageNextWithHttpMessagesAsync
+  nameWithType: ICdnManagementClient.CheckResourceUsageNextWithHttpMessagesAsync
+  fullName: Microsoft.Azure.Management.Cdn.ICdnManagementClient.CheckResourceUsageNextWithHttpMessagesAsync
+- uid: Microsoft.Azure.Management.Cdn.ICdnManagementClient.ListOperationsNextWithHttpMessagesAsync*
+  commentId: Overload:Microsoft.Azure.Management.Cdn.ICdnManagementClient.ListOperationsNextWithHttpMessagesAsync
+  isExternal: false
+  name: ListOperationsNextWithHttpMessagesAsync
+  nameWithType: ICdnManagementClient.ListOperationsNextWithHttpMessagesAsync
+  fullName: Microsoft.Azure.Management.Cdn.ICdnManagementClient.ListOperationsNextWithHttpMessagesAsync

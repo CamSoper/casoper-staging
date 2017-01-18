@@ -1,0 +1,805 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.Azure.Devices.Common.Data.SharedAccessSignatureAuthorizationRule
+  commentId: T:Microsoft.Azure.Devices.Common.Data.SharedAccessSignatureAuthorizationRule
+  id: SharedAccessSignatureAuthorizationRule
+  parent: Microsoft.Azure.Devices.Common.Data
+  children:
+  - Microsoft.Azure.Devices.Common.Data.SharedAccessSignatureAuthorizationRule.Equals(Microsoft.Azure.Devices.Common.Data.SharedAccessSignatureAuthorizationRule)
+  - Microsoft.Azure.Devices.Common.Data.SharedAccessSignatureAuthorizationRule.KeyName
+  - Microsoft.Azure.Devices.Common.Data.SharedAccessSignatureAuthorizationRule.PrimaryKey
+  - Microsoft.Azure.Devices.Common.Data.SharedAccessSignatureAuthorizationRule.Rights
+  - Microsoft.Azure.Devices.Common.Data.SharedAccessSignatureAuthorizationRule.SecondaryKey
+  langs:
+  - csharp
+  - vb
+  name: SharedAccessSignatureAuthorizationRule
+  nameWithType: SharedAccessSignatureAuthorizationRule
+  fullName: Microsoft.Azure.Devices.Common.Data.SharedAccessSignatureAuthorizationRule
+  type: Class
+  source:
+    remote:
+      path: service/Microsoft.Azure.Devices/Common/Data/SharedAccessSignatureAuthorizationRule.cs
+      branch: master
+      repo: https://github.com/Azure/azure-iot-sdk-csharp.git
+    id: SharedAccessSignatureAuthorizationRule
+    path: src/azure-iot-sdks/service/Microsoft.Azure.Devices/Common/Data/SharedAccessSignatureAuthorizationRule.cs
+    startLine: 9
+  assemblies:
+  - Microsoft.Azure.Devices.Uwp
+  namespace: Microsoft.Azure.Devices.Common.Data
+  syntax:
+    content: 'public sealed class SharedAccessSignatureAuthorizationRule : IEquatable<SharedAccessSignatureAuthorizationRule>'
+    content.vb: >-
+      Public NotInheritable Class SharedAccessSignatureAuthorizationRule
+          Implements IEquatable(Of SharedAccessSignatureAuthorizationRule)
+  inheritance:
+  - System.Object
+  implements:
+  - System.IEquatable{Microsoft.Azure.Devices.Common.Data.SharedAccessSignatureAuthorizationRule}
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: Microsoft.Azure.Devices.Common.Data.SharedAccessSignatureAuthorizationRule.KeyName
+  commentId: P:Microsoft.Azure.Devices.Common.Data.SharedAccessSignatureAuthorizationRule.KeyName
+  id: KeyName
+  parent: Microsoft.Azure.Devices.Common.Data.SharedAccessSignatureAuthorizationRule
+  langs:
+  - csharp
+  - vb
+  name: KeyName
+  nameWithType: SharedAccessSignatureAuthorizationRule.KeyName
+  fullName: Microsoft.Azure.Devices.Common.Data.SharedAccessSignatureAuthorizationRule.KeyName
+  type: Property
+  source:
+    remote:
+      path: service/Microsoft.Azure.Devices/Common/Data/SharedAccessSignatureAuthorizationRule.cs
+      branch: master
+      repo: https://github.com/Azure/azure-iot-sdk-csharp.git
+    id: KeyName
+    path: src/azure-iot-sdks/service/Microsoft.Azure.Devices/Common/Data/SharedAccessSignatureAuthorizationRule.cs
+    startLine: 14
+  assemblies:
+  - Microsoft.Azure.Devices.Uwp
+  namespace: Microsoft.Azure.Devices.Common.Data
+  syntax:
+    content: >-
+      [JsonProperty(PropertyName = "keyName")]
+
+      public string KeyName { get; set; }
+    content.vb: >-
+      <JsonProperty(PropertyName:="keyName")>
+
+      Public Property KeyName As String
+    parameters: []
+    return:
+      type: System.String
+  overload: Microsoft.Azure.Devices.Common.Data.SharedAccessSignatureAuthorizationRule.KeyName*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: PropertyName
+      type: System.String
+      value: keyName
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Azure.Devices.Common.Data.SharedAccessSignatureAuthorizationRule.PrimaryKey
+  commentId: P:Microsoft.Azure.Devices.Common.Data.SharedAccessSignatureAuthorizationRule.PrimaryKey
+  id: PrimaryKey
+  parent: Microsoft.Azure.Devices.Common.Data.SharedAccessSignatureAuthorizationRule
+  langs:
+  - csharp
+  - vb
+  name: PrimaryKey
+  nameWithType: SharedAccessSignatureAuthorizationRule.PrimaryKey
+  fullName: Microsoft.Azure.Devices.Common.Data.SharedAccessSignatureAuthorizationRule.PrimaryKey
+  type: Property
+  source:
+    remote:
+      path: service/Microsoft.Azure.Devices/Common/Data/SharedAccessSignatureAuthorizationRule.cs
+      branch: master
+      repo: https://github.com/Azure/azure-iot-sdk-csharp.git
+    id: PrimaryKey
+    path: src/azure-iot-sdks/service/Microsoft.Azure.Devices/Common/Data/SharedAccessSignatureAuthorizationRule.cs
+    startLine: 17
+  assemblies:
+  - Microsoft.Azure.Devices.Uwp
+  namespace: Microsoft.Azure.Devices.Common.Data
+  syntax:
+    content: >-
+      [JsonProperty(PropertyName = "primaryKey")]
+
+      public string PrimaryKey { get; set; }
+    content.vb: >-
+      <JsonProperty(PropertyName:="primaryKey")>
+
+      Public Property PrimaryKey As String
+    parameters: []
+    return:
+      type: System.String
+  overload: Microsoft.Azure.Devices.Common.Data.SharedAccessSignatureAuthorizationRule.PrimaryKey*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: PropertyName
+      type: System.String
+      value: primaryKey
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Azure.Devices.Common.Data.SharedAccessSignatureAuthorizationRule.SecondaryKey
+  commentId: P:Microsoft.Azure.Devices.Common.Data.SharedAccessSignatureAuthorizationRule.SecondaryKey
+  id: SecondaryKey
+  parent: Microsoft.Azure.Devices.Common.Data.SharedAccessSignatureAuthorizationRule
+  langs:
+  - csharp
+  - vb
+  name: SecondaryKey
+  nameWithType: SharedAccessSignatureAuthorizationRule.SecondaryKey
+  fullName: Microsoft.Azure.Devices.Common.Data.SharedAccessSignatureAuthorizationRule.SecondaryKey
+  type: Property
+  source:
+    remote:
+      path: service/Microsoft.Azure.Devices/Common/Data/SharedAccessSignatureAuthorizationRule.cs
+      branch: master
+      repo: https://github.com/Azure/azure-iot-sdk-csharp.git
+    id: SecondaryKey
+    path: src/azure-iot-sdks/service/Microsoft.Azure.Devices/Common/Data/SharedAccessSignatureAuthorizationRule.cs
+    startLine: 32
+  assemblies:
+  - Microsoft.Azure.Devices.Uwp
+  namespace: Microsoft.Azure.Devices.Common.Data
+  syntax:
+    content: >-
+      [JsonProperty(PropertyName = "secondaryKey")]
+
+      public string SecondaryKey { get; set; }
+    content.vb: >-
+      <JsonProperty(PropertyName:="secondaryKey")>
+
+      Public Property SecondaryKey As String
+    parameters: []
+    return:
+      type: System.String
+  overload: Microsoft.Azure.Devices.Common.Data.SharedAccessSignatureAuthorizationRule.SecondaryKey*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: PropertyName
+      type: System.String
+      value: secondaryKey
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Azure.Devices.Common.Data.SharedAccessSignatureAuthorizationRule.Rights
+  commentId: P:Microsoft.Azure.Devices.Common.Data.SharedAccessSignatureAuthorizationRule.Rights
+  id: Rights
+  parent: Microsoft.Azure.Devices.Common.Data.SharedAccessSignatureAuthorizationRule
+  langs:
+  - csharp
+  - vb
+  name: Rights
+  nameWithType: SharedAccessSignatureAuthorizationRule.Rights
+  fullName: Microsoft.Azure.Devices.Common.Data.SharedAccessSignatureAuthorizationRule.Rights
+  type: Property
+  source:
+    remote:
+      path: service/Microsoft.Azure.Devices/Common/Data/SharedAccessSignatureAuthorizationRule.cs
+      branch: master
+      repo: https://github.com/Azure/azure-iot-sdk-csharp.git
+    id: Rights
+    path: src/azure-iot-sdks/service/Microsoft.Azure.Devices/Common/Data/SharedAccessSignatureAuthorizationRule.cs
+    startLine: 47
+  assemblies:
+  - Microsoft.Azure.Devices.Uwp
+  namespace: Microsoft.Azure.Devices.Common.Data
+  syntax:
+    content: >-
+      [JsonProperty(PropertyName = "rights")]
+
+      public AccessRights Rights { get; set; }
+    content.vb: >-
+      <JsonProperty(PropertyName:="rights")>
+
+      Public Property Rights As AccessRights
+    parameters: []
+    return:
+      type: Microsoft.Azure.Devices.Common.Data.AccessRights
+  overload: Microsoft.Azure.Devices.Common.Data.SharedAccessSignatureAuthorizationRule.Rights*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: PropertyName
+      type: System.String
+      value: rights
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Azure.Devices.Common.Data.SharedAccessSignatureAuthorizationRule.Equals(Microsoft.Azure.Devices.Common.Data.SharedAccessSignatureAuthorizationRule)
+  commentId: M:Microsoft.Azure.Devices.Common.Data.SharedAccessSignatureAuthorizationRule.Equals(Microsoft.Azure.Devices.Common.Data.SharedAccessSignatureAuthorizationRule)
+  id: Equals(Microsoft.Azure.Devices.Common.Data.SharedAccessSignatureAuthorizationRule)
+  parent: Microsoft.Azure.Devices.Common.Data.SharedAccessSignatureAuthorizationRule
+  langs:
+  - csharp
+  - vb
+  name: Equals(SharedAccessSignatureAuthorizationRule)
+  nameWithType: SharedAccessSignatureAuthorizationRule.Equals(SharedAccessSignatureAuthorizationRule)
+  fullName: Microsoft.Azure.Devices.Common.Data.SharedAccessSignatureAuthorizationRule.Equals(Microsoft.Azure.Devices.Common.Data.SharedAccessSignatureAuthorizationRule)
+  type: Method
+  source:
+    remote:
+      path: service/Microsoft.Azure.Devices/Common/Data/SharedAccessSignatureAuthorizationRule.cs
+      branch: master
+      repo: https://github.com/Azure/azure-iot-sdk-csharp.git
+    id: Equals
+    path: src/azure-iot-sdks/service/Microsoft.Azure.Devices/Common/Data/SharedAccessSignatureAuthorizationRule.cs
+    startLine: 50
+  assemblies:
+  - Microsoft.Azure.Devices.Uwp
+  namespace: Microsoft.Azure.Devices.Common.Data
+  syntax:
+    content: public bool Equals(SharedAccessSignatureAuthorizationRule other)
+    content.vb: Public Function Equals(other As SharedAccessSignatureAuthorizationRule) As Boolean
+    parameters:
+    - id: other
+      type: Microsoft.Azure.Devices.Common.Data.SharedAccessSignatureAuthorizationRule
+    return:
+      type: System.Boolean
+  overload: Microsoft.Azure.Devices.Common.Data.SharedAccessSignatureAuthorizationRule.Equals*
+  implements:
+  - System.IEquatable{Microsoft.Azure.Devices.Common.Data.SharedAccessSignatureAuthorizationRule}.Equals(Microsoft.Azure.Devices.Common.Data.SharedAccessSignatureAuthorizationRule)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Microsoft.Azure.Devices.Common.Data
+  commentId: N:Microsoft.Azure.Devices.Common.Data
+  isExternal: false
+  name: Microsoft.Azure.Devices.Common.Data
+  nameWithType: Microsoft.Azure.Devices.Common.Data
+  fullName: Microsoft.Azure.Devices.Common.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.IEquatable{Microsoft.Azure.Devices.Common.Data.SharedAccessSignatureAuthorizationRule}
+  commentId: T:System.IEquatable{Microsoft.Azure.Devices.Common.Data.SharedAccessSignatureAuthorizationRule}
+  parent: System
+  definition: System.IEquatable`1
+  name: IEquatable<SharedAccessSignatureAuthorizationRule>
+  nameWithType: IEquatable<SharedAccessSignatureAuthorizationRule>
+  fullName: System.IEquatable<Microsoft.Azure.Devices.Common.Data.SharedAccessSignatureAuthorizationRule>
+  nameWithType.vb: IEquatable(Of SharedAccessSignatureAuthorizationRule)
+  fullname.vb: System.IEquatable(Of Microsoft.Azure.Devices.Common.Data.SharedAccessSignatureAuthorizationRule)
+  name.vb: IEquatable(Of SharedAccessSignatureAuthorizationRule)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    nameWithType: IEquatable
+    fullName: System.IEquatable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Microsoft.Azure.Devices.Common.Data.SharedAccessSignatureAuthorizationRule
+    name: SharedAccessSignatureAuthorizationRule
+    nameWithType: SharedAccessSignatureAuthorizationRule
+    fullName: Microsoft.Azure.Devices.Common.Data.SharedAccessSignatureAuthorizationRule
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    nameWithType: IEquatable
+    fullName: System.IEquatable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Microsoft.Azure.Devices.Common.Data.SharedAccessSignatureAuthorizationRule
+    name: SharedAccessSignatureAuthorizationRule
+    nameWithType: SharedAccessSignatureAuthorizationRule
+    fullName: Microsoft.Azure.Devices.Common.Data.SharedAccessSignatureAuthorizationRule
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullname.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    nameWithType: IEquatable
+    fullName: System.IEquatable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    nameWithType: IEquatable
+    fullName: System.IEquatable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Azure.Devices.Common.Data.SharedAccessSignatureAuthorizationRule.KeyName*
+  commentId: Overload:Microsoft.Azure.Devices.Common.Data.SharedAccessSignatureAuthorizationRule.KeyName
+  isExternal: false
+  name: KeyName
+  nameWithType: SharedAccessSignatureAuthorizationRule.KeyName
+  fullName: Microsoft.Azure.Devices.Common.Data.SharedAccessSignatureAuthorizationRule.KeyName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Microsoft.Azure.Devices.Common.Data.SharedAccessSignatureAuthorizationRule.PrimaryKey*
+  commentId: Overload:Microsoft.Azure.Devices.Common.Data.SharedAccessSignatureAuthorizationRule.PrimaryKey
+  isExternal: false
+  name: PrimaryKey
+  nameWithType: SharedAccessSignatureAuthorizationRule.PrimaryKey
+  fullName: Microsoft.Azure.Devices.Common.Data.SharedAccessSignatureAuthorizationRule.PrimaryKey
+- uid: Microsoft.Azure.Devices.Common.Data.SharedAccessSignatureAuthorizationRule.SecondaryKey*
+  commentId: Overload:Microsoft.Azure.Devices.Common.Data.SharedAccessSignatureAuthorizationRule.SecondaryKey
+  isExternal: false
+  name: SecondaryKey
+  nameWithType: SharedAccessSignatureAuthorizationRule.SecondaryKey
+  fullName: Microsoft.Azure.Devices.Common.Data.SharedAccessSignatureAuthorizationRule.SecondaryKey
+- uid: Microsoft.Azure.Devices.Common.Data.SharedAccessSignatureAuthorizationRule.Rights*
+  commentId: Overload:Microsoft.Azure.Devices.Common.Data.SharedAccessSignatureAuthorizationRule.Rights
+  isExternal: false
+  name: Rights
+  nameWithType: SharedAccessSignatureAuthorizationRule.Rights
+  fullName: Microsoft.Azure.Devices.Common.Data.SharedAccessSignatureAuthorizationRule.Rights
+- uid: Microsoft.Azure.Devices.Common.Data.AccessRights
+  commentId: T:Microsoft.Azure.Devices.Common.Data.AccessRights
+  parent: Microsoft.Azure.Devices.Common.Data
+  isExternal: false
+  name: AccessRights
+  nameWithType: AccessRights
+  fullName: Microsoft.Azure.Devices.Common.Data.AccessRights
+- uid: Microsoft.Azure.Devices.Common.Data.SharedAccessSignatureAuthorizationRule.Equals*
+  commentId: Overload:Microsoft.Azure.Devices.Common.Data.SharedAccessSignatureAuthorizationRule.Equals
+  isExternal: false
+  name: Equals
+  nameWithType: SharedAccessSignatureAuthorizationRule.Equals
+  fullName: Microsoft.Azure.Devices.Common.Data.SharedAccessSignatureAuthorizationRule.Equals
+- uid: System.IEquatable{Microsoft.Azure.Devices.Common.Data.SharedAccessSignatureAuthorizationRule}.Equals(Microsoft.Azure.Devices.Common.Data.SharedAccessSignatureAuthorizationRule)
+  commentId: M:System.IEquatable{Microsoft.Azure.Devices.Common.Data.SharedAccessSignatureAuthorizationRule}.Equals(Microsoft.Azure.Devices.Common.Data.SharedAccessSignatureAuthorizationRule)
+  parent: System.IEquatable{Microsoft.Azure.Devices.Common.Data.SharedAccessSignatureAuthorizationRule}
+  definition: System.IEquatable`1.Equals(`0)
+  name: Equals(SharedAccessSignatureAuthorizationRule)
+  nameWithType: IEquatable<SharedAccessSignatureAuthorizationRule>.Equals(SharedAccessSignatureAuthorizationRule)
+  fullName: System.IEquatable<Microsoft.Azure.Devices.Common.Data.SharedAccessSignatureAuthorizationRule>.Equals(Microsoft.Azure.Devices.Common.Data.SharedAccessSignatureAuthorizationRule)
+  nameWithType.vb: IEquatable(Of SharedAccessSignatureAuthorizationRule).Equals(SharedAccessSignatureAuthorizationRule)
+  fullname.vb: System.IEquatable(Of Microsoft.Azure.Devices.Common.Data.SharedAccessSignatureAuthorizationRule).Equals(Microsoft.Azure.Devices.Common.Data.SharedAccessSignatureAuthorizationRule)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    nameWithType: IEquatable<SharedAccessSignatureAuthorizationRule>.Equals
+    fullName: System.IEquatable<Microsoft.Azure.Devices.Common.Data.SharedAccessSignatureAuthorizationRule>.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.Azure.Devices.Common.Data.SharedAccessSignatureAuthorizationRule
+    name: SharedAccessSignatureAuthorizationRule
+    nameWithType: SharedAccessSignatureAuthorizationRule
+    fullName: Microsoft.Azure.Devices.Common.Data.SharedAccessSignatureAuthorizationRule
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    nameWithType: IEquatable(Of SharedAccessSignatureAuthorizationRule).Equals
+    fullName: System.IEquatable(Of Microsoft.Azure.Devices.Common.Data.SharedAccessSignatureAuthorizationRule).Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.Azure.Devices.Common.Data.SharedAccessSignatureAuthorizationRule
+    name: SharedAccessSignatureAuthorizationRule
+    nameWithType: SharedAccessSignatureAuthorizationRule
+    fullName: Microsoft.Azure.Devices.Common.Data.SharedAccessSignatureAuthorizationRule
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Azure.Devices.Common.Data.SharedAccessSignatureAuthorizationRule
+  commentId: T:Microsoft.Azure.Devices.Common.Data.SharedAccessSignatureAuthorizationRule
+  parent: Microsoft.Azure.Devices.Common.Data
+  isExternal: false
+  name: SharedAccessSignatureAuthorizationRule
+  nameWithType: SharedAccessSignatureAuthorizationRule
+  fullName: Microsoft.Azure.Devices.Common.Data.SharedAccessSignatureAuthorizationRule
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.IEquatable`1.Equals(`0)
+  commentId: M:System.IEquatable`1.Equals(`0)
+  isExternal: true
+  name: Equals(T)
+  nameWithType: IEquatable<T>.Equals(T)
+  fullName: System.IEquatable<T>.Equals(T)
+  nameWithType.vb: IEquatable(Of T).Equals(T)
+  fullname.vb: System.IEquatable(Of T).Equals(T)
+  spec.csharp:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    nameWithType: IEquatable<T>.Equals
+    fullName: System.IEquatable<T>.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IEquatable`1.Equals(`0)
+    name: Equals
+    nameWithType: IEquatable(Of T).Equals
+    fullName: System.IEquatable(Of T).Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )

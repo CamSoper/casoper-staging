@@ -1,0 +1,1325 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.Azure.Devices.ServiceClient
+  commentId: T:Microsoft.Azure.Devices.ServiceClient
+  id: ServiceClient
+  parent: Microsoft.Azure.Devices
+  children:
+  - Microsoft.Azure.Devices.ServiceClient.CloseAsync
+  - Microsoft.Azure.Devices.ServiceClient.CreateFromConnectionString(System.String)
+  - Microsoft.Azure.Devices.ServiceClient.CreateFromConnectionString(System.String,Microsoft.Azure.Devices.TransportType)
+  - Microsoft.Azure.Devices.ServiceClient.GetFeedbackReceiver
+  - Microsoft.Azure.Devices.ServiceClient.GetFileNotificationReceiver
+  - Microsoft.Azure.Devices.ServiceClient.GetServiceStatisticsAsync
+  - Microsoft.Azure.Devices.ServiceClient.GetServiceStatisticsAsync(System.Threading.CancellationToken)
+  - Microsoft.Azure.Devices.ServiceClient.InvokeDeviceMethodAsync(System.String,Microsoft.Azure.Devices.CloudToDeviceMethod)
+  - Microsoft.Azure.Devices.ServiceClient.InvokeDeviceMethodAsync(System.String,Microsoft.Azure.Devices.CloudToDeviceMethod,System.Threading.CancellationToken)
+  - Microsoft.Azure.Devices.ServiceClient.OpenAsync
+  - Microsoft.Azure.Devices.ServiceClient.PurgeMessageQueueAsync(System.String)
+  - Microsoft.Azure.Devices.ServiceClient.PurgeMessageQueueAsync(System.String,System.Threading.CancellationToken)
+  - Microsoft.Azure.Devices.ServiceClient.SendAsync(System.String,Microsoft.Azure.Devices.Message)
+  langs:
+  - csharp
+  - vb
+  name: ServiceClient
+  nameWithType: ServiceClient
+  fullName: Microsoft.Azure.Devices.ServiceClient
+  type: Class
+  source:
+    remote:
+      path: service/Microsoft.Azure.Devices/ServiceClient.cs
+      branch: master
+      repo: https://github.com/Azure/azure-iot-sdk-csharp.git
+    id: ServiceClient
+    path: src/azure-iot-sdks/service/Microsoft.Azure.Devices/ServiceClient.cs
+    startLine: 27
+  assemblies:
+  - Microsoft.Azure.Devices.Uwp
+  namespace: Microsoft.Azure.Devices
+  summary: "\nContains methods that services can use to send messages to devices\n"
+  example: []
+  syntax:
+    content: public abstract class ServiceClient
+    content.vb: Public MustInherit Class ServiceClient
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: Microsoft.Azure.Devices.ServiceClient.CreateFromConnectionString(System.String)
+  commentId: M:Microsoft.Azure.Devices.ServiceClient.CreateFromConnectionString(System.String)
+  id: CreateFromConnectionString(System.String)
+  parent: Microsoft.Azure.Devices.ServiceClient
+  langs:
+  - csharp
+  - vb
+  name: CreateFromConnectionString(String)
+  nameWithType: ServiceClient.CreateFromConnectionString(String)
+  fullName: Microsoft.Azure.Devices.ServiceClient.CreateFromConnectionString(System.String)
+  type: Method
+  source:
+    remote:
+      path: service/Microsoft.Azure.Devices/ServiceClient.cs
+      branch: master
+      repo: https://github.com/Azure/azure-iot-sdk-csharp.git
+    id: CreateFromConnectionString
+    path: src/azure-iot-sdks/service/Microsoft.Azure.Devices/ServiceClient.cs
+    startLine: 41
+  assemblies:
+  - Microsoft.Azure.Devices.Uwp
+  namespace: Microsoft.Azure.Devices
+  summary: "\nCreate ServiceClient from the specified connection string\n"
+  example: []
+  syntax:
+    content: public static ServiceClient CreateFromConnectionString(string connectionString)
+    content.vb: Public Shared Function CreateFromConnectionString(connectionString As String) As ServiceClient
+    parameters:
+    - id: connectionString
+      type: System.String
+      description: Connection string for the iothub
+    return:
+      type: Microsoft.Azure.Devices.ServiceClient
+      description: ''
+  overload: Microsoft.Azure.Devices.ServiceClient.CreateFromConnectionString*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Microsoft.Azure.Devices.ServiceClient.CreateFromConnectionString(System.String,Microsoft.Azure.Devices.TransportType)
+  commentId: M:Microsoft.Azure.Devices.ServiceClient.CreateFromConnectionString(System.String,Microsoft.Azure.Devices.TransportType)
+  id: CreateFromConnectionString(System.String,Microsoft.Azure.Devices.TransportType)
+  parent: Microsoft.Azure.Devices.ServiceClient
+  langs:
+  - csharp
+  - vb
+  name: CreateFromConnectionString(String, TransportType)
+  nameWithType: ServiceClient.CreateFromConnectionString(String, TransportType)
+  fullName: Microsoft.Azure.Devices.ServiceClient.CreateFromConnectionString(System.String, Microsoft.Azure.Devices.TransportType)
+  type: Method
+  source:
+    remote:
+      path: service/Microsoft.Azure.Devices/ServiceClient.cs
+      branch: master
+      repo: https://github.com/Azure/azure-iot-sdk-csharp.git
+    id: CreateFromConnectionString
+    path: src/azure-iot-sdks/service/Microsoft.Azure.Devices/ServiceClient.cs
+    startLine: 52
+  assemblies:
+  - Microsoft.Azure.Devices.Uwp
+  namespace: Microsoft.Azure.Devices
+  summary: "\nCreate ServiceClient from the specified connection string using specified Transport Type\n"
+  example: []
+  syntax:
+    content: public static ServiceClient CreateFromConnectionString(string connectionString, TransportType transportType)
+    content.vb: Public Shared Function CreateFromConnectionString(connectionString As String, transportType As TransportType) As ServiceClient
+    parameters:
+    - id: connectionString
+      type: System.String
+      description: Connection string for the iothub
+    - id: transportType
+      type: Microsoft.Azure.Devices.TransportType
+      description: Specifies whether Amqp or Amqp over Websocket transport is used
+    return:
+      type: Microsoft.Azure.Devices.ServiceClient
+      description: ''
+  overload: Microsoft.Azure.Devices.ServiceClient.CreateFromConnectionString*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Microsoft.Azure.Devices.ServiceClient.OpenAsync
+  commentId: M:Microsoft.Azure.Devices.ServiceClient.OpenAsync
+  id: OpenAsync
+  parent: Microsoft.Azure.Devices.ServiceClient
+  langs:
+  - csharp
+  - vb
+  name: OpenAsync()
+  nameWithType: ServiceClient.OpenAsync()
+  fullName: Microsoft.Azure.Devices.ServiceClient.OpenAsync()
+  type: Method
+  source:
+    remote:
+      path: service/Microsoft.Azure.Devices/ServiceClient.cs
+      branch: master
+      repo: https://github.com/Azure/azure-iot-sdk-csharp.git
+    id: OpenAsync
+    path: src/azure-iot-sdks/service/Microsoft.Azure.Devices/ServiceClient.cs
+    startLine: 63
+  assemblies:
+  - Microsoft.Azure.Devices.Uwp
+  namespace: Microsoft.Azure.Devices
+  summary: "\nOpen the ServiceClient instance\n"
+  example: []
+  syntax:
+    content: public abstract Task OpenAsync()
+    content.vb: Public MustOverride Function OpenAsync As Task
+    return:
+      type: System.Threading.Tasks.Task
+      description: ''
+  overload: Microsoft.Azure.Devices.ServiceClient.OpenAsync*
+  modifiers.csharp:
+  - public
+  - abstract
+  modifiers.vb:
+  - Public
+  - MustOverride
+- uid: Microsoft.Azure.Devices.ServiceClient.CloseAsync
+  commentId: M:Microsoft.Azure.Devices.ServiceClient.CloseAsync
+  id: CloseAsync
+  parent: Microsoft.Azure.Devices.ServiceClient
+  langs:
+  - csharp
+  - vb
+  name: CloseAsync()
+  nameWithType: ServiceClient.CloseAsync()
+  fullName: Microsoft.Azure.Devices.ServiceClient.CloseAsync()
+  type: Method
+  source:
+    remote:
+      path: service/Microsoft.Azure.Devices/ServiceClient.cs
+      branch: master
+      repo: https://github.com/Azure/azure-iot-sdk-csharp.git
+    id: CloseAsync
+    path: src/azure-iot-sdks/service/Microsoft.Azure.Devices/ServiceClient.cs
+    startLine: 69
+  assemblies:
+  - Microsoft.Azure.Devices.Uwp
+  namespace: Microsoft.Azure.Devices
+  summary: "\nClose the ServiceClient instance\n"
+  example: []
+  syntax:
+    content: public abstract Task CloseAsync()
+    content.vb: Public MustOverride Function CloseAsync As Task
+    return:
+      type: System.Threading.Tasks.Task
+      description: ''
+  overload: Microsoft.Azure.Devices.ServiceClient.CloseAsync*
+  modifiers.csharp:
+  - public
+  - abstract
+  modifiers.vb:
+  - Public
+  - MustOverride
+- uid: Microsoft.Azure.Devices.ServiceClient.SendAsync(System.String,Microsoft.Azure.Devices.Message)
+  commentId: M:Microsoft.Azure.Devices.ServiceClient.SendAsync(System.String,Microsoft.Azure.Devices.Message)
+  id: SendAsync(System.String,Microsoft.Azure.Devices.Message)
+  parent: Microsoft.Azure.Devices.ServiceClient
+  langs:
+  - csharp
+  - vb
+  name: SendAsync(String, Message)
+  nameWithType: ServiceClient.SendAsync(String, Message)
+  fullName: Microsoft.Azure.Devices.ServiceClient.SendAsync(System.String, Microsoft.Azure.Devices.Message)
+  type: Method
+  source:
+    remote:
+      path: service/Microsoft.Azure.Devices/ServiceClient.cs
+      branch: master
+      repo: https://github.com/Azure/azure-iot-sdk-csharp.git
+    id: SendAsync
+    path: src/azure-iot-sdks/service/Microsoft.Azure.Devices/ServiceClient.cs
+    startLine: 77
+  assemblies:
+  - Microsoft.Azure.Devices.Uwp
+  namespace: Microsoft.Azure.Devices
+  summary: "\nSend a one-way notification to the specified device\n"
+  example: []
+  syntax:
+    content: public abstract Task SendAsync(string deviceId, Message message)
+    content.vb: Public MustOverride Function SendAsync(deviceId As String, message As Message) As Task
+    parameters:
+    - id: deviceId
+      type: System.String
+      description: The device identifier for the target device
+    - id: message
+      type: Microsoft.Azure.Devices.Message
+      description: The message containing the notification
+    return:
+      type: System.Threading.Tasks.Task
+      description: ''
+  overload: Microsoft.Azure.Devices.ServiceClient.SendAsync*
+  modifiers.csharp:
+  - public
+  - abstract
+  modifiers.vb:
+  - Public
+  - MustOverride
+- uid: Microsoft.Azure.Devices.ServiceClient.PurgeMessageQueueAsync(System.String)
+  commentId: M:Microsoft.Azure.Devices.ServiceClient.PurgeMessageQueueAsync(System.String)
+  id: PurgeMessageQueueAsync(System.String)
+  parent: Microsoft.Azure.Devices.ServiceClient
+  langs:
+  - csharp
+  - vb
+  name: PurgeMessageQueueAsync(String)
+  nameWithType: ServiceClient.PurgeMessageQueueAsync(String)
+  fullName: Microsoft.Azure.Devices.ServiceClient.PurgeMessageQueueAsync(System.String)
+  type: Method
+  source:
+    remote:
+      path: service/Microsoft.Azure.Devices/ServiceClient.cs
+      branch: master
+      repo: https://github.com/Azure/azure-iot-sdk-csharp.git
+    id: PurgeMessageQueueAsync
+    path: src/azure-iot-sdks/service/Microsoft.Azure.Devices/ServiceClient.cs
+    startLine: 84
+  assemblies:
+  - Microsoft.Azure.Devices.Uwp
+  namespace: Microsoft.Azure.Devices
+  summary: "\nRemoves all messages from a device's queue.\n"
+  example: []
+  syntax:
+    content: public abstract Task<PurgeMessageQueueResult> PurgeMessageQueueAsync(string deviceId)
+    content.vb: Public MustOverride Function PurgeMessageQueueAsync(deviceId As String) As Task(Of PurgeMessageQueueResult)
+    parameters:
+    - id: deviceId
+      type: System.String
+      description: ''
+    return:
+      type: System.Threading.Tasks.Task{Microsoft.Azure.Devices.PurgeMessageQueueResult}
+      description: ''
+  overload: Microsoft.Azure.Devices.ServiceClient.PurgeMessageQueueAsync*
+  modifiers.csharp:
+  - public
+  - abstract
+  modifiers.vb:
+  - Public
+  - MustOverride
+- uid: Microsoft.Azure.Devices.ServiceClient.PurgeMessageQueueAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:Microsoft.Azure.Devices.ServiceClient.PurgeMessageQueueAsync(System.String,System.Threading.CancellationToken)
+  id: PurgeMessageQueueAsync(System.String,System.Threading.CancellationToken)
+  parent: Microsoft.Azure.Devices.ServiceClient
+  langs:
+  - csharp
+  - vb
+  name: PurgeMessageQueueAsync(String, CancellationToken)
+  nameWithType: ServiceClient.PurgeMessageQueueAsync(String, CancellationToken)
+  fullName: Microsoft.Azure.Devices.ServiceClient.PurgeMessageQueueAsync(System.String, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: service/Microsoft.Azure.Devices/ServiceClient.cs
+      branch: master
+      repo: https://github.com/Azure/azure-iot-sdk-csharp.git
+    id: PurgeMessageQueueAsync
+    path: src/azure-iot-sdks/service/Microsoft.Azure.Devices/ServiceClient.cs
+    startLine: 92
+  assemblies:
+  - Microsoft.Azure.Devices.Uwp
+  namespace: Microsoft.Azure.Devices
+  summary: "\nRemoves all messages from a device's queue.\n"
+  example: []
+  syntax:
+    content: public abstract Task<PurgeMessageQueueResult> PurgeMessageQueueAsync(string deviceId, CancellationToken cancellationToken)
+    content.vb: Public MustOverride Function PurgeMessageQueueAsync(deviceId As String, cancellationToken As CancellationToken) As Task(Of PurgeMessageQueueResult)
+    parameters:
+    - id: deviceId
+      type: System.String
+      description: ''
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: ''
+    return:
+      type: System.Threading.Tasks.Task{Microsoft.Azure.Devices.PurgeMessageQueueResult}
+      description: ''
+  overload: Microsoft.Azure.Devices.ServiceClient.PurgeMessageQueueAsync*
+  modifiers.csharp:
+  - public
+  - abstract
+  modifiers.vb:
+  - Public
+  - MustOverride
+- uid: Microsoft.Azure.Devices.ServiceClient.GetFeedbackReceiver
+  commentId: M:Microsoft.Azure.Devices.ServiceClient.GetFeedbackReceiver
+  id: GetFeedbackReceiver
+  parent: Microsoft.Azure.Devices.ServiceClient
+  langs:
+  - csharp
+  - vb
+  name: GetFeedbackReceiver()
+  nameWithType: ServiceClient.GetFeedbackReceiver()
+  fullName: Microsoft.Azure.Devices.ServiceClient.GetFeedbackReceiver()
+  type: Method
+  source:
+    remote:
+      path: service/Microsoft.Azure.Devices/ServiceClient.cs
+      branch: master
+      repo: https://github.com/Azure/azure-iot-sdk-csharp.git
+    id: GetFeedbackReceiver
+    path: src/azure-iot-sdks/service/Microsoft.Azure.Devices/ServiceClient.cs
+    startLine: 98
+  assemblies:
+  - Microsoft.Azure.Devices.Uwp
+  namespace: Microsoft.Azure.Devices
+  summary: "\nGet the FeedbackReceiver\n"
+  example: []
+  syntax:
+    content: public abstract FeedbackReceiver<FeedbackBatch> GetFeedbackReceiver()
+    content.vb: Public MustOverride Function GetFeedbackReceiver As FeedbackReceiver(Of FeedbackBatch)
+    return:
+      type: Microsoft.Azure.Devices.FeedbackReceiver{Microsoft.Azure.Devices.FeedbackBatch}
+      description: An instance of the FeedbackReceiver
+  overload: Microsoft.Azure.Devices.ServiceClient.GetFeedbackReceiver*
+  modifiers.csharp:
+  - public
+  - abstract
+  modifiers.vb:
+  - Public
+  - MustOverride
+- uid: Microsoft.Azure.Devices.ServiceClient.GetFileNotificationReceiver
+  commentId: M:Microsoft.Azure.Devices.ServiceClient.GetFileNotificationReceiver
+  id: GetFileNotificationReceiver
+  parent: Microsoft.Azure.Devices.ServiceClient
+  langs:
+  - csharp
+  - vb
+  name: GetFileNotificationReceiver()
+  nameWithType: ServiceClient.GetFileNotificationReceiver()
+  fullName: Microsoft.Azure.Devices.ServiceClient.GetFileNotificationReceiver()
+  type: Method
+  source:
+    remote:
+      path: service/Microsoft.Azure.Devices/ServiceClient.cs
+      branch: master
+      repo: https://github.com/Azure/azure-iot-sdk-csharp.git
+    id: GetFileNotificationReceiver
+    path: src/azure-iot-sdks/service/Microsoft.Azure.Devices/ServiceClient.cs
+    startLine: 104
+  assemblies:
+  - Microsoft.Azure.Devices.Uwp
+  namespace: Microsoft.Azure.Devices
+  summary: "\nGet the FeedbackReceiver\n"
+  example: []
+  syntax:
+    content: public abstract FileNotificationReceiver<FileNotification> GetFileNotificationReceiver()
+    content.vb: Public MustOverride Function GetFileNotificationReceiver As FileNotificationReceiver(Of FileNotification)
+    return:
+      type: Microsoft.Azure.Devices.FileNotificationReceiver{Microsoft.Azure.Devices.FileNotification}
+      description: An instance of the FeedbackReceiver
+  overload: Microsoft.Azure.Devices.ServiceClient.GetFileNotificationReceiver*
+  modifiers.csharp:
+  - public
+  - abstract
+  modifiers.vb:
+  - Public
+  - MustOverride
+- uid: Microsoft.Azure.Devices.ServiceClient.GetServiceStatisticsAsync
+  commentId: M:Microsoft.Azure.Devices.ServiceClient.GetServiceStatisticsAsync
+  id: GetServiceStatisticsAsync
+  parent: Microsoft.Azure.Devices.ServiceClient
+  langs:
+  - csharp
+  - vb
+  name: GetServiceStatisticsAsync()
+  nameWithType: ServiceClient.GetServiceStatisticsAsync()
+  fullName: Microsoft.Azure.Devices.ServiceClient.GetServiceStatisticsAsync()
+  type: Method
+  source:
+    remote:
+      path: service/Microsoft.Azure.Devices/ServiceClient.cs
+      branch: master
+      repo: https://github.com/Azure/azure-iot-sdk-csharp.git
+    id: GetServiceStatisticsAsync
+    path: src/azure-iot-sdks/service/Microsoft.Azure.Devices/ServiceClient.cs
+    startLine: 110
+  assemblies:
+  - Microsoft.Azure.Devices.Uwp
+  namespace: Microsoft.Azure.Devices
+  summary: "\nGets service statistics for the Iot Hub.\n"
+  example: []
+  syntax:
+    content: public abstract Task<ServiceStatistics> GetServiceStatisticsAsync()
+    content.vb: Public MustOverride Function GetServiceStatisticsAsync As Task(Of ServiceStatistics)
+    return:
+      type: System.Threading.Tasks.Task{Microsoft.Azure.Devices.ServiceStatistics}
+      description: returns ServiceStatistics object containing current service statistics
+  overload: Microsoft.Azure.Devices.ServiceClient.GetServiceStatisticsAsync*
+  modifiers.csharp:
+  - public
+  - abstract
+  modifiers.vb:
+  - Public
+  - MustOverride
+- uid: Microsoft.Azure.Devices.ServiceClient.GetServiceStatisticsAsync(System.Threading.CancellationToken)
+  commentId: M:Microsoft.Azure.Devices.ServiceClient.GetServiceStatisticsAsync(System.Threading.CancellationToken)
+  id: GetServiceStatisticsAsync(System.Threading.CancellationToken)
+  parent: Microsoft.Azure.Devices.ServiceClient
+  langs:
+  - csharp
+  - vb
+  name: GetServiceStatisticsAsync(CancellationToken)
+  nameWithType: ServiceClient.GetServiceStatisticsAsync(CancellationToken)
+  fullName: Microsoft.Azure.Devices.ServiceClient.GetServiceStatisticsAsync(System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: service/Microsoft.Azure.Devices/ServiceClient.cs
+      branch: master
+      repo: https://github.com/Azure/azure-iot-sdk-csharp.git
+    id: GetServiceStatisticsAsync
+    path: src/azure-iot-sdks/service/Microsoft.Azure.Devices/ServiceClient.cs
+    startLine: 119
+  assemblies:
+  - Microsoft.Azure.Devices.Uwp
+  namespace: Microsoft.Azure.Devices
+  summary: "\nGets service statistics for the Iot Hub.\n"
+  example: []
+  syntax:
+    content: public abstract Task<ServiceStatistics> GetServiceStatisticsAsync(CancellationToken cancellationToken)
+    content.vb: Public MustOverride Function GetServiceStatisticsAsync(cancellationToken As CancellationToken) As Task(Of ServiceStatistics)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: "\nThe token which allows the the operation to be cancelled.\n"
+    return:
+      type: System.Threading.Tasks.Task{Microsoft.Azure.Devices.ServiceStatistics}
+      description: returns ServiceStatistics object containing current service statistics
+  overload: Microsoft.Azure.Devices.ServiceClient.GetServiceStatisticsAsync*
+  modifiers.csharp:
+  - public
+  - abstract
+  modifiers.vb:
+  - Public
+  - MustOverride
+- uid: Microsoft.Azure.Devices.ServiceClient.InvokeDeviceMethodAsync(System.String,Microsoft.Azure.Devices.CloudToDeviceMethod)
+  commentId: M:Microsoft.Azure.Devices.ServiceClient.InvokeDeviceMethodAsync(System.String,Microsoft.Azure.Devices.CloudToDeviceMethod)
+  id: InvokeDeviceMethodAsync(System.String,Microsoft.Azure.Devices.CloudToDeviceMethod)
+  parent: Microsoft.Azure.Devices.ServiceClient
+  langs:
+  - csharp
+  - vb
+  name: InvokeDeviceMethodAsync(String, CloudToDeviceMethod)
+  nameWithType: ServiceClient.InvokeDeviceMethodAsync(String, CloudToDeviceMethod)
+  fullName: Microsoft.Azure.Devices.ServiceClient.InvokeDeviceMethodAsync(System.String, Microsoft.Azure.Devices.CloudToDeviceMethod)
+  type: Method
+  source:
+    remote:
+      path: service/Microsoft.Azure.Devices/ServiceClient.cs
+      branch: master
+      repo: https://github.com/Azure/azure-iot-sdk-csharp.git
+    id: InvokeDeviceMethodAsync
+    path: src/azure-iot-sdks/service/Microsoft.Azure.Devices/ServiceClient.cs
+    startLine: 127
+  assemblies:
+  - Microsoft.Azure.Devices.Uwp
+  namespace: Microsoft.Azure.Devices
+  summary: "\nInteractively invokes a method on device\n"
+  example: []
+  syntax:
+    content: public abstract Task<CloudToDeviceMethodResult> InvokeDeviceMethodAsync(string deviceId, CloudToDeviceMethod cloudToDeviceMethod)
+    content.vb: Public MustOverride Function InvokeDeviceMethodAsync(deviceId As String, cloudToDeviceMethod As CloudToDeviceMethod) As Task(Of CloudToDeviceMethodResult)
+    parameters:
+    - id: deviceId
+      type: System.String
+      description: Device Id
+    - id: cloudToDeviceMethod
+      type: Microsoft.Azure.Devices.CloudToDeviceMethod
+      description: Device method parameters (passthrough to device)
+    return:
+      type: System.Threading.Tasks.Task{Microsoft.Azure.Devices.CloudToDeviceMethodResult}
+      description: Method result
+  overload: Microsoft.Azure.Devices.ServiceClient.InvokeDeviceMethodAsync*
+  modifiers.csharp:
+  - public
+  - abstract
+  modifiers.vb:
+  - Public
+  - MustOverride
+- uid: Microsoft.Azure.Devices.ServiceClient.InvokeDeviceMethodAsync(System.String,Microsoft.Azure.Devices.CloudToDeviceMethod,System.Threading.CancellationToken)
+  commentId: M:Microsoft.Azure.Devices.ServiceClient.InvokeDeviceMethodAsync(System.String,Microsoft.Azure.Devices.CloudToDeviceMethod,System.Threading.CancellationToken)
+  id: InvokeDeviceMethodAsync(System.String,Microsoft.Azure.Devices.CloudToDeviceMethod,System.Threading.CancellationToken)
+  parent: Microsoft.Azure.Devices.ServiceClient
+  langs:
+  - csharp
+  - vb
+  name: InvokeDeviceMethodAsync(String, CloudToDeviceMethod, CancellationToken)
+  nameWithType: ServiceClient.InvokeDeviceMethodAsync(String, CloudToDeviceMethod, CancellationToken)
+  fullName: Microsoft.Azure.Devices.ServiceClient.InvokeDeviceMethodAsync(System.String, Microsoft.Azure.Devices.CloudToDeviceMethod, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: service/Microsoft.Azure.Devices/ServiceClient.cs
+      branch: master
+      repo: https://github.com/Azure/azure-iot-sdk-csharp.git
+    id: InvokeDeviceMethodAsync
+    path: src/azure-iot-sdks/service/Microsoft.Azure.Devices/ServiceClient.cs
+    startLine: 136
+  assemblies:
+  - Microsoft.Azure.Devices.Uwp
+  namespace: Microsoft.Azure.Devices
+  summary: "\nInteractively invokes a method on device\n"
+  example: []
+  syntax:
+    content: public abstract Task<CloudToDeviceMethodResult> InvokeDeviceMethodAsync(string deviceId, CloudToDeviceMethod cloudToDeviceMethod, CancellationToken cancellationToken)
+    content.vb: Public MustOverride Function InvokeDeviceMethodAsync(deviceId As String, cloudToDeviceMethod As CloudToDeviceMethod, cancellationToken As CancellationToken) As Task(Of CloudToDeviceMethodResult)
+    parameters:
+    - id: deviceId
+      type: System.String
+      description: Device Id
+    - id: cloudToDeviceMethod
+      type: Microsoft.Azure.Devices.CloudToDeviceMethod
+      description: Device method parameters (passthrough to device)
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: Cancellation Token
+    return:
+      type: System.Threading.Tasks.Task{Microsoft.Azure.Devices.CloudToDeviceMethodResult}
+      description: Method result
+  overload: Microsoft.Azure.Devices.ServiceClient.InvokeDeviceMethodAsync*
+  modifiers.csharp:
+  - public
+  - abstract
+  modifiers.vb:
+  - Public
+  - MustOverride
+references:
+- uid: Microsoft.Azure.Devices
+  commentId: N:Microsoft.Azure.Devices
+  isExternal: false
+  name: Microsoft.Azure.Devices
+  nameWithType: Microsoft.Azure.Devices
+  fullName: Microsoft.Azure.Devices
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Microsoft.Azure.Devices.ServiceClient.CreateFromConnectionString*
+  commentId: Overload:Microsoft.Azure.Devices.ServiceClient.CreateFromConnectionString
+  isExternal: false
+  name: CreateFromConnectionString
+  nameWithType: ServiceClient.CreateFromConnectionString
+  fullName: Microsoft.Azure.Devices.ServiceClient.CreateFromConnectionString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Microsoft.Azure.Devices.ServiceClient
+  commentId: T:Microsoft.Azure.Devices.ServiceClient
+  parent: Microsoft.Azure.Devices
+  isExternal: false
+  name: ServiceClient
+  nameWithType: ServiceClient
+  fullName: Microsoft.Azure.Devices.ServiceClient
+- uid: Microsoft.Azure.Devices.TransportType
+  commentId: T:Microsoft.Azure.Devices.TransportType
+  parent: Microsoft.Azure.Devices
+  isExternal: false
+  name: TransportType
+  nameWithType: TransportType
+  fullName: Microsoft.Azure.Devices.TransportType
+- uid: Microsoft.Azure.Devices.ServiceClient.OpenAsync*
+  commentId: Overload:Microsoft.Azure.Devices.ServiceClient.OpenAsync
+  isExternal: false
+  name: OpenAsync
+  nameWithType: ServiceClient.OpenAsync
+  fullName: Microsoft.Azure.Devices.ServiceClient.OpenAsync
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: false
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+- uid: Microsoft.Azure.Devices.ServiceClient.CloseAsync*
+  commentId: Overload:Microsoft.Azure.Devices.ServiceClient.CloseAsync
+  isExternal: false
+  name: CloseAsync
+  nameWithType: ServiceClient.CloseAsync
+  fullName: Microsoft.Azure.Devices.ServiceClient.CloseAsync
+- uid: Microsoft.Azure.Devices.ServiceClient.SendAsync*
+  commentId: Overload:Microsoft.Azure.Devices.ServiceClient.SendAsync
+  isExternal: false
+  name: SendAsync
+  nameWithType: ServiceClient.SendAsync
+  fullName: Microsoft.Azure.Devices.ServiceClient.SendAsync
+- uid: Microsoft.Azure.Devices.Message
+  commentId: T:Microsoft.Azure.Devices.Message
+  parent: Microsoft.Azure.Devices
+  isExternal: false
+  name: Message
+  nameWithType: Message
+  fullName: Microsoft.Azure.Devices.Message
+- uid: Microsoft.Azure.Devices.ServiceClient.PurgeMessageQueueAsync*
+  commentId: Overload:Microsoft.Azure.Devices.ServiceClient.PurgeMessageQueueAsync
+  isExternal: false
+  name: PurgeMessageQueueAsync
+  nameWithType: ServiceClient.PurgeMessageQueueAsync
+  fullName: Microsoft.Azure.Devices.ServiceClient.PurgeMessageQueueAsync
+- uid: System.Threading.Tasks.Task{Microsoft.Azure.Devices.PurgeMessageQueueResult}
+  commentId: T:System.Threading.Tasks.Task{Microsoft.Azure.Devices.PurgeMessageQueueResult}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<PurgeMessageQueueResult>
+  nameWithType: Task<PurgeMessageQueueResult>
+  fullName: System.Threading.Tasks.Task<Microsoft.Azure.Devices.PurgeMessageQueueResult>
+  nameWithType.vb: Task(Of PurgeMessageQueueResult)
+  fullname.vb: System.Threading.Tasks.Task(Of Microsoft.Azure.Devices.PurgeMessageQueueResult)
+  name.vb: Task(Of PurgeMessageQueueResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Microsoft.Azure.Devices.PurgeMessageQueueResult
+    name: PurgeMessageQueueResult
+    nameWithType: PurgeMessageQueueResult
+    fullName: Microsoft.Azure.Devices.PurgeMessageQueueResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Microsoft.Azure.Devices.PurgeMessageQueueResult
+    name: PurgeMessageQueueResult
+    nameWithType: PurgeMessageQueueResult
+    fullName: Microsoft.Azure.Devices.PurgeMessageQueueResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullname.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: false
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+- uid: Microsoft.Azure.Devices.ServiceClient.GetFeedbackReceiver*
+  commentId: Overload:Microsoft.Azure.Devices.ServiceClient.GetFeedbackReceiver
+  isExternal: false
+  name: GetFeedbackReceiver
+  nameWithType: ServiceClient.GetFeedbackReceiver
+  fullName: Microsoft.Azure.Devices.ServiceClient.GetFeedbackReceiver
+- uid: Microsoft.Azure.Devices.FeedbackReceiver{Microsoft.Azure.Devices.FeedbackBatch}
+  commentId: T:Microsoft.Azure.Devices.FeedbackReceiver{Microsoft.Azure.Devices.FeedbackBatch}
+  parent: Microsoft.Azure.Devices
+  definition: Microsoft.Azure.Devices.FeedbackReceiver`1
+  name: FeedbackReceiver<FeedbackBatch>
+  nameWithType: FeedbackReceiver<FeedbackBatch>
+  fullName: Microsoft.Azure.Devices.FeedbackReceiver<Microsoft.Azure.Devices.FeedbackBatch>
+  nameWithType.vb: FeedbackReceiver(Of FeedbackBatch)
+  fullname.vb: Microsoft.Azure.Devices.FeedbackReceiver(Of Microsoft.Azure.Devices.FeedbackBatch)
+  name.vb: FeedbackReceiver(Of FeedbackBatch)
+  spec.csharp:
+  - uid: Microsoft.Azure.Devices.FeedbackReceiver`1
+    name: FeedbackReceiver
+    nameWithType: FeedbackReceiver
+    fullName: Microsoft.Azure.Devices.FeedbackReceiver
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Microsoft.Azure.Devices.FeedbackBatch
+    name: FeedbackBatch
+    nameWithType: FeedbackBatch
+    fullName: Microsoft.Azure.Devices.FeedbackBatch
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.Azure.Devices.FeedbackReceiver`1
+    name: FeedbackReceiver
+    nameWithType: FeedbackReceiver
+    fullName: Microsoft.Azure.Devices.FeedbackReceiver
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Microsoft.Azure.Devices.FeedbackBatch
+    name: FeedbackBatch
+    nameWithType: FeedbackBatch
+    fullName: Microsoft.Azure.Devices.FeedbackBatch
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Azure.Devices.FeedbackReceiver`1
+  commentId: T:Microsoft.Azure.Devices.FeedbackReceiver`1
+  isExternal: false
+  name: FeedbackReceiver<T>
+  nameWithType: FeedbackReceiver<T>
+  fullName: Microsoft.Azure.Devices.FeedbackReceiver<T>
+  nameWithType.vb: FeedbackReceiver(Of T)
+  fullname.vb: Microsoft.Azure.Devices.FeedbackReceiver(Of T)
+  name.vb: FeedbackReceiver(Of T)
+  spec.csharp:
+  - uid: Microsoft.Azure.Devices.FeedbackReceiver`1
+    name: FeedbackReceiver
+    nameWithType: FeedbackReceiver
+    fullName: Microsoft.Azure.Devices.FeedbackReceiver
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.Azure.Devices.FeedbackReceiver`1
+    name: FeedbackReceiver
+    nameWithType: FeedbackReceiver
+    fullName: Microsoft.Azure.Devices.FeedbackReceiver
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Azure.Devices.ServiceClient.GetFileNotificationReceiver*
+  commentId: Overload:Microsoft.Azure.Devices.ServiceClient.GetFileNotificationReceiver
+  isExternal: false
+  name: GetFileNotificationReceiver
+  nameWithType: ServiceClient.GetFileNotificationReceiver
+  fullName: Microsoft.Azure.Devices.ServiceClient.GetFileNotificationReceiver
+- uid: Microsoft.Azure.Devices.FileNotificationReceiver{Microsoft.Azure.Devices.FileNotification}
+  commentId: T:Microsoft.Azure.Devices.FileNotificationReceiver{Microsoft.Azure.Devices.FileNotification}
+  parent: Microsoft.Azure.Devices
+  definition: Microsoft.Azure.Devices.FileNotificationReceiver`1
+  name: FileNotificationReceiver<FileNotification>
+  nameWithType: FileNotificationReceiver<FileNotification>
+  fullName: Microsoft.Azure.Devices.FileNotificationReceiver<Microsoft.Azure.Devices.FileNotification>
+  nameWithType.vb: FileNotificationReceiver(Of FileNotification)
+  fullname.vb: Microsoft.Azure.Devices.FileNotificationReceiver(Of Microsoft.Azure.Devices.FileNotification)
+  name.vb: FileNotificationReceiver(Of FileNotification)
+  spec.csharp:
+  - uid: Microsoft.Azure.Devices.FileNotificationReceiver`1
+    name: FileNotificationReceiver
+    nameWithType: FileNotificationReceiver
+    fullName: Microsoft.Azure.Devices.FileNotificationReceiver
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Microsoft.Azure.Devices.FileNotification
+    name: FileNotification
+    nameWithType: FileNotification
+    fullName: Microsoft.Azure.Devices.FileNotification
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.Azure.Devices.FileNotificationReceiver`1
+    name: FileNotificationReceiver
+    nameWithType: FileNotificationReceiver
+    fullName: Microsoft.Azure.Devices.FileNotificationReceiver
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Microsoft.Azure.Devices.FileNotification
+    name: FileNotification
+    nameWithType: FileNotification
+    fullName: Microsoft.Azure.Devices.FileNotification
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Azure.Devices.FileNotificationReceiver`1
+  commentId: T:Microsoft.Azure.Devices.FileNotificationReceiver`1
+  isExternal: false
+  name: FileNotificationReceiver<T>
+  nameWithType: FileNotificationReceiver<T>
+  fullName: Microsoft.Azure.Devices.FileNotificationReceiver<T>
+  nameWithType.vb: FileNotificationReceiver(Of T)
+  fullname.vb: Microsoft.Azure.Devices.FileNotificationReceiver(Of T)
+  name.vb: FileNotificationReceiver(Of T)
+  spec.csharp:
+  - uid: Microsoft.Azure.Devices.FileNotificationReceiver`1
+    name: FileNotificationReceiver
+    nameWithType: FileNotificationReceiver
+    fullName: Microsoft.Azure.Devices.FileNotificationReceiver
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.Azure.Devices.FileNotificationReceiver`1
+    name: FileNotificationReceiver
+    nameWithType: FileNotificationReceiver
+    fullName: Microsoft.Azure.Devices.FileNotificationReceiver
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Azure.Devices.ServiceClient.GetServiceStatisticsAsync*
+  commentId: Overload:Microsoft.Azure.Devices.ServiceClient.GetServiceStatisticsAsync
+  isExternal: false
+  name: GetServiceStatisticsAsync
+  nameWithType: ServiceClient.GetServiceStatisticsAsync
+  fullName: Microsoft.Azure.Devices.ServiceClient.GetServiceStatisticsAsync
+- uid: System.Threading.Tasks.Task{Microsoft.Azure.Devices.ServiceStatistics}
+  commentId: T:System.Threading.Tasks.Task{Microsoft.Azure.Devices.ServiceStatistics}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<ServiceStatistics>
+  nameWithType: Task<ServiceStatistics>
+  fullName: System.Threading.Tasks.Task<Microsoft.Azure.Devices.ServiceStatistics>
+  nameWithType.vb: Task(Of ServiceStatistics)
+  fullname.vb: System.Threading.Tasks.Task(Of Microsoft.Azure.Devices.ServiceStatistics)
+  name.vb: Task(Of ServiceStatistics)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Microsoft.Azure.Devices.ServiceStatistics
+    name: ServiceStatistics
+    nameWithType: ServiceStatistics
+    fullName: Microsoft.Azure.Devices.ServiceStatistics
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Microsoft.Azure.Devices.ServiceStatistics
+    name: ServiceStatistics
+    nameWithType: ServiceStatistics
+    fullName: Microsoft.Azure.Devices.ServiceStatistics
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Azure.Devices.ServiceClient.InvokeDeviceMethodAsync*
+  commentId: Overload:Microsoft.Azure.Devices.ServiceClient.InvokeDeviceMethodAsync
+  isExternal: false
+  name: InvokeDeviceMethodAsync
+  nameWithType: ServiceClient.InvokeDeviceMethodAsync
+  fullName: Microsoft.Azure.Devices.ServiceClient.InvokeDeviceMethodAsync
+- uid: Microsoft.Azure.Devices.CloudToDeviceMethod
+  commentId: T:Microsoft.Azure.Devices.CloudToDeviceMethod
+  parent: Microsoft.Azure.Devices
+  isExternal: false
+  name: CloudToDeviceMethod
+  nameWithType: CloudToDeviceMethod
+  fullName: Microsoft.Azure.Devices.CloudToDeviceMethod
+- uid: System.Threading.Tasks.Task{Microsoft.Azure.Devices.CloudToDeviceMethodResult}
+  commentId: T:System.Threading.Tasks.Task{Microsoft.Azure.Devices.CloudToDeviceMethodResult}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<CloudToDeviceMethodResult>
+  nameWithType: Task<CloudToDeviceMethodResult>
+  fullName: System.Threading.Tasks.Task<Microsoft.Azure.Devices.CloudToDeviceMethodResult>
+  nameWithType.vb: Task(Of CloudToDeviceMethodResult)
+  fullname.vb: System.Threading.Tasks.Task(Of Microsoft.Azure.Devices.CloudToDeviceMethodResult)
+  name.vb: Task(Of CloudToDeviceMethodResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Microsoft.Azure.Devices.CloudToDeviceMethodResult
+    name: CloudToDeviceMethodResult
+    nameWithType: CloudToDeviceMethodResult
+    fullName: Microsoft.Azure.Devices.CloudToDeviceMethodResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Microsoft.Azure.Devices.CloudToDeviceMethodResult
+    name: CloudToDeviceMethodResult
+    nameWithType: CloudToDeviceMethodResult
+    fullName: Microsoft.Azure.Devices.CloudToDeviceMethodResult
+  - name: )
+    nameWithType: )
+    fullName: )

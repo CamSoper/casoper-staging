@@ -1,0 +1,1008 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.Azure.Devices.Common.CommonExtensionMethods
+  commentId: T:Microsoft.Azure.Devices.Common.CommonExtensionMethods
+  id: CommonExtensionMethods
+  parent: Microsoft.Azure.Devices.Common
+  children:
+  - Microsoft.Azure.Devices.Common.CommonExtensionMethods.AppendKeyValuePairIfNotEmpty(System.Text.StringBuilder,System.String,System.Object)
+  - Microsoft.Azure.Devices.Common.CommonExtensionMethods.EnsureEndsWith(System.String,System.Char)
+  - Microsoft.Azure.Devices.Common.CommonExtensionMethods.EnsureStartsWith(System.String,System.Char)
+  - Microsoft.Azure.Devices.Common.CommonExtensionMethods.GetIotHubName(System.Net.Http.HttpRequestMessage)
+  - Microsoft.Azure.Devices.Common.CommonExtensionMethods.GetIotHubNameFromHostName(System.Net.Http.HttpRequestMessage)
+  - Microsoft.Azure.Devices.Common.CommonExtensionMethods.GetValueOrDefault(System.Collections.Generic.IDictionary{System.String,System.String},System.String)
+  - Microsoft.Azure.Devices.Common.CommonExtensionMethods.IsNullOrWhiteSpace(System.String)
+  - Microsoft.Azure.Devices.Common.CommonExtensionMethods.RemoveWhitespace(System.String)
+  - Microsoft.Azure.Devices.Common.CommonExtensionMethods.ToDictionary(System.String,System.Char,System.Char)
+  - Microsoft.Azure.Devices.Common.CommonExtensionMethods.TryGetIotHubName(System.Net.Http.HttpRequestMessage,System.String@)
+  langs:
+  - csharp
+  - vb
+  name: CommonExtensionMethods
+  nameWithType: CommonExtensionMethods
+  fullName: Microsoft.Azure.Devices.Common.CommonExtensionMethods
+  type: Class
+  source:
+    remote:
+      path: service/Microsoft.Azure.Devices/Common/Extensions/CommonExtensions.cs
+      branch: master
+      repo: https://github.com/Azure/azure-iot-sdk-csharp.git
+    id: CommonExtensionMethods
+    path: src/azure-iot-sdks/service/Microsoft.Azure.Devices/Common/Extensions/CommonExtensions.cs
+    startLine: 22
+  assemblies:
+  - Microsoft.Azure.Devices.Uwp
+  namespace: Microsoft.Azure.Devices.Common
+  syntax:
+    content: public static class CommonExtensionMethods
+    content.vb: Public Module CommonExtensionMethods
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Microsoft.Azure.Devices.Common.CommonExtensionMethods.EnsureEndsWith(System.String,System.Char)
+  commentId: M:Microsoft.Azure.Devices.Common.CommonExtensionMethods.EnsureEndsWith(System.String,System.Char)
+  id: EnsureEndsWith(System.String,System.Char)
+  isExtensionMethod: true
+  parent: Microsoft.Azure.Devices.Common.CommonExtensionMethods
+  langs:
+  - csharp
+  - vb
+  name: EnsureEndsWith(String, Char)
+  nameWithType: CommonExtensionMethods.EnsureEndsWith(String, Char)
+  fullName: Microsoft.Azure.Devices.Common.CommonExtensionMethods.EnsureEndsWith(System.String, System.Char)
+  type: Method
+  source:
+    remote:
+      path: service/Microsoft.Azure.Devices/Common/Extensions/CommonExtensions.cs
+      branch: master
+      repo: https://github.com/Azure/azure-iot-sdk-csharp.git
+    id: EnsureEndsWith
+    path: src/azure-iot-sdks/service/Microsoft.Azure.Devices/Common/Extensions/CommonExtensions.cs
+    startLine: 27
+  assemblies:
+  - Microsoft.Azure.Devices.Uwp
+  namespace: Microsoft.Azure.Devices.Common
+  syntax:
+    content: public static string EnsureEndsWith(this string value, char suffix)
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function EnsureEndsWith(value As String, suffix As Char) As String
+    parameters:
+    - id: value
+      type: System.String
+    - id: suffix
+      type: System.Char
+    return:
+      type: System.String
+  overload: Microsoft.Azure.Devices.Common.CommonExtensionMethods.EnsureEndsWith*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Microsoft.Azure.Devices.Common.CommonExtensionMethods.EnsureStartsWith(System.String,System.Char)
+  commentId: M:Microsoft.Azure.Devices.Common.CommonExtensionMethods.EnsureStartsWith(System.String,System.Char)
+  id: EnsureStartsWith(System.String,System.Char)
+  isExtensionMethod: true
+  parent: Microsoft.Azure.Devices.Common.CommonExtensionMethods
+  langs:
+  - csharp
+  - vb
+  name: EnsureStartsWith(String, Char)
+  nameWithType: CommonExtensionMethods.EnsureStartsWith(String, Char)
+  fullName: Microsoft.Azure.Devices.Common.CommonExtensionMethods.EnsureStartsWith(System.String, System.Char)
+  type: Method
+  source:
+    remote:
+      path: service/Microsoft.Azure.Devices/Common/Extensions/CommonExtensions.cs
+      branch: master
+      repo: https://github.com/Azure/azure-iot-sdk-csharp.git
+    id: EnsureStartsWith
+    path: src/azure-iot-sdks/service/Microsoft.Azure.Devices/Common/Extensions/CommonExtensions.cs
+    startLine: 49
+  assemblies:
+  - Microsoft.Azure.Devices.Uwp
+  namespace: Microsoft.Azure.Devices.Common
+  syntax:
+    content: public static string EnsureStartsWith(this string value, char prefix)
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function EnsureStartsWith(value As String, prefix As Char) As String
+    parameters:
+    - id: value
+      type: System.String
+    - id: prefix
+      type: System.Char
+    return:
+      type: System.String
+  overload: Microsoft.Azure.Devices.Common.CommonExtensionMethods.EnsureStartsWith*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Microsoft.Azure.Devices.Common.CommonExtensionMethods.GetValueOrDefault(System.Collections.Generic.IDictionary{System.String,System.String},System.String)
+  commentId: M:Microsoft.Azure.Devices.Common.CommonExtensionMethods.GetValueOrDefault(System.Collections.Generic.IDictionary{System.String,System.String},System.String)
+  id: GetValueOrDefault(System.Collections.Generic.IDictionary{System.String,System.String},System.String)
+  isExtensionMethod: true
+  parent: Microsoft.Azure.Devices.Common.CommonExtensionMethods
+  langs:
+  - csharp
+  - vb
+  name: GetValueOrDefault(IDictionary<String, String>, String)
+  nameWithType: CommonExtensionMethods.GetValueOrDefault(IDictionary<String, String>, String)
+  fullName: Microsoft.Azure.Devices.Common.CommonExtensionMethods.GetValueOrDefault(System.Collections.Generic.IDictionary<System.String, System.String>, System.String)
+  type: Method
+  source:
+    remote:
+      path: service/Microsoft.Azure.Devices/Common/Extensions/CommonExtensions.cs
+      branch: master
+      repo: https://github.com/Azure/azure-iot-sdk-csharp.git
+    id: GetValueOrDefault
+    path: src/azure-iot-sdks/service/Microsoft.Azure.Devices/Common/Extensions/CommonExtensions.cs
+    startLine: 66
+  assemblies:
+  - Microsoft.Azure.Devices.Uwp
+  namespace: Microsoft.Azure.Devices.Common
+  syntax:
+    content: public static string GetValueOrDefault(this IDictionary<string, string> map, string keyName)
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetValueOrDefault(map As IDictionary(Of String, String), keyName As String) As String
+    parameters:
+    - id: map
+      type: System.Collections.Generic.IDictionary{System.String,System.String}
+    - id: keyName
+      type: System.String
+    return:
+      type: System.String
+  overload: Microsoft.Azure.Devices.Common.CommonExtensionMethods.GetValueOrDefault*
+  nameWithType.vb: CommonExtensionMethods.GetValueOrDefault(IDictionary(Of String, String), String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Microsoft.Azure.Devices.Common.CommonExtensionMethods.GetValueOrDefault(System.Collections.Generic.IDictionary(Of System.String, System.String), System.String)
+  name.vb: GetValueOrDefault(IDictionary(Of String, String), String)
+- uid: Microsoft.Azure.Devices.Common.CommonExtensionMethods.ToDictionary(System.String,System.Char,System.Char)
+  commentId: M:Microsoft.Azure.Devices.Common.CommonExtensionMethods.ToDictionary(System.String,System.Char,System.Char)
+  id: ToDictionary(System.String,System.Char,System.Char)
+  isExtensionMethod: true
+  parent: Microsoft.Azure.Devices.Common.CommonExtensionMethods
+  langs:
+  - csharp
+  - vb
+  name: ToDictionary(String, Char, Char)
+  nameWithType: CommonExtensionMethods.ToDictionary(String, Char, Char)
+  fullName: Microsoft.Azure.Devices.Common.CommonExtensionMethods.ToDictionary(System.String, System.Char, System.Char)
+  type: Method
+  source:
+    remote:
+      path: service/Microsoft.Azure.Devices/Common/Extensions/CommonExtensions.cs
+      branch: master
+      repo: https://github.com/Azure/azure-iot-sdk-csharp.git
+    id: ToDictionary
+    path: src/azure-iot-sdks/service/Microsoft.Azure.Devices/Common/Extensions/CommonExtensions.cs
+    startLine: 77
+  assemblies:
+  - Microsoft.Azure.Devices.Uwp
+  namespace: Microsoft.Azure.Devices.Common
+  syntax:
+    content: public static IDictionary<string, string> ToDictionary(this string valuePairString, char kvpDelimiter, char kvpSeparator)
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToDictionary(valuePairString As String, kvpDelimiter As Char, kvpSeparator As Char) As IDictionary(Of String, String)
+    parameters:
+    - id: valuePairString
+      type: System.String
+    - id: kvpDelimiter
+      type: System.Char
+    - id: kvpSeparator
+      type: System.Char
+    return:
+      type: System.Collections.Generic.IDictionary{System.String,System.String}
+  overload: Microsoft.Azure.Devices.Common.CommonExtensionMethods.ToDictionary*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Microsoft.Azure.Devices.Common.CommonExtensionMethods.TryGetIotHubName(System.Net.Http.HttpRequestMessage,System.String@)
+  commentId: M:Microsoft.Azure.Devices.Common.CommonExtensionMethods.TryGetIotHubName(System.Net.Http.HttpRequestMessage,System.String@)
+  id: TryGetIotHubName(System.Net.Http.HttpRequestMessage,System.String@)
+  isExtensionMethod: true
+  parent: Microsoft.Azure.Devices.Common.CommonExtensionMethods
+  langs:
+  - csharp
+  - vb
+  name: TryGetIotHubName(HttpRequestMessage, out String)
+  nameWithType: CommonExtensionMethods.TryGetIotHubName(HttpRequestMessage, out String)
+  fullName: Microsoft.Azure.Devices.Common.CommonExtensionMethods.TryGetIotHubName(System.Net.Http.HttpRequestMessage, out System.String)
+  type: Method
+  source:
+    remote:
+      path: service/Microsoft.Azure.Devices/Common/Extensions/CommonExtensions.cs
+      branch: master
+      repo: https://github.com/Azure/azure-iot-sdk-csharp.git
+    id: TryGetIotHubName
+    path: src/azure-iot-sdks/service/Microsoft.Azure.Devices/Common/Extensions/CommonExtensions.cs
+    startLine: 97
+  assemblies:
+  - Microsoft.Azure.Devices.Uwp
+  namespace: Microsoft.Azure.Devices.Common
+  syntax:
+    content: public static bool TryGetIotHubName(this HttpRequestMessage requestMessage, out string iotHubName)
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function TryGetIotHubName(requestMessage As HttpRequestMessage, ByRef iotHubName As String) As Boolean
+    parameters:
+    - id: requestMessage
+      type: System.Net.Http.HttpRequestMessage
+    - id: iotHubName
+      type: System.String
+    return:
+      type: System.Boolean
+  overload: Microsoft.Azure.Devices.Common.CommonExtensionMethods.TryGetIotHubName*
+  nameWithType.vb: CommonExtensionMethods.TryGetIotHubName(HttpRequestMessage, ByRef String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Microsoft.Azure.Devices.Common.CommonExtensionMethods.TryGetIotHubName(System.Net.Http.HttpRequestMessage, ByRef System.String)
+  name.vb: TryGetIotHubName(HttpRequestMessage, ByRef String)
+- uid: Microsoft.Azure.Devices.Common.CommonExtensionMethods.GetIotHubNameFromHostName(System.Net.Http.HttpRequestMessage)
+  commentId: M:Microsoft.Azure.Devices.Common.CommonExtensionMethods.GetIotHubNameFromHostName(System.Net.Http.HttpRequestMessage)
+  id: GetIotHubNameFromHostName(System.Net.Http.HttpRequestMessage)
+  isExtensionMethod: true
+  parent: Microsoft.Azure.Devices.Common.CommonExtensionMethods
+  langs:
+  - csharp
+  - vb
+  name: GetIotHubNameFromHostName(HttpRequestMessage)
+  nameWithType: CommonExtensionMethods.GetIotHubNameFromHostName(HttpRequestMessage)
+  fullName: Microsoft.Azure.Devices.Common.CommonExtensionMethods.GetIotHubNameFromHostName(System.Net.Http.HttpRequestMessage)
+  type: Method
+  source:
+    remote:
+      path: service/Microsoft.Azure.Devices/Common/Extensions/CommonExtensions.cs
+      branch: master
+      repo: https://github.com/Azure/azure-iot-sdk-csharp.git
+    id: GetIotHubNameFromHostName
+    path: src/azure-iot-sdks/service/Microsoft.Azure.Devices/Common/Extensions/CommonExtensions.cs
+    startLine: 114
+  assemblies:
+  - Microsoft.Azure.Devices.Uwp
+  namespace: Microsoft.Azure.Devices.Common
+  syntax:
+    content: public static string GetIotHubNameFromHostName(this HttpRequestMessage requestMessage)
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetIotHubNameFromHostName(requestMessage As HttpRequestMessage) As String
+    parameters:
+    - id: requestMessage
+      type: System.Net.Http.HttpRequestMessage
+    return:
+      type: System.String
+  overload: Microsoft.Azure.Devices.Common.CommonExtensionMethods.GetIotHubNameFromHostName*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Microsoft.Azure.Devices.Common.CommonExtensionMethods.GetIotHubName(System.Net.Http.HttpRequestMessage)
+  commentId: M:Microsoft.Azure.Devices.Common.CommonExtensionMethods.GetIotHubName(System.Net.Http.HttpRequestMessage)
+  id: GetIotHubName(System.Net.Http.HttpRequestMessage)
+  isExtensionMethod: true
+  parent: Microsoft.Azure.Devices.Common.CommonExtensionMethods
+  langs:
+  - csharp
+  - vb
+  name: GetIotHubName(HttpRequestMessage)
+  nameWithType: CommonExtensionMethods.GetIotHubName(HttpRequestMessage)
+  fullName: Microsoft.Azure.Devices.Common.CommonExtensionMethods.GetIotHubName(System.Net.Http.HttpRequestMessage)
+  type: Method
+  source:
+    remote:
+      path: service/Microsoft.Azure.Devices/Common/Extensions/CommonExtensions.cs
+      branch: master
+      repo: https://github.com/Azure/azure-iot-sdk-csharp.git
+    id: GetIotHubName
+    path: src/azure-iot-sdks/service/Microsoft.Azure.Devices/Common/Extensions/CommonExtensions.cs
+    startLine: 127
+  assemblies:
+  - Microsoft.Azure.Devices.Uwp
+  namespace: Microsoft.Azure.Devices.Common
+  syntax:
+    content: public static string GetIotHubName(this HttpRequestMessage requestMessage)
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetIotHubName(requestMessage As HttpRequestMessage) As String
+    parameters:
+    - id: requestMessage
+      type: System.Net.Http.HttpRequestMessage
+    return:
+      type: System.String
+  overload: Microsoft.Azure.Devices.Common.CommonExtensionMethods.GetIotHubName*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Microsoft.Azure.Devices.Common.CommonExtensionMethods.AppendKeyValuePairIfNotEmpty(System.Text.StringBuilder,System.String,System.Object)
+  commentId: M:Microsoft.Azure.Devices.Common.CommonExtensionMethods.AppendKeyValuePairIfNotEmpty(System.Text.StringBuilder,System.String,System.Object)
+  id: AppendKeyValuePairIfNotEmpty(System.Text.StringBuilder,System.String,System.Object)
+  isExtensionMethod: true
+  parent: Microsoft.Azure.Devices.Common.CommonExtensionMethods
+  langs:
+  - csharp
+  - vb
+  name: AppendKeyValuePairIfNotEmpty(StringBuilder, String, Object)
+  nameWithType: CommonExtensionMethods.AppendKeyValuePairIfNotEmpty(StringBuilder, String, Object)
+  fullName: Microsoft.Azure.Devices.Common.CommonExtensionMethods.AppendKeyValuePairIfNotEmpty(System.Text.StringBuilder, System.String, System.Object)
+  type: Method
+  source:
+    remote:
+      path: service/Microsoft.Azure.Devices/Common/Extensions/CommonExtensions.cs
+      branch: master
+      repo: https://github.com/Azure/azure-iot-sdk-csharp.git
+    id: AppendKeyValuePairIfNotEmpty
+    path: src/azure-iot-sdks/service/Microsoft.Azure.Devices/Common/Extensions/CommonExtensions.cs
+    startLine: 183
+  assemblies:
+  - Microsoft.Azure.Devices.Uwp
+  namespace: Microsoft.Azure.Devices.Common
+  syntax:
+    content: public static void AppendKeyValuePairIfNotEmpty(this StringBuilder builder, string name, object value)
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub AppendKeyValuePairIfNotEmpty(builder As StringBuilder, name As String, value As Object)
+    parameters:
+    - id: builder
+      type: System.Text.StringBuilder
+    - id: name
+      type: System.String
+    - id: value
+      type: System.Object
+  overload: Microsoft.Azure.Devices.Common.CommonExtensionMethods.AppendKeyValuePairIfNotEmpty*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Microsoft.Azure.Devices.Common.CommonExtensionMethods.IsNullOrWhiteSpace(System.String)
+  commentId: M:Microsoft.Azure.Devices.Common.CommonExtensionMethods.IsNullOrWhiteSpace(System.String)
+  id: IsNullOrWhiteSpace(System.String)
+  isExtensionMethod: true
+  parent: Microsoft.Azure.Devices.Common.CommonExtensionMethods
+  langs:
+  - csharp
+  - vb
+  name: IsNullOrWhiteSpace(String)
+  nameWithType: CommonExtensionMethods.IsNullOrWhiteSpace(String)
+  fullName: Microsoft.Azure.Devices.Common.CommonExtensionMethods.IsNullOrWhiteSpace(System.String)
+  type: Method
+  source:
+    remote:
+      path: service/Microsoft.Azure.Devices/Common/Extensions/CommonExtensions.cs
+      branch: master
+      repo: https://github.com/Azure/azure-iot-sdk-csharp.git
+    id: IsNullOrWhiteSpace
+    path: src/azure-iot-sdks/service/Microsoft.Azure.Devices/Common/Extensions/CommonExtensions.cs
+    startLine: 194
+  assemblies:
+  - Microsoft.Azure.Devices.Uwp
+  namespace: Microsoft.Azure.Devices.Common
+  syntax:
+    content: public static bool IsNullOrWhiteSpace(this string value)
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function IsNullOrWhiteSpace(value As String) As Boolean
+    parameters:
+    - id: value
+      type: System.String
+    return:
+      type: System.Boolean
+  overload: Microsoft.Azure.Devices.Common.CommonExtensionMethods.IsNullOrWhiteSpace*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Microsoft.Azure.Devices.Common.CommonExtensionMethods.RemoveWhitespace(System.String)
+  commentId: M:Microsoft.Azure.Devices.Common.CommonExtensionMethods.RemoveWhitespace(System.String)
+  id: RemoveWhitespace(System.String)
+  isExtensionMethod: true
+  parent: Microsoft.Azure.Devices.Common.CommonExtensionMethods
+  langs:
+  - csharp
+  - vb
+  name: RemoveWhitespace(String)
+  nameWithType: CommonExtensionMethods.RemoveWhitespace(String)
+  fullName: Microsoft.Azure.Devices.Common.CommonExtensionMethods.RemoveWhitespace(System.String)
+  type: Method
+  source:
+    remote:
+      path: service/Microsoft.Azure.Devices/Common/Extensions/CommonExtensions.cs
+      branch: master
+      repo: https://github.com/Azure/azure-iot-sdk-csharp.git
+    id: RemoveWhitespace
+    path: src/azure-iot-sdks/service/Microsoft.Azure.Devices/Common/Extensions/CommonExtensions.cs
+    startLine: 199
+  assemblies:
+  - Microsoft.Azure.Devices.Uwp
+  namespace: Microsoft.Azure.Devices.Common
+  syntax:
+    content: public static string RemoveWhitespace(this string value)
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function RemoveWhitespace(value As String) As String
+    parameters:
+    - id: value
+      type: System.String
+    return:
+      type: System.String
+  overload: Microsoft.Azure.Devices.Common.CommonExtensionMethods.RemoveWhitespace*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Microsoft.Azure.Devices.Common
+  commentId: N:Microsoft.Azure.Devices.Common
+  isExternal: false
+  name: Microsoft.Azure.Devices.Common
+  nameWithType: Microsoft.Azure.Devices.Common
+  fullName: Microsoft.Azure.Devices.Common
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Microsoft.Azure.Devices.Common.CommonExtensionMethods.EnsureEndsWith*
+  commentId: Overload:Microsoft.Azure.Devices.Common.CommonExtensionMethods.EnsureEndsWith
+  isExternal: false
+  name: EnsureEndsWith
+  nameWithType: CommonExtensionMethods.EnsureEndsWith
+  fullName: Microsoft.Azure.Devices.Common.CommonExtensionMethods.EnsureEndsWith
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Char
+  commentId: T:System.Char
+  parent: System
+  isExternal: true
+  name: Char
+  nameWithType: Char
+  fullName: System.Char
+- uid: Microsoft.Azure.Devices.Common.CommonExtensionMethods.EnsureStartsWith*
+  commentId: Overload:Microsoft.Azure.Devices.Common.CommonExtensionMethods.EnsureStartsWith
+  isExternal: false
+  name: EnsureStartsWith
+  nameWithType: CommonExtensionMethods.EnsureStartsWith
+  fullName: Microsoft.Azure.Devices.Common.CommonExtensionMethods.EnsureStartsWith
+- uid: Microsoft.Azure.Devices.Common.CommonExtensionMethods.GetValueOrDefault*
+  commentId: Overload:Microsoft.Azure.Devices.Common.CommonExtensionMethods.GetValueOrDefault
+  isExternal: false
+  name: GetValueOrDefault
+  nameWithType: CommonExtensionMethods.GetValueOrDefault
+  fullName: Microsoft.Azure.Devices.Common.CommonExtensionMethods.GetValueOrDefault
+- uid: System.Collections.Generic.IDictionary{System.String,System.String}
+  commentId: T:System.Collections.Generic.IDictionary{System.String,System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IDictionary`2
+  name: IDictionary<String, String>
+  nameWithType: IDictionary<String, String>
+  fullName: System.Collections.Generic.IDictionary<System.String, System.String>
+  nameWithType.vb: IDictionary(Of String, String)
+  fullname.vb: System.Collections.Generic.IDictionary(Of System.String, System.String)
+  name.vb: IDictionary(Of String, String)
+  spec.csharp:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: System.Collections.Generic.IDictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: System.Collections.Generic.IDictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IDictionary`2
+  commentId: T:System.Collections.Generic.IDictionary`2
+  isExternal: true
+  name: IDictionary<TKey, TValue>
+  nameWithType: IDictionary<TKey, TValue>
+  fullName: System.Collections.Generic.IDictionary<TKey, TValue>
+  nameWithType.vb: IDictionary(Of TKey, TValue)
+  fullname.vb: System.Collections.Generic.IDictionary(Of TKey, TValue)
+  name.vb: IDictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: System.Collections.Generic.IDictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: System.Collections.Generic.IDictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: false
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: Microsoft.Azure.Devices.Common.CommonExtensionMethods.ToDictionary*
+  commentId: Overload:Microsoft.Azure.Devices.Common.CommonExtensionMethods.ToDictionary
+  isExternal: false
+  name: ToDictionary
+  nameWithType: CommonExtensionMethods.ToDictionary
+  fullName: Microsoft.Azure.Devices.Common.CommonExtensionMethods.ToDictionary
+- uid: Microsoft.Azure.Devices.Common.CommonExtensionMethods.TryGetIotHubName*
+  commentId: Overload:Microsoft.Azure.Devices.Common.CommonExtensionMethods.TryGetIotHubName
+  isExternal: false
+  name: TryGetIotHubName
+  nameWithType: CommonExtensionMethods.TryGetIotHubName
+  fullName: Microsoft.Azure.Devices.Common.CommonExtensionMethods.TryGetIotHubName
+- uid: System.Net.Http.HttpRequestMessage
+  commentId: T:System.Net.Http.HttpRequestMessage
+  parent: System.Net.Http
+  isExternal: true
+  name: HttpRequestMessage
+  nameWithType: HttpRequestMessage
+  fullName: System.Net.Http.HttpRequestMessage
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Net.Http
+  commentId: N:System.Net.Http
+  isExternal: false
+  name: System.Net.Http
+  nameWithType: System.Net.Http
+  fullName: System.Net.Http
+- uid: Microsoft.Azure.Devices.Common.CommonExtensionMethods.GetIotHubNameFromHostName*
+  commentId: Overload:Microsoft.Azure.Devices.Common.CommonExtensionMethods.GetIotHubNameFromHostName
+  isExternal: false
+  name: GetIotHubNameFromHostName
+  nameWithType: CommonExtensionMethods.GetIotHubNameFromHostName
+  fullName: Microsoft.Azure.Devices.Common.CommonExtensionMethods.GetIotHubNameFromHostName
+- uid: Microsoft.Azure.Devices.Common.CommonExtensionMethods.GetIotHubName*
+  commentId: Overload:Microsoft.Azure.Devices.Common.CommonExtensionMethods.GetIotHubName
+  isExternal: false
+  name: GetIotHubName
+  nameWithType: CommonExtensionMethods.GetIotHubName
+  fullName: Microsoft.Azure.Devices.Common.CommonExtensionMethods.GetIotHubName
+- uid: Microsoft.Azure.Devices.Common.CommonExtensionMethods.AppendKeyValuePairIfNotEmpty*
+  commentId: Overload:Microsoft.Azure.Devices.Common.CommonExtensionMethods.AppendKeyValuePairIfNotEmpty
+  isExternal: false
+  name: AppendKeyValuePairIfNotEmpty
+  nameWithType: CommonExtensionMethods.AppendKeyValuePairIfNotEmpty
+  fullName: Microsoft.Azure.Devices.Common.CommonExtensionMethods.AppendKeyValuePairIfNotEmpty
+- uid: System.Text.StringBuilder
+  commentId: T:System.Text.StringBuilder
+  parent: System.Text
+  isExternal: true
+  name: StringBuilder
+  nameWithType: StringBuilder
+  fullName: System.Text.StringBuilder
+- uid: System.Text
+  commentId: N:System.Text
+  isExternal: false
+  name: System.Text
+  nameWithType: System.Text
+  fullName: System.Text
+- uid: Microsoft.Azure.Devices.Common.CommonExtensionMethods.IsNullOrWhiteSpace*
+  commentId: Overload:Microsoft.Azure.Devices.Common.CommonExtensionMethods.IsNullOrWhiteSpace
+  isExternal: false
+  name: IsNullOrWhiteSpace
+  nameWithType: CommonExtensionMethods.IsNullOrWhiteSpace
+  fullName: Microsoft.Azure.Devices.Common.CommonExtensionMethods.IsNullOrWhiteSpace
+- uid: Microsoft.Azure.Devices.Common.CommonExtensionMethods.RemoveWhitespace*
+  commentId: Overload:Microsoft.Azure.Devices.Common.CommonExtensionMethods.RemoveWhitespace
+  isExternal: false
+  name: RemoveWhitespace
+  nameWithType: CommonExtensionMethods.RemoveWhitespace
+  fullName: Microsoft.Azure.Devices.Common.CommonExtensionMethods.RemoveWhitespace

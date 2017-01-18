@@ -1,0 +1,2447 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient
+  commentId: T:Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient
+  id: DataLakeStoreAccountManagementClient
+  parent: Microsoft.Azure.Management.DataLake.Store
+  children:
+  - Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.#ctor(Microsoft.Rest.ServiceClientCredentials,System.Net.Http.HttpClientHandler,System.String,System.Net.Http.DelegatingHandler[])
+  - Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.#ctor(Microsoft.Rest.ServiceClientCredentials,System.String,System.Net.Http.DelegatingHandler[])
+  - Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.#ctor(System.Net.Http.DelegatingHandler[])
+  - Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.#ctor(System.Net.Http.HttpClientHandler,System.Net.Http.DelegatingHandler[])
+  - Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.#ctor(System.Uri,Microsoft.Rest.ServiceClientCredentials,System.Net.Http.HttpClientHandler,System.String,System.Net.Http.DelegatingHandler[])
+  - Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.#ctor(System.Uri,Microsoft.Rest.ServiceClientCredentials,System.String,System.Net.Http.DelegatingHandler[])
+  - Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.#ctor(System.Uri,System.Net.Http.DelegatingHandler[])
+  - Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.#ctor(System.Uri,System.Net.Http.HttpClientHandler,System.Net.Http.DelegatingHandler[])
+  - Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.AcceptLanguage
+  - Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.Account
+  - Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.ApiVersion
+  - Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.BaseUri
+  - Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.Credentials
+  - Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.DeserializationSettings
+  - Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.FirewallRules
+  - Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.GenerateClientRequestId
+  - Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.LongRunningOperationRetryTimeout
+  - Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.SerializationSettings
+  - Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.SubscriptionId
+  - Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.TrustedIdProviders
+  langs:
+  - csharp
+  - vb
+  name: DataLakeStoreAccountManagementClient
+  nameWithType: DataLakeStoreAccountManagementClient
+  fullName: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient
+  type: Class
+  source:
+    remote:
+      path: src/ResourceManagement/DataLake.Store/Microsoft.Azure.Management.DataLake.Store/Generated/DataLakeStoreAccountManagementClient.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: DataLakeStoreAccountManagementClient
+    path: src/azure-sdk-for-net/src/ResourceManagement/DataLake.Store/Microsoft.Azure.Management.DataLake.Store/Generated/DataLakeStoreAccountManagementClient.cs
+    startLine: 30
+  assemblies:
+  - Microsoft.Azure.Management.DataLake.Store
+  namespace: Microsoft.Azure.Management.DataLake.Store
+  summary: "\nCreates a Data Lake Store account management client.\n"
+  example: []
+  syntax:
+    content: 'public class DataLakeStoreAccountManagementClient : ServiceClient<DataLakeStoreAccountManagementClient>, IDataLakeStoreAccountManagementClient, IDisposable, IAzureClient'
+    content.vb: >-
+      Public Class DataLakeStoreAccountManagementClient
+          Inherits ServiceClient(Of DataLakeStoreAccountManagementClient)
+          Implements IDataLakeStoreAccountManagementClient, IDisposable, IAzureClient
+  inheritance:
+  - System.Object
+  - Microsoft.Rest.ServiceClient{Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient}
+  implements:
+  - Microsoft.Azure.Management.DataLake.Store.IDataLakeStoreAccountManagementClient
+  - System.IDisposable
+  - Microsoft.Rest.Azure.IAzureClient
+  inheritedMembers:
+  - Microsoft.Rest.ServiceClient{Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient}.FirstMessageHandler
+  - Microsoft.Rest.ServiceClient{Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient}.HttpClientHandler
+  - Microsoft.Rest.ServiceClient{Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient}.CreateRootHandler
+  - Microsoft.Rest.ServiceClient{Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient}.HttpClient
+  - Microsoft.Rest.ServiceClient{Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient}.UserAgent
+  - Microsoft.Rest.ServiceClient{Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient}.HttpMessageHandlers
+  - Microsoft.Rest.ServiceClient{Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient}.SetRetryPolicy(Microsoft.Rest.TransientFaultHandling.RetryPolicy)
+  - Microsoft.Rest.ServiceClient{Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient}.Dispose
+  - Microsoft.Rest.ServiceClient{Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient}.Dispose(System.Boolean)
+  - Microsoft.Rest.ServiceClient{Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient}.InitializeHttpClient(System.Net.Http.HttpClientHandler,System.Net.Http.DelegatingHandler[])
+  - Microsoft.Rest.ServiceClient{Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient}.SetUserAgent(System.String)
+  - Microsoft.Rest.ServiceClient{Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient}.SetUserAgent(System.String,System.String)
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.#ctor(Microsoft.Rest.ServiceClientCredentials,System.String,System.Net.Http.DelegatingHandler[])
+  commentId: M:Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.#ctor(Microsoft.Rest.ServiceClientCredentials,System.String,System.Net.Http.DelegatingHandler[])
+  id: '#ctor(Microsoft.Rest.ServiceClientCredentials,System.String,System.Net.Http.DelegatingHandler[])'
+  parent: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient
+  langs:
+  - csharp
+  - vb
+  name: DataLakeStoreAccountManagementClient(ServiceClientCredentials, String, DelegatingHandler[])
+  nameWithType: DataLakeStoreAccountManagementClient.DataLakeStoreAccountManagementClient(ServiceClientCredentials, String, DelegatingHandler[])
+  fullName: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.DataLakeStoreAccountManagementClient(Microsoft.Rest.ServiceClientCredentials, System.String, System.Net.Http.DelegatingHandler[])
+  type: Constructor
+  source:
+    remote:
+      path: src/ResourceManagement/DataLake.Store/Microsoft.Azure.Management.DataLake.Store/Customizations/DataLakeStoreAccountManagementClient.Customizations.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: .ctor
+    path: src/azure-sdk-for-net/src/ResourceManagement/DataLake.Store/Microsoft.Azure.Management.DataLake.Store/Customizations/DataLakeStoreAccountManagementClient.Customizations.cs
+    startLine: 40
+  assemblies:
+  - Microsoft.Azure.Management.DataLake.Store
+  namespace: Microsoft.Azure.Management.DataLake.Store
+  summary: "\nInitializes a new instance of the DataLakeStoreManagementClient class.\n"
+  example: []
+  syntax:
+    content: public DataLakeStoreAccountManagementClient(ServiceClientCredentials credentials, string userAgentAssemblyVersion = "", params DelegatingHandler[] handlers)
+    content.vb: Public Sub New(credentials As ServiceClientCredentials, userAgentAssemblyVersion As String = "", ParamArray handlers As DelegatingHandler())
+    parameters:
+    - id: credentials
+      type: Microsoft.Rest.ServiceClientCredentials
+      description: "\nRequired. Gets Azure subscription credentials.\n"
+    - id: userAgentAssemblyVersion
+      type: System.String
+      description: "\nOptional. The version string that should be sent in the user-agent header for all requests. The default is the current version of the SDK.\n"
+    - id: handlers
+      type: System.Net.Http.DelegatingHandler[]
+      description: "\nOptional. The delegating handlers to add to the http client pipeline.\n"
+  overload: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.#ctor*
+  nameWithType.vb: DataLakeStoreAccountManagementClient.DataLakeStoreAccountManagementClient(ServiceClientCredentials, String, DelegatingHandler())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.DataLakeStoreAccountManagementClient(Microsoft.Rest.ServiceClientCredentials, System.String, System.Net.Http.DelegatingHandler())
+  name.vb: DataLakeStoreAccountManagementClient(ServiceClientCredentials, String, DelegatingHandler())
+- uid: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.#ctor(Microsoft.Rest.ServiceClientCredentials,System.Net.Http.HttpClientHandler,System.String,System.Net.Http.DelegatingHandler[])
+  commentId: M:Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.#ctor(Microsoft.Rest.ServiceClientCredentials,System.Net.Http.HttpClientHandler,System.String,System.Net.Http.DelegatingHandler[])
+  id: '#ctor(Microsoft.Rest.ServiceClientCredentials,System.Net.Http.HttpClientHandler,System.String,System.Net.Http.DelegatingHandler[])'
+  parent: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient
+  langs:
+  - csharp
+  - vb
+  name: DataLakeStoreAccountManagementClient(ServiceClientCredentials, HttpClientHandler, String, DelegatingHandler[])
+  nameWithType: DataLakeStoreAccountManagementClient.DataLakeStoreAccountManagementClient(ServiceClientCredentials, HttpClientHandler, String, DelegatingHandler[])
+  fullName: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.DataLakeStoreAccountManagementClient(Microsoft.Rest.ServiceClientCredentials, System.Net.Http.HttpClientHandler, System.String, System.Net.Http.DelegatingHandler[])
+  type: Constructor
+  source:
+    remote:
+      path: src/ResourceManagement/DataLake.Store/Microsoft.Azure.Management.DataLake.Store/Customizations/DataLakeStoreAccountManagementClient.Customizations.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: .ctor
+    path: src/azure-sdk-for-net/src/ResourceManagement/DataLake.Store/Microsoft.Azure.Management.DataLake.Store/Customizations/DataLakeStoreAccountManagementClient.Customizations.cs
+    startLine: 60
+  assemblies:
+  - Microsoft.Azure.Management.DataLake.Store
+  namespace: Microsoft.Azure.Management.DataLake.Store
+  summary: "\nInitializes a new instance of the DataLakeStoreManagementClient class.\n"
+  example: []
+  syntax:
+    content: public DataLakeStoreAccountManagementClient(ServiceClientCredentials credentials, HttpClientHandler rootHandler, string userAgentAssemblyVersion = "", params DelegatingHandler[] handlers)
+    content.vb: Public Sub New(credentials As ServiceClientCredentials, rootHandler As HttpClientHandler, userAgentAssemblyVersion As String = "", ParamArray handlers As DelegatingHandler())
+    parameters:
+    - id: credentials
+      type: Microsoft.Rest.ServiceClientCredentials
+      description: "\nRequired. Gets Azure subscription credentials.\n"
+    - id: rootHandler
+      type: System.Net.Http.HttpClientHandler
+      description: "\nOptional. The http client handler used to handle http transport.\n"
+    - id: userAgentAssemblyVersion
+      type: System.String
+      description: "\nOptional. The version string that should be sent in the user-agent header for all requests. The default is the current version of the SDK.\n"
+    - id: handlers
+      type: System.Net.Http.DelegatingHandler[]
+      description: "\nOptional. The delegating handlers to add to the http client pipeline.\n"
+  overload: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.#ctor*
+  nameWithType.vb: DataLakeStoreAccountManagementClient.DataLakeStoreAccountManagementClient(ServiceClientCredentials, HttpClientHandler, String, DelegatingHandler())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.DataLakeStoreAccountManagementClient(Microsoft.Rest.ServiceClientCredentials, System.Net.Http.HttpClientHandler, System.String, System.Net.Http.DelegatingHandler())
+  name.vb: DataLakeStoreAccountManagementClient(ServiceClientCredentials, HttpClientHandler, String, DelegatingHandler())
+- uid: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.#ctor(System.Uri,Microsoft.Rest.ServiceClientCredentials,System.String,System.Net.Http.DelegatingHandler[])
+  commentId: M:Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.#ctor(System.Uri,Microsoft.Rest.ServiceClientCredentials,System.String,System.Net.Http.DelegatingHandler[])
+  id: '#ctor(System.Uri,Microsoft.Rest.ServiceClientCredentials,System.String,System.Net.Http.DelegatingHandler[])'
+  parent: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient
+  langs:
+  - csharp
+  - vb
+  name: DataLakeStoreAccountManagementClient(Uri, ServiceClientCredentials, String, DelegatingHandler[])
+  nameWithType: DataLakeStoreAccountManagementClient.DataLakeStoreAccountManagementClient(Uri, ServiceClientCredentials, String, DelegatingHandler[])
+  fullName: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.DataLakeStoreAccountManagementClient(System.Uri, Microsoft.Rest.ServiceClientCredentials, System.String, System.Net.Http.DelegatingHandler[])
+  type: Constructor
+  source:
+    remote:
+      path: src/ResourceManagement/DataLake.Store/Microsoft.Azure.Management.DataLake.Store/Customizations/DataLakeStoreAccountManagementClient.Customizations.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: .ctor
+    path: src/azure-sdk-for-net/src/ResourceManagement/DataLake.Store/Microsoft.Azure.Management.DataLake.Store/Customizations/DataLakeStoreAccountManagementClient.Customizations.cs
+    startLine: 80
+  assemblies:
+  - Microsoft.Azure.Management.DataLake.Store
+  namespace: Microsoft.Azure.Management.DataLake.Store
+  summary: "\nInitializes a new instance of the DataLakeStoreManagementClient class.\n"
+  example: []
+  syntax:
+    content: public DataLakeStoreAccountManagementClient(Uri baseUri, ServiceClientCredentials credentials, string userAgentAssemblyVersion = "", params DelegatingHandler[] handlers)
+    content.vb: Public Sub New(baseUri As Uri, credentials As ServiceClientCredentials, userAgentAssemblyVersion As String = "", ParamArray handlers As DelegatingHandler())
+    parameters:
+    - id: baseUri
+      type: System.Uri
+      description: "\nOptional. The base URI of the service.\n"
+    - id: credentials
+      type: Microsoft.Rest.ServiceClientCredentials
+      description: "\nRequired. Gets Azure subscription credentials.\n"
+    - id: userAgentAssemblyVersion
+      type: System.String
+      description: "\nOptional. The version string that should be sent in the user-agent header for all requests. The default is the current version of the SDK.\n"
+    - id: handlers
+      type: System.Net.Http.DelegatingHandler[]
+      description: "\nOptional. The delegating handlers to add to the http client pipeline.\n"
+  overload: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.#ctor*
+  nameWithType.vb: DataLakeStoreAccountManagementClient.DataLakeStoreAccountManagementClient(Uri, ServiceClientCredentials, String, DelegatingHandler())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.DataLakeStoreAccountManagementClient(System.Uri, Microsoft.Rest.ServiceClientCredentials, System.String, System.Net.Http.DelegatingHandler())
+  name.vb: DataLakeStoreAccountManagementClient(Uri, ServiceClientCredentials, String, DelegatingHandler())
+- uid: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.#ctor(System.Uri,Microsoft.Rest.ServiceClientCredentials,System.Net.Http.HttpClientHandler,System.String,System.Net.Http.DelegatingHandler[])
+  commentId: M:Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.#ctor(System.Uri,Microsoft.Rest.ServiceClientCredentials,System.Net.Http.HttpClientHandler,System.String,System.Net.Http.DelegatingHandler[])
+  id: '#ctor(System.Uri,Microsoft.Rest.ServiceClientCredentials,System.Net.Http.HttpClientHandler,System.String,System.Net.Http.DelegatingHandler[])'
+  parent: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient
+  langs:
+  - csharp
+  - vb
+  name: DataLakeStoreAccountManagementClient(Uri, ServiceClientCredentials, HttpClientHandler, String, DelegatingHandler[])
+  nameWithType: DataLakeStoreAccountManagementClient.DataLakeStoreAccountManagementClient(Uri, ServiceClientCredentials, HttpClientHandler, String, DelegatingHandler[])
+  fullName: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.DataLakeStoreAccountManagementClient(System.Uri, Microsoft.Rest.ServiceClientCredentials, System.Net.Http.HttpClientHandler, System.String, System.Net.Http.DelegatingHandler[])
+  type: Constructor
+  source:
+    remote:
+      path: src/ResourceManagement/DataLake.Store/Microsoft.Azure.Management.DataLake.Store/Customizations/DataLakeStoreAccountManagementClient.Customizations.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: .ctor
+    path: src/azure-sdk-for-net/src/ResourceManagement/DataLake.Store/Microsoft.Azure.Management.DataLake.Store/Customizations/DataLakeStoreAccountManagementClient.Customizations.cs
+    startLine: 103
+  assemblies:
+  - Microsoft.Azure.Management.DataLake.Store
+  namespace: Microsoft.Azure.Management.DataLake.Store
+  summary: "\nInitializes a new instance of the DataLakeStoreManagementClient class.\n"
+  example: []
+  syntax:
+    content: public DataLakeStoreAccountManagementClient(Uri baseUri, ServiceClientCredentials credentials, HttpClientHandler rootHandler, string userAgentAssemblyVersion = "", params DelegatingHandler[] handlers)
+    content.vb: Public Sub New(baseUri As Uri, credentials As ServiceClientCredentials, rootHandler As HttpClientHandler, userAgentAssemblyVersion As String = "", ParamArray handlers As DelegatingHandler())
+    parameters:
+    - id: baseUri
+      type: System.Uri
+      description: "\nOptional. The base URI of the service.\n"
+    - id: credentials
+      type: Microsoft.Rest.ServiceClientCredentials
+      description: "\nRequired. Gets Azure subscription credentials.\n"
+    - id: rootHandler
+      type: System.Net.Http.HttpClientHandler
+      description: "\nOptional. The http client handler used to handle http transport.\n"
+    - id: userAgentAssemblyVersion
+      type: System.String
+      description: "\nOptional. The version string that should be sent in the user-agent header for all requests. The default is the current version of the SDK.\n"
+    - id: handlers
+      type: System.Net.Http.DelegatingHandler[]
+      description: "\nOptional. The delegating handlers to add to the http client pipeline.\n"
+  overload: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.#ctor*
+  nameWithType.vb: DataLakeStoreAccountManagementClient.DataLakeStoreAccountManagementClient(Uri, ServiceClientCredentials, HttpClientHandler, String, DelegatingHandler())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.DataLakeStoreAccountManagementClient(System.Uri, Microsoft.Rest.ServiceClientCredentials, System.Net.Http.HttpClientHandler, System.String, System.Net.Http.DelegatingHandler())
+  name.vb: DataLakeStoreAccountManagementClient(Uri, ServiceClientCredentials, HttpClientHandler, String, DelegatingHandler())
+- uid: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.BaseUri
+  commentId: P:Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.BaseUri
+  id: BaseUri
+  parent: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient
+  langs:
+  - csharp
+  - vb
+  name: BaseUri
+  nameWithType: DataLakeStoreAccountManagementClient.BaseUri
+  fullName: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.BaseUri
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/DataLake.Store/Microsoft.Azure.Management.DataLake.Store/Generated/DataLakeStoreAccountManagementClient.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: BaseUri
+    path: src/azure-sdk-for-net/src/ResourceManagement/DataLake.Store/Microsoft.Azure.Management.DataLake.Store/Generated/DataLakeStoreAccountManagementClient.cs
+    startLine: 35
+  assemblies:
+  - Microsoft.Azure.Management.DataLake.Store
+  namespace: Microsoft.Azure.Management.DataLake.Store
+  summary: "\nThe base URI of the service.\n"
+  example: []
+  syntax:
+    content: public Uri BaseUri { get; set; }
+    content.vb: Public Property BaseUri As Uri
+    parameters: []
+    return:
+      type: System.Uri
+  overload: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.BaseUri*
+  implements:
+  - Microsoft.Azure.Management.DataLake.Store.IDataLakeStoreAccountManagementClient.BaseUri
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.SerializationSettings
+  commentId: P:Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.SerializationSettings
+  id: SerializationSettings
+  parent: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient
+  langs:
+  - csharp
+  - vb
+  name: SerializationSettings
+  nameWithType: DataLakeStoreAccountManagementClient.SerializationSettings
+  fullName: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.SerializationSettings
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/DataLake.Store/Microsoft.Azure.Management.DataLake.Store/Generated/DataLakeStoreAccountManagementClient.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: SerializationSettings
+    path: src/azure-sdk-for-net/src/ResourceManagement/DataLake.Store/Microsoft.Azure.Management.DataLake.Store/Generated/DataLakeStoreAccountManagementClient.cs
+    startLine: 40
+  assemblies:
+  - Microsoft.Azure.Management.DataLake.Store
+  namespace: Microsoft.Azure.Management.DataLake.Store
+  summary: "\nGets or sets json serialization settings.\n"
+  example: []
+  syntax:
+    content: public JsonSerializerSettings SerializationSettings { get; }
+    content.vb: Public ReadOnly Property SerializationSettings As JsonSerializerSettings
+    parameters: []
+    return:
+      type: Newtonsoft.Json.JsonSerializerSettings
+  overload: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.SerializationSettings*
+  implements:
+  - Microsoft.Azure.Management.DataLake.Store.IDataLakeStoreAccountManagementClient.SerializationSettings
+  - Microsoft.Rest.Azure.IAzureClient.SerializationSettings
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.DeserializationSettings
+  commentId: P:Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.DeserializationSettings
+  id: DeserializationSettings
+  parent: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient
+  langs:
+  - csharp
+  - vb
+  name: DeserializationSettings
+  nameWithType: DataLakeStoreAccountManagementClient.DeserializationSettings
+  fullName: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.DeserializationSettings
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/DataLake.Store/Microsoft.Azure.Management.DataLake.Store/Generated/DataLakeStoreAccountManagementClient.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: DeserializationSettings
+    path: src/azure-sdk-for-net/src/ResourceManagement/DataLake.Store/Microsoft.Azure.Management.DataLake.Store/Generated/DataLakeStoreAccountManagementClient.cs
+    startLine: 45
+  assemblies:
+  - Microsoft.Azure.Management.DataLake.Store
+  namespace: Microsoft.Azure.Management.DataLake.Store
+  summary: "\nGets or sets json deserialization settings.\n"
+  example: []
+  syntax:
+    content: public JsonSerializerSettings DeserializationSettings { get; }
+    content.vb: Public ReadOnly Property DeserializationSettings As JsonSerializerSettings
+    parameters: []
+    return:
+      type: Newtonsoft.Json.JsonSerializerSettings
+  overload: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.DeserializationSettings*
+  implements:
+  - Microsoft.Azure.Management.DataLake.Store.IDataLakeStoreAccountManagementClient.DeserializationSettings
+  - Microsoft.Rest.Azure.IAzureClient.DeserializationSettings
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.Credentials
+  commentId: P:Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.Credentials
+  id: Credentials
+  parent: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient
+  langs:
+  - csharp
+  - vb
+  name: Credentials
+  nameWithType: DataLakeStoreAccountManagementClient.Credentials
+  fullName: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.Credentials
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/DataLake.Store/Microsoft.Azure.Management.DataLake.Store/Generated/DataLakeStoreAccountManagementClient.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: Credentials
+    path: src/azure-sdk-for-net/src/ResourceManagement/DataLake.Store/Microsoft.Azure.Management.DataLake.Store/Generated/DataLakeStoreAccountManagementClient.cs
+    startLine: 50
+  assemblies:
+  - Microsoft.Azure.Management.DataLake.Store
+  namespace: Microsoft.Azure.Management.DataLake.Store
+  summary: "\nCredentials needed for the client to connect to Azure.\n"
+  example: []
+  syntax:
+    content: public ServiceClientCredentials Credentials { get; }
+    content.vb: Public ReadOnly Property Credentials As ServiceClientCredentials
+    parameters: []
+    return:
+      type: Microsoft.Rest.ServiceClientCredentials
+  overload: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.Credentials*
+  implements:
+  - Microsoft.Azure.Management.DataLake.Store.IDataLakeStoreAccountManagementClient.Credentials
+  - Microsoft.Rest.Azure.IAzureClient.Credentials
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.SubscriptionId
+  commentId: P:Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.SubscriptionId
+  id: SubscriptionId
+  parent: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient
+  langs:
+  - csharp
+  - vb
+  name: SubscriptionId
+  nameWithType: DataLakeStoreAccountManagementClient.SubscriptionId
+  fullName: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.SubscriptionId
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/DataLake.Store/Microsoft.Azure.Management.DataLake.Store/Generated/DataLakeStoreAccountManagementClient.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: SubscriptionId
+    path: src/azure-sdk-for-net/src/ResourceManagement/DataLake.Store/Microsoft.Azure.Management.DataLake.Store/Generated/DataLakeStoreAccountManagementClient.cs
+    startLine: 57
+  assemblies:
+  - Microsoft.Azure.Management.DataLake.Store
+  namespace: Microsoft.Azure.Management.DataLake.Store
+  summary: "\nGets subscription credentials which uniquely identify Microsoft Azure\nsubscription. The subscription ID forms part of the URI for every service\ncall.\n"
+  example: []
+  syntax:
+    content: public string SubscriptionId { get; set; }
+    content.vb: Public Property SubscriptionId As String
+    parameters: []
+    return:
+      type: System.String
+  overload: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.SubscriptionId*
+  implements:
+  - Microsoft.Azure.Management.DataLake.Store.IDataLakeStoreAccountManagementClient.SubscriptionId
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.ApiVersion
+  commentId: P:Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.ApiVersion
+  id: ApiVersion
+  parent: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient
+  langs:
+  - csharp
+  - vb
+  name: ApiVersion
+  nameWithType: DataLakeStoreAccountManagementClient.ApiVersion
+  fullName: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.ApiVersion
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/DataLake.Store/Microsoft.Azure.Management.DataLake.Store/Generated/DataLakeStoreAccountManagementClient.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: ApiVersion
+    path: src/azure-sdk-for-net/src/ResourceManagement/DataLake.Store/Microsoft.Azure.Management.DataLake.Store/Generated/DataLakeStoreAccountManagementClient.cs
+    startLine: 62
+  assemblies:
+  - Microsoft.Azure.Management.DataLake.Store
+  namespace: Microsoft.Azure.Management.DataLake.Store
+  summary: "\nClient Api Version.\n"
+  example: []
+  syntax:
+    content: public string ApiVersion { get; }
+    content.vb: Public ReadOnly Property ApiVersion As String
+    parameters: []
+    return:
+      type: System.String
+  overload: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.ApiVersion*
+  implements:
+  - Microsoft.Azure.Management.DataLake.Store.IDataLakeStoreAccountManagementClient.ApiVersion
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.AcceptLanguage
+  commentId: P:Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.AcceptLanguage
+  id: AcceptLanguage
+  parent: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient
+  langs:
+  - csharp
+  - vb
+  name: AcceptLanguage
+  nameWithType: DataLakeStoreAccountManagementClient.AcceptLanguage
+  fullName: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.AcceptLanguage
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/DataLake.Store/Microsoft.Azure.Management.DataLake.Store/Generated/DataLakeStoreAccountManagementClient.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: AcceptLanguage
+    path: src/azure-sdk-for-net/src/ResourceManagement/DataLake.Store/Microsoft.Azure.Management.DataLake.Store/Generated/DataLakeStoreAccountManagementClient.cs
+    startLine: 67
+  assemblies:
+  - Microsoft.Azure.Management.DataLake.Store
+  namespace: Microsoft.Azure.Management.DataLake.Store
+  summary: "\nGets or sets the preferred language for the response.\n"
+  example: []
+  syntax:
+    content: public string AcceptLanguage { get; set; }
+    content.vb: Public Property AcceptLanguage As String
+    parameters: []
+    return:
+      type: System.String
+  overload: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.AcceptLanguage*
+  implements:
+  - Microsoft.Azure.Management.DataLake.Store.IDataLakeStoreAccountManagementClient.AcceptLanguage
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.LongRunningOperationRetryTimeout
+  commentId: P:Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.LongRunningOperationRetryTimeout
+  id: LongRunningOperationRetryTimeout
+  parent: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient
+  langs:
+  - csharp
+  - vb
+  name: LongRunningOperationRetryTimeout
+  nameWithType: DataLakeStoreAccountManagementClient.LongRunningOperationRetryTimeout
+  fullName: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.LongRunningOperationRetryTimeout
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/DataLake.Store/Microsoft.Azure.Management.DataLake.Store/Generated/DataLakeStoreAccountManagementClient.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: LongRunningOperationRetryTimeout
+    path: src/azure-sdk-for-net/src/ResourceManagement/DataLake.Store/Microsoft.Azure.Management.DataLake.Store/Generated/DataLakeStoreAccountManagementClient.cs
+    startLine: 73
+  assemblies:
+  - Microsoft.Azure.Management.DataLake.Store
+  namespace: Microsoft.Azure.Management.DataLake.Store
+  summary: "\nGets or sets the retry timeout in seconds for Long Running Operations.\nDefault value is 30.\n"
+  example: []
+  syntax:
+    content: public int ? LongRunningOperationRetryTimeout { get; set; }
+    content.vb: Public Property LongRunningOperationRetryTimeout As Integer?
+    parameters: []
+    return:
+      type: System.Nullable{System.Int32}
+  overload: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.LongRunningOperationRetryTimeout*
+  implements:
+  - Microsoft.Azure.Management.DataLake.Store.IDataLakeStoreAccountManagementClient.LongRunningOperationRetryTimeout
+  - Microsoft.Rest.Azure.IAzureClient.LongRunningOperationRetryTimeout
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.GenerateClientRequestId
+  commentId: P:Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.GenerateClientRequestId
+  id: GenerateClientRequestId
+  parent: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient
+  langs:
+  - csharp
+  - vb
+  name: GenerateClientRequestId
+  nameWithType: DataLakeStoreAccountManagementClient.GenerateClientRequestId
+  fullName: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.GenerateClientRequestId
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/DataLake.Store/Microsoft.Azure.Management.DataLake.Store/Generated/DataLakeStoreAccountManagementClient.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: GenerateClientRequestId
+    path: src/azure-sdk-for-net/src/ResourceManagement/DataLake.Store/Microsoft.Azure.Management.DataLake.Store/Generated/DataLakeStoreAccountManagementClient.cs
+    startLine: 79
+  assemblies:
+  - Microsoft.Azure.Management.DataLake.Store
+  namespace: Microsoft.Azure.Management.DataLake.Store
+  summary: "\nWhen set to true a unique x-ms-client-request-id value is generated and\nincluded in each request. Default is true.\n"
+  example: []
+  syntax:
+    content: public bool ? GenerateClientRequestId { get; set; }
+    content.vb: Public Property GenerateClientRequestId As Boolean?
+    parameters: []
+    return:
+      type: System.Nullable{System.Boolean}
+  overload: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.GenerateClientRequestId*
+  implements:
+  - Microsoft.Azure.Management.DataLake.Store.IDataLakeStoreAccountManagementClient.GenerateClientRequestId
+  - Microsoft.Rest.Azure.IAzureClient.GenerateClientRequestId
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.FirewallRules
+  commentId: P:Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.FirewallRules
+  id: FirewallRules
+  parent: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient
+  langs:
+  - csharp
+  - vb
+  name: FirewallRules
+  nameWithType: DataLakeStoreAccountManagementClient.FirewallRules
+  fullName: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.FirewallRules
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/DataLake.Store/Microsoft.Azure.Management.DataLake.Store/Generated/DataLakeStoreAccountManagementClient.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: FirewallRules
+    path: src/azure-sdk-for-net/src/ResourceManagement/DataLake.Store/Microsoft.Azure.Management.DataLake.Store/Generated/DataLakeStoreAccountManagementClient.cs
+    startLine: 84
+  assemblies:
+  - Microsoft.Azure.Management.DataLake.Store
+  namespace: Microsoft.Azure.Management.DataLake.Store
+  summary: "\nGets the IFirewallRulesOperations.\n"
+  example: []
+  syntax:
+    content: public virtual IFirewallRulesOperations FirewallRules { get; }
+    content.vb: Public Overridable ReadOnly Property FirewallRules As IFirewallRulesOperations
+    parameters: []
+    return:
+      type: Microsoft.Azure.Management.DataLake.Store.IFirewallRulesOperations
+  overload: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.FirewallRules*
+  implements:
+  - Microsoft.Azure.Management.DataLake.Store.IDataLakeStoreAccountManagementClient.FirewallRules
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  modifiers.vb:
+  - Public
+  - Overridable
+  - ReadOnly
+- uid: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.TrustedIdProviders
+  commentId: P:Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.TrustedIdProviders
+  id: TrustedIdProviders
+  parent: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient
+  langs:
+  - csharp
+  - vb
+  name: TrustedIdProviders
+  nameWithType: DataLakeStoreAccountManagementClient.TrustedIdProviders
+  fullName: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.TrustedIdProviders
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/DataLake.Store/Microsoft.Azure.Management.DataLake.Store/Generated/DataLakeStoreAccountManagementClient.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: TrustedIdProviders
+    path: src/azure-sdk-for-net/src/ResourceManagement/DataLake.Store/Microsoft.Azure.Management.DataLake.Store/Generated/DataLakeStoreAccountManagementClient.cs
+    startLine: 89
+  assemblies:
+  - Microsoft.Azure.Management.DataLake.Store
+  namespace: Microsoft.Azure.Management.DataLake.Store
+  summary: "\nGets the ITrustedIdProvidersOperations.\n"
+  example: []
+  syntax:
+    content: public virtual ITrustedIdProvidersOperations TrustedIdProviders { get; }
+    content.vb: Public Overridable ReadOnly Property TrustedIdProviders As ITrustedIdProvidersOperations
+    parameters: []
+    return:
+      type: Microsoft.Azure.Management.DataLake.Store.ITrustedIdProvidersOperations
+  overload: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.TrustedIdProviders*
+  implements:
+  - Microsoft.Azure.Management.DataLake.Store.IDataLakeStoreAccountManagementClient.TrustedIdProviders
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  modifiers.vb:
+  - Public
+  - Overridable
+  - ReadOnly
+- uid: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.Account
+  commentId: P:Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.Account
+  id: Account
+  parent: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient
+  langs:
+  - csharp
+  - vb
+  name: Account
+  nameWithType: DataLakeStoreAccountManagementClient.Account
+  fullName: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.Account
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/DataLake.Store/Microsoft.Azure.Management.DataLake.Store/Generated/DataLakeStoreAccountManagementClient.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: Account
+    path: src/azure-sdk-for-net/src/ResourceManagement/DataLake.Store/Microsoft.Azure.Management.DataLake.Store/Generated/DataLakeStoreAccountManagementClient.cs
+    startLine: 94
+  assemblies:
+  - Microsoft.Azure.Management.DataLake.Store
+  namespace: Microsoft.Azure.Management.DataLake.Store
+  summary: "\nGets the IAccountOperations.\n"
+  example: []
+  syntax:
+    content: public virtual IAccountOperations Account { get; }
+    content.vb: Public Overridable ReadOnly Property Account As IAccountOperations
+    parameters: []
+    return:
+      type: Microsoft.Azure.Management.DataLake.Store.IAccountOperations
+  overload: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.Account*
+  implements:
+  - Microsoft.Azure.Management.DataLake.Store.IDataLakeStoreAccountManagementClient.Account
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  modifiers.vb:
+  - Public
+  - Overridable
+  - ReadOnly
+- uid: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.#ctor(System.Net.Http.DelegatingHandler[])
+  commentId: M:Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.#ctor(System.Net.Http.DelegatingHandler[])
+  id: '#ctor(System.Net.Http.DelegatingHandler[])'
+  parent: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient
+  langs:
+  - csharp
+  - vb
+  name: DataLakeStoreAccountManagementClient(DelegatingHandler[])
+  nameWithType: DataLakeStoreAccountManagementClient.DataLakeStoreAccountManagementClient(DelegatingHandler[])
+  fullName: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.DataLakeStoreAccountManagementClient(System.Net.Http.DelegatingHandler[])
+  type: Constructor
+  source:
+    remote:
+      path: src/ResourceManagement/DataLake.Store/Microsoft.Azure.Management.DataLake.Store/Generated/DataLakeStoreAccountManagementClient.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: .ctor
+    path: src/azure-sdk-for-net/src/ResourceManagement/DataLake.Store/Microsoft.Azure.Management.DataLake.Store/Generated/DataLakeStoreAccountManagementClient.cs
+    startLine: 102
+  assemblies:
+  - Microsoft.Azure.Management.DataLake.Store
+  namespace: Microsoft.Azure.Management.DataLake.Store
+  summary: "\nInitializes a new instance of the DataLakeStoreAccountManagementClient class.\n"
+  example: []
+  syntax:
+    content: protected DataLakeStoreAccountManagementClient(params DelegatingHandler[] handlers)
+    content.vb: Protected Sub New(ParamArray handlers As DelegatingHandler())
+    parameters:
+    - id: handlers
+      type: System.Net.Http.DelegatingHandler[]
+      description: "\nOptional. The delegating handlers to add to the http client pipeline.\n"
+  overload: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.#ctor*
+  nameWithType.vb: DataLakeStoreAccountManagementClient.DataLakeStoreAccountManagementClient(DelegatingHandler())
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+  fullName.vb: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.DataLakeStoreAccountManagementClient(System.Net.Http.DelegatingHandler())
+  name.vb: DataLakeStoreAccountManagementClient(DelegatingHandler())
+- uid: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.#ctor(System.Net.Http.HttpClientHandler,System.Net.Http.DelegatingHandler[])
+  commentId: M:Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.#ctor(System.Net.Http.HttpClientHandler,System.Net.Http.DelegatingHandler[])
+  id: '#ctor(System.Net.Http.HttpClientHandler,System.Net.Http.DelegatingHandler[])'
+  parent: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient
+  langs:
+  - csharp
+  - vb
+  name: DataLakeStoreAccountManagementClient(HttpClientHandler, DelegatingHandler[])
+  nameWithType: DataLakeStoreAccountManagementClient.DataLakeStoreAccountManagementClient(HttpClientHandler, DelegatingHandler[])
+  fullName: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.DataLakeStoreAccountManagementClient(System.Net.Http.HttpClientHandler, System.Net.Http.DelegatingHandler[])
+  type: Constructor
+  source:
+    remote:
+      path: src/ResourceManagement/DataLake.Store/Microsoft.Azure.Management.DataLake.Store/Generated/DataLakeStoreAccountManagementClient.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: .ctor
+    path: src/azure-sdk-for-net/src/ResourceManagement/DataLake.Store/Microsoft.Azure.Management.DataLake.Store/Generated/DataLakeStoreAccountManagementClient.cs
+    startLine: 116
+  assemblies:
+  - Microsoft.Azure.Management.DataLake.Store
+  namespace: Microsoft.Azure.Management.DataLake.Store
+  summary: "\nInitializes a new instance of the DataLakeStoreAccountManagementClient class.\n"
+  example: []
+  syntax:
+    content: protected DataLakeStoreAccountManagementClient(HttpClientHandler rootHandler, params DelegatingHandler[] handlers)
+    content.vb: Protected Sub New(rootHandler As HttpClientHandler, ParamArray handlers As DelegatingHandler())
+    parameters:
+    - id: rootHandler
+      type: System.Net.Http.HttpClientHandler
+      description: "\nOptional. The http client handler used to handle http transport.\n"
+    - id: handlers
+      type: System.Net.Http.DelegatingHandler[]
+      description: "\nOptional. The delegating handlers to add to the http client pipeline.\n"
+  overload: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.#ctor*
+  nameWithType.vb: DataLakeStoreAccountManagementClient.DataLakeStoreAccountManagementClient(HttpClientHandler, DelegatingHandler())
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+  fullName.vb: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.DataLakeStoreAccountManagementClient(System.Net.Http.HttpClientHandler, System.Net.Http.DelegatingHandler())
+  name.vb: DataLakeStoreAccountManagementClient(HttpClientHandler, DelegatingHandler())
+- uid: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.#ctor(System.Uri,System.Net.Http.DelegatingHandler[])
+  commentId: M:Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.#ctor(System.Uri,System.Net.Http.DelegatingHandler[])
+  id: '#ctor(System.Uri,System.Net.Http.DelegatingHandler[])'
+  parent: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient
+  langs:
+  - csharp
+  - vb
+  name: DataLakeStoreAccountManagementClient(Uri, DelegatingHandler[])
+  nameWithType: DataLakeStoreAccountManagementClient.DataLakeStoreAccountManagementClient(Uri, DelegatingHandler[])
+  fullName: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.DataLakeStoreAccountManagementClient(System.Uri, System.Net.Http.DelegatingHandler[])
+  type: Constructor
+  source:
+    remote:
+      path: src/ResourceManagement/DataLake.Store/Microsoft.Azure.Management.DataLake.Store/Generated/DataLakeStoreAccountManagementClient.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: .ctor
+    path: src/azure-sdk-for-net/src/ResourceManagement/DataLake.Store/Microsoft.Azure.Management.DataLake.Store/Generated/DataLakeStoreAccountManagementClient.cs
+    startLine: 133
+  assemblies:
+  - Microsoft.Azure.Management.DataLake.Store
+  namespace: Microsoft.Azure.Management.DataLake.Store
+  summary: "\nInitializes a new instance of the DataLakeStoreAccountManagementClient class.\n"
+  example: []
+  syntax:
+    content: protected DataLakeStoreAccountManagementClient(Uri baseUri, params DelegatingHandler[] handlers)
+    content.vb: Protected Sub New(baseUri As Uri, ParamArray handlers As DelegatingHandler())
+    parameters:
+    - id: baseUri
+      type: System.Uri
+      description: "\nOptional. The base URI of the service.\n"
+    - id: handlers
+      type: System.Net.Http.DelegatingHandler[]
+      description: "\nOptional. The delegating handlers to add to the http client pipeline.\n"
+  overload: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.#ctor*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: "\nThrown when a required parameter is null\n"
+  nameWithType.vb: DataLakeStoreAccountManagementClient.DataLakeStoreAccountManagementClient(Uri, DelegatingHandler())
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+  fullName.vb: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.DataLakeStoreAccountManagementClient(System.Uri, System.Net.Http.DelegatingHandler())
+  name.vb: DataLakeStoreAccountManagementClient(Uri, DelegatingHandler())
+- uid: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.#ctor(System.Uri,System.Net.Http.HttpClientHandler,System.Net.Http.DelegatingHandler[])
+  commentId: M:Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.#ctor(System.Uri,System.Net.Http.HttpClientHandler,System.Net.Http.DelegatingHandler[])
+  id: '#ctor(System.Uri,System.Net.Http.HttpClientHandler,System.Net.Http.DelegatingHandler[])'
+  parent: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient
+  langs:
+  - csharp
+  - vb
+  name: DataLakeStoreAccountManagementClient(Uri, HttpClientHandler, DelegatingHandler[])
+  nameWithType: DataLakeStoreAccountManagementClient.DataLakeStoreAccountManagementClient(Uri, HttpClientHandler, DelegatingHandler[])
+  fullName: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.DataLakeStoreAccountManagementClient(System.Uri, System.Net.Http.HttpClientHandler, System.Net.Http.DelegatingHandler[])
+  type: Constructor
+  source:
+    remote:
+      path: src/ResourceManagement/DataLake.Store/Microsoft.Azure.Management.DataLake.Store/Generated/DataLakeStoreAccountManagementClient.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: .ctor
+    path: src/azure-sdk-for-net/src/ResourceManagement/DataLake.Store/Microsoft.Azure.Management.DataLake.Store/Generated/DataLakeStoreAccountManagementClient.cs
+    startLine: 157
+  assemblies:
+  - Microsoft.Azure.Management.DataLake.Store
+  namespace: Microsoft.Azure.Management.DataLake.Store
+  summary: "\nInitializes a new instance of the DataLakeStoreAccountManagementClient class.\n"
+  example: []
+  syntax:
+    content: protected DataLakeStoreAccountManagementClient(Uri baseUri, HttpClientHandler rootHandler, params DelegatingHandler[] handlers)
+    content.vb: Protected Sub New(baseUri As Uri, rootHandler As HttpClientHandler, ParamArray handlers As DelegatingHandler())
+    parameters:
+    - id: baseUri
+      type: System.Uri
+      description: "\nOptional. The base URI of the service.\n"
+    - id: rootHandler
+      type: System.Net.Http.HttpClientHandler
+      description: "\nOptional. The http client handler used to handle http transport.\n"
+    - id: handlers
+      type: System.Net.Http.DelegatingHandler[]
+      description: "\nOptional. The delegating handlers to add to the http client pipeline.\n"
+  overload: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.#ctor*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: "\nThrown when a required parameter is null\n"
+  nameWithType.vb: DataLakeStoreAccountManagementClient.DataLakeStoreAccountManagementClient(Uri, HttpClientHandler, DelegatingHandler())
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+  fullName.vb: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.DataLakeStoreAccountManagementClient(System.Uri, System.Net.Http.HttpClientHandler, System.Net.Http.DelegatingHandler())
+  name.vb: DataLakeStoreAccountManagementClient(Uri, HttpClientHandler, DelegatingHandler())
+references:
+- uid: Microsoft.Azure.Management.DataLake.Store
+  commentId: N:Microsoft.Azure.Management.DataLake.Store
+  isExternal: false
+  name: Microsoft.Azure.Management.DataLake.Store
+  nameWithType: Microsoft.Azure.Management.DataLake.Store
+  fullName: Microsoft.Azure.Management.DataLake.Store
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Microsoft.Rest.ServiceClient{Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient}
+  commentId: T:Microsoft.Rest.ServiceClient{Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient}
+  parent: Microsoft.Rest
+  definition: Microsoft.Rest.ServiceClient`1
+  name: ServiceClient<DataLakeStoreAccountManagementClient>
+  nameWithType: ServiceClient<DataLakeStoreAccountManagementClient>
+  fullName: Microsoft.Rest.ServiceClient<Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient>
+  nameWithType.vb: ServiceClient(Of DataLakeStoreAccountManagementClient)
+  fullname.vb: Microsoft.Rest.ServiceClient(Of Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient)
+  name.vb: ServiceClient(Of DataLakeStoreAccountManagementClient)
+  spec.csharp:
+  - uid: Microsoft.Rest.ServiceClient`1
+    name: ServiceClient
+    nameWithType: ServiceClient
+    fullName: Microsoft.Rest.ServiceClient
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient
+    name: DataLakeStoreAccountManagementClient
+    nameWithType: DataLakeStoreAccountManagementClient
+    fullName: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.Rest.ServiceClient`1
+    name: ServiceClient
+    nameWithType: ServiceClient
+    fullName: Microsoft.Rest.ServiceClient
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient
+    name: DataLakeStoreAccountManagementClient
+    nameWithType: DataLakeStoreAccountManagementClient
+    fullName: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Azure.Management.DataLake.Store.IDataLakeStoreAccountManagementClient
+  commentId: T:Microsoft.Azure.Management.DataLake.Store.IDataLakeStoreAccountManagementClient
+  parent: Microsoft.Azure.Management.DataLake.Store
+  isExternal: false
+  name: IDataLakeStoreAccountManagementClient
+  nameWithType: IDataLakeStoreAccountManagementClient
+  fullName: Microsoft.Azure.Management.DataLake.Store.IDataLakeStoreAccountManagementClient
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: Microsoft.Rest.Azure.IAzureClient
+  commentId: T:Microsoft.Rest.Azure.IAzureClient
+  parent: Microsoft.Rest.Azure
+  isExternal: false
+  name: IAzureClient
+  nameWithType: IAzureClient
+  fullName: Microsoft.Rest.Azure.IAzureClient
+- uid: Microsoft.Rest.ServiceClient{Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient}.FirstMessageHandler
+  commentId: P:Microsoft.Rest.ServiceClient{Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient}.FirstMessageHandler
+  parent: Microsoft.Rest.ServiceClient{Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient}
+  definition: Microsoft.Rest.ServiceClient`1.FirstMessageHandler
+  name: FirstMessageHandler
+  nameWithType: ServiceClient<DataLakeStoreAccountManagementClient>.FirstMessageHandler
+  fullName: Microsoft.Rest.ServiceClient<Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient>.FirstMessageHandler
+  nameWithType.vb: ServiceClient(Of DataLakeStoreAccountManagementClient).FirstMessageHandler
+  fullname.vb: Microsoft.Rest.ServiceClient(Of Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient).FirstMessageHandler
+- uid: Microsoft.Rest.ServiceClient{Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient}.HttpClientHandler
+  commentId: P:Microsoft.Rest.ServiceClient{Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient}.HttpClientHandler
+  parent: Microsoft.Rest.ServiceClient{Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient}
+  definition: Microsoft.Rest.ServiceClient`1.HttpClientHandler
+  name: HttpClientHandler
+  nameWithType: ServiceClient<DataLakeStoreAccountManagementClient>.HttpClientHandler
+  fullName: Microsoft.Rest.ServiceClient<Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient>.HttpClientHandler
+  nameWithType.vb: ServiceClient(Of DataLakeStoreAccountManagementClient).HttpClientHandler
+  fullname.vb: Microsoft.Rest.ServiceClient(Of Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient).HttpClientHandler
+- uid: Microsoft.Rest.ServiceClient{Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient}.CreateRootHandler
+  commentId: M:Microsoft.Rest.ServiceClient{Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient}.CreateRootHandler
+  parent: Microsoft.Rest.ServiceClient{Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient}
+  definition: Microsoft.Rest.ServiceClient`1.CreateRootHandler
+  name: CreateRootHandler()
+  nameWithType: ServiceClient<DataLakeStoreAccountManagementClient>.CreateRootHandler()
+  fullName: Microsoft.Rest.ServiceClient<Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient>.CreateRootHandler()
+  nameWithType.vb: ServiceClient(Of DataLakeStoreAccountManagementClient).CreateRootHandler()
+  fullname.vb: Microsoft.Rest.ServiceClient(Of Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient).CreateRootHandler()
+  spec.csharp:
+  - uid: Microsoft.Rest.ServiceClient`1.CreateRootHandler
+    name: CreateRootHandler
+    nameWithType: ServiceClient<DataLakeStoreAccountManagementClient>.CreateRootHandler
+    fullName: Microsoft.Rest.ServiceClient<Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient>.CreateRootHandler
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.Rest.ServiceClient`1.CreateRootHandler
+    name: CreateRootHandler
+    nameWithType: ServiceClient(Of DataLakeStoreAccountManagementClient).CreateRootHandler
+    fullName: Microsoft.Rest.ServiceClient(Of Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient).CreateRootHandler
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Rest.ServiceClient{Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient}.HttpClient
+  commentId: P:Microsoft.Rest.ServiceClient{Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient}.HttpClient
+  parent: Microsoft.Rest.ServiceClient{Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient}
+  definition: Microsoft.Rest.ServiceClient`1.HttpClient
+  name: HttpClient
+  nameWithType: ServiceClient<DataLakeStoreAccountManagementClient>.HttpClient
+  fullName: Microsoft.Rest.ServiceClient<Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient>.HttpClient
+  nameWithType.vb: ServiceClient(Of DataLakeStoreAccountManagementClient).HttpClient
+  fullname.vb: Microsoft.Rest.ServiceClient(Of Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient).HttpClient
+- uid: Microsoft.Rest.ServiceClient{Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient}.UserAgent
+  commentId: P:Microsoft.Rest.ServiceClient{Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient}.UserAgent
+  parent: Microsoft.Rest.ServiceClient{Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient}
+  definition: Microsoft.Rest.ServiceClient`1.UserAgent
+  name: UserAgent
+  nameWithType: ServiceClient<DataLakeStoreAccountManagementClient>.UserAgent
+  fullName: Microsoft.Rest.ServiceClient<Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient>.UserAgent
+  nameWithType.vb: ServiceClient(Of DataLakeStoreAccountManagementClient).UserAgent
+  fullname.vb: Microsoft.Rest.ServiceClient(Of Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient).UserAgent
+- uid: Microsoft.Rest.ServiceClient{Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient}.HttpMessageHandlers
+  commentId: P:Microsoft.Rest.ServiceClient{Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient}.HttpMessageHandlers
+  parent: Microsoft.Rest.ServiceClient{Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient}
+  definition: Microsoft.Rest.ServiceClient`1.HttpMessageHandlers
+  name: HttpMessageHandlers
+  nameWithType: ServiceClient<DataLakeStoreAccountManagementClient>.HttpMessageHandlers
+  fullName: Microsoft.Rest.ServiceClient<Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient>.HttpMessageHandlers
+  nameWithType.vb: ServiceClient(Of DataLakeStoreAccountManagementClient).HttpMessageHandlers
+  fullname.vb: Microsoft.Rest.ServiceClient(Of Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient).HttpMessageHandlers
+- uid: Microsoft.Rest.ServiceClient{Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient}.SetRetryPolicy(Microsoft.Rest.TransientFaultHandling.RetryPolicy)
+  commentId: M:Microsoft.Rest.ServiceClient{Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient}.SetRetryPolicy(Microsoft.Rest.TransientFaultHandling.RetryPolicy)
+  parent: Microsoft.Rest.ServiceClient{Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient}
+  definition: Microsoft.Rest.ServiceClient`1.SetRetryPolicy(Microsoft.Rest.TransientFaultHandling.RetryPolicy)
+  name: SetRetryPolicy(RetryPolicy)
+  nameWithType: ServiceClient<DataLakeStoreAccountManagementClient>.SetRetryPolicy(RetryPolicy)
+  fullName: Microsoft.Rest.ServiceClient<Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient>.SetRetryPolicy(Microsoft.Rest.TransientFaultHandling.RetryPolicy)
+  nameWithType.vb: ServiceClient(Of DataLakeStoreAccountManagementClient).SetRetryPolicy(RetryPolicy)
+  fullname.vb: Microsoft.Rest.ServiceClient(Of Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient).SetRetryPolicy(Microsoft.Rest.TransientFaultHandling.RetryPolicy)
+  spec.csharp:
+  - uid: Microsoft.Rest.ServiceClient`1.SetRetryPolicy(Microsoft.Rest.TransientFaultHandling.RetryPolicy)
+    name: SetRetryPolicy
+    nameWithType: ServiceClient<DataLakeStoreAccountManagementClient>.SetRetryPolicy
+    fullName: Microsoft.Rest.ServiceClient<Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient>.SetRetryPolicy
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.Rest.TransientFaultHandling.RetryPolicy
+    name: RetryPolicy
+    nameWithType: RetryPolicy
+    fullName: Microsoft.Rest.TransientFaultHandling.RetryPolicy
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.Rest.ServiceClient`1.SetRetryPolicy(Microsoft.Rest.TransientFaultHandling.RetryPolicy)
+    name: SetRetryPolicy
+    nameWithType: ServiceClient(Of DataLakeStoreAccountManagementClient).SetRetryPolicy
+    fullName: Microsoft.Rest.ServiceClient(Of Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient).SetRetryPolicy
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.Rest.TransientFaultHandling.RetryPolicy
+    name: RetryPolicy
+    nameWithType: RetryPolicy
+    fullName: Microsoft.Rest.TransientFaultHandling.RetryPolicy
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Rest.ServiceClient{Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient}.Dispose
+  commentId: M:Microsoft.Rest.ServiceClient{Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient}.Dispose
+  parent: Microsoft.Rest.ServiceClient{Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient}
+  definition: Microsoft.Rest.ServiceClient`1.Dispose
+  name: Dispose()
+  nameWithType: ServiceClient<DataLakeStoreAccountManagementClient>.Dispose()
+  fullName: Microsoft.Rest.ServiceClient<Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient>.Dispose()
+  nameWithType.vb: ServiceClient(Of DataLakeStoreAccountManagementClient).Dispose()
+  fullname.vb: Microsoft.Rest.ServiceClient(Of Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient).Dispose()
+  spec.csharp:
+  - uid: Microsoft.Rest.ServiceClient`1.Dispose
+    name: Dispose
+    nameWithType: ServiceClient<DataLakeStoreAccountManagementClient>.Dispose
+    fullName: Microsoft.Rest.ServiceClient<Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient>.Dispose
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.Rest.ServiceClient`1.Dispose
+    name: Dispose
+    nameWithType: ServiceClient(Of DataLakeStoreAccountManagementClient).Dispose
+    fullName: Microsoft.Rest.ServiceClient(Of Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient).Dispose
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Rest.ServiceClient{Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient}.Dispose(System.Boolean)
+  commentId: M:Microsoft.Rest.ServiceClient{Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient}.Dispose(System.Boolean)
+  parent: Microsoft.Rest.ServiceClient{Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient}
+  definition: Microsoft.Rest.ServiceClient`1.Dispose(System.Boolean)
+  name: Dispose(Boolean)
+  nameWithType: ServiceClient<DataLakeStoreAccountManagementClient>.Dispose(Boolean)
+  fullName: Microsoft.Rest.ServiceClient<Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient>.Dispose(System.Boolean)
+  nameWithType.vb: ServiceClient(Of DataLakeStoreAccountManagementClient).Dispose(Boolean)
+  fullname.vb: Microsoft.Rest.ServiceClient(Of Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient).Dispose(System.Boolean)
+  spec.csharp:
+  - uid: Microsoft.Rest.ServiceClient`1.Dispose(System.Boolean)
+    name: Dispose
+    nameWithType: ServiceClient<DataLakeStoreAccountManagementClient>.Dispose
+    fullName: Microsoft.Rest.ServiceClient<Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient>.Dispose
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.Rest.ServiceClient`1.Dispose(System.Boolean)
+    name: Dispose
+    nameWithType: ServiceClient(Of DataLakeStoreAccountManagementClient).Dispose
+    fullName: Microsoft.Rest.ServiceClient(Of Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient).Dispose
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Rest.ServiceClient{Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient}.InitializeHttpClient(System.Net.Http.HttpClientHandler,System.Net.Http.DelegatingHandler[])
+  commentId: M:Microsoft.Rest.ServiceClient{Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient}.InitializeHttpClient(System.Net.Http.HttpClientHandler,System.Net.Http.DelegatingHandler[])
+  parent: Microsoft.Rest.ServiceClient{Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient}
+  definition: Microsoft.Rest.ServiceClient`1.InitializeHttpClient(System.Net.Http.HttpClientHandler,System.Net.Http.DelegatingHandler[])
+  name: InitializeHttpClient(HttpClientHandler, DelegatingHandler[])
+  nameWithType: ServiceClient<DataLakeStoreAccountManagementClient>.InitializeHttpClient(HttpClientHandler, DelegatingHandler[])
+  fullName: Microsoft.Rest.ServiceClient<Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient>.InitializeHttpClient(System.Net.Http.HttpClientHandler, System.Net.Http.DelegatingHandler[])
+  nameWithType.vb: ServiceClient(Of DataLakeStoreAccountManagementClient).InitializeHttpClient(HttpClientHandler, DelegatingHandler())
+  fullname.vb: Microsoft.Rest.ServiceClient(Of Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient).InitializeHttpClient(System.Net.Http.HttpClientHandler, System.Net.Http.DelegatingHandler())
+  name.vb: InitializeHttpClient(HttpClientHandler, DelegatingHandler())
+  spec.csharp:
+  - uid: Microsoft.Rest.ServiceClient`1.InitializeHttpClient(System.Net.Http.HttpClientHandler,System.Net.Http.DelegatingHandler[])
+    name: InitializeHttpClient
+    nameWithType: ServiceClient<DataLakeStoreAccountManagementClient>.InitializeHttpClient
+    fullName: Microsoft.Rest.ServiceClient<Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient>.InitializeHttpClient
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpClientHandler
+    name: HttpClientHandler
+    nameWithType: HttpClientHandler
+    fullName: System.Net.Http.HttpClientHandler
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Net.Http.DelegatingHandler
+    name: DelegatingHandler
+    nameWithType: DelegatingHandler
+    fullName: System.Net.Http.DelegatingHandler
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.Rest.ServiceClient`1.InitializeHttpClient(System.Net.Http.HttpClientHandler,System.Net.Http.DelegatingHandler[])
+    name: InitializeHttpClient
+    nameWithType: ServiceClient(Of DataLakeStoreAccountManagementClient).InitializeHttpClient
+    fullName: Microsoft.Rest.ServiceClient(Of Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient).InitializeHttpClient
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpClientHandler
+    name: HttpClientHandler
+    nameWithType: HttpClientHandler
+    fullName: System.Net.Http.HttpClientHandler
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Net.Http.DelegatingHandler
+    name: DelegatingHandler
+    nameWithType: DelegatingHandler
+    fullName: System.Net.Http.DelegatingHandler
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Rest.ServiceClient{Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient}.SetUserAgent(System.String)
+  commentId: M:Microsoft.Rest.ServiceClient{Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient}.SetUserAgent(System.String)
+  parent: Microsoft.Rest.ServiceClient{Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient}
+  definition: Microsoft.Rest.ServiceClient`1.SetUserAgent(System.String)
+  name: SetUserAgent(String)
+  nameWithType: ServiceClient<DataLakeStoreAccountManagementClient>.SetUserAgent(String)
+  fullName: Microsoft.Rest.ServiceClient<Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient>.SetUserAgent(System.String)
+  nameWithType.vb: ServiceClient(Of DataLakeStoreAccountManagementClient).SetUserAgent(String)
+  fullname.vb: Microsoft.Rest.ServiceClient(Of Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient).SetUserAgent(System.String)
+  spec.csharp:
+  - uid: Microsoft.Rest.ServiceClient`1.SetUserAgent(System.String)
+    name: SetUserAgent
+    nameWithType: ServiceClient<DataLakeStoreAccountManagementClient>.SetUserAgent
+    fullName: Microsoft.Rest.ServiceClient<Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient>.SetUserAgent
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.Rest.ServiceClient`1.SetUserAgent(System.String)
+    name: SetUserAgent
+    nameWithType: ServiceClient(Of DataLakeStoreAccountManagementClient).SetUserAgent
+    fullName: Microsoft.Rest.ServiceClient(Of Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient).SetUserAgent
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Rest.ServiceClient{Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient}.SetUserAgent(System.String,System.String)
+  commentId: M:Microsoft.Rest.ServiceClient{Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient}.SetUserAgent(System.String,System.String)
+  parent: Microsoft.Rest.ServiceClient{Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient}
+  definition: Microsoft.Rest.ServiceClient`1.SetUserAgent(System.String,System.String)
+  name: SetUserAgent(String, String)
+  nameWithType: ServiceClient<DataLakeStoreAccountManagementClient>.SetUserAgent(String, String)
+  fullName: Microsoft.Rest.ServiceClient<Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient>.SetUserAgent(System.String, System.String)
+  nameWithType.vb: ServiceClient(Of DataLakeStoreAccountManagementClient).SetUserAgent(String, String)
+  fullname.vb: Microsoft.Rest.ServiceClient(Of Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient).SetUserAgent(System.String, System.String)
+  spec.csharp:
+  - uid: Microsoft.Rest.ServiceClient`1.SetUserAgent(System.String,System.String)
+    name: SetUserAgent
+    nameWithType: ServiceClient<DataLakeStoreAccountManagementClient>.SetUserAgent
+    fullName: Microsoft.Rest.ServiceClient<Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient>.SetUserAgent
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.Rest.ServiceClient`1.SetUserAgent(System.String,System.String)
+    name: SetUserAgent
+    nameWithType: ServiceClient(Of DataLakeStoreAccountManagementClient).SetUserAgent
+    fullName: Microsoft.Rest.ServiceClient(Of Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient).SetUserAgent
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Microsoft.Rest.ServiceClient`1
+  commentId: T:Microsoft.Rest.ServiceClient`1
+  isExternal: false
+  name: ServiceClient<T>
+  nameWithType: ServiceClient<T>
+  fullName: Microsoft.Rest.ServiceClient<T>
+  nameWithType.vb: ServiceClient(Of T)
+  fullname.vb: Microsoft.Rest.ServiceClient(Of T)
+  name.vb: ServiceClient(Of T)
+  spec.csharp:
+  - uid: Microsoft.Rest.ServiceClient`1
+    name: ServiceClient
+    nameWithType: ServiceClient
+    fullName: Microsoft.Rest.ServiceClient
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.Rest.ServiceClient`1
+    name: ServiceClient
+    nameWithType: ServiceClient
+    fullName: Microsoft.Rest.ServiceClient
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Rest
+  commentId: N:Microsoft.Rest
+  isExternal: false
+  name: Microsoft.Rest
+  nameWithType: Microsoft.Rest
+  fullName: Microsoft.Rest
+- uid: Microsoft.Rest.Azure
+  commentId: N:Microsoft.Rest.Azure
+  isExternal: false
+  name: Microsoft.Rest.Azure
+  nameWithType: Microsoft.Rest.Azure
+  fullName: Microsoft.Rest.Azure
+- uid: Microsoft.Rest.ServiceClient`1.FirstMessageHandler
+  commentId: P:Microsoft.Rest.ServiceClient`1.FirstMessageHandler
+  isExternal: false
+  name: FirstMessageHandler
+  nameWithType: ServiceClient<T>.FirstMessageHandler
+  fullName: Microsoft.Rest.ServiceClient<T>.FirstMessageHandler
+  nameWithType.vb: ServiceClient(Of T).FirstMessageHandler
+  fullname.vb: Microsoft.Rest.ServiceClient(Of T).FirstMessageHandler
+- uid: Microsoft.Rest.ServiceClient`1.HttpClientHandler
+  commentId: P:Microsoft.Rest.ServiceClient`1.HttpClientHandler
+  isExternal: false
+  name: HttpClientHandler
+  nameWithType: ServiceClient<T>.HttpClientHandler
+  fullName: Microsoft.Rest.ServiceClient<T>.HttpClientHandler
+  nameWithType.vb: ServiceClient(Of T).HttpClientHandler
+  fullname.vb: Microsoft.Rest.ServiceClient(Of T).HttpClientHandler
+- uid: Microsoft.Rest.ServiceClient`1.CreateRootHandler
+  commentId: M:Microsoft.Rest.ServiceClient`1.CreateRootHandler
+  isExternal: false
+  name: CreateRootHandler()
+  nameWithType: ServiceClient<T>.CreateRootHandler()
+  fullName: Microsoft.Rest.ServiceClient<T>.CreateRootHandler()
+  nameWithType.vb: ServiceClient(Of T).CreateRootHandler()
+  fullname.vb: Microsoft.Rest.ServiceClient(Of T).CreateRootHandler()
+  spec.csharp:
+  - uid: Microsoft.Rest.ServiceClient`1.CreateRootHandler
+    name: CreateRootHandler
+    nameWithType: ServiceClient<T>.CreateRootHandler
+    fullName: Microsoft.Rest.ServiceClient<T>.CreateRootHandler
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.Rest.ServiceClient`1.CreateRootHandler
+    name: CreateRootHandler
+    nameWithType: ServiceClient(Of T).CreateRootHandler
+    fullName: Microsoft.Rest.ServiceClient(Of T).CreateRootHandler
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Rest.ServiceClient`1.HttpClient
+  commentId: P:Microsoft.Rest.ServiceClient`1.HttpClient
+  isExternal: false
+  name: HttpClient
+  nameWithType: ServiceClient<T>.HttpClient
+  fullName: Microsoft.Rest.ServiceClient<T>.HttpClient
+  nameWithType.vb: ServiceClient(Of T).HttpClient
+  fullname.vb: Microsoft.Rest.ServiceClient(Of T).HttpClient
+- uid: Microsoft.Rest.ServiceClient`1.UserAgent
+  commentId: P:Microsoft.Rest.ServiceClient`1.UserAgent
+  isExternal: false
+  name: UserAgent
+  nameWithType: ServiceClient<T>.UserAgent
+  fullName: Microsoft.Rest.ServiceClient<T>.UserAgent
+  nameWithType.vb: ServiceClient(Of T).UserAgent
+  fullname.vb: Microsoft.Rest.ServiceClient(Of T).UserAgent
+- uid: Microsoft.Rest.ServiceClient`1.HttpMessageHandlers
+  commentId: P:Microsoft.Rest.ServiceClient`1.HttpMessageHandlers
+  isExternal: false
+  name: HttpMessageHandlers
+  nameWithType: ServiceClient<T>.HttpMessageHandlers
+  fullName: Microsoft.Rest.ServiceClient<T>.HttpMessageHandlers
+  nameWithType.vb: ServiceClient(Of T).HttpMessageHandlers
+  fullname.vb: Microsoft.Rest.ServiceClient(Of T).HttpMessageHandlers
+- uid: Microsoft.Rest.ServiceClient`1.SetRetryPolicy(Microsoft.Rest.TransientFaultHandling.RetryPolicy)
+  commentId: M:Microsoft.Rest.ServiceClient`1.SetRetryPolicy(Microsoft.Rest.TransientFaultHandling.RetryPolicy)
+  isExternal: false
+  name: SetRetryPolicy(RetryPolicy)
+  nameWithType: ServiceClient<T>.SetRetryPolicy(RetryPolicy)
+  fullName: Microsoft.Rest.ServiceClient<T>.SetRetryPolicy(Microsoft.Rest.TransientFaultHandling.RetryPolicy)
+  nameWithType.vb: ServiceClient(Of T).SetRetryPolicy(RetryPolicy)
+  fullname.vb: Microsoft.Rest.ServiceClient(Of T).SetRetryPolicy(Microsoft.Rest.TransientFaultHandling.RetryPolicy)
+  spec.csharp:
+  - uid: Microsoft.Rest.ServiceClient`1.SetRetryPolicy(Microsoft.Rest.TransientFaultHandling.RetryPolicy)
+    name: SetRetryPolicy
+    nameWithType: ServiceClient<T>.SetRetryPolicy
+    fullName: Microsoft.Rest.ServiceClient<T>.SetRetryPolicy
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.Rest.TransientFaultHandling.RetryPolicy
+    name: RetryPolicy
+    nameWithType: RetryPolicy
+    fullName: Microsoft.Rest.TransientFaultHandling.RetryPolicy
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.Rest.ServiceClient`1.SetRetryPolicy(Microsoft.Rest.TransientFaultHandling.RetryPolicy)
+    name: SetRetryPolicy
+    nameWithType: ServiceClient(Of T).SetRetryPolicy
+    fullName: Microsoft.Rest.ServiceClient(Of T).SetRetryPolicy
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.Rest.TransientFaultHandling.RetryPolicy
+    name: RetryPolicy
+    nameWithType: RetryPolicy
+    fullName: Microsoft.Rest.TransientFaultHandling.RetryPolicy
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Rest.ServiceClient`1.Dispose
+  commentId: M:Microsoft.Rest.ServiceClient`1.Dispose
+  isExternal: false
+  name: Dispose()
+  nameWithType: ServiceClient<T>.Dispose()
+  fullName: Microsoft.Rest.ServiceClient<T>.Dispose()
+  nameWithType.vb: ServiceClient(Of T).Dispose()
+  fullname.vb: Microsoft.Rest.ServiceClient(Of T).Dispose()
+  spec.csharp:
+  - uid: Microsoft.Rest.ServiceClient`1.Dispose
+    name: Dispose
+    nameWithType: ServiceClient<T>.Dispose
+    fullName: Microsoft.Rest.ServiceClient<T>.Dispose
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.Rest.ServiceClient`1.Dispose
+    name: Dispose
+    nameWithType: ServiceClient(Of T).Dispose
+    fullName: Microsoft.Rest.ServiceClient(Of T).Dispose
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Rest.ServiceClient`1.Dispose(System.Boolean)
+  commentId: M:Microsoft.Rest.ServiceClient`1.Dispose(System.Boolean)
+  isExternal: true
+  name: Dispose(Boolean)
+  nameWithType: ServiceClient<T>.Dispose(Boolean)
+  fullName: Microsoft.Rest.ServiceClient<T>.Dispose(System.Boolean)
+  nameWithType.vb: ServiceClient(Of T).Dispose(Boolean)
+  fullname.vb: Microsoft.Rest.ServiceClient(Of T).Dispose(System.Boolean)
+  spec.csharp:
+  - uid: Microsoft.Rest.ServiceClient`1.Dispose(System.Boolean)
+    name: Dispose
+    nameWithType: ServiceClient<T>.Dispose
+    fullName: Microsoft.Rest.ServiceClient<T>.Dispose
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.Rest.ServiceClient`1.Dispose(System.Boolean)
+    name: Dispose
+    nameWithType: ServiceClient(Of T).Dispose
+    fullName: Microsoft.Rest.ServiceClient(Of T).Dispose
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Rest.ServiceClient`1.InitializeHttpClient(System.Net.Http.HttpClientHandler,System.Net.Http.DelegatingHandler[])
+  commentId: M:Microsoft.Rest.ServiceClient`1.InitializeHttpClient(System.Net.Http.HttpClientHandler,System.Net.Http.DelegatingHandler[])
+  isExternal: true
+  name: InitializeHttpClient(HttpClientHandler, DelegatingHandler[])
+  nameWithType: ServiceClient<T>.InitializeHttpClient(HttpClientHandler, DelegatingHandler[])
+  fullName: Microsoft.Rest.ServiceClient<T>.InitializeHttpClient(System.Net.Http.HttpClientHandler, System.Net.Http.DelegatingHandler[])
+  nameWithType.vb: ServiceClient(Of T).InitializeHttpClient(HttpClientHandler, DelegatingHandler())
+  fullname.vb: Microsoft.Rest.ServiceClient(Of T).InitializeHttpClient(System.Net.Http.HttpClientHandler, System.Net.Http.DelegatingHandler())
+  name.vb: InitializeHttpClient(HttpClientHandler, DelegatingHandler())
+  spec.csharp:
+  - uid: Microsoft.Rest.ServiceClient`1.InitializeHttpClient(System.Net.Http.HttpClientHandler,System.Net.Http.DelegatingHandler[])
+    name: InitializeHttpClient
+    nameWithType: ServiceClient<T>.InitializeHttpClient
+    fullName: Microsoft.Rest.ServiceClient<T>.InitializeHttpClient
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpClientHandler
+    name: HttpClientHandler
+    nameWithType: HttpClientHandler
+    fullName: System.Net.Http.HttpClientHandler
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Net.Http.DelegatingHandler
+    name: DelegatingHandler
+    nameWithType: DelegatingHandler
+    fullName: System.Net.Http.DelegatingHandler
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.Rest.ServiceClient`1.InitializeHttpClient(System.Net.Http.HttpClientHandler,System.Net.Http.DelegatingHandler[])
+    name: InitializeHttpClient
+    nameWithType: ServiceClient(Of T).InitializeHttpClient
+    fullName: Microsoft.Rest.ServiceClient(Of T).InitializeHttpClient
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpClientHandler
+    name: HttpClientHandler
+    nameWithType: HttpClientHandler
+    fullName: System.Net.Http.HttpClientHandler
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Net.Http.DelegatingHandler
+    name: DelegatingHandler
+    nameWithType: DelegatingHandler
+    fullName: System.Net.Http.DelegatingHandler
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Rest.ServiceClient`1.SetUserAgent(System.String)
+  commentId: M:Microsoft.Rest.ServiceClient`1.SetUserAgent(System.String)
+  isExternal: true
+  name: SetUserAgent(String)
+  nameWithType: ServiceClient<T>.SetUserAgent(String)
+  fullName: Microsoft.Rest.ServiceClient<T>.SetUserAgent(System.String)
+  nameWithType.vb: ServiceClient(Of T).SetUserAgent(String)
+  fullname.vb: Microsoft.Rest.ServiceClient(Of T).SetUserAgent(System.String)
+  spec.csharp:
+  - uid: Microsoft.Rest.ServiceClient`1.SetUserAgent(System.String)
+    name: SetUserAgent
+    nameWithType: ServiceClient<T>.SetUserAgent
+    fullName: Microsoft.Rest.ServiceClient<T>.SetUserAgent
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.Rest.ServiceClient`1.SetUserAgent(System.String)
+    name: SetUserAgent
+    nameWithType: ServiceClient(Of T).SetUserAgent
+    fullName: Microsoft.Rest.ServiceClient(Of T).SetUserAgent
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Rest.ServiceClient`1.SetUserAgent(System.String,System.String)
+  commentId: M:Microsoft.Rest.ServiceClient`1.SetUserAgent(System.String,System.String)
+  isExternal: true
+  name: SetUserAgent(String, String)
+  nameWithType: ServiceClient<T>.SetUserAgent(String, String)
+  fullName: Microsoft.Rest.ServiceClient<T>.SetUserAgent(System.String, System.String)
+  nameWithType.vb: ServiceClient(Of T).SetUserAgent(String, String)
+  fullname.vb: Microsoft.Rest.ServiceClient(Of T).SetUserAgent(System.String, System.String)
+  spec.csharp:
+  - uid: Microsoft.Rest.ServiceClient`1.SetUserAgent(System.String,System.String)
+    name: SetUserAgent
+    nameWithType: ServiceClient<T>.SetUserAgent
+    fullName: Microsoft.Rest.ServiceClient<T>.SetUserAgent
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.Rest.ServiceClient`1.SetUserAgent(System.String,System.String)
+    name: SetUserAgent
+    nameWithType: ServiceClient(Of T).SetUserAgent
+    fullName: Microsoft.Rest.ServiceClient(Of T).SetUserAgent
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.#ctor*
+  commentId: Overload:Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.#ctor
+  isExternal: false
+  name: DataLakeStoreAccountManagementClient
+  nameWithType: DataLakeStoreAccountManagementClient.DataLakeStoreAccountManagementClient
+  fullName: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.DataLakeStoreAccountManagementClient
+- uid: Microsoft.Rest.ServiceClientCredentials
+  commentId: T:Microsoft.Rest.ServiceClientCredentials
+  parent: Microsoft.Rest
+  isExternal: false
+  name: ServiceClientCredentials
+  nameWithType: ServiceClientCredentials
+  fullName: Microsoft.Rest.ServiceClientCredentials
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Net.Http.DelegatingHandler[]
+  name: DelegatingHandler[]
+  nameWithType: DelegatingHandler[]
+  fullName: System.Net.Http.DelegatingHandler[]
+  nameWithType.vb: DelegatingHandler()
+  fullname.vb: System.Net.Http.DelegatingHandler()
+  name.vb: DelegatingHandler()
+  spec.csharp:
+  - uid: System.Net.Http.DelegatingHandler
+    name: DelegatingHandler
+    nameWithType: DelegatingHandler
+    fullName: System.Net.Http.DelegatingHandler
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Net.Http.DelegatingHandler
+    name: DelegatingHandler
+    nameWithType: DelegatingHandler
+    fullName: System.Net.Http.DelegatingHandler
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.Net.Http.HttpClientHandler
+  commentId: T:System.Net.Http.HttpClientHandler
+  parent: System.Net.Http
+  isExternal: true
+  name: HttpClientHandler
+  nameWithType: HttpClientHandler
+  fullName: System.Net.Http.HttpClientHandler
+- uid: System.Net.Http
+  commentId: N:System.Net.Http
+  isExternal: false
+  name: System.Net.Http
+  nameWithType: System.Net.Http
+  fullName: System.Net.Http
+- uid: System.Uri
+  commentId: T:System.Uri
+  parent: System
+  isExternal: true
+  name: Uri
+  nameWithType: Uri
+  fullName: System.Uri
+- uid: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.BaseUri*
+  commentId: Overload:Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.BaseUri
+  isExternal: false
+  name: BaseUri
+  nameWithType: DataLakeStoreAccountManagementClient.BaseUri
+  fullName: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.BaseUri
+- uid: Microsoft.Azure.Management.DataLake.Store.IDataLakeStoreAccountManagementClient.BaseUri
+  commentId: P:Microsoft.Azure.Management.DataLake.Store.IDataLakeStoreAccountManagementClient.BaseUri
+  parent: Microsoft.Azure.Management.DataLake.Store.IDataLakeStoreAccountManagementClient
+  isExternal: false
+  name: BaseUri
+  nameWithType: IDataLakeStoreAccountManagementClient.BaseUri
+  fullName: Microsoft.Azure.Management.DataLake.Store.IDataLakeStoreAccountManagementClient.BaseUri
+- uid: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.SerializationSettings*
+  commentId: Overload:Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.SerializationSettings
+  isExternal: false
+  name: SerializationSettings
+  nameWithType: DataLakeStoreAccountManagementClient.SerializationSettings
+  fullName: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.SerializationSettings
+- uid: Microsoft.Azure.Management.DataLake.Store.IDataLakeStoreAccountManagementClient.SerializationSettings
+  commentId: P:Microsoft.Azure.Management.DataLake.Store.IDataLakeStoreAccountManagementClient.SerializationSettings
+  parent: Microsoft.Azure.Management.DataLake.Store.IDataLakeStoreAccountManagementClient
+  isExternal: false
+  name: SerializationSettings
+  nameWithType: IDataLakeStoreAccountManagementClient.SerializationSettings
+  fullName: Microsoft.Azure.Management.DataLake.Store.IDataLakeStoreAccountManagementClient.SerializationSettings
+- uid: Microsoft.Rest.Azure.IAzureClient.SerializationSettings
+  commentId: P:Microsoft.Rest.Azure.IAzureClient.SerializationSettings
+  parent: Microsoft.Rest.Azure.IAzureClient
+  isExternal: false
+  name: SerializationSettings
+  nameWithType: IAzureClient.SerializationSettings
+  fullName: Microsoft.Rest.Azure.IAzureClient.SerializationSettings
+- uid: Newtonsoft.Json.JsonSerializerSettings
+  commentId: T:Newtonsoft.Json.JsonSerializerSettings
+  parent: Newtonsoft.Json
+  isExternal: true
+  name: JsonSerializerSettings
+  nameWithType: JsonSerializerSettings
+  fullName: Newtonsoft.Json.JsonSerializerSettings
+- uid: Newtonsoft.Json
+  commentId: N:Newtonsoft.Json
+  isExternal: false
+  name: Newtonsoft.Json
+  nameWithType: Newtonsoft.Json
+  fullName: Newtonsoft.Json
+- uid: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.DeserializationSettings*
+  commentId: Overload:Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.DeserializationSettings
+  isExternal: false
+  name: DeserializationSettings
+  nameWithType: DataLakeStoreAccountManagementClient.DeserializationSettings
+  fullName: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.DeserializationSettings
+- uid: Microsoft.Azure.Management.DataLake.Store.IDataLakeStoreAccountManagementClient.DeserializationSettings
+  commentId: P:Microsoft.Azure.Management.DataLake.Store.IDataLakeStoreAccountManagementClient.DeserializationSettings
+  parent: Microsoft.Azure.Management.DataLake.Store.IDataLakeStoreAccountManagementClient
+  isExternal: false
+  name: DeserializationSettings
+  nameWithType: IDataLakeStoreAccountManagementClient.DeserializationSettings
+  fullName: Microsoft.Azure.Management.DataLake.Store.IDataLakeStoreAccountManagementClient.DeserializationSettings
+- uid: Microsoft.Rest.Azure.IAzureClient.DeserializationSettings
+  commentId: P:Microsoft.Rest.Azure.IAzureClient.DeserializationSettings
+  parent: Microsoft.Rest.Azure.IAzureClient
+  isExternal: false
+  name: DeserializationSettings
+  nameWithType: IAzureClient.DeserializationSettings
+  fullName: Microsoft.Rest.Azure.IAzureClient.DeserializationSettings
+- uid: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.Credentials*
+  commentId: Overload:Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.Credentials
+  isExternal: false
+  name: Credentials
+  nameWithType: DataLakeStoreAccountManagementClient.Credentials
+  fullName: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.Credentials
+- uid: Microsoft.Azure.Management.DataLake.Store.IDataLakeStoreAccountManagementClient.Credentials
+  commentId: P:Microsoft.Azure.Management.DataLake.Store.IDataLakeStoreAccountManagementClient.Credentials
+  parent: Microsoft.Azure.Management.DataLake.Store.IDataLakeStoreAccountManagementClient
+  isExternal: false
+  name: Credentials
+  nameWithType: IDataLakeStoreAccountManagementClient.Credentials
+  fullName: Microsoft.Azure.Management.DataLake.Store.IDataLakeStoreAccountManagementClient.Credentials
+- uid: Microsoft.Rest.Azure.IAzureClient.Credentials
+  commentId: P:Microsoft.Rest.Azure.IAzureClient.Credentials
+  parent: Microsoft.Rest.Azure.IAzureClient
+  isExternal: false
+  name: Credentials
+  nameWithType: IAzureClient.Credentials
+  fullName: Microsoft.Rest.Azure.IAzureClient.Credentials
+- uid: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.SubscriptionId*
+  commentId: Overload:Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.SubscriptionId
+  isExternal: false
+  name: SubscriptionId
+  nameWithType: DataLakeStoreAccountManagementClient.SubscriptionId
+  fullName: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.SubscriptionId
+- uid: Microsoft.Azure.Management.DataLake.Store.IDataLakeStoreAccountManagementClient.SubscriptionId
+  commentId: P:Microsoft.Azure.Management.DataLake.Store.IDataLakeStoreAccountManagementClient.SubscriptionId
+  parent: Microsoft.Azure.Management.DataLake.Store.IDataLakeStoreAccountManagementClient
+  isExternal: false
+  name: SubscriptionId
+  nameWithType: IDataLakeStoreAccountManagementClient.SubscriptionId
+  fullName: Microsoft.Azure.Management.DataLake.Store.IDataLakeStoreAccountManagementClient.SubscriptionId
+- uid: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.ApiVersion*
+  commentId: Overload:Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.ApiVersion
+  isExternal: false
+  name: ApiVersion
+  nameWithType: DataLakeStoreAccountManagementClient.ApiVersion
+  fullName: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.ApiVersion
+- uid: Microsoft.Azure.Management.DataLake.Store.IDataLakeStoreAccountManagementClient.ApiVersion
+  commentId: P:Microsoft.Azure.Management.DataLake.Store.IDataLakeStoreAccountManagementClient.ApiVersion
+  parent: Microsoft.Azure.Management.DataLake.Store.IDataLakeStoreAccountManagementClient
+  isExternal: false
+  name: ApiVersion
+  nameWithType: IDataLakeStoreAccountManagementClient.ApiVersion
+  fullName: Microsoft.Azure.Management.DataLake.Store.IDataLakeStoreAccountManagementClient.ApiVersion
+- uid: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.AcceptLanguage*
+  commentId: Overload:Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.AcceptLanguage
+  isExternal: false
+  name: AcceptLanguage
+  nameWithType: DataLakeStoreAccountManagementClient.AcceptLanguage
+  fullName: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.AcceptLanguage
+- uid: Microsoft.Azure.Management.DataLake.Store.IDataLakeStoreAccountManagementClient.AcceptLanguage
+  commentId: P:Microsoft.Azure.Management.DataLake.Store.IDataLakeStoreAccountManagementClient.AcceptLanguage
+  parent: Microsoft.Azure.Management.DataLake.Store.IDataLakeStoreAccountManagementClient
+  isExternal: false
+  name: AcceptLanguage
+  nameWithType: IDataLakeStoreAccountManagementClient.AcceptLanguage
+  fullName: Microsoft.Azure.Management.DataLake.Store.IDataLakeStoreAccountManagementClient.AcceptLanguage
+- uid: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.LongRunningOperationRetryTimeout*
+  commentId: Overload:Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.LongRunningOperationRetryTimeout
+  isExternal: false
+  name: LongRunningOperationRetryTimeout
+  nameWithType: DataLakeStoreAccountManagementClient.LongRunningOperationRetryTimeout
+  fullName: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.LongRunningOperationRetryTimeout
+- uid: Microsoft.Azure.Management.DataLake.Store.IDataLakeStoreAccountManagementClient.LongRunningOperationRetryTimeout
+  commentId: P:Microsoft.Azure.Management.DataLake.Store.IDataLakeStoreAccountManagementClient.LongRunningOperationRetryTimeout
+  parent: Microsoft.Azure.Management.DataLake.Store.IDataLakeStoreAccountManagementClient
+  isExternal: false
+  name: LongRunningOperationRetryTimeout
+  nameWithType: IDataLakeStoreAccountManagementClient.LongRunningOperationRetryTimeout
+  fullName: Microsoft.Azure.Management.DataLake.Store.IDataLakeStoreAccountManagementClient.LongRunningOperationRetryTimeout
+- uid: Microsoft.Rest.Azure.IAzureClient.LongRunningOperationRetryTimeout
+  commentId: P:Microsoft.Rest.Azure.IAzureClient.LongRunningOperationRetryTimeout
+  parent: Microsoft.Rest.Azure.IAzureClient
+  isExternal: false
+  name: LongRunningOperationRetryTimeout
+  nameWithType: IAzureClient.LongRunningOperationRetryTimeout
+  fullName: Microsoft.Rest.Azure.IAzureClient.LongRunningOperationRetryTimeout
+- uid: System.Nullable{System.Int32}
+  commentId: T:System.Nullable{System.Int32}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<Int32>
+  nameWithType: Nullable<Int32>
+  fullName: System.Nullable<System.Int32>
+  nameWithType.vb: Nullable(Of Int32)
+  fullname.vb: System.Nullable(Of System.Int32)
+  name.vb: Nullable(Of Int32)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullname.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.GenerateClientRequestId*
+  commentId: Overload:Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.GenerateClientRequestId
+  isExternal: false
+  name: GenerateClientRequestId
+  nameWithType: DataLakeStoreAccountManagementClient.GenerateClientRequestId
+  fullName: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.GenerateClientRequestId
+- uid: Microsoft.Azure.Management.DataLake.Store.IDataLakeStoreAccountManagementClient.GenerateClientRequestId
+  commentId: P:Microsoft.Azure.Management.DataLake.Store.IDataLakeStoreAccountManagementClient.GenerateClientRequestId
+  parent: Microsoft.Azure.Management.DataLake.Store.IDataLakeStoreAccountManagementClient
+  isExternal: false
+  name: GenerateClientRequestId
+  nameWithType: IDataLakeStoreAccountManagementClient.GenerateClientRequestId
+  fullName: Microsoft.Azure.Management.DataLake.Store.IDataLakeStoreAccountManagementClient.GenerateClientRequestId
+- uid: Microsoft.Rest.Azure.IAzureClient.GenerateClientRequestId
+  commentId: P:Microsoft.Rest.Azure.IAzureClient.GenerateClientRequestId
+  parent: Microsoft.Rest.Azure.IAzureClient
+  isExternal: false
+  name: GenerateClientRequestId
+  nameWithType: IAzureClient.GenerateClientRequestId
+  fullName: Microsoft.Rest.Azure.IAzureClient.GenerateClientRequestId
+- uid: System.Nullable{System.Boolean}
+  commentId: T:System.Nullable{System.Boolean}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<Boolean>
+  nameWithType: Nullable<Boolean>
+  fullName: System.Nullable<System.Boolean>
+  nameWithType.vb: Nullable(Of Boolean)
+  fullname.vb: System.Nullable(Of System.Boolean)
+  name.vb: Nullable(Of Boolean)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.FirewallRules*
+  commentId: Overload:Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.FirewallRules
+  isExternal: false
+  name: FirewallRules
+  nameWithType: DataLakeStoreAccountManagementClient.FirewallRules
+  fullName: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.FirewallRules
+- uid: Microsoft.Azure.Management.DataLake.Store.IDataLakeStoreAccountManagementClient.FirewallRules
+  commentId: P:Microsoft.Azure.Management.DataLake.Store.IDataLakeStoreAccountManagementClient.FirewallRules
+  parent: Microsoft.Azure.Management.DataLake.Store.IDataLakeStoreAccountManagementClient
+  isExternal: false
+  name: FirewallRules
+  nameWithType: IDataLakeStoreAccountManagementClient.FirewallRules
+  fullName: Microsoft.Azure.Management.DataLake.Store.IDataLakeStoreAccountManagementClient.FirewallRules
+- uid: Microsoft.Azure.Management.DataLake.Store.IFirewallRulesOperations
+  commentId: T:Microsoft.Azure.Management.DataLake.Store.IFirewallRulesOperations
+  parent: Microsoft.Azure.Management.DataLake.Store
+  isExternal: false
+  name: IFirewallRulesOperations
+  nameWithType: IFirewallRulesOperations
+  fullName: Microsoft.Azure.Management.DataLake.Store.IFirewallRulesOperations
+- uid: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.TrustedIdProviders*
+  commentId: Overload:Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.TrustedIdProviders
+  isExternal: false
+  name: TrustedIdProviders
+  nameWithType: DataLakeStoreAccountManagementClient.TrustedIdProviders
+  fullName: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.TrustedIdProviders
+- uid: Microsoft.Azure.Management.DataLake.Store.IDataLakeStoreAccountManagementClient.TrustedIdProviders
+  commentId: P:Microsoft.Azure.Management.DataLake.Store.IDataLakeStoreAccountManagementClient.TrustedIdProviders
+  parent: Microsoft.Azure.Management.DataLake.Store.IDataLakeStoreAccountManagementClient
+  isExternal: false
+  name: TrustedIdProviders
+  nameWithType: IDataLakeStoreAccountManagementClient.TrustedIdProviders
+  fullName: Microsoft.Azure.Management.DataLake.Store.IDataLakeStoreAccountManagementClient.TrustedIdProviders
+- uid: Microsoft.Azure.Management.DataLake.Store.ITrustedIdProvidersOperations
+  commentId: T:Microsoft.Azure.Management.DataLake.Store.ITrustedIdProvidersOperations
+  parent: Microsoft.Azure.Management.DataLake.Store
+  isExternal: false
+  name: ITrustedIdProvidersOperations
+  nameWithType: ITrustedIdProvidersOperations
+  fullName: Microsoft.Azure.Management.DataLake.Store.ITrustedIdProvidersOperations
+- uid: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.Account*
+  commentId: Overload:Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.Account
+  isExternal: false
+  name: Account
+  nameWithType: DataLakeStoreAccountManagementClient.Account
+  fullName: Microsoft.Azure.Management.DataLake.Store.DataLakeStoreAccountManagementClient.Account
+- uid: Microsoft.Azure.Management.DataLake.Store.IDataLakeStoreAccountManagementClient.Account
+  commentId: P:Microsoft.Azure.Management.DataLake.Store.IDataLakeStoreAccountManagementClient.Account
+  parent: Microsoft.Azure.Management.DataLake.Store.IDataLakeStoreAccountManagementClient
+  isExternal: false
+  name: Account
+  nameWithType: IDataLakeStoreAccountManagementClient.Account
+  fullName: Microsoft.Azure.Management.DataLake.Store.IDataLakeStoreAccountManagementClient.Account
+- uid: Microsoft.Azure.Management.DataLake.Store.IAccountOperations
+  commentId: T:Microsoft.Azure.Management.DataLake.Store.IAccountOperations
+  parent: Microsoft.Azure.Management.DataLake.Store
+  isExternal: false
+  name: IAccountOperations
+  nameWithType: IAccountOperations
+  fullName: Microsoft.Azure.Management.DataLake.Store.IAccountOperations
+- uid: System.ArgumentNullException
+  commentId: T:System.ArgumentNullException

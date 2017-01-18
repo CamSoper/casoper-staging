@@ -1,0 +1,2318 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.Azure.Management.ServiceBus.Models.QueueResource
+  commentId: T:Microsoft.Azure.Management.ServiceBus.Models.QueueResource
+  id: QueueResource
+  parent: Microsoft.Azure.Management.ServiceBus.Models
+  children:
+  - Microsoft.Azure.Management.ServiceBus.Models.QueueResource.#ctor
+  - Microsoft.Azure.Management.ServiceBus.Models.QueueResource.#ctor(System.String,System.String,System.String,System.String,System.Collections.Generic.IDictionary{System.String,System.String},System.String,System.Nullable{System.DateTime},System.String,System.Nullable{Microsoft.Azure.Management.ServiceBus.Models.EntityAvailabilityStatus},System.Nullable{System.DateTime},System.String,System.String,System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.Nullable{System.Int32},System.Nullable{System.Int64},System.Nullable{System.Int64},Microsoft.Azure.Management.ServiceBus.Models.MessageCountDetails,System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.Nullable{System.Int64},System.Nullable{Microsoft.Azure.Management.ServiceBus.Models.EntityStatus},System.Nullable{System.Boolean},System.Nullable{System.DateTime})
+  - Microsoft.Azure.Management.ServiceBus.Models.QueueResource.AccessedAt
+  - Microsoft.Azure.Management.ServiceBus.Models.QueueResource.AutoDeleteOnIdle
+  - Microsoft.Azure.Management.ServiceBus.Models.QueueResource.CountDetails
+  - Microsoft.Azure.Management.ServiceBus.Models.QueueResource.CreatedAt
+  - Microsoft.Azure.Management.ServiceBus.Models.QueueResource.DeadLetteringOnMessageExpiration
+  - Microsoft.Azure.Management.ServiceBus.Models.QueueResource.DefaultMessageTimeToLive
+  - Microsoft.Azure.Management.ServiceBus.Models.QueueResource.DuplicateDetectionHistoryTimeWindow
+  - Microsoft.Azure.Management.ServiceBus.Models.QueueResource.EnableBatchedOperations
+  - Microsoft.Azure.Management.ServiceBus.Models.QueueResource.EnableExpress
+  - Microsoft.Azure.Management.ServiceBus.Models.QueueResource.EnablePartitioning
+  - Microsoft.Azure.Management.ServiceBus.Models.QueueResource.EntityAvailabilityStatus
+  - Microsoft.Azure.Management.ServiceBus.Models.QueueResource.IsAnonymousAccessible
+  - Microsoft.Azure.Management.ServiceBus.Models.QueueResource.LockDuration
+  - Microsoft.Azure.Management.ServiceBus.Models.QueueResource.MaxDeliveryCount
+  - Microsoft.Azure.Management.ServiceBus.Models.QueueResource.MaxSizeInMegabytes
+  - Microsoft.Azure.Management.ServiceBus.Models.QueueResource.MessageCount
+  - Microsoft.Azure.Management.ServiceBus.Models.QueueResource.RequiresDuplicateDetection
+  - Microsoft.Azure.Management.ServiceBus.Models.QueueResource.RequiresSession
+  - Microsoft.Azure.Management.ServiceBus.Models.QueueResource.SizeInBytes
+  - Microsoft.Azure.Management.ServiceBus.Models.QueueResource.Status
+  - Microsoft.Azure.Management.ServiceBus.Models.QueueResource.SupportOrdering
+  - Microsoft.Azure.Management.ServiceBus.Models.QueueResource.UpdatedAt
+  - Microsoft.Azure.Management.ServiceBus.Models.QueueResource.Validate
+  langs:
+  - csharp
+  - vb
+  name: QueueResource
+  nameWithType: QueueResource
+  fullName: Microsoft.Azure.Management.ServiceBus.Models.QueueResource
+  type: Class
+  source:
+    remote:
+      path: src/ResourceManagement/ServiceBus/Microsoft.Azure.Management.ServiceBus/Generated/Models/QueueResource.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: QueueResource
+    path: src/azure-sdk-for-net/src/ResourceManagement/ServiceBus/Microsoft.Azure.Management.ServiceBus/Generated/Models/QueueResource.cs
+    startLine: 21
+  assemblies:
+  - Microsoft.Azure.Management.ServiceBus
+  namespace: Microsoft.Azure.Management.ServiceBus.Models
+  summary: "\nDescription of queue Resource.\n"
+  example: []
+  syntax:
+    content: 'public class QueueResource : Resource, IResource'
+    content.vb: >-
+      Public Class QueueResource
+          Inherits Resource
+          Implements IResource
+  inheritance:
+  - System.Object
+  - Microsoft.Azure.Management.ServiceBus.Models.Resource
+  implements:
+  - Microsoft.Rest.Azure.IResource
+  inheritedMembers:
+  - Microsoft.Azure.Management.ServiceBus.Models.Resource.Id
+  - Microsoft.Azure.Management.ServiceBus.Models.Resource.Name
+  - Microsoft.Azure.Management.ServiceBus.Models.Resource.Type
+  - Microsoft.Azure.Management.ServiceBus.Models.Resource.Location
+  - Microsoft.Azure.Management.ServiceBus.Models.Resource.Tags
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.#ctor
+  commentId: M:Microsoft.Azure.Management.ServiceBus.Models.QueueResource.#ctor
+  id: '#ctor'
+  parent: Microsoft.Azure.Management.ServiceBus.Models.QueueResource
+  langs:
+  - csharp
+  - vb
+  name: QueueResource()
+  nameWithType: QueueResource.QueueResource()
+  fullName: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.QueueResource()
+  type: Constructor
+  source:
+    remote:
+      path: src/ResourceManagement/ServiceBus/Microsoft.Azure.Management.ServiceBus/Generated/Models/QueueResource.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: .ctor
+    path: src/azure-sdk-for-net/src/ResourceManagement/ServiceBus/Microsoft.Azure.Management.ServiceBus/Generated/Models/QueueResource.cs
+    startLine: 27
+  assemblies:
+  - Microsoft.Azure.Management.ServiceBus
+  namespace: Microsoft.Azure.Management.ServiceBus.Models
+  summary: "\nInitializes a new instance of the QueueResource class.\n"
+  example: []
+  syntax:
+    content: public QueueResource()
+    content.vb: Public Sub New
+  overload: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.#ctor(System.String,System.String,System.String,System.String,System.Collections.Generic.IDictionary{System.String,System.String},System.String,System.Nullable{System.DateTime},System.String,System.Nullable{Microsoft.Azure.Management.ServiceBus.Models.EntityAvailabilityStatus},System.Nullable{System.DateTime},System.String,System.String,System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.Nullable{System.Int32},System.Nullable{System.Int64},System.Nullable{System.Int64},Microsoft.Azure.Management.ServiceBus.Models.MessageCountDetails,System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.Nullable{System.Int64},System.Nullable{Microsoft.Azure.Management.ServiceBus.Models.EntityStatus},System.Nullable{System.Boolean},System.Nullable{System.DateTime})
+  commentId: M:Microsoft.Azure.Management.ServiceBus.Models.QueueResource.#ctor(System.String,System.String,System.String,System.String,System.Collections.Generic.IDictionary{System.String,System.String},System.String,System.Nullable{System.DateTime},System.String,System.Nullable{Microsoft.Azure.Management.ServiceBus.Models.EntityAvailabilityStatus},System.Nullable{System.DateTime},System.String,System.String,System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.Nullable{System.Int32},System.Nullable{System.Int64},System.Nullable{System.Int64},Microsoft.Azure.Management.ServiceBus.Models.MessageCountDetails,System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.Nullable{System.Int64},System.Nullable{Microsoft.Azure.Management.ServiceBus.Models.EntityStatus},System.Nullable{System.Boolean},System.Nullable{System.DateTime})
+  id: '#ctor(System.String,System.String,System.String,System.String,System.Collections.Generic.IDictionary{System.String,System.String},System.String,System.Nullable{System.DateTime},System.String,System.Nullable{Microsoft.Azure.Management.ServiceBus.Models.EntityAvailabilityStatus},System.Nullable{System.DateTime},System.String,System.String,System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.Nullable{System.Int32},System.Nullable{System.Int64},System.Nullable{System.Int64},Microsoft.Azure.Management.ServiceBus.Models.MessageCountDetails,System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.Nullable{System.Int64},System.Nullable{Microsoft.Azure.Management.ServiceBus.Models.EntityStatus},System.Nullable{System.Boolean},System.Nullable{System.DateTime})'
+  parent: Microsoft.Azure.Management.ServiceBus.Models.QueueResource
+  langs:
+  - csharp
+  - vb
+  name: QueueResource(String, String, String, String, IDictionary<String, String>, String, Nullable<DateTime>, String, Nullable<EntityAvailabilityStatus>, Nullable<DateTime>, String, String, Nullable<Boolean>, Nullable<Boolean>, Nullable<Boolean>, Nullable<Boolean>, Nullable<Boolean>, Nullable<Int32>, Nullable<Int64>, Nullable<Int64>, MessageCountDetails, Nullable<Boolean>, Nullable<Boolean>, Nullable<Int64>, Nullable<EntityStatus>, Nullable<Boolean>, Nullable<DateTime>)
+  nameWithType: QueueResource.QueueResource(String, String, String, String, IDictionary<String, String>, String, Nullable<DateTime>, String, Nullable<EntityAvailabilityStatus>, Nullable<DateTime>, String, String, Nullable<Boolean>, Nullable<Boolean>, Nullable<Boolean>, Nullable<Boolean>, Nullable<Boolean>, Nullable<Int32>, Nullable<Int64>, Nullable<Int64>, MessageCountDetails, Nullable<Boolean>, Nullable<Boolean>, Nullable<Int64>, Nullable<EntityStatus>, Nullable<Boolean>, Nullable<DateTime>)
+  fullName: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.QueueResource(System.String, System.String, System.String, System.String, System.Collections.Generic.IDictionary<System.String, System.String>, System.String, System.Nullable<System.DateTime>, System.String, System.Nullable<Microsoft.Azure.Management.ServiceBus.Models.EntityAvailabilityStatus>, System.Nullable<System.DateTime>, System.String, System.String, System.Nullable<System.Boolean>, System.Nullable<System.Boolean>, System.Nullable<System.Boolean>, System.Nullable<System.Boolean>, System.Nullable<System.Boolean>, System.Nullable<System.Int32>, System.Nullable<System.Int64>, System.Nullable<System.Int64>, Microsoft.Azure.Management.ServiceBus.Models.MessageCountDetails, System.Nullable<System.Boolean>, System.Nullable<System.Boolean>, System.Nullable<System.Int64>, System.Nullable<Microsoft.Azure.Management.ServiceBus.Models.EntityStatus>, System.Nullable<System.Boolean>, System.Nullable<System.DateTime>)
+  type: Constructor
+  source:
+    remote:
+      path: src/ResourceManagement/ServiceBus/Microsoft.Azure.Management.ServiceBus/Generated/Models/QueueResource.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: .ctor
+    path: src/azure-sdk-for-net/src/ResourceManagement/ServiceBus/Microsoft.Azure.Management.ServiceBus/Generated/Models/QueueResource.cs
+    startLine: 32
+  assemblies:
+  - Microsoft.Azure.Management.ServiceBus
+  namespace: Microsoft.Azure.Management.ServiceBus.Models
+  summary: "\nInitializes a new instance of the QueueResource class.\n"
+  example: []
+  syntax:
+    content: public QueueResource(string location, string id = null, string name = null, string type = null, IDictionary<string, string> tags = null, string lockDuration = null, DateTime? accessedAt = null, string autoDeleteOnIdle = null, EntityAvailabilityStatus? entityAvailabilityStatus = null, DateTime? createdAt = null, string defaultMessageTimeToLive = null, string duplicateDetectionHistoryTimeWindow = null, bool ? enableBatchedOperations = null, bool ? deadLetteringOnMessageExpiration = null, bool ? enableExpress = null, bool ? enablePartitioning = null, bool ? isAnonymousAccessible = null, int ? maxDeliveryCount = null, long ? maxSizeInMegabytes = null, long ? messageCount = null, MessageCountDetails countDetails = null, bool ? requiresDuplicateDetection = null, bool ? requiresSession = null, long ? sizeInBytes = null, EntityStatus? status = null, bool ? supportOrdering = null, DateTime? updatedAt = null)
+    content.vb: Public Sub New(location As String, id As String = Nothing, name As String = Nothing, type As String = Nothing, tags As IDictionary(Of String, String) = Nothing, lockDuration As String = Nothing, accessedAt As Date? = Nothing, autoDeleteOnIdle As String = Nothing, entityAvailabilityStatus As EntityAvailabilityStatus? = Nothing, createdAt As Date? = Nothing, defaultMessageTimeToLive As String = Nothing, duplicateDetectionHistoryTimeWindow As String = Nothing, enableBatchedOperations As Boolean? = Nothing, deadLetteringOnMessageExpiration As Boolean? = Nothing, enableExpress As Boolean? = Nothing, enablePartitioning As Boolean? = Nothing, isAnonymousAccessible As Boolean? = Nothing, maxDeliveryCount As Integer? = Nothing, maxSizeInMegabytes As Long? = Nothing, messageCount As Long? = Nothing, countDetails As MessageCountDetails = Nothing, requiresDuplicateDetection As Boolean? = Nothing, requiresSession As Boolean? = Nothing, sizeInBytes As Long? = Nothing, status As EntityStatus? = Nothing, supportOrdering As Boolean? = Nothing, updatedAt As Date? = Nothing)
+    parameters:
+    - id: location
+      type: System.String
+    - id: id
+      type: System.String
+    - id: name
+      type: System.String
+    - id: type
+      type: System.String
+    - id: tags
+      type: System.Collections.Generic.IDictionary{System.String,System.String}
+    - id: lockDuration
+      type: System.String
+    - id: accessedAt
+      type: System.Nullable{System.DateTime}
+    - id: autoDeleteOnIdle
+      type: System.String
+    - id: entityAvailabilityStatus
+      type: System.Nullable{Microsoft.Azure.Management.ServiceBus.Models.EntityAvailabilityStatus}
+    - id: createdAt
+      type: System.Nullable{System.DateTime}
+    - id: defaultMessageTimeToLive
+      type: System.String
+    - id: duplicateDetectionHistoryTimeWindow
+      type: System.String
+    - id: enableBatchedOperations
+      type: System.Nullable{System.Boolean}
+    - id: deadLetteringOnMessageExpiration
+      type: System.Nullable{System.Boolean}
+    - id: enableExpress
+      type: System.Nullable{System.Boolean}
+    - id: enablePartitioning
+      type: System.Nullable{System.Boolean}
+    - id: isAnonymousAccessible
+      type: System.Nullable{System.Boolean}
+    - id: maxDeliveryCount
+      type: System.Nullable{System.Int32}
+    - id: maxSizeInMegabytes
+      type: System.Nullable{System.Int64}
+    - id: messageCount
+      type: System.Nullable{System.Int64}
+    - id: countDetails
+      type: Microsoft.Azure.Management.ServiceBus.Models.MessageCountDetails
+    - id: requiresDuplicateDetection
+      type: System.Nullable{System.Boolean}
+    - id: requiresSession
+      type: System.Nullable{System.Boolean}
+    - id: sizeInBytes
+      type: System.Nullable{System.Int64}
+    - id: status
+      type: System.Nullable{Microsoft.Azure.Management.ServiceBus.Models.EntityStatus}
+    - id: supportOrdering
+      type: System.Nullable{System.Boolean}
+    - id: updatedAt
+      type: System.Nullable{System.DateTime}
+  overload: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.#ctor*
+  nameWithType.vb: QueueResource.QueueResource(String, String, String, String, IDictionary(Of String, String), String, Nullable(Of DateTime), String, Nullable(Of EntityAvailabilityStatus), Nullable(Of DateTime), String, String, Nullable(Of Boolean), Nullable(Of Boolean), Nullable(Of Boolean), Nullable(Of Boolean), Nullable(Of Boolean), Nullable(Of Int32), Nullable(Of Int64), Nullable(Of Int64), MessageCountDetails, Nullable(Of Boolean), Nullable(Of Boolean), Nullable(Of Int64), Nullable(Of EntityStatus), Nullable(Of Boolean), Nullable(Of DateTime))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.QueueResource(System.String, System.String, System.String, System.String, System.Collections.Generic.IDictionary(Of System.String, System.String), System.String, System.Nullable(Of System.DateTime), System.String, System.Nullable(Of Microsoft.Azure.Management.ServiceBus.Models.EntityAvailabilityStatus), System.Nullable(Of System.DateTime), System.String, System.String, System.Nullable(Of System.Boolean), System.Nullable(Of System.Boolean), System.Nullable(Of System.Boolean), System.Nullable(Of System.Boolean), System.Nullable(Of System.Boolean), System.Nullable(Of System.Int32), System.Nullable(Of System.Int64), System.Nullable(Of System.Int64), Microsoft.Azure.Management.ServiceBus.Models.MessageCountDetails, System.Nullable(Of System.Boolean), System.Nullable(Of System.Boolean), System.Nullable(Of System.Int64), System.Nullable(Of Microsoft.Azure.Management.ServiceBus.Models.EntityStatus), System.Nullable(Of System.Boolean), System.Nullable(Of System.DateTime))
+  name.vb: QueueResource(String, String, String, String, IDictionary(Of String, String), String, Nullable(Of DateTime), String, Nullable(Of EntityAvailabilityStatus), Nullable(Of DateTime), String, String, Nullable(Of Boolean), Nullable(Of Boolean), Nullable(Of Boolean), Nullable(Of Boolean), Nullable(Of Boolean), Nullable(Of Int32), Nullable(Of Int64), Nullable(Of Int64), MessageCountDetails, Nullable(Of Boolean), Nullable(Of Boolean), Nullable(Of Int64), Nullable(Of EntityStatus), Nullable(Of Boolean), Nullable(Of DateTime))
+- uid: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.LockDuration
+  commentId: P:Microsoft.Azure.Management.ServiceBus.Models.QueueResource.LockDuration
+  id: LockDuration
+  parent: Microsoft.Azure.Management.ServiceBus.Models.QueueResource
+  langs:
+  - csharp
+  - vb
+  name: LockDuration
+  nameWithType: QueueResource.LockDuration
+  fullName: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.LockDuration
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/ServiceBus/Microsoft.Azure.Management.ServiceBus/Generated/Models/QueueResource.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: LockDuration
+    path: src/azure-sdk-for-net/src/ResourceManagement/ServiceBus/Microsoft.Azure.Management.ServiceBus/Generated/Models/QueueResource.cs
+    startLine: 64
+  assemblies:
+  - Microsoft.Azure.Management.ServiceBus
+  namespace: Microsoft.Azure.Management.ServiceBus.Models
+  summary: "\nthe duration of a peek lock; that is, the amount of time that the\nmessage is locked for other receivers. The maximum value for\nLockDuration is 5 minutes; the default value is 1 minute.\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty(PropertyName = "properties.lockDuration ")]
+
+      public string LockDuration { get; set; }
+    content.vb: >-
+      <JsonProperty(PropertyName:="properties.lockDuration ")>
+
+      Public Property LockDuration As String
+    parameters: []
+    return:
+      type: System.String
+  overload: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.LockDuration*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: PropertyName
+      type: System.String
+      value: 'properties.lockDuration '
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.AccessedAt
+  commentId: P:Microsoft.Azure.Management.ServiceBus.Models.QueueResource.AccessedAt
+  id: AccessedAt
+  parent: Microsoft.Azure.Management.ServiceBus.Models.QueueResource
+  langs:
+  - csharp
+  - vb
+  name: AccessedAt
+  nameWithType: QueueResource.AccessedAt
+  fullName: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.AccessedAt
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/ServiceBus/Microsoft.Azure.Management.ServiceBus/Generated/Models/QueueResource.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: AccessedAt
+    path: src/azure-sdk-for-net/src/ResourceManagement/ServiceBus/Microsoft.Azure.Management.ServiceBus/Generated/Models/QueueResource.cs
+    startLine: 71
+  assemblies:
+  - Microsoft.Azure.Management.ServiceBus
+  namespace: Microsoft.Azure.Management.ServiceBus.Models
+  summary: "\nLast time a message was sent, or the last time there was a receive\nrequest to this queue.\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty(PropertyName = "properties.accessedAt")]
+
+      public DateTime? AccessedAt { get; set; }
+    content.vb: >-
+      <JsonProperty(PropertyName:="properties.accessedAt")>
+
+      Public Property AccessedAt As Date?
+    parameters: []
+    return:
+      type: System.Nullable{System.DateTime}
+  overload: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.AccessedAt*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: PropertyName
+      type: System.String
+      value: properties.accessedAt
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.AutoDeleteOnIdle
+  commentId: P:Microsoft.Azure.Management.ServiceBus.Models.QueueResource.AutoDeleteOnIdle
+  id: AutoDeleteOnIdle
+  parent: Microsoft.Azure.Management.ServiceBus.Models.QueueResource
+  langs:
+  - csharp
+  - vb
+  name: AutoDeleteOnIdle
+  nameWithType: QueueResource.AutoDeleteOnIdle
+  fullName: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.AutoDeleteOnIdle
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/ServiceBus/Microsoft.Azure.Management.ServiceBus/Generated/Models/QueueResource.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: AutoDeleteOnIdle
+    path: src/azure-sdk-for-net/src/ResourceManagement/ServiceBus/Microsoft.Azure.Management.ServiceBus/Generated/Models/QueueResource.cs
+    startLine: 78
+  assemblies:
+  - Microsoft.Azure.Management.ServiceBus
+  namespace: Microsoft.Azure.Management.ServiceBus.Models
+  summary: "\nthe TimeSpan idle interval after which the queue is automatically\ndeleted. The minimum duration is 5 minutes.\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty(PropertyName = "properties.autoDeleteOnIdle")]
+
+      public string AutoDeleteOnIdle { get; set; }
+    content.vb: >-
+      <JsonProperty(PropertyName:="properties.autoDeleteOnIdle")>
+
+      Public Property AutoDeleteOnIdle As String
+    parameters: []
+    return:
+      type: System.String
+  overload: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.AutoDeleteOnIdle*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: PropertyName
+      type: System.String
+      value: properties.autoDeleteOnIdle
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.EntityAvailabilityStatus
+  commentId: P:Microsoft.Azure.Management.ServiceBus.Models.QueueResource.EntityAvailabilityStatus
+  id: EntityAvailabilityStatus
+  parent: Microsoft.Azure.Management.ServiceBus.Models.QueueResource
+  langs:
+  - csharp
+  - vb
+  name: EntityAvailabilityStatus
+  nameWithType: QueueResource.EntityAvailabilityStatus
+  fullName: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.EntityAvailabilityStatus
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/ServiceBus/Microsoft.Azure.Management.ServiceBus/Generated/Models/QueueResource.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: EntityAvailabilityStatus
+    path: src/azure-sdk-for-net/src/ResourceManagement/ServiceBus/Microsoft.Azure.Management.ServiceBus/Generated/Models/QueueResource.cs
+    startLine: 85
+  assemblies:
+  - Microsoft.Azure.Management.ServiceBus
+  namespace: Microsoft.Azure.Management.ServiceBus.Models
+  summary: "\nEntity availability status for the queue. Possible values include:\n'Available', 'Limited', 'Renaming', 'Restoring', 'Unknown'\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty(PropertyName = "properties.entityAvailabilityStatus ")]
+
+      public EntityAvailabilityStatus? EntityAvailabilityStatus { get; set; }
+    content.vb: >-
+      <JsonProperty(PropertyName:="properties.entityAvailabilityStatus ")>
+
+      Public Property EntityAvailabilityStatus As EntityAvailabilityStatus?
+    parameters: []
+    return:
+      type: System.Nullable{Microsoft.Azure.Management.ServiceBus.Models.EntityAvailabilityStatus}
+  overload: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.EntityAvailabilityStatus*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: PropertyName
+      type: System.String
+      value: 'properties.entityAvailabilityStatus '
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.CreatedAt
+  commentId: P:Microsoft.Azure.Management.ServiceBus.Models.QueueResource.CreatedAt
+  id: CreatedAt
+  parent: Microsoft.Azure.Management.ServiceBus.Models.QueueResource
+  langs:
+  - csharp
+  - vb
+  name: CreatedAt
+  nameWithType: QueueResource.CreatedAt
+  fullName: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.CreatedAt
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/ServiceBus/Microsoft.Azure.Management.ServiceBus/Generated/Models/QueueResource.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: CreatedAt
+    path: src/azure-sdk-for-net/src/ResourceManagement/ServiceBus/Microsoft.Azure.Management.ServiceBus/Generated/Models/QueueResource.cs
+    startLine: 91
+  assemblies:
+  - Microsoft.Azure.Management.ServiceBus
+  namespace: Microsoft.Azure.Management.ServiceBus.Models
+  summary: "\nthe exact time the message was created.\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty(PropertyName = "properties.createdAt")]
+
+      public DateTime? CreatedAt { get; set; }
+    content.vb: >-
+      <JsonProperty(PropertyName:="properties.createdAt")>
+
+      Public Property CreatedAt As Date?
+    parameters: []
+    return:
+      type: System.Nullable{System.DateTime}
+  overload: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.CreatedAt*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: PropertyName
+      type: System.String
+      value: properties.createdAt
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.DefaultMessageTimeToLive
+  commentId: P:Microsoft.Azure.Management.ServiceBus.Models.QueueResource.DefaultMessageTimeToLive
+  id: DefaultMessageTimeToLive
+  parent: Microsoft.Azure.Management.ServiceBus.Models.QueueResource
+  langs:
+  - csharp
+  - vb
+  name: DefaultMessageTimeToLive
+  nameWithType: QueueResource.DefaultMessageTimeToLive
+  fullName: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.DefaultMessageTimeToLive
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/ServiceBus/Microsoft.Azure.Management.ServiceBus/Generated/Models/QueueResource.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: DefaultMessageTimeToLive
+    path: src/azure-sdk-for-net/src/ResourceManagement/ServiceBus/Microsoft.Azure.Management.ServiceBus/Generated/Models/QueueResource.cs
+    startLine: 100
+  assemblies:
+  - Microsoft.Azure.Management.ServiceBus
+  namespace: Microsoft.Azure.Management.ServiceBus.Models
+  summary: "\nthe default message time to live value. This is the duration after\nwhich the message expires, starting from when the message is sent\nto Service Bus. This is the default value used when TimeToLive is\nnot set on a message itself.\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty(PropertyName = "properties.defaultMessageTimeToLive")]
+
+      public string DefaultMessageTimeToLive { get; set; }
+    content.vb: >-
+      <JsonProperty(PropertyName:="properties.defaultMessageTimeToLive")>
+
+      Public Property DefaultMessageTimeToLive As String
+    parameters: []
+    return:
+      type: System.String
+  overload: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.DefaultMessageTimeToLive*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: PropertyName
+      type: System.String
+      value: properties.defaultMessageTimeToLive
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.DuplicateDetectionHistoryTimeWindow
+  commentId: P:Microsoft.Azure.Management.ServiceBus.Models.QueueResource.DuplicateDetectionHistoryTimeWindow
+  id: DuplicateDetectionHistoryTimeWindow
+  parent: Microsoft.Azure.Management.ServiceBus.Models.QueueResource
+  langs:
+  - csharp
+  - vb
+  name: DuplicateDetectionHistoryTimeWindow
+  nameWithType: QueueResource.DuplicateDetectionHistoryTimeWindow
+  fullName: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.DuplicateDetectionHistoryTimeWindow
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/ServiceBus/Microsoft.Azure.Management.ServiceBus/Generated/Models/QueueResource.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: DuplicateDetectionHistoryTimeWindow
+    path: src/azure-sdk-for-net/src/ResourceManagement/ServiceBus/Microsoft.Azure.Management.ServiceBus/Generated/Models/QueueResource.cs
+    startLine: 107
+  assemblies:
+  - Microsoft.Azure.Management.ServiceBus
+  namespace: Microsoft.Azure.Management.ServiceBus.Models
+  summary: "\nTimeSpan structure that defines the duration of the duplicate\ndetection history. The default value is 10 minutes..\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty(PropertyName = "properties.duplicateDetectionHistoryTimeWindow ")]
+
+      public string DuplicateDetectionHistoryTimeWindow { get; set; }
+    content.vb: >-
+      <JsonProperty(PropertyName:="properties.duplicateDetectionHistoryTimeWindow ")>
+
+      Public Property DuplicateDetectionHistoryTimeWindow As String
+    parameters: []
+    return:
+      type: System.String
+  overload: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.DuplicateDetectionHistoryTimeWindow*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: PropertyName
+      type: System.String
+      value: 'properties.duplicateDetectionHistoryTimeWindow '
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.EnableBatchedOperations
+  commentId: P:Microsoft.Azure.Management.ServiceBus.Models.QueueResource.EnableBatchedOperations
+  id: EnableBatchedOperations
+  parent: Microsoft.Azure.Management.ServiceBus.Models.QueueResource
+  langs:
+  - csharp
+  - vb
+  name: EnableBatchedOperations
+  nameWithType: QueueResource.EnableBatchedOperations
+  fullName: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.EnableBatchedOperations
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/ServiceBus/Microsoft.Azure.Management.ServiceBus/Generated/Models/QueueResource.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: EnableBatchedOperations
+    path: src/azure-sdk-for-net/src/ResourceManagement/ServiceBus/Microsoft.Azure.Management.ServiceBus/Generated/Models/QueueResource.cs
+    startLine: 114
+  assemblies:
+  - Microsoft.Azure.Management.ServiceBus
+  namespace: Microsoft.Azure.Management.ServiceBus.Models
+  summary: "\nvalue that indicates whether server-side batched operations are\nenabled..\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty(PropertyName = "properties.enableBatchedOperations")]
+
+      public bool ? EnableBatchedOperations { get; set; }
+    content.vb: >-
+      <JsonProperty(PropertyName:="properties.enableBatchedOperations")>
+
+      Public Property EnableBatchedOperations As Boolean?
+    parameters: []
+    return:
+      type: System.Nullable{System.Boolean}
+  overload: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.EnableBatchedOperations*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: PropertyName
+      type: System.String
+      value: properties.enableBatchedOperations
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.DeadLetteringOnMessageExpiration
+  commentId: P:Microsoft.Azure.Management.ServiceBus.Models.QueueResource.DeadLetteringOnMessageExpiration
+  id: DeadLetteringOnMessageExpiration
+  parent: Microsoft.Azure.Management.ServiceBus.Models.QueueResource
+  langs:
+  - csharp
+  - vb
+  name: DeadLetteringOnMessageExpiration
+  nameWithType: QueueResource.DeadLetteringOnMessageExpiration
+  fullName: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.DeadLetteringOnMessageExpiration
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/ServiceBus/Microsoft.Azure.Management.ServiceBus/Generated/Models/QueueResource.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: DeadLetteringOnMessageExpiration
+    path: src/azure-sdk-for-net/src/ResourceManagement/ServiceBus/Microsoft.Azure.Management.ServiceBus/Generated/Models/QueueResource.cs
+    startLine: 121
+  assemblies:
+  - Microsoft.Azure.Management.ServiceBus
+  namespace: Microsoft.Azure.Management.ServiceBus.Models
+  summary: "\na value that indicates whether this queue has dead letter support\nwhen a message expires.\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty(PropertyName = "properties.deadLetteringOnMessageExpiration")]
+
+      public bool ? DeadLetteringOnMessageExpiration { get; set; }
+    content.vb: >-
+      <JsonProperty(PropertyName:="properties.deadLetteringOnMessageExpiration")>
+
+      Public Property DeadLetteringOnMessageExpiration As Boolean?
+    parameters: []
+    return:
+      type: System.Nullable{System.Boolean}
+  overload: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.DeadLetteringOnMessageExpiration*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: PropertyName
+      type: System.String
+      value: properties.deadLetteringOnMessageExpiration
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.EnableExpress
+  commentId: P:Microsoft.Azure.Management.ServiceBus.Models.QueueResource.EnableExpress
+  id: EnableExpress
+  parent: Microsoft.Azure.Management.ServiceBus.Models.QueueResource
+  langs:
+  - csharp
+  - vb
+  name: EnableExpress
+  nameWithType: QueueResource.EnableExpress
+  fullName: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.EnableExpress
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/ServiceBus/Microsoft.Azure.Management.ServiceBus/Generated/Models/QueueResource.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: EnableExpress
+    path: src/azure-sdk-for-net/src/ResourceManagement/ServiceBus/Microsoft.Azure.Management.ServiceBus/Generated/Models/QueueResource.cs
+    startLine: 129
+  assemblies:
+  - Microsoft.Azure.Management.ServiceBus
+  namespace: Microsoft.Azure.Management.ServiceBus.Models
+  summary: "\na value that indicates whether Express Entities are enabled. An\nexpress queue holds a message in memory temporarily before\nwriting it to persistent storage.\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty(PropertyName = "properties.enableExpress")]
+
+      public bool ? EnableExpress { get; set; }
+    content.vb: >-
+      <JsonProperty(PropertyName:="properties.enableExpress")>
+
+      Public Property EnableExpress As Boolean?
+    parameters: []
+    return:
+      type: System.Nullable{System.Boolean}
+  overload: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.EnableExpress*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: PropertyName
+      type: System.String
+      value: properties.enableExpress
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.EnablePartitioning
+  commentId: P:Microsoft.Azure.Management.ServiceBus.Models.QueueResource.EnablePartitioning
+  id: EnablePartitioning
+  parent: Microsoft.Azure.Management.ServiceBus.Models.QueueResource
+  langs:
+  - csharp
+  - vb
+  name: EnablePartitioning
+  nameWithType: QueueResource.EnablePartitioning
+  fullName: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.EnablePartitioning
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/ServiceBus/Microsoft.Azure.Management.ServiceBus/Generated/Models/QueueResource.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: EnablePartitioning
+    path: src/azure-sdk-for-net/src/ResourceManagement/ServiceBus/Microsoft.Azure.Management.ServiceBus/Generated/Models/QueueResource.cs
+    startLine: 136
+  assemblies:
+  - Microsoft.Azure.Management.ServiceBus
+  namespace: Microsoft.Azure.Management.ServiceBus.Models
+  summary: "\nvalue that indicates whether the queue to be partitioned across\nmultiple message brokers is enabled.\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty(PropertyName = "properties.enablePartitioning")]
+
+      public bool ? EnablePartitioning { get; set; }
+    content.vb: >-
+      <JsonProperty(PropertyName:="properties.enablePartitioning")>
+
+      Public Property EnablePartitioning As Boolean?
+    parameters: []
+    return:
+      type: System.Nullable{System.Boolean}
+  overload: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.EnablePartitioning*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: PropertyName
+      type: System.String
+      value: properties.enablePartitioning
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.IsAnonymousAccessible
+  commentId: P:Microsoft.Azure.Management.ServiceBus.Models.QueueResource.IsAnonymousAccessible
+  id: IsAnonymousAccessible
+  parent: Microsoft.Azure.Management.ServiceBus.Models.QueueResource
+  langs:
+  - csharp
+  - vb
+  name: IsAnonymousAccessible
+  nameWithType: QueueResource.IsAnonymousAccessible
+  fullName: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.IsAnonymousAccessible
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/ServiceBus/Microsoft.Azure.Management.ServiceBus/Generated/Models/QueueResource.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: IsAnonymousAccessible
+    path: src/azure-sdk-for-net/src/ResourceManagement/ServiceBus/Microsoft.Azure.Management.ServiceBus/Generated/Models/QueueResource.cs
+    startLine: 142
+  assemblies:
+  - Microsoft.Azure.Management.ServiceBus
+  namespace: Microsoft.Azure.Management.ServiceBus.Models
+  summary: "\na value that indicates whether the message is anonymous accessible.\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty(PropertyName = "properties.isAnonymousAccessible")]
+
+      public bool ? IsAnonymousAccessible { get; set; }
+    content.vb: >-
+      <JsonProperty(PropertyName:="properties.isAnonymousAccessible")>
+
+      Public Property IsAnonymousAccessible As Boolean?
+    parameters: []
+    return:
+      type: System.Nullable{System.Boolean}
+  overload: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.IsAnonymousAccessible*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: PropertyName
+      type: System.String
+      value: properties.isAnonymousAccessible
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.MaxDeliveryCount
+  commentId: P:Microsoft.Azure.Management.ServiceBus.Models.QueueResource.MaxDeliveryCount
+  id: MaxDeliveryCount
+  parent: Microsoft.Azure.Management.ServiceBus.Models.QueueResource
+  langs:
+  - csharp
+  - vb
+  name: MaxDeliveryCount
+  nameWithType: QueueResource.MaxDeliveryCount
+  fullName: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.MaxDeliveryCount
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/ServiceBus/Microsoft.Azure.Management.ServiceBus/Generated/Models/QueueResource.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: MaxDeliveryCount
+    path: src/azure-sdk-for-net/src/ResourceManagement/ServiceBus/Microsoft.Azure.Management.ServiceBus/Generated/Models/QueueResource.cs
+    startLine: 149
+  assemblies:
+  - Microsoft.Azure.Management.ServiceBus
+  namespace: Microsoft.Azure.Management.ServiceBus.Models
+  summary: "\nthe maximum delivery count. A message is automatically\ndeadlettered after this number of deliveries.\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty(PropertyName = "properties.maxDeliveryCount ")]
+
+      public int ? MaxDeliveryCount { get; set; }
+    content.vb: >-
+      <JsonProperty(PropertyName:="properties.maxDeliveryCount ")>
+
+      Public Property MaxDeliveryCount As Integer?
+    parameters: []
+    return:
+      type: System.Nullable{System.Int32}
+  overload: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.MaxDeliveryCount*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: PropertyName
+      type: System.String
+      value: 'properties.maxDeliveryCount '
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.MaxSizeInMegabytes
+  commentId: P:Microsoft.Azure.Management.ServiceBus.Models.QueueResource.MaxSizeInMegabytes
+  id: MaxSizeInMegabytes
+  parent: Microsoft.Azure.Management.ServiceBus.Models.QueueResource
+  langs:
+  - csharp
+  - vb
+  name: MaxSizeInMegabytes
+  nameWithType: QueueResource.MaxSizeInMegabytes
+  fullName: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.MaxSizeInMegabytes
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/ServiceBus/Microsoft.Azure.Management.ServiceBus/Generated/Models/QueueResource.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: MaxSizeInMegabytes
+    path: src/azure-sdk-for-net/src/ResourceManagement/ServiceBus/Microsoft.Azure.Management.ServiceBus/Generated/Models/QueueResource.cs
+    startLine: 156
+  assemblies:
+  - Microsoft.Azure.Management.ServiceBus
+  namespace: Microsoft.Azure.Management.ServiceBus.Models
+  summary: "\nthe maximum size of the queue in megabytes, which is the size of\nmemory allocated for the queue.\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty(PropertyName = "properties.maxSizeInMegabytes")]
+
+      public long ? MaxSizeInMegabytes { get; set; }
+    content.vb: >-
+      <JsonProperty(PropertyName:="properties.maxSizeInMegabytes")>
+
+      Public Property MaxSizeInMegabytes As Long?
+    parameters: []
+    return:
+      type: System.Nullable{System.Int64}
+  overload: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.MaxSizeInMegabytes*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: PropertyName
+      type: System.String
+      value: properties.maxSizeInMegabytes
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.MessageCount
+  commentId: P:Microsoft.Azure.Management.ServiceBus.Models.QueueResource.MessageCount
+  id: MessageCount
+  parent: Microsoft.Azure.Management.ServiceBus.Models.QueueResource
+  langs:
+  - csharp
+  - vb
+  name: MessageCount
+  nameWithType: QueueResource.MessageCount
+  fullName: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.MessageCount
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/ServiceBus/Microsoft.Azure.Management.ServiceBus/Generated/Models/QueueResource.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: MessageCount
+    path: src/azure-sdk-for-net/src/ResourceManagement/ServiceBus/Microsoft.Azure.Management.ServiceBus/Generated/Models/QueueResource.cs
+    startLine: 162
+  assemblies:
+  - Microsoft.Azure.Management.ServiceBus
+  namespace: Microsoft.Azure.Management.ServiceBus.Models
+  summary: "\nthe number of messages in the queue.\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty(PropertyName = "properties.messageCount ")]
+
+      public long ? MessageCount { get; set; }
+    content.vb: >-
+      <JsonProperty(PropertyName:="properties.messageCount ")>
+
+      Public Property MessageCount As Long?
+    parameters: []
+    return:
+      type: System.Nullable{System.Int64}
+  overload: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.MessageCount*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: PropertyName
+      type: System.String
+      value: 'properties.messageCount '
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.CountDetails
+  commentId: P:Microsoft.Azure.Management.ServiceBus.Models.QueueResource.CountDetails
+  id: CountDetails
+  parent: Microsoft.Azure.Management.ServiceBus.Models.QueueResource
+  langs:
+  - csharp
+  - vb
+  name: CountDetails
+  nameWithType: QueueResource.CountDetails
+  fullName: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.CountDetails
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/ServiceBus/Microsoft.Azure.Management.ServiceBus/Generated/Models/QueueResource.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: CountDetails
+    path: src/azure-sdk-for-net/src/ResourceManagement/ServiceBus/Microsoft.Azure.Management.ServiceBus/Generated/Models/QueueResource.cs
+    startLine: 167
+  assemblies:
+  - Microsoft.Azure.Management.ServiceBus
+  namespace: Microsoft.Azure.Management.ServiceBus.Models
+  summary: "\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty(PropertyName = "properties.countDetails")]
+
+      public MessageCountDetails CountDetails { get; set; }
+    content.vb: >-
+      <JsonProperty(PropertyName:="properties.countDetails")>
+
+      Public Property CountDetails As MessageCountDetails
+    parameters: []
+    return:
+      type: Microsoft.Azure.Management.ServiceBus.Models.MessageCountDetails
+  overload: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.CountDetails*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: PropertyName
+      type: System.String
+      value: properties.countDetails
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.RequiresDuplicateDetection
+  commentId: P:Microsoft.Azure.Management.ServiceBus.Models.QueueResource.RequiresDuplicateDetection
+  id: RequiresDuplicateDetection
+  parent: Microsoft.Azure.Management.ServiceBus.Models.QueueResource
+  langs:
+  - csharp
+  - vb
+  name: RequiresDuplicateDetection
+  nameWithType: QueueResource.RequiresDuplicateDetection
+  fullName: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.RequiresDuplicateDetection
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/ServiceBus/Microsoft.Azure.Management.ServiceBus/Generated/Models/QueueResource.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: RequiresDuplicateDetection
+    path: src/azure-sdk-for-net/src/ResourceManagement/ServiceBus/Microsoft.Azure.Management.ServiceBus/Generated/Models/QueueResource.cs
+    startLine: 173
+  assemblies:
+  - Microsoft.Azure.Management.ServiceBus
+  namespace: Microsoft.Azure.Management.ServiceBus.Models
+  summary: "\nthe value indicating if this queue requires duplicate detection.\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty(PropertyName = "properties.requiresDuplicateDetection")]
+
+      public bool ? RequiresDuplicateDetection { get; set; }
+    content.vb: >-
+      <JsonProperty(PropertyName:="properties.requiresDuplicateDetection")>
+
+      Public Property RequiresDuplicateDetection As Boolean?
+    parameters: []
+    return:
+      type: System.Nullable{System.Boolean}
+  overload: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.RequiresDuplicateDetection*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: PropertyName
+      type: System.String
+      value: properties.requiresDuplicateDetection
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.RequiresSession
+  commentId: P:Microsoft.Azure.Management.ServiceBus.Models.QueueResource.RequiresSession
+  id: RequiresSession
+  parent: Microsoft.Azure.Management.ServiceBus.Models.QueueResource
+  langs:
+  - csharp
+  - vb
+  name: RequiresSession
+  nameWithType: QueueResource.RequiresSession
+  fullName: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.RequiresSession
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/ServiceBus/Microsoft.Azure.Management.ServiceBus/Generated/Models/QueueResource.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: RequiresSession
+    path: src/azure-sdk-for-net/src/ResourceManagement/ServiceBus/Microsoft.Azure.Management.ServiceBus/Generated/Models/QueueResource.cs
+    startLine: 180
+  assemblies:
+  - Microsoft.Azure.Management.ServiceBus
+  namespace: Microsoft.Azure.Management.ServiceBus.Models
+  summary: "\na value that indicates whether the queue supports the concept of\nsession.\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty(PropertyName = "properties.requiresSession")]
+
+      public bool ? RequiresSession { get; set; }
+    content.vb: >-
+      <JsonProperty(PropertyName:="properties.requiresSession")>
+
+      Public Property RequiresSession As Boolean?
+    parameters: []
+    return:
+      type: System.Nullable{System.Boolean}
+  overload: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.RequiresSession*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: PropertyName
+      type: System.String
+      value: properties.requiresSession
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.SizeInBytes
+  commentId: P:Microsoft.Azure.Management.ServiceBus.Models.QueueResource.SizeInBytes
+  id: SizeInBytes
+  parent: Microsoft.Azure.Management.ServiceBus.Models.QueueResource
+  langs:
+  - csharp
+  - vb
+  name: SizeInBytes
+  nameWithType: QueueResource.SizeInBytes
+  fullName: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.SizeInBytes
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/ServiceBus/Microsoft.Azure.Management.ServiceBus/Generated/Models/QueueResource.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: SizeInBytes
+    path: src/azure-sdk-for-net/src/ResourceManagement/ServiceBus/Microsoft.Azure.Management.ServiceBus/Generated/Models/QueueResource.cs
+    startLine: 186
+  assemblies:
+  - Microsoft.Azure.Management.ServiceBus
+  namespace: Microsoft.Azure.Management.ServiceBus.Models
+  summary: "\nthe size of the queue in bytes.\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty(PropertyName = "properties.sizeInBytes ")]
+
+      public long ? SizeInBytes { get; set; }
+    content.vb: >-
+      <JsonProperty(PropertyName:="properties.sizeInBytes ")>
+
+      Public Property SizeInBytes As Long?
+    parameters: []
+    return:
+      type: System.Nullable{System.Int64}
+  overload: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.SizeInBytes*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: PropertyName
+      type: System.String
+      value: 'properties.sizeInBytes '
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.Status
+  commentId: P:Microsoft.Azure.Management.ServiceBus.Models.QueueResource.Status
+  id: Status
+  parent: Microsoft.Azure.Management.ServiceBus.Models.QueueResource
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: QueueResource.Status
+  fullName: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.Status
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/ServiceBus/Microsoft.Azure.Management.ServiceBus/Generated/Models/QueueResource.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: Status
+    path: src/azure-sdk-for-net/src/ResourceManagement/ServiceBus/Microsoft.Azure.Management.ServiceBus/Generated/Models/QueueResource.cs
+    startLine: 195
+  assemblies:
+  - Microsoft.Azure.Management.ServiceBus
+  namespace: Microsoft.Azure.Management.ServiceBus.Models
+  summary: "\nEnumerates the possible values for the status of a messaging\nentity. Possible values include: 'Active', 'Creating',\n'Deleting', 'Disabled', 'ReceiveDisabled', 'Renaming',\n'Restoring', 'SendDisabled', 'Unknown'\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty(PropertyName = "properties.status")]
+
+      public EntityStatus? Status { get; set; }
+    content.vb: >-
+      <JsonProperty(PropertyName:="properties.status")>
+
+      Public Property Status As EntityStatus?
+    parameters: []
+    return:
+      type: System.Nullable{Microsoft.Azure.Management.ServiceBus.Models.EntityStatus}
+  overload: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.Status*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: PropertyName
+      type: System.String
+      value: properties.status
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.SupportOrdering
+  commentId: P:Microsoft.Azure.Management.ServiceBus.Models.QueueResource.SupportOrdering
+  id: SupportOrdering
+  parent: Microsoft.Azure.Management.ServiceBus.Models.QueueResource
+  langs:
+  - csharp
+  - vb
+  name: SupportOrdering
+  nameWithType: QueueResource.SupportOrdering
+  fullName: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.SupportOrdering
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/ServiceBus/Microsoft.Azure.Management.ServiceBus/Generated/Models/QueueResource.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: SupportOrdering
+    path: src/azure-sdk-for-net/src/ResourceManagement/ServiceBus/Microsoft.Azure.Management.ServiceBus/Generated/Models/QueueResource.cs
+    startLine: 201
+  assemblies:
+  - Microsoft.Azure.Management.ServiceBus
+  namespace: Microsoft.Azure.Management.ServiceBus.Models
+  summary: "\na value that indicates whether the queue supports ordering.\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty(PropertyName = "properties.supportOrdering")]
+
+      public bool ? SupportOrdering { get; set; }
+    content.vb: >-
+      <JsonProperty(PropertyName:="properties.supportOrdering")>
+
+      Public Property SupportOrdering As Boolean?
+    parameters: []
+    return:
+      type: System.Nullable{System.Boolean}
+  overload: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.SupportOrdering*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: PropertyName
+      type: System.String
+      value: properties.supportOrdering
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.UpdatedAt
+  commentId: P:Microsoft.Azure.Management.ServiceBus.Models.QueueResource.UpdatedAt
+  id: UpdatedAt
+  parent: Microsoft.Azure.Management.ServiceBus.Models.QueueResource
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAt
+  nameWithType: QueueResource.UpdatedAt
+  fullName: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.UpdatedAt
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/ServiceBus/Microsoft.Azure.Management.ServiceBus/Generated/Models/QueueResource.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: UpdatedAt
+    path: src/azure-sdk-for-net/src/ResourceManagement/ServiceBus/Microsoft.Azure.Management.ServiceBus/Generated/Models/QueueResource.cs
+    startLine: 207
+  assemblies:
+  - Microsoft.Azure.Management.ServiceBus
+  namespace: Microsoft.Azure.Management.ServiceBus.Models
+  summary: "\nthe exact time the message has been updated.\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty(PropertyName = "properties.updatedAt")]
+
+      public DateTime? UpdatedAt { get; set; }
+    content.vb: >-
+      <JsonProperty(PropertyName:="properties.updatedAt")>
+
+      Public Property UpdatedAt As Date?
+    parameters: []
+    return:
+      type: System.Nullable{System.DateTime}
+  overload: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.UpdatedAt*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: PropertyName
+      type: System.String
+      value: properties.updatedAt
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.Validate
+  commentId: M:Microsoft.Azure.Management.ServiceBus.Models.QueueResource.Validate
+  id: Validate
+  parent: Microsoft.Azure.Management.ServiceBus.Models.QueueResource
+  langs:
+  - csharp
+  - vb
+  name: Validate()
+  nameWithType: QueueResource.Validate()
+  fullName: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.Validate()
+  type: Method
+  source:
+    remote:
+      path: src/ResourceManagement/ServiceBus/Microsoft.Azure.Management.ServiceBus/Generated/Models/QueueResource.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: Validate
+    path: src/azure-sdk-for-net/src/ResourceManagement/ServiceBus/Microsoft.Azure.Management.ServiceBus/Generated/Models/QueueResource.cs
+    startLine: 213
+  assemblies:
+  - Microsoft.Azure.Management.ServiceBus
+  namespace: Microsoft.Azure.Management.ServiceBus.Models
+  summary: "\nValidate the object. Throws ValidationException if validation fails.\n"
+  example: []
+  syntax:
+    content: public override void Validate()
+    content.vb: Public Overrides Sub Validate
+  overridden: Microsoft.Azure.Management.ServiceBus.Models.Resource.Validate
+  overload: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.Validate*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: Microsoft.Azure.Management.ServiceBus.Models
+  commentId: N:Microsoft.Azure.Management.ServiceBus.Models
+  isExternal: false
+  name: Microsoft.Azure.Management.ServiceBus.Models
+  nameWithType: Microsoft.Azure.Management.ServiceBus.Models
+  fullName: Microsoft.Azure.Management.ServiceBus.Models
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Microsoft.Azure.Management.ServiceBus.Models.Resource
+  commentId: T:Microsoft.Azure.Management.ServiceBus.Models.Resource
+  parent: Microsoft.Azure.Management.ServiceBus.Models
+  isExternal: false
+  name: Resource
+  nameWithType: Resource
+  fullName: Microsoft.Azure.Management.ServiceBus.Models.Resource
+- uid: Microsoft.Rest.Azure.IResource
+  commentId: T:Microsoft.Rest.Azure.IResource
+  parent: Microsoft.Rest.Azure
+  isExternal: false
+  name: IResource
+  nameWithType: IResource
+  fullName: Microsoft.Rest.Azure.IResource
+- uid: Microsoft.Azure.Management.ServiceBus.Models.Resource.Id
+  commentId: P:Microsoft.Azure.Management.ServiceBus.Models.Resource.Id
+  parent: Microsoft.Azure.Management.ServiceBus.Models.Resource
+  isExternal: false
+  name: Id
+  nameWithType: Resource.Id
+  fullName: Microsoft.Azure.Management.ServiceBus.Models.Resource.Id
+- uid: Microsoft.Azure.Management.ServiceBus.Models.Resource.Name
+  commentId: P:Microsoft.Azure.Management.ServiceBus.Models.Resource.Name
+  parent: Microsoft.Azure.Management.ServiceBus.Models.Resource
+  isExternal: false
+  name: Name
+  nameWithType: Resource.Name
+  fullName: Microsoft.Azure.Management.ServiceBus.Models.Resource.Name
+- uid: Microsoft.Azure.Management.ServiceBus.Models.Resource.Type
+  commentId: P:Microsoft.Azure.Management.ServiceBus.Models.Resource.Type
+  parent: Microsoft.Azure.Management.ServiceBus.Models.Resource
+  isExternal: false
+  name: Type
+  nameWithType: Resource.Type
+  fullName: Microsoft.Azure.Management.ServiceBus.Models.Resource.Type
+- uid: Microsoft.Azure.Management.ServiceBus.Models.Resource.Location
+  commentId: P:Microsoft.Azure.Management.ServiceBus.Models.Resource.Location
+  parent: Microsoft.Azure.Management.ServiceBus.Models.Resource
+  isExternal: false
+  name: Location
+  nameWithType: Resource.Location
+  fullName: Microsoft.Azure.Management.ServiceBus.Models.Resource.Location
+- uid: Microsoft.Azure.Management.ServiceBus.Models.Resource.Tags
+  commentId: P:Microsoft.Azure.Management.ServiceBus.Models.Resource.Tags
+  parent: Microsoft.Azure.Management.ServiceBus.Models.Resource
+  isExternal: false
+  name: Tags
+  nameWithType: Resource.Tags
+  fullName: Microsoft.Azure.Management.ServiceBus.Models.Resource.Tags
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Microsoft.Rest.Azure
+  commentId: N:Microsoft.Rest.Azure
+  isExternal: false
+  name: Microsoft.Rest.Azure
+  nameWithType: Microsoft.Rest.Azure
+  fullName: Microsoft.Rest.Azure
+- uid: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.#ctor*
+  commentId: Overload:Microsoft.Azure.Management.ServiceBus.Models.QueueResource.#ctor
+  isExternal: false
+  name: QueueResource
+  nameWithType: QueueResource.QueueResource
+  fullName: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.QueueResource
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Collections.Generic.IDictionary{System.String,System.String}
+  commentId: T:System.Collections.Generic.IDictionary{System.String,System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IDictionary`2
+  name: IDictionary<String, String>
+  nameWithType: IDictionary<String, String>
+  fullName: System.Collections.Generic.IDictionary<System.String, System.String>
+  nameWithType.vb: IDictionary(Of String, String)
+  fullname.vb: System.Collections.Generic.IDictionary(Of System.String, System.String)
+  name.vb: IDictionary(Of String, String)
+  spec.csharp:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: System.Collections.Generic.IDictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: System.Collections.Generic.IDictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable{System.DateTime}
+  commentId: T:System.Nullable{System.DateTime}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<DateTime>
+  nameWithType: Nullable<DateTime>
+  fullName: System.Nullable<System.DateTime>
+  nameWithType.vb: Nullable(Of DateTime)
+  fullname.vb: System.Nullable(Of System.DateTime)
+  name.vb: Nullable(Of DateTime)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable{Microsoft.Azure.Management.ServiceBus.Models.EntityAvailabilityStatus}
+  commentId: T:System.Nullable{Microsoft.Azure.Management.ServiceBus.Models.EntityAvailabilityStatus}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<EntityAvailabilityStatus>
+  nameWithType: Nullable<EntityAvailabilityStatus>
+  fullName: System.Nullable<Microsoft.Azure.Management.ServiceBus.Models.EntityAvailabilityStatus>
+  nameWithType.vb: Nullable(Of EntityAvailabilityStatus)
+  fullname.vb: System.Nullable(Of Microsoft.Azure.Management.ServiceBus.Models.EntityAvailabilityStatus)
+  name.vb: Nullable(Of EntityAvailabilityStatus)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Microsoft.Azure.Management.ServiceBus.Models.EntityAvailabilityStatus
+    name: EntityAvailabilityStatus
+    nameWithType: EntityAvailabilityStatus
+    fullName: Microsoft.Azure.Management.ServiceBus.Models.EntityAvailabilityStatus
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Microsoft.Azure.Management.ServiceBus.Models.EntityAvailabilityStatus
+    name: EntityAvailabilityStatus
+    nameWithType: EntityAvailabilityStatus
+    fullName: Microsoft.Azure.Management.ServiceBus.Models.EntityAvailabilityStatus
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable{System.Boolean}
+  commentId: T:System.Nullable{System.Boolean}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<Boolean>
+  nameWithType: Nullable<Boolean>
+  fullName: System.Nullable<System.Boolean>
+  nameWithType.vb: Nullable(Of Boolean)
+  fullname.vb: System.Nullable(Of System.Boolean)
+  name.vb: Nullable(Of Boolean)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable{System.Int32}
+  commentId: T:System.Nullable{System.Int32}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<Int32>
+  nameWithType: Nullable<Int32>
+  fullName: System.Nullable<System.Int32>
+  nameWithType.vb: Nullable(Of Int32)
+  fullname.vb: System.Nullable(Of System.Int32)
+  name.vb: Nullable(Of Int32)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable{System.Int64}
+  commentId: T:System.Nullable{System.Int64}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<Int64>
+  nameWithType: Nullable<Int64>
+  fullName: System.Nullable<System.Int64>
+  nameWithType.vb: Nullable(Of Int64)
+  fullname.vb: System.Nullable(Of System.Int64)
+  name.vb: Nullable(Of Int64)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Azure.Management.ServiceBus.Models.MessageCountDetails
+  commentId: T:Microsoft.Azure.Management.ServiceBus.Models.MessageCountDetails
+  parent: Microsoft.Azure.Management.ServiceBus.Models
+  isExternal: false
+  name: MessageCountDetails
+  nameWithType: MessageCountDetails
+  fullName: Microsoft.Azure.Management.ServiceBus.Models.MessageCountDetails
+- uid: System.Nullable{Microsoft.Azure.Management.ServiceBus.Models.EntityStatus}
+  commentId: T:System.Nullable{Microsoft.Azure.Management.ServiceBus.Models.EntityStatus}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<EntityStatus>
+  nameWithType: Nullable<EntityStatus>
+  fullName: System.Nullable<Microsoft.Azure.Management.ServiceBus.Models.EntityStatus>
+  nameWithType.vb: Nullable(Of EntityStatus)
+  fullname.vb: System.Nullable(Of Microsoft.Azure.Management.ServiceBus.Models.EntityStatus)
+  name.vb: Nullable(Of EntityStatus)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Microsoft.Azure.Management.ServiceBus.Models.EntityStatus
+    name: EntityStatus
+    nameWithType: EntityStatus
+    fullName: Microsoft.Azure.Management.ServiceBus.Models.EntityStatus
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Microsoft.Azure.Management.ServiceBus.Models.EntityStatus
+    name: EntityStatus
+    nameWithType: EntityStatus
+    fullName: Microsoft.Azure.Management.ServiceBus.Models.EntityStatus
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IDictionary`2
+  commentId: T:System.Collections.Generic.IDictionary`2
+  isExternal: true
+  name: IDictionary<TKey, TValue>
+  nameWithType: IDictionary<TKey, TValue>
+  fullName: System.Collections.Generic.IDictionary<TKey, TValue>
+  nameWithType.vb: IDictionary(Of TKey, TValue)
+  fullname.vb: System.Collections.Generic.IDictionary(Of TKey, TValue)
+  name.vb: IDictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: System.Collections.Generic.IDictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: System.Collections.Generic.IDictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: false
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullname.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.LockDuration*
+  commentId: Overload:Microsoft.Azure.Management.ServiceBus.Models.QueueResource.LockDuration
+  isExternal: false
+  name: LockDuration
+  nameWithType: QueueResource.LockDuration
+  fullName: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.LockDuration
+- uid: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.AccessedAt*
+  commentId: Overload:Microsoft.Azure.Management.ServiceBus.Models.QueueResource.AccessedAt
+  isExternal: false
+  name: AccessedAt
+  nameWithType: QueueResource.AccessedAt
+  fullName: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.AccessedAt
+- uid: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.AutoDeleteOnIdle*
+  commentId: Overload:Microsoft.Azure.Management.ServiceBus.Models.QueueResource.AutoDeleteOnIdle
+  isExternal: false
+  name: AutoDeleteOnIdle
+  nameWithType: QueueResource.AutoDeleteOnIdle
+  fullName: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.AutoDeleteOnIdle
+- uid: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.EntityAvailabilityStatus*
+  commentId: Overload:Microsoft.Azure.Management.ServiceBus.Models.QueueResource.EntityAvailabilityStatus
+  isExternal: false
+  name: EntityAvailabilityStatus
+  nameWithType: QueueResource.EntityAvailabilityStatus
+  fullName: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.EntityAvailabilityStatus
+- uid: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.CreatedAt*
+  commentId: Overload:Microsoft.Azure.Management.ServiceBus.Models.QueueResource.CreatedAt
+  isExternal: false
+  name: CreatedAt
+  nameWithType: QueueResource.CreatedAt
+  fullName: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.CreatedAt
+- uid: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.DefaultMessageTimeToLive*
+  commentId: Overload:Microsoft.Azure.Management.ServiceBus.Models.QueueResource.DefaultMessageTimeToLive
+  isExternal: false
+  name: DefaultMessageTimeToLive
+  nameWithType: QueueResource.DefaultMessageTimeToLive
+  fullName: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.DefaultMessageTimeToLive
+- uid: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.DuplicateDetectionHistoryTimeWindow*
+  commentId: Overload:Microsoft.Azure.Management.ServiceBus.Models.QueueResource.DuplicateDetectionHistoryTimeWindow
+  isExternal: false
+  name: DuplicateDetectionHistoryTimeWindow
+  nameWithType: QueueResource.DuplicateDetectionHistoryTimeWindow
+  fullName: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.DuplicateDetectionHistoryTimeWindow
+- uid: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.EnableBatchedOperations*
+  commentId: Overload:Microsoft.Azure.Management.ServiceBus.Models.QueueResource.EnableBatchedOperations
+  isExternal: false
+  name: EnableBatchedOperations
+  nameWithType: QueueResource.EnableBatchedOperations
+  fullName: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.EnableBatchedOperations
+- uid: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.DeadLetteringOnMessageExpiration*
+  commentId: Overload:Microsoft.Azure.Management.ServiceBus.Models.QueueResource.DeadLetteringOnMessageExpiration
+  isExternal: false
+  name: DeadLetteringOnMessageExpiration
+  nameWithType: QueueResource.DeadLetteringOnMessageExpiration
+  fullName: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.DeadLetteringOnMessageExpiration
+- uid: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.EnableExpress*
+  commentId: Overload:Microsoft.Azure.Management.ServiceBus.Models.QueueResource.EnableExpress
+  isExternal: false
+  name: EnableExpress
+  nameWithType: QueueResource.EnableExpress
+  fullName: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.EnableExpress
+- uid: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.EnablePartitioning*
+  commentId: Overload:Microsoft.Azure.Management.ServiceBus.Models.QueueResource.EnablePartitioning
+  isExternal: false
+  name: EnablePartitioning
+  nameWithType: QueueResource.EnablePartitioning
+  fullName: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.EnablePartitioning
+- uid: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.IsAnonymousAccessible*
+  commentId: Overload:Microsoft.Azure.Management.ServiceBus.Models.QueueResource.IsAnonymousAccessible
+  isExternal: false
+  name: IsAnonymousAccessible
+  nameWithType: QueueResource.IsAnonymousAccessible
+  fullName: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.IsAnonymousAccessible
+- uid: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.MaxDeliveryCount*
+  commentId: Overload:Microsoft.Azure.Management.ServiceBus.Models.QueueResource.MaxDeliveryCount
+  isExternal: false
+  name: MaxDeliveryCount
+  nameWithType: QueueResource.MaxDeliveryCount
+  fullName: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.MaxDeliveryCount
+- uid: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.MaxSizeInMegabytes*
+  commentId: Overload:Microsoft.Azure.Management.ServiceBus.Models.QueueResource.MaxSizeInMegabytes
+  isExternal: false
+  name: MaxSizeInMegabytes
+  nameWithType: QueueResource.MaxSizeInMegabytes
+  fullName: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.MaxSizeInMegabytes
+- uid: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.MessageCount*
+  commentId: Overload:Microsoft.Azure.Management.ServiceBus.Models.QueueResource.MessageCount
+  isExternal: false
+  name: MessageCount
+  nameWithType: QueueResource.MessageCount
+  fullName: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.MessageCount
+- uid: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.CountDetails*
+  commentId: Overload:Microsoft.Azure.Management.ServiceBus.Models.QueueResource.CountDetails
+  isExternal: false
+  name: CountDetails
+  nameWithType: QueueResource.CountDetails
+  fullName: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.CountDetails
+- uid: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.RequiresDuplicateDetection*
+  commentId: Overload:Microsoft.Azure.Management.ServiceBus.Models.QueueResource.RequiresDuplicateDetection
+  isExternal: false
+  name: RequiresDuplicateDetection
+  nameWithType: QueueResource.RequiresDuplicateDetection
+  fullName: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.RequiresDuplicateDetection
+- uid: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.RequiresSession*
+  commentId: Overload:Microsoft.Azure.Management.ServiceBus.Models.QueueResource.RequiresSession
+  isExternal: false
+  name: RequiresSession
+  nameWithType: QueueResource.RequiresSession
+  fullName: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.RequiresSession
+- uid: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.SizeInBytes*
+  commentId: Overload:Microsoft.Azure.Management.ServiceBus.Models.QueueResource.SizeInBytes
+  isExternal: false
+  name: SizeInBytes
+  nameWithType: QueueResource.SizeInBytes
+  fullName: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.SizeInBytes
+- uid: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.Status*
+  commentId: Overload:Microsoft.Azure.Management.ServiceBus.Models.QueueResource.Status
+  isExternal: false
+  name: Status
+  nameWithType: QueueResource.Status
+  fullName: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.Status
+- uid: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.SupportOrdering*
+  commentId: Overload:Microsoft.Azure.Management.ServiceBus.Models.QueueResource.SupportOrdering
+  isExternal: false
+  name: SupportOrdering
+  nameWithType: QueueResource.SupportOrdering
+  fullName: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.SupportOrdering
+- uid: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.UpdatedAt*
+  commentId: Overload:Microsoft.Azure.Management.ServiceBus.Models.QueueResource.UpdatedAt
+  isExternal: false
+  name: UpdatedAt
+  nameWithType: QueueResource.UpdatedAt
+  fullName: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.UpdatedAt
+- uid: Microsoft.Azure.Management.ServiceBus.Models.Resource.Validate
+  commentId: M:Microsoft.Azure.Management.ServiceBus.Models.Resource.Validate
+  parent: Microsoft.Azure.Management.ServiceBus.Models.Resource
+  isExternal: false
+  name: Validate()
+  nameWithType: Resource.Validate()
+  fullName: Microsoft.Azure.Management.ServiceBus.Models.Resource.Validate()
+  spec.csharp:
+  - uid: Microsoft.Azure.Management.ServiceBus.Models.Resource.Validate
+    name: Validate
+    nameWithType: Resource.Validate
+    fullName: Microsoft.Azure.Management.ServiceBus.Models.Resource.Validate
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.Azure.Management.ServiceBus.Models.Resource.Validate
+    name: Validate
+    nameWithType: Resource.Validate
+    fullName: Microsoft.Azure.Management.ServiceBus.Models.Resource.Validate
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.Validate*
+  commentId: Overload:Microsoft.Azure.Management.ServiceBus.Models.QueueResource.Validate
+  isExternal: false
+  name: Validate
+  nameWithType: QueueResource.Validate
+  fullName: Microsoft.Azure.Management.ServiceBus.Models.QueueResource.Validate

@@ -1,0 +1,2832 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.Azure.Management.Compute.ComputeManagementClient
+  commentId: T:Microsoft.Azure.Management.Compute.ComputeManagementClient
+  id: ComputeManagementClient
+  parent: Microsoft.Azure.Management.Compute
+  children:
+  - Microsoft.Azure.Management.Compute.ComputeManagementClient.#ctor(Microsoft.Rest.ServiceClientCredentials,System.Net.Http.DelegatingHandler[])
+  - Microsoft.Azure.Management.Compute.ComputeManagementClient.#ctor(Microsoft.Rest.ServiceClientCredentials,System.Net.Http.HttpClientHandler,System.Net.Http.DelegatingHandler[])
+  - Microsoft.Azure.Management.Compute.ComputeManagementClient.#ctor(System.Net.Http.DelegatingHandler[])
+  - Microsoft.Azure.Management.Compute.ComputeManagementClient.#ctor(System.Net.Http.HttpClientHandler,System.Net.Http.DelegatingHandler[])
+  - Microsoft.Azure.Management.Compute.ComputeManagementClient.#ctor(System.Uri,Microsoft.Rest.ServiceClientCredentials,System.Net.Http.DelegatingHandler[])
+  - Microsoft.Azure.Management.Compute.ComputeManagementClient.#ctor(System.Uri,Microsoft.Rest.ServiceClientCredentials,System.Net.Http.HttpClientHandler,System.Net.Http.DelegatingHandler[])
+  - Microsoft.Azure.Management.Compute.ComputeManagementClient.#ctor(System.Uri,System.Net.Http.DelegatingHandler[])
+  - Microsoft.Azure.Management.Compute.ComputeManagementClient.#ctor(System.Uri,System.Net.Http.HttpClientHandler,System.Net.Http.DelegatingHandler[])
+  - Microsoft.Azure.Management.Compute.ComputeManagementClient.AcceptLanguage
+  - Microsoft.Azure.Management.Compute.ComputeManagementClient.AvailabilitySets
+  - Microsoft.Azure.Management.Compute.ComputeManagementClient.BaseUri
+  - Microsoft.Azure.Management.Compute.ComputeManagementClient.ContainerService
+  - Microsoft.Azure.Management.Compute.ComputeManagementClient.Credentials
+  - Microsoft.Azure.Management.Compute.ComputeManagementClient.DeserializationSettings
+  - Microsoft.Azure.Management.Compute.ComputeManagementClient.GenerateClientRequestId
+  - Microsoft.Azure.Management.Compute.ComputeManagementClient.LongRunningOperationRetryTimeout
+  - Microsoft.Azure.Management.Compute.ComputeManagementClient.SerializationSettings
+  - Microsoft.Azure.Management.Compute.ComputeManagementClient.SubscriptionId
+  - Microsoft.Azure.Management.Compute.ComputeManagementClient.Usage
+  - Microsoft.Azure.Management.Compute.ComputeManagementClient.VirtualMachineExtensionImages
+  - Microsoft.Azure.Management.Compute.ComputeManagementClient.VirtualMachineExtensions
+  - Microsoft.Azure.Management.Compute.ComputeManagementClient.VirtualMachineImages
+  - Microsoft.Azure.Management.Compute.ComputeManagementClient.VirtualMachines
+  - Microsoft.Azure.Management.Compute.ComputeManagementClient.VirtualMachineScaleSets
+  - Microsoft.Azure.Management.Compute.ComputeManagementClient.VirtualMachineScaleSetVMs
+  - Microsoft.Azure.Management.Compute.ComputeManagementClient.VirtualMachineSizes
+  langs:
+  - csharp
+  - vb
+  name: ComputeManagementClient
+  nameWithType: ComputeManagementClient
+  fullName: Microsoft.Azure.Management.Compute.ComputeManagementClient
+  type: Class
+  source:
+    remote:
+      path: src/ResourceManagement/Compute/Microsoft.Azure.Management.Compute/Generated/ComputeManagementClient.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: ComputeManagementClient
+    path: src/azure-sdk-for-net/src/ResourceManagement/Compute/Microsoft.Azure.Management.Compute/Generated/ComputeManagementClient.cs
+    startLine: 18
+  assemblies:
+  - Microsoft.Azure.Management.Compute
+  namespace: Microsoft.Azure.Management.Compute
+  summary: "\nComposite Swagger for Compute Client\n"
+  example: []
+  syntax:
+    content: 'public class ComputeManagementClient : ServiceClient<ComputeManagementClient>, IComputeManagementClient, IDisposable, IAzureClient'
+    content.vb: >-
+      Public Class ComputeManagementClient
+          Inherits ServiceClient(Of ComputeManagementClient)
+          Implements IComputeManagementClient, IDisposable, IAzureClient
+  inheritance:
+  - System.Object
+  - Microsoft.Rest.ServiceClient{Microsoft.Azure.Management.Compute.ComputeManagementClient}
+  implements:
+  - Microsoft.Azure.Management.Compute.IComputeManagementClient
+  - System.IDisposable
+  - Microsoft.Rest.Azure.IAzureClient
+  inheritedMembers:
+  - Microsoft.Rest.ServiceClient{Microsoft.Azure.Management.Compute.ComputeManagementClient}.FirstMessageHandler
+  - Microsoft.Rest.ServiceClient{Microsoft.Azure.Management.Compute.ComputeManagementClient}.HttpClientHandler
+  - Microsoft.Rest.ServiceClient{Microsoft.Azure.Management.Compute.ComputeManagementClient}.CreateRootHandler
+  - Microsoft.Rest.ServiceClient{Microsoft.Azure.Management.Compute.ComputeManagementClient}.HttpClient
+  - Microsoft.Rest.ServiceClient{Microsoft.Azure.Management.Compute.ComputeManagementClient}.UserAgent
+  - Microsoft.Rest.ServiceClient{Microsoft.Azure.Management.Compute.ComputeManagementClient}.HttpMessageHandlers
+  - Microsoft.Rest.ServiceClient{Microsoft.Azure.Management.Compute.ComputeManagementClient}.SetRetryPolicy(Microsoft.Rest.TransientFaultHandling.RetryPolicy)
+  - Microsoft.Rest.ServiceClient{Microsoft.Azure.Management.Compute.ComputeManagementClient}.Dispose
+  - Microsoft.Rest.ServiceClient{Microsoft.Azure.Management.Compute.ComputeManagementClient}.Dispose(System.Boolean)
+  - Microsoft.Rest.ServiceClient{Microsoft.Azure.Management.Compute.ComputeManagementClient}.InitializeHttpClient(System.Net.Http.HttpClientHandler,System.Net.Http.DelegatingHandler[])
+  - Microsoft.Rest.ServiceClient{Microsoft.Azure.Management.Compute.ComputeManagementClient}.SetUserAgent(System.String)
+  - Microsoft.Rest.ServiceClient{Microsoft.Azure.Management.Compute.ComputeManagementClient}.SetUserAgent(System.String,System.String)
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Microsoft.Azure.Management.Compute.ComputeManagementClient.BaseUri
+  commentId: P:Microsoft.Azure.Management.Compute.ComputeManagementClient.BaseUri
+  id: BaseUri
+  parent: Microsoft.Azure.Management.Compute.ComputeManagementClient
+  langs:
+  - csharp
+  - vb
+  name: BaseUri
+  nameWithType: ComputeManagementClient.BaseUri
+  fullName: Microsoft.Azure.Management.Compute.ComputeManagementClient.BaseUri
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/Compute/Microsoft.Azure.Management.Compute/Generated/ComputeManagementClient.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: BaseUri
+    path: src/azure-sdk-for-net/src/ResourceManagement/Compute/Microsoft.Azure.Management.Compute/Generated/ComputeManagementClient.cs
+    startLine: 23
+  assemblies:
+  - Microsoft.Azure.Management.Compute
+  namespace: Microsoft.Azure.Management.Compute
+  summary: "\nThe base URI of the service.\n"
+  example: []
+  syntax:
+    content: public Uri BaseUri { get; set; }
+    content.vb: Public Property BaseUri As Uri
+    parameters: []
+    return:
+      type: System.Uri
+  overload: Microsoft.Azure.Management.Compute.ComputeManagementClient.BaseUri*
+  implements:
+  - Microsoft.Azure.Management.Compute.IComputeManagementClient.BaseUri
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Azure.Management.Compute.ComputeManagementClient.SerializationSettings
+  commentId: P:Microsoft.Azure.Management.Compute.ComputeManagementClient.SerializationSettings
+  id: SerializationSettings
+  parent: Microsoft.Azure.Management.Compute.ComputeManagementClient
+  langs:
+  - csharp
+  - vb
+  name: SerializationSettings
+  nameWithType: ComputeManagementClient.SerializationSettings
+  fullName: Microsoft.Azure.Management.Compute.ComputeManagementClient.SerializationSettings
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/Compute/Microsoft.Azure.Management.Compute/Generated/ComputeManagementClient.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: SerializationSettings
+    path: src/azure-sdk-for-net/src/ResourceManagement/Compute/Microsoft.Azure.Management.Compute/Generated/ComputeManagementClient.cs
+    startLine: 28
+  assemblies:
+  - Microsoft.Azure.Management.Compute
+  namespace: Microsoft.Azure.Management.Compute
+  summary: "\nGets or sets json serialization settings.\n"
+  example: []
+  syntax:
+    content: public JsonSerializerSettings SerializationSettings { get; }
+    content.vb: Public ReadOnly Property SerializationSettings As JsonSerializerSettings
+    parameters: []
+    return:
+      type: Newtonsoft.Json.JsonSerializerSettings
+  overload: Microsoft.Azure.Management.Compute.ComputeManagementClient.SerializationSettings*
+  implements:
+  - Microsoft.Azure.Management.Compute.IComputeManagementClient.SerializationSettings
+  - Microsoft.Rest.Azure.IAzureClient.SerializationSettings
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Microsoft.Azure.Management.Compute.ComputeManagementClient.DeserializationSettings
+  commentId: P:Microsoft.Azure.Management.Compute.ComputeManagementClient.DeserializationSettings
+  id: DeserializationSettings
+  parent: Microsoft.Azure.Management.Compute.ComputeManagementClient
+  langs:
+  - csharp
+  - vb
+  name: DeserializationSettings
+  nameWithType: ComputeManagementClient.DeserializationSettings
+  fullName: Microsoft.Azure.Management.Compute.ComputeManagementClient.DeserializationSettings
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/Compute/Microsoft.Azure.Management.Compute/Generated/ComputeManagementClient.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: DeserializationSettings
+    path: src/azure-sdk-for-net/src/ResourceManagement/Compute/Microsoft.Azure.Management.Compute/Generated/ComputeManagementClient.cs
+    startLine: 33
+  assemblies:
+  - Microsoft.Azure.Management.Compute
+  namespace: Microsoft.Azure.Management.Compute
+  summary: "\nGets or sets json deserialization settings.\n"
+  example: []
+  syntax:
+    content: public JsonSerializerSettings DeserializationSettings { get; }
+    content.vb: Public ReadOnly Property DeserializationSettings As JsonSerializerSettings
+    parameters: []
+    return:
+      type: Newtonsoft.Json.JsonSerializerSettings
+  overload: Microsoft.Azure.Management.Compute.ComputeManagementClient.DeserializationSettings*
+  implements:
+  - Microsoft.Azure.Management.Compute.IComputeManagementClient.DeserializationSettings
+  - Microsoft.Rest.Azure.IAzureClient.DeserializationSettings
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Microsoft.Azure.Management.Compute.ComputeManagementClient.Credentials
+  commentId: P:Microsoft.Azure.Management.Compute.ComputeManagementClient.Credentials
+  id: Credentials
+  parent: Microsoft.Azure.Management.Compute.ComputeManagementClient
+  langs:
+  - csharp
+  - vb
+  name: Credentials
+  nameWithType: ComputeManagementClient.Credentials
+  fullName: Microsoft.Azure.Management.Compute.ComputeManagementClient.Credentials
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/Compute/Microsoft.Azure.Management.Compute/Generated/ComputeManagementClient.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: Credentials
+    path: src/azure-sdk-for-net/src/ResourceManagement/Compute/Microsoft.Azure.Management.Compute/Generated/ComputeManagementClient.cs
+    startLine: 38
+  assemblies:
+  - Microsoft.Azure.Management.Compute
+  namespace: Microsoft.Azure.Management.Compute
+  summary: "\nCredentials needed for the client to connect to Azure.\n"
+  example: []
+  syntax:
+    content: public ServiceClientCredentials Credentials { get; }
+    content.vb: Public ReadOnly Property Credentials As ServiceClientCredentials
+    parameters: []
+    return:
+      type: Microsoft.Rest.ServiceClientCredentials
+  overload: Microsoft.Azure.Management.Compute.ComputeManagementClient.Credentials*
+  implements:
+  - Microsoft.Azure.Management.Compute.IComputeManagementClient.Credentials
+  - Microsoft.Rest.Azure.IAzureClient.Credentials
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Microsoft.Azure.Management.Compute.ComputeManagementClient.SubscriptionId
+  commentId: P:Microsoft.Azure.Management.Compute.ComputeManagementClient.SubscriptionId
+  id: SubscriptionId
+  parent: Microsoft.Azure.Management.Compute.ComputeManagementClient
+  langs:
+  - csharp
+  - vb
+  name: SubscriptionId
+  nameWithType: ComputeManagementClient.SubscriptionId
+  fullName: Microsoft.Azure.Management.Compute.ComputeManagementClient.SubscriptionId
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/Compute/Microsoft.Azure.Management.Compute/Generated/ComputeManagementClient.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: SubscriptionId
+    path: src/azure-sdk-for-net/src/ResourceManagement/Compute/Microsoft.Azure.Management.Compute/Generated/ComputeManagementClient.cs
+    startLine: 45
+  assemblies:
+  - Microsoft.Azure.Management.Compute
+  namespace: Microsoft.Azure.Management.Compute
+  summary: "\nsubscription credentials which uniquely identify Microsoft Azure\nsubscription. The subscription ID forms part of the URI for every service\ncall.\n"
+  example: []
+  syntax:
+    content: public string SubscriptionId { get; set; }
+    content.vb: Public Property SubscriptionId As String
+    parameters: []
+    return:
+      type: System.String
+  overload: Microsoft.Azure.Management.Compute.ComputeManagementClient.SubscriptionId*
+  implements:
+  - Microsoft.Azure.Management.Compute.IComputeManagementClient.SubscriptionId
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Azure.Management.Compute.ComputeManagementClient.AcceptLanguage
+  commentId: P:Microsoft.Azure.Management.Compute.ComputeManagementClient.AcceptLanguage
+  id: AcceptLanguage
+  parent: Microsoft.Azure.Management.Compute.ComputeManagementClient
+  langs:
+  - csharp
+  - vb
+  name: AcceptLanguage
+  nameWithType: ComputeManagementClient.AcceptLanguage
+  fullName: Microsoft.Azure.Management.Compute.ComputeManagementClient.AcceptLanguage
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/Compute/Microsoft.Azure.Management.Compute/Generated/ComputeManagementClient.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: AcceptLanguage
+    path: src/azure-sdk-for-net/src/ResourceManagement/Compute/Microsoft.Azure.Management.Compute/Generated/ComputeManagementClient.cs
+    startLine: 50
+  assemblies:
+  - Microsoft.Azure.Management.Compute
+  namespace: Microsoft.Azure.Management.Compute
+  summary: "\nGets or sets the preferred language for the response.\n"
+  example: []
+  syntax:
+    content: public string AcceptLanguage { get; set; }
+    content.vb: Public Property AcceptLanguage As String
+    parameters: []
+    return:
+      type: System.String
+  overload: Microsoft.Azure.Management.Compute.ComputeManagementClient.AcceptLanguage*
+  implements:
+  - Microsoft.Azure.Management.Compute.IComputeManagementClient.AcceptLanguage
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Azure.Management.Compute.ComputeManagementClient.LongRunningOperationRetryTimeout
+  commentId: P:Microsoft.Azure.Management.Compute.ComputeManagementClient.LongRunningOperationRetryTimeout
+  id: LongRunningOperationRetryTimeout
+  parent: Microsoft.Azure.Management.Compute.ComputeManagementClient
+  langs:
+  - csharp
+  - vb
+  name: LongRunningOperationRetryTimeout
+  nameWithType: ComputeManagementClient.LongRunningOperationRetryTimeout
+  fullName: Microsoft.Azure.Management.Compute.ComputeManagementClient.LongRunningOperationRetryTimeout
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/Compute/Microsoft.Azure.Management.Compute/Generated/ComputeManagementClient.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: LongRunningOperationRetryTimeout
+    path: src/azure-sdk-for-net/src/ResourceManagement/Compute/Microsoft.Azure.Management.Compute/Generated/ComputeManagementClient.cs
+    startLine: 56
+  assemblies:
+  - Microsoft.Azure.Management.Compute
+  namespace: Microsoft.Azure.Management.Compute
+  summary: "\nGets or sets the retry timeout in seconds for Long Running Operations.\nDefault value is 30.\n"
+  example: []
+  syntax:
+    content: public int ? LongRunningOperationRetryTimeout { get; set; }
+    content.vb: Public Property LongRunningOperationRetryTimeout As Integer?
+    parameters: []
+    return:
+      type: System.Nullable{System.Int32}
+  overload: Microsoft.Azure.Management.Compute.ComputeManagementClient.LongRunningOperationRetryTimeout*
+  implements:
+  - Microsoft.Azure.Management.Compute.IComputeManagementClient.LongRunningOperationRetryTimeout
+  - Microsoft.Rest.Azure.IAzureClient.LongRunningOperationRetryTimeout
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Azure.Management.Compute.ComputeManagementClient.GenerateClientRequestId
+  commentId: P:Microsoft.Azure.Management.Compute.ComputeManagementClient.GenerateClientRequestId
+  id: GenerateClientRequestId
+  parent: Microsoft.Azure.Management.Compute.ComputeManagementClient
+  langs:
+  - csharp
+  - vb
+  name: GenerateClientRequestId
+  nameWithType: ComputeManagementClient.GenerateClientRequestId
+  fullName: Microsoft.Azure.Management.Compute.ComputeManagementClient.GenerateClientRequestId
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/Compute/Microsoft.Azure.Management.Compute/Generated/ComputeManagementClient.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: GenerateClientRequestId
+    path: src/azure-sdk-for-net/src/ResourceManagement/Compute/Microsoft.Azure.Management.Compute/Generated/ComputeManagementClient.cs
+    startLine: 62
+  assemblies:
+  - Microsoft.Azure.Management.Compute
+  namespace: Microsoft.Azure.Management.Compute
+  summary: "\nWhen set to true a unique x-ms-client-request-id value is generated and\nincluded in each request. Default is true.\n"
+  example: []
+  syntax:
+    content: public bool ? GenerateClientRequestId { get; set; }
+    content.vb: Public Property GenerateClientRequestId As Boolean?
+    parameters: []
+    return:
+      type: System.Nullable{System.Boolean}
+  overload: Microsoft.Azure.Management.Compute.ComputeManagementClient.GenerateClientRequestId*
+  implements:
+  - Microsoft.Azure.Management.Compute.IComputeManagementClient.GenerateClientRequestId
+  - Microsoft.Rest.Azure.IAzureClient.GenerateClientRequestId
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Azure.Management.Compute.ComputeManagementClient.AvailabilitySets
+  commentId: P:Microsoft.Azure.Management.Compute.ComputeManagementClient.AvailabilitySets
+  id: AvailabilitySets
+  parent: Microsoft.Azure.Management.Compute.ComputeManagementClient
+  langs:
+  - csharp
+  - vb
+  name: AvailabilitySets
+  nameWithType: ComputeManagementClient.AvailabilitySets
+  fullName: Microsoft.Azure.Management.Compute.ComputeManagementClient.AvailabilitySets
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/Compute/Microsoft.Azure.Management.Compute/Generated/ComputeManagementClient.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: AvailabilitySets
+    path: src/azure-sdk-for-net/src/ResourceManagement/Compute/Microsoft.Azure.Management.Compute/Generated/ComputeManagementClient.cs
+    startLine: 67
+  assemblies:
+  - Microsoft.Azure.Management.Compute
+  namespace: Microsoft.Azure.Management.Compute
+  summary: "\nGets the IAvailabilitySetsOperations.\n"
+  example: []
+  syntax:
+    content: public virtual IAvailabilitySetsOperations AvailabilitySets { get; }
+    content.vb: Public Overridable ReadOnly Property AvailabilitySets As IAvailabilitySetsOperations
+    parameters: []
+    return:
+      type: Microsoft.Azure.Management.Compute.IAvailabilitySetsOperations
+  overload: Microsoft.Azure.Management.Compute.ComputeManagementClient.AvailabilitySets*
+  implements:
+  - Microsoft.Azure.Management.Compute.IComputeManagementClient.AvailabilitySets
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  modifiers.vb:
+  - Public
+  - Overridable
+  - ReadOnly
+- uid: Microsoft.Azure.Management.Compute.ComputeManagementClient.VirtualMachineExtensionImages
+  commentId: P:Microsoft.Azure.Management.Compute.ComputeManagementClient.VirtualMachineExtensionImages
+  id: VirtualMachineExtensionImages
+  parent: Microsoft.Azure.Management.Compute.ComputeManagementClient
+  langs:
+  - csharp
+  - vb
+  name: VirtualMachineExtensionImages
+  nameWithType: ComputeManagementClient.VirtualMachineExtensionImages
+  fullName: Microsoft.Azure.Management.Compute.ComputeManagementClient.VirtualMachineExtensionImages
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/Compute/Microsoft.Azure.Management.Compute/Generated/ComputeManagementClient.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: VirtualMachineExtensionImages
+    path: src/azure-sdk-for-net/src/ResourceManagement/Compute/Microsoft.Azure.Management.Compute/Generated/ComputeManagementClient.cs
+    startLine: 72
+  assemblies:
+  - Microsoft.Azure.Management.Compute
+  namespace: Microsoft.Azure.Management.Compute
+  summary: "\nGets the IVirtualMachineExtensionImagesOperations.\n"
+  example: []
+  syntax:
+    content: public virtual IVirtualMachineExtensionImagesOperations VirtualMachineExtensionImages { get; }
+    content.vb: Public Overridable ReadOnly Property VirtualMachineExtensionImages As IVirtualMachineExtensionImagesOperations
+    parameters: []
+    return:
+      type: Microsoft.Azure.Management.Compute.IVirtualMachineExtensionImagesOperations
+  overload: Microsoft.Azure.Management.Compute.ComputeManagementClient.VirtualMachineExtensionImages*
+  implements:
+  - Microsoft.Azure.Management.Compute.IComputeManagementClient.VirtualMachineExtensionImages
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  modifiers.vb:
+  - Public
+  - Overridable
+  - ReadOnly
+- uid: Microsoft.Azure.Management.Compute.ComputeManagementClient.VirtualMachineExtensions
+  commentId: P:Microsoft.Azure.Management.Compute.ComputeManagementClient.VirtualMachineExtensions
+  id: VirtualMachineExtensions
+  parent: Microsoft.Azure.Management.Compute.ComputeManagementClient
+  langs:
+  - csharp
+  - vb
+  name: VirtualMachineExtensions
+  nameWithType: ComputeManagementClient.VirtualMachineExtensions
+  fullName: Microsoft.Azure.Management.Compute.ComputeManagementClient.VirtualMachineExtensions
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/Compute/Microsoft.Azure.Management.Compute/Generated/ComputeManagementClient.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: VirtualMachineExtensions
+    path: src/azure-sdk-for-net/src/ResourceManagement/Compute/Microsoft.Azure.Management.Compute/Generated/ComputeManagementClient.cs
+    startLine: 77
+  assemblies:
+  - Microsoft.Azure.Management.Compute
+  namespace: Microsoft.Azure.Management.Compute
+  summary: "\nGets the IVirtualMachineExtensionsOperations.\n"
+  example: []
+  syntax:
+    content: public virtual IVirtualMachineExtensionsOperations VirtualMachineExtensions { get; }
+    content.vb: Public Overridable ReadOnly Property VirtualMachineExtensions As IVirtualMachineExtensionsOperations
+    parameters: []
+    return:
+      type: Microsoft.Azure.Management.Compute.IVirtualMachineExtensionsOperations
+  overload: Microsoft.Azure.Management.Compute.ComputeManagementClient.VirtualMachineExtensions*
+  implements:
+  - Microsoft.Azure.Management.Compute.IComputeManagementClient.VirtualMachineExtensions
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  modifiers.vb:
+  - Public
+  - Overridable
+  - ReadOnly
+- uid: Microsoft.Azure.Management.Compute.ComputeManagementClient.VirtualMachineImages
+  commentId: P:Microsoft.Azure.Management.Compute.ComputeManagementClient.VirtualMachineImages
+  id: VirtualMachineImages
+  parent: Microsoft.Azure.Management.Compute.ComputeManagementClient
+  langs:
+  - csharp
+  - vb
+  name: VirtualMachineImages
+  nameWithType: ComputeManagementClient.VirtualMachineImages
+  fullName: Microsoft.Azure.Management.Compute.ComputeManagementClient.VirtualMachineImages
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/Compute/Microsoft.Azure.Management.Compute/Generated/ComputeManagementClient.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: VirtualMachineImages
+    path: src/azure-sdk-for-net/src/ResourceManagement/Compute/Microsoft.Azure.Management.Compute/Generated/ComputeManagementClient.cs
+    startLine: 82
+  assemblies:
+  - Microsoft.Azure.Management.Compute
+  namespace: Microsoft.Azure.Management.Compute
+  summary: "\nGets the IVirtualMachineImagesOperations.\n"
+  example: []
+  syntax:
+    content: public virtual IVirtualMachineImagesOperations VirtualMachineImages { get; }
+    content.vb: Public Overridable ReadOnly Property VirtualMachineImages As IVirtualMachineImagesOperations
+    parameters: []
+    return:
+      type: Microsoft.Azure.Management.Compute.IVirtualMachineImagesOperations
+  overload: Microsoft.Azure.Management.Compute.ComputeManagementClient.VirtualMachineImages*
+  implements:
+  - Microsoft.Azure.Management.Compute.IComputeManagementClient.VirtualMachineImages
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  modifiers.vb:
+  - Public
+  - Overridable
+  - ReadOnly
+- uid: Microsoft.Azure.Management.Compute.ComputeManagementClient.Usage
+  commentId: P:Microsoft.Azure.Management.Compute.ComputeManagementClient.Usage
+  id: Usage
+  parent: Microsoft.Azure.Management.Compute.ComputeManagementClient
+  langs:
+  - csharp
+  - vb
+  name: Usage
+  nameWithType: ComputeManagementClient.Usage
+  fullName: Microsoft.Azure.Management.Compute.ComputeManagementClient.Usage
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/Compute/Microsoft.Azure.Management.Compute/Generated/ComputeManagementClient.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: Usage
+    path: src/azure-sdk-for-net/src/ResourceManagement/Compute/Microsoft.Azure.Management.Compute/Generated/ComputeManagementClient.cs
+    startLine: 87
+  assemblies:
+  - Microsoft.Azure.Management.Compute
+  namespace: Microsoft.Azure.Management.Compute
+  summary: "\nGets the IUsageOperations.\n"
+  example: []
+  syntax:
+    content: public virtual IUsageOperations Usage { get; }
+    content.vb: Public Overridable ReadOnly Property Usage As IUsageOperations
+    parameters: []
+    return:
+      type: Microsoft.Azure.Management.Compute.IUsageOperations
+  overload: Microsoft.Azure.Management.Compute.ComputeManagementClient.Usage*
+  implements:
+  - Microsoft.Azure.Management.Compute.IComputeManagementClient.Usage
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  modifiers.vb:
+  - Public
+  - Overridable
+  - ReadOnly
+- uid: Microsoft.Azure.Management.Compute.ComputeManagementClient.VirtualMachineSizes
+  commentId: P:Microsoft.Azure.Management.Compute.ComputeManagementClient.VirtualMachineSizes
+  id: VirtualMachineSizes
+  parent: Microsoft.Azure.Management.Compute.ComputeManagementClient
+  langs:
+  - csharp
+  - vb
+  name: VirtualMachineSizes
+  nameWithType: ComputeManagementClient.VirtualMachineSizes
+  fullName: Microsoft.Azure.Management.Compute.ComputeManagementClient.VirtualMachineSizes
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/Compute/Microsoft.Azure.Management.Compute/Generated/ComputeManagementClient.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: VirtualMachineSizes
+    path: src/azure-sdk-for-net/src/ResourceManagement/Compute/Microsoft.Azure.Management.Compute/Generated/ComputeManagementClient.cs
+    startLine: 92
+  assemblies:
+  - Microsoft.Azure.Management.Compute
+  namespace: Microsoft.Azure.Management.Compute
+  summary: "\nGets the IVirtualMachineSizesOperations.\n"
+  example: []
+  syntax:
+    content: public virtual IVirtualMachineSizesOperations VirtualMachineSizes { get; }
+    content.vb: Public Overridable ReadOnly Property VirtualMachineSizes As IVirtualMachineSizesOperations
+    parameters: []
+    return:
+      type: Microsoft.Azure.Management.Compute.IVirtualMachineSizesOperations
+  overload: Microsoft.Azure.Management.Compute.ComputeManagementClient.VirtualMachineSizes*
+  implements:
+  - Microsoft.Azure.Management.Compute.IComputeManagementClient.VirtualMachineSizes
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  modifiers.vb:
+  - Public
+  - Overridable
+  - ReadOnly
+- uid: Microsoft.Azure.Management.Compute.ComputeManagementClient.VirtualMachines
+  commentId: P:Microsoft.Azure.Management.Compute.ComputeManagementClient.VirtualMachines
+  id: VirtualMachines
+  parent: Microsoft.Azure.Management.Compute.ComputeManagementClient
+  langs:
+  - csharp
+  - vb
+  name: VirtualMachines
+  nameWithType: ComputeManagementClient.VirtualMachines
+  fullName: Microsoft.Azure.Management.Compute.ComputeManagementClient.VirtualMachines
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/Compute/Microsoft.Azure.Management.Compute/Generated/ComputeManagementClient.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: VirtualMachines
+    path: src/azure-sdk-for-net/src/ResourceManagement/Compute/Microsoft.Azure.Management.Compute/Generated/ComputeManagementClient.cs
+    startLine: 97
+  assemblies:
+  - Microsoft.Azure.Management.Compute
+  namespace: Microsoft.Azure.Management.Compute
+  summary: "\nGets the IVirtualMachinesOperations.\n"
+  example: []
+  syntax:
+    content: public virtual IVirtualMachinesOperations VirtualMachines { get; }
+    content.vb: Public Overridable ReadOnly Property VirtualMachines As IVirtualMachinesOperations
+    parameters: []
+    return:
+      type: Microsoft.Azure.Management.Compute.IVirtualMachinesOperations
+  overload: Microsoft.Azure.Management.Compute.ComputeManagementClient.VirtualMachines*
+  implements:
+  - Microsoft.Azure.Management.Compute.IComputeManagementClient.VirtualMachines
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  modifiers.vb:
+  - Public
+  - Overridable
+  - ReadOnly
+- uid: Microsoft.Azure.Management.Compute.ComputeManagementClient.VirtualMachineScaleSets
+  commentId: P:Microsoft.Azure.Management.Compute.ComputeManagementClient.VirtualMachineScaleSets
+  id: VirtualMachineScaleSets
+  parent: Microsoft.Azure.Management.Compute.ComputeManagementClient
+  langs:
+  - csharp
+  - vb
+  name: VirtualMachineScaleSets
+  nameWithType: ComputeManagementClient.VirtualMachineScaleSets
+  fullName: Microsoft.Azure.Management.Compute.ComputeManagementClient.VirtualMachineScaleSets
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/Compute/Microsoft.Azure.Management.Compute/Generated/ComputeManagementClient.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: VirtualMachineScaleSets
+    path: src/azure-sdk-for-net/src/ResourceManagement/Compute/Microsoft.Azure.Management.Compute/Generated/ComputeManagementClient.cs
+    startLine: 102
+  assemblies:
+  - Microsoft.Azure.Management.Compute
+  namespace: Microsoft.Azure.Management.Compute
+  summary: "\nGets the IVirtualMachineScaleSetsOperations.\n"
+  example: []
+  syntax:
+    content: public virtual IVirtualMachineScaleSetsOperations VirtualMachineScaleSets { get; }
+    content.vb: Public Overridable ReadOnly Property VirtualMachineScaleSets As IVirtualMachineScaleSetsOperations
+    parameters: []
+    return:
+      type: Microsoft.Azure.Management.Compute.IVirtualMachineScaleSetsOperations
+  overload: Microsoft.Azure.Management.Compute.ComputeManagementClient.VirtualMachineScaleSets*
+  implements:
+  - Microsoft.Azure.Management.Compute.IComputeManagementClient.VirtualMachineScaleSets
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  modifiers.vb:
+  - Public
+  - Overridable
+  - ReadOnly
+- uid: Microsoft.Azure.Management.Compute.ComputeManagementClient.VirtualMachineScaleSetVMs
+  commentId: P:Microsoft.Azure.Management.Compute.ComputeManagementClient.VirtualMachineScaleSetVMs
+  id: VirtualMachineScaleSetVMs
+  parent: Microsoft.Azure.Management.Compute.ComputeManagementClient
+  langs:
+  - csharp
+  - vb
+  name: VirtualMachineScaleSetVMs
+  nameWithType: ComputeManagementClient.VirtualMachineScaleSetVMs
+  fullName: Microsoft.Azure.Management.Compute.ComputeManagementClient.VirtualMachineScaleSetVMs
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/Compute/Microsoft.Azure.Management.Compute/Generated/ComputeManagementClient.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: VirtualMachineScaleSetVMs
+    path: src/azure-sdk-for-net/src/ResourceManagement/Compute/Microsoft.Azure.Management.Compute/Generated/ComputeManagementClient.cs
+    startLine: 107
+  assemblies:
+  - Microsoft.Azure.Management.Compute
+  namespace: Microsoft.Azure.Management.Compute
+  summary: "\nGets the IVirtualMachineScaleSetVMsOperations.\n"
+  example: []
+  syntax:
+    content: public virtual IVirtualMachineScaleSetVMsOperations VirtualMachineScaleSetVMs { get; }
+    content.vb: Public Overridable ReadOnly Property VirtualMachineScaleSetVMs As IVirtualMachineScaleSetVMsOperations
+    parameters: []
+    return:
+      type: Microsoft.Azure.Management.Compute.IVirtualMachineScaleSetVMsOperations
+  overload: Microsoft.Azure.Management.Compute.ComputeManagementClient.VirtualMachineScaleSetVMs*
+  implements:
+  - Microsoft.Azure.Management.Compute.IComputeManagementClient.VirtualMachineScaleSetVMs
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  modifiers.vb:
+  - Public
+  - Overridable
+  - ReadOnly
+- uid: Microsoft.Azure.Management.Compute.ComputeManagementClient.ContainerService
+  commentId: P:Microsoft.Azure.Management.Compute.ComputeManagementClient.ContainerService
+  id: ContainerService
+  parent: Microsoft.Azure.Management.Compute.ComputeManagementClient
+  langs:
+  - csharp
+  - vb
+  name: ContainerService
+  nameWithType: ComputeManagementClient.ContainerService
+  fullName: Microsoft.Azure.Management.Compute.ComputeManagementClient.ContainerService
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/Compute/Microsoft.Azure.Management.Compute/Generated/ComputeManagementClient.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: ContainerService
+    path: src/azure-sdk-for-net/src/ResourceManagement/Compute/Microsoft.Azure.Management.Compute/Generated/ComputeManagementClient.cs
+    startLine: 112
+  assemblies:
+  - Microsoft.Azure.Management.Compute
+  namespace: Microsoft.Azure.Management.Compute
+  summary: "\nGets the IContainerServiceOperations.\n"
+  example: []
+  syntax:
+    content: public virtual IContainerServiceOperations ContainerService { get; }
+    content.vb: Public Overridable ReadOnly Property ContainerService As IContainerServiceOperations
+    parameters: []
+    return:
+      type: Microsoft.Azure.Management.Compute.IContainerServiceOperations
+  overload: Microsoft.Azure.Management.Compute.ComputeManagementClient.ContainerService*
+  implements:
+  - Microsoft.Azure.Management.Compute.IComputeManagementClient.ContainerService
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  modifiers.vb:
+  - Public
+  - Overridable
+  - ReadOnly
+- uid: Microsoft.Azure.Management.Compute.ComputeManagementClient.#ctor(System.Net.Http.DelegatingHandler[])
+  commentId: M:Microsoft.Azure.Management.Compute.ComputeManagementClient.#ctor(System.Net.Http.DelegatingHandler[])
+  id: '#ctor(System.Net.Http.DelegatingHandler[])'
+  parent: Microsoft.Azure.Management.Compute.ComputeManagementClient
+  langs:
+  - csharp
+  - vb
+  name: ComputeManagementClient(DelegatingHandler[])
+  nameWithType: ComputeManagementClient.ComputeManagementClient(DelegatingHandler[])
+  fullName: Microsoft.Azure.Management.Compute.ComputeManagementClient.ComputeManagementClient(System.Net.Http.DelegatingHandler[])
+  type: Constructor
+  source:
+    remote:
+      path: src/ResourceManagement/Compute/Microsoft.Azure.Management.Compute/Generated/ComputeManagementClient.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: .ctor
+    path: src/azure-sdk-for-net/src/ResourceManagement/Compute/Microsoft.Azure.Management.Compute/Generated/ComputeManagementClient.cs
+    startLine: 120
+  assemblies:
+  - Microsoft.Azure.Management.Compute
+  namespace: Microsoft.Azure.Management.Compute
+  summary: "\nInitializes a new instance of the ComputeManagementClient class.\n"
+  example: []
+  syntax:
+    content: protected ComputeManagementClient(params DelegatingHandler[] handlers)
+    content.vb: Protected Sub New(ParamArray handlers As DelegatingHandler())
+    parameters:
+    - id: handlers
+      type: System.Net.Http.DelegatingHandler[]
+      description: "\nOptional. The delegating handlers to add to the http client pipeline.\n"
+  overload: Microsoft.Azure.Management.Compute.ComputeManagementClient.#ctor*
+  nameWithType.vb: ComputeManagementClient.ComputeManagementClient(DelegatingHandler())
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+  fullName.vb: Microsoft.Azure.Management.Compute.ComputeManagementClient.ComputeManagementClient(System.Net.Http.DelegatingHandler())
+  name.vb: ComputeManagementClient(DelegatingHandler())
+- uid: Microsoft.Azure.Management.Compute.ComputeManagementClient.#ctor(System.Net.Http.HttpClientHandler,System.Net.Http.DelegatingHandler[])
+  commentId: M:Microsoft.Azure.Management.Compute.ComputeManagementClient.#ctor(System.Net.Http.HttpClientHandler,System.Net.Http.DelegatingHandler[])
+  id: '#ctor(System.Net.Http.HttpClientHandler,System.Net.Http.DelegatingHandler[])'
+  parent: Microsoft.Azure.Management.Compute.ComputeManagementClient
+  langs:
+  - csharp
+  - vb
+  name: ComputeManagementClient(HttpClientHandler, DelegatingHandler[])
+  nameWithType: ComputeManagementClient.ComputeManagementClient(HttpClientHandler, DelegatingHandler[])
+  fullName: Microsoft.Azure.Management.Compute.ComputeManagementClient.ComputeManagementClient(System.Net.Http.HttpClientHandler, System.Net.Http.DelegatingHandler[])
+  type: Constructor
+  source:
+    remote:
+      path: src/ResourceManagement/Compute/Microsoft.Azure.Management.Compute/Generated/ComputeManagementClient.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: .ctor
+    path: src/azure-sdk-for-net/src/ResourceManagement/Compute/Microsoft.Azure.Management.Compute/Generated/ComputeManagementClient.cs
+    startLine: 134
+  assemblies:
+  - Microsoft.Azure.Management.Compute
+  namespace: Microsoft.Azure.Management.Compute
+  summary: "\nInitializes a new instance of the ComputeManagementClient class.\n"
+  example: []
+  syntax:
+    content: protected ComputeManagementClient(HttpClientHandler rootHandler, params DelegatingHandler[] handlers)
+    content.vb: Protected Sub New(rootHandler As HttpClientHandler, ParamArray handlers As DelegatingHandler())
+    parameters:
+    - id: rootHandler
+      type: System.Net.Http.HttpClientHandler
+      description: "\nOptional. The http client handler used to handle http transport.\n"
+    - id: handlers
+      type: System.Net.Http.DelegatingHandler[]
+      description: "\nOptional. The delegating handlers to add to the http client pipeline.\n"
+  overload: Microsoft.Azure.Management.Compute.ComputeManagementClient.#ctor*
+  nameWithType.vb: ComputeManagementClient.ComputeManagementClient(HttpClientHandler, DelegatingHandler())
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+  fullName.vb: Microsoft.Azure.Management.Compute.ComputeManagementClient.ComputeManagementClient(System.Net.Http.HttpClientHandler, System.Net.Http.DelegatingHandler())
+  name.vb: ComputeManagementClient(HttpClientHandler, DelegatingHandler())
+- uid: Microsoft.Azure.Management.Compute.ComputeManagementClient.#ctor(System.Uri,System.Net.Http.DelegatingHandler[])
+  commentId: M:Microsoft.Azure.Management.Compute.ComputeManagementClient.#ctor(System.Uri,System.Net.Http.DelegatingHandler[])
+  id: '#ctor(System.Uri,System.Net.Http.DelegatingHandler[])'
+  parent: Microsoft.Azure.Management.Compute.ComputeManagementClient
+  langs:
+  - csharp
+  - vb
+  name: ComputeManagementClient(Uri, DelegatingHandler[])
+  nameWithType: ComputeManagementClient.ComputeManagementClient(Uri, DelegatingHandler[])
+  fullName: Microsoft.Azure.Management.Compute.ComputeManagementClient.ComputeManagementClient(System.Uri, System.Net.Http.DelegatingHandler[])
+  type: Constructor
+  source:
+    remote:
+      path: src/ResourceManagement/Compute/Microsoft.Azure.Management.Compute/Generated/ComputeManagementClient.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: .ctor
+    path: src/azure-sdk-for-net/src/ResourceManagement/Compute/Microsoft.Azure.Management.Compute/Generated/ComputeManagementClient.cs
+    startLine: 151
+  assemblies:
+  - Microsoft.Azure.Management.Compute
+  namespace: Microsoft.Azure.Management.Compute
+  summary: "\nInitializes a new instance of the ComputeManagementClient class.\n"
+  example: []
+  syntax:
+    content: protected ComputeManagementClient(Uri baseUri, params DelegatingHandler[] handlers)
+    content.vb: Protected Sub New(baseUri As Uri, ParamArray handlers As DelegatingHandler())
+    parameters:
+    - id: baseUri
+      type: System.Uri
+      description: "\nOptional. The base URI of the service.\n"
+    - id: handlers
+      type: System.Net.Http.DelegatingHandler[]
+      description: "\nOptional. The delegating handlers to add to the http client pipeline.\n"
+  overload: Microsoft.Azure.Management.Compute.ComputeManagementClient.#ctor*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: "\nThrown when a required parameter is null\n"
+  nameWithType.vb: ComputeManagementClient.ComputeManagementClient(Uri, DelegatingHandler())
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+  fullName.vb: Microsoft.Azure.Management.Compute.ComputeManagementClient.ComputeManagementClient(System.Uri, System.Net.Http.DelegatingHandler())
+  name.vb: ComputeManagementClient(Uri, DelegatingHandler())
+- uid: Microsoft.Azure.Management.Compute.ComputeManagementClient.#ctor(System.Uri,System.Net.Http.HttpClientHandler,System.Net.Http.DelegatingHandler[])
+  commentId: M:Microsoft.Azure.Management.Compute.ComputeManagementClient.#ctor(System.Uri,System.Net.Http.HttpClientHandler,System.Net.Http.DelegatingHandler[])
+  id: '#ctor(System.Uri,System.Net.Http.HttpClientHandler,System.Net.Http.DelegatingHandler[])'
+  parent: Microsoft.Azure.Management.Compute.ComputeManagementClient
+  langs:
+  - csharp
+  - vb
+  name: ComputeManagementClient(Uri, HttpClientHandler, DelegatingHandler[])
+  nameWithType: ComputeManagementClient.ComputeManagementClient(Uri, HttpClientHandler, DelegatingHandler[])
+  fullName: Microsoft.Azure.Management.Compute.ComputeManagementClient.ComputeManagementClient(System.Uri, System.Net.Http.HttpClientHandler, System.Net.Http.DelegatingHandler[])
+  type: Constructor
+  source:
+    remote:
+      path: src/ResourceManagement/Compute/Microsoft.Azure.Management.Compute/Generated/ComputeManagementClient.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: .ctor
+    path: src/azure-sdk-for-net/src/ResourceManagement/Compute/Microsoft.Azure.Management.Compute/Generated/ComputeManagementClient.cs
+    startLine: 175
+  assemblies:
+  - Microsoft.Azure.Management.Compute
+  namespace: Microsoft.Azure.Management.Compute
+  summary: "\nInitializes a new instance of the ComputeManagementClient class.\n"
+  example: []
+  syntax:
+    content: protected ComputeManagementClient(Uri baseUri, HttpClientHandler rootHandler, params DelegatingHandler[] handlers)
+    content.vb: Protected Sub New(baseUri As Uri, rootHandler As HttpClientHandler, ParamArray handlers As DelegatingHandler())
+    parameters:
+    - id: baseUri
+      type: System.Uri
+      description: "\nOptional. The base URI of the service.\n"
+    - id: rootHandler
+      type: System.Net.Http.HttpClientHandler
+      description: "\nOptional. The http client handler used to handle http transport.\n"
+    - id: handlers
+      type: System.Net.Http.DelegatingHandler[]
+      description: "\nOptional. The delegating handlers to add to the http client pipeline.\n"
+  overload: Microsoft.Azure.Management.Compute.ComputeManagementClient.#ctor*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: "\nThrown when a required parameter is null\n"
+  nameWithType.vb: ComputeManagementClient.ComputeManagementClient(Uri, HttpClientHandler, DelegatingHandler())
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+  fullName.vb: Microsoft.Azure.Management.Compute.ComputeManagementClient.ComputeManagementClient(System.Uri, System.Net.Http.HttpClientHandler, System.Net.Http.DelegatingHandler())
+  name.vb: ComputeManagementClient(Uri, HttpClientHandler, DelegatingHandler())
+- uid: Microsoft.Azure.Management.Compute.ComputeManagementClient.#ctor(Microsoft.Rest.ServiceClientCredentials,System.Net.Http.DelegatingHandler[])
+  commentId: M:Microsoft.Azure.Management.Compute.ComputeManagementClient.#ctor(Microsoft.Rest.ServiceClientCredentials,System.Net.Http.DelegatingHandler[])
+  id: '#ctor(Microsoft.Rest.ServiceClientCredentials,System.Net.Http.DelegatingHandler[])'
+  parent: Microsoft.Azure.Management.Compute.ComputeManagementClient
+  langs:
+  - csharp
+  - vb
+  name: ComputeManagementClient(ServiceClientCredentials, DelegatingHandler[])
+  nameWithType: ComputeManagementClient.ComputeManagementClient(ServiceClientCredentials, DelegatingHandler[])
+  fullName: Microsoft.Azure.Management.Compute.ComputeManagementClient.ComputeManagementClient(Microsoft.Rest.ServiceClientCredentials, System.Net.Http.DelegatingHandler[])
+  type: Constructor
+  source:
+    remote:
+      path: src/ResourceManagement/Compute/Microsoft.Azure.Management.Compute/Generated/ComputeManagementClient.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: .ctor
+    path: src/azure-sdk-for-net/src/ResourceManagement/Compute/Microsoft.Azure.Management.Compute/Generated/ComputeManagementClient.cs
+    startLine: 196
+  assemblies:
+  - Microsoft.Azure.Management.Compute
+  namespace: Microsoft.Azure.Management.Compute
+  summary: "\nInitializes a new instance of the ComputeManagementClient class.\n"
+  example: []
+  syntax:
+    content: public ComputeManagementClient(ServiceClientCredentials credentials, params DelegatingHandler[] handlers)
+    content.vb: Public Sub New(credentials As ServiceClientCredentials, ParamArray handlers As DelegatingHandler())
+    parameters:
+    - id: credentials
+      type: Microsoft.Rest.ServiceClientCredentials
+      description: "\nRequired. Credentials needed for the client to connect to Azure.\n"
+    - id: handlers
+      type: System.Net.Http.DelegatingHandler[]
+      description: "\nOptional. The delegating handlers to add to the http client pipeline.\n"
+  overload: Microsoft.Azure.Management.Compute.ComputeManagementClient.#ctor*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: "\nThrown when a required parameter is null\n"
+  nameWithType.vb: ComputeManagementClient.ComputeManagementClient(ServiceClientCredentials, DelegatingHandler())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Microsoft.Azure.Management.Compute.ComputeManagementClient.ComputeManagementClient(Microsoft.Rest.ServiceClientCredentials, System.Net.Http.DelegatingHandler())
+  name.vb: ComputeManagementClient(ServiceClientCredentials, DelegatingHandler())
+- uid: Microsoft.Azure.Management.Compute.ComputeManagementClient.#ctor(Microsoft.Rest.ServiceClientCredentials,System.Net.Http.HttpClientHandler,System.Net.Http.DelegatingHandler[])
+  commentId: M:Microsoft.Azure.Management.Compute.ComputeManagementClient.#ctor(Microsoft.Rest.ServiceClientCredentials,System.Net.Http.HttpClientHandler,System.Net.Http.DelegatingHandler[])
+  id: '#ctor(Microsoft.Rest.ServiceClientCredentials,System.Net.Http.HttpClientHandler,System.Net.Http.DelegatingHandler[])'
+  parent: Microsoft.Azure.Management.Compute.ComputeManagementClient
+  langs:
+  - csharp
+  - vb
+  name: ComputeManagementClient(ServiceClientCredentials, HttpClientHandler, DelegatingHandler[])
+  nameWithType: ComputeManagementClient.ComputeManagementClient(ServiceClientCredentials, HttpClientHandler, DelegatingHandler[])
+  fullName: Microsoft.Azure.Management.Compute.ComputeManagementClient.ComputeManagementClient(Microsoft.Rest.ServiceClientCredentials, System.Net.Http.HttpClientHandler, System.Net.Http.DelegatingHandler[])
+  type: Constructor
+  source:
+    remote:
+      path: src/ResourceManagement/Compute/Microsoft.Azure.Management.Compute/Generated/ComputeManagementClient.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: .ctor
+    path: src/azure-sdk-for-net/src/ResourceManagement/Compute/Microsoft.Azure.Management.Compute/Generated/ComputeManagementClient.cs
+    startLine: 224
+  assemblies:
+  - Microsoft.Azure.Management.Compute
+  namespace: Microsoft.Azure.Management.Compute
+  summary: "\nInitializes a new instance of the ComputeManagementClient class.\n"
+  example: []
+  syntax:
+    content: public ComputeManagementClient(ServiceClientCredentials credentials, HttpClientHandler rootHandler, params DelegatingHandler[] handlers)
+    content.vb: Public Sub New(credentials As ServiceClientCredentials, rootHandler As HttpClientHandler, ParamArray handlers As DelegatingHandler())
+    parameters:
+    - id: credentials
+      type: Microsoft.Rest.ServiceClientCredentials
+      description: "\nRequired. Credentials needed for the client to connect to Azure.\n"
+    - id: rootHandler
+      type: System.Net.Http.HttpClientHandler
+      description: "\nOptional. The http client handler used to handle http transport.\n"
+    - id: handlers
+      type: System.Net.Http.DelegatingHandler[]
+      description: "\nOptional. The delegating handlers to add to the http client pipeline.\n"
+  overload: Microsoft.Azure.Management.Compute.ComputeManagementClient.#ctor*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: "\nThrown when a required parameter is null\n"
+  nameWithType.vb: ComputeManagementClient.ComputeManagementClient(ServiceClientCredentials, HttpClientHandler, DelegatingHandler())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Microsoft.Azure.Management.Compute.ComputeManagementClient.ComputeManagementClient(Microsoft.Rest.ServiceClientCredentials, System.Net.Http.HttpClientHandler, System.Net.Http.DelegatingHandler())
+  name.vb: ComputeManagementClient(ServiceClientCredentials, HttpClientHandler, DelegatingHandler())
+- uid: Microsoft.Azure.Management.Compute.ComputeManagementClient.#ctor(System.Uri,Microsoft.Rest.ServiceClientCredentials,System.Net.Http.DelegatingHandler[])
+  commentId: M:Microsoft.Azure.Management.Compute.ComputeManagementClient.#ctor(System.Uri,Microsoft.Rest.ServiceClientCredentials,System.Net.Http.DelegatingHandler[])
+  id: '#ctor(System.Uri,Microsoft.Rest.ServiceClientCredentials,System.Net.Http.DelegatingHandler[])'
+  parent: Microsoft.Azure.Management.Compute.ComputeManagementClient
+  langs:
+  - csharp
+  - vb
+  name: ComputeManagementClient(Uri, ServiceClientCredentials, DelegatingHandler[])
+  nameWithType: ComputeManagementClient.ComputeManagementClient(Uri, ServiceClientCredentials, DelegatingHandler[])
+  fullName: Microsoft.Azure.Management.Compute.ComputeManagementClient.ComputeManagementClient(System.Uri, Microsoft.Rest.ServiceClientCredentials, System.Net.Http.DelegatingHandler[])
+  type: Constructor
+  source:
+    remote:
+      path: src/ResourceManagement/Compute/Microsoft.Azure.Management.Compute/Generated/ComputeManagementClient.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: .ctor
+    path: src/azure-sdk-for-net/src/ResourceManagement/Compute/Microsoft.Azure.Management.Compute/Generated/ComputeManagementClient.cs
+    startLine: 252
+  assemblies:
+  - Microsoft.Azure.Management.Compute
+  namespace: Microsoft.Azure.Management.Compute
+  summary: "\nInitializes a new instance of the ComputeManagementClient class.\n"
+  example: []
+  syntax:
+    content: public ComputeManagementClient(Uri baseUri, ServiceClientCredentials credentials, params DelegatingHandler[] handlers)
+    content.vb: Public Sub New(baseUri As Uri, credentials As ServiceClientCredentials, ParamArray handlers As DelegatingHandler())
+    parameters:
+    - id: baseUri
+      type: System.Uri
+      description: "\nOptional. The base URI of the service.\n"
+    - id: credentials
+      type: Microsoft.Rest.ServiceClientCredentials
+      description: "\nRequired. Credentials needed for the client to connect to Azure.\n"
+    - id: handlers
+      type: System.Net.Http.DelegatingHandler[]
+      description: "\nOptional. The delegating handlers to add to the http client pipeline.\n"
+  overload: Microsoft.Azure.Management.Compute.ComputeManagementClient.#ctor*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: "\nThrown when a required parameter is null\n"
+  nameWithType.vb: ComputeManagementClient.ComputeManagementClient(Uri, ServiceClientCredentials, DelegatingHandler())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Microsoft.Azure.Management.Compute.ComputeManagementClient.ComputeManagementClient(System.Uri, Microsoft.Rest.ServiceClientCredentials, System.Net.Http.DelegatingHandler())
+  name.vb: ComputeManagementClient(Uri, ServiceClientCredentials, DelegatingHandler())
+- uid: Microsoft.Azure.Management.Compute.ComputeManagementClient.#ctor(System.Uri,Microsoft.Rest.ServiceClientCredentials,System.Net.Http.HttpClientHandler,System.Net.Http.DelegatingHandler[])
+  commentId: M:Microsoft.Azure.Management.Compute.ComputeManagementClient.#ctor(System.Uri,Microsoft.Rest.ServiceClientCredentials,System.Net.Http.HttpClientHandler,System.Net.Http.DelegatingHandler[])
+  id: '#ctor(System.Uri,Microsoft.Rest.ServiceClientCredentials,System.Net.Http.HttpClientHandler,System.Net.Http.DelegatingHandler[])'
+  parent: Microsoft.Azure.Management.Compute.ComputeManagementClient
+  langs:
+  - csharp
+  - vb
+  name: ComputeManagementClient(Uri, ServiceClientCredentials, HttpClientHandler, DelegatingHandler[])
+  nameWithType: ComputeManagementClient.ComputeManagementClient(Uri, ServiceClientCredentials, HttpClientHandler, DelegatingHandler[])
+  fullName: Microsoft.Azure.Management.Compute.ComputeManagementClient.ComputeManagementClient(System.Uri, Microsoft.Rest.ServiceClientCredentials, System.Net.Http.HttpClientHandler, System.Net.Http.DelegatingHandler[])
+  type: Constructor
+  source:
+    remote:
+      path: src/ResourceManagement/Compute/Microsoft.Azure.Management.Compute/Generated/ComputeManagementClient.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: .ctor
+    path: src/azure-sdk-for-net/src/ResourceManagement/Compute/Microsoft.Azure.Management.Compute/Generated/ComputeManagementClient.cs
+    startLine: 288
+  assemblies:
+  - Microsoft.Azure.Management.Compute
+  namespace: Microsoft.Azure.Management.Compute
+  summary: "\nInitializes a new instance of the ComputeManagementClient class.\n"
+  example: []
+  syntax:
+    content: public ComputeManagementClient(Uri baseUri, ServiceClientCredentials credentials, HttpClientHandler rootHandler, params DelegatingHandler[] handlers)
+    content.vb: Public Sub New(baseUri As Uri, credentials As ServiceClientCredentials, rootHandler As HttpClientHandler, ParamArray handlers As DelegatingHandler())
+    parameters:
+    - id: baseUri
+      type: System.Uri
+      description: "\nOptional. The base URI of the service.\n"
+    - id: credentials
+      type: Microsoft.Rest.ServiceClientCredentials
+      description: "\nRequired. Credentials needed for the client to connect to Azure.\n"
+    - id: rootHandler
+      type: System.Net.Http.HttpClientHandler
+      description: "\nOptional. The http client handler used to handle http transport.\n"
+    - id: handlers
+      type: System.Net.Http.DelegatingHandler[]
+      description: "\nOptional. The delegating handlers to add to the http client pipeline.\n"
+  overload: Microsoft.Azure.Management.Compute.ComputeManagementClient.#ctor*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: "\nThrown when a required parameter is null\n"
+  nameWithType.vb: ComputeManagementClient.ComputeManagementClient(Uri, ServiceClientCredentials, HttpClientHandler, DelegatingHandler())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Microsoft.Azure.Management.Compute.ComputeManagementClient.ComputeManagementClient(System.Uri, Microsoft.Rest.ServiceClientCredentials, System.Net.Http.HttpClientHandler, System.Net.Http.DelegatingHandler())
+  name.vb: ComputeManagementClient(Uri, ServiceClientCredentials, HttpClientHandler, DelegatingHandler())
+references:
+- uid: Microsoft.Azure.Management.Compute
+  commentId: N:Microsoft.Azure.Management.Compute
+  isExternal: false
+  name: Microsoft.Azure.Management.Compute
+  nameWithType: Microsoft.Azure.Management.Compute
+  fullName: Microsoft.Azure.Management.Compute
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Microsoft.Rest.ServiceClient{Microsoft.Azure.Management.Compute.ComputeManagementClient}
+  commentId: T:Microsoft.Rest.ServiceClient{Microsoft.Azure.Management.Compute.ComputeManagementClient}
+  parent: Microsoft.Rest
+  definition: Microsoft.Rest.ServiceClient`1
+  name: ServiceClient<ComputeManagementClient>
+  nameWithType: ServiceClient<ComputeManagementClient>
+  fullName: Microsoft.Rest.ServiceClient<Microsoft.Azure.Management.Compute.ComputeManagementClient>
+  nameWithType.vb: ServiceClient(Of ComputeManagementClient)
+  fullname.vb: Microsoft.Rest.ServiceClient(Of Microsoft.Azure.Management.Compute.ComputeManagementClient)
+  name.vb: ServiceClient(Of ComputeManagementClient)
+  spec.csharp:
+  - uid: Microsoft.Rest.ServiceClient`1
+    name: ServiceClient
+    nameWithType: ServiceClient
+    fullName: Microsoft.Rest.ServiceClient
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Microsoft.Azure.Management.Compute.ComputeManagementClient
+    name: ComputeManagementClient
+    nameWithType: ComputeManagementClient
+    fullName: Microsoft.Azure.Management.Compute.ComputeManagementClient
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.Rest.ServiceClient`1
+    name: ServiceClient
+    nameWithType: ServiceClient
+    fullName: Microsoft.Rest.ServiceClient
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Microsoft.Azure.Management.Compute.ComputeManagementClient
+    name: ComputeManagementClient
+    nameWithType: ComputeManagementClient
+    fullName: Microsoft.Azure.Management.Compute.ComputeManagementClient
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Azure.Management.Compute.IComputeManagementClient
+  commentId: T:Microsoft.Azure.Management.Compute.IComputeManagementClient
+  parent: Microsoft.Azure.Management.Compute
+  isExternal: false
+  name: IComputeManagementClient
+  nameWithType: IComputeManagementClient
+  fullName: Microsoft.Azure.Management.Compute.IComputeManagementClient
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: Microsoft.Rest.Azure.IAzureClient
+  commentId: T:Microsoft.Rest.Azure.IAzureClient
+  parent: Microsoft.Rest.Azure
+  isExternal: false
+  name: IAzureClient
+  nameWithType: IAzureClient
+  fullName: Microsoft.Rest.Azure.IAzureClient
+- uid: Microsoft.Rest.ServiceClient{Microsoft.Azure.Management.Compute.ComputeManagementClient}.FirstMessageHandler
+  commentId: P:Microsoft.Rest.ServiceClient{Microsoft.Azure.Management.Compute.ComputeManagementClient}.FirstMessageHandler
+  parent: Microsoft.Rest.ServiceClient{Microsoft.Azure.Management.Compute.ComputeManagementClient}
+  definition: Microsoft.Rest.ServiceClient`1.FirstMessageHandler
+  name: FirstMessageHandler
+  nameWithType: ServiceClient<ComputeManagementClient>.FirstMessageHandler
+  fullName: Microsoft.Rest.ServiceClient<Microsoft.Azure.Management.Compute.ComputeManagementClient>.FirstMessageHandler
+  nameWithType.vb: ServiceClient(Of ComputeManagementClient).FirstMessageHandler
+  fullname.vb: Microsoft.Rest.ServiceClient(Of Microsoft.Azure.Management.Compute.ComputeManagementClient).FirstMessageHandler
+- uid: Microsoft.Rest.ServiceClient{Microsoft.Azure.Management.Compute.ComputeManagementClient}.HttpClientHandler
+  commentId: P:Microsoft.Rest.ServiceClient{Microsoft.Azure.Management.Compute.ComputeManagementClient}.HttpClientHandler
+  parent: Microsoft.Rest.ServiceClient{Microsoft.Azure.Management.Compute.ComputeManagementClient}
+  definition: Microsoft.Rest.ServiceClient`1.HttpClientHandler
+  name: HttpClientHandler
+  nameWithType: ServiceClient<ComputeManagementClient>.HttpClientHandler
+  fullName: Microsoft.Rest.ServiceClient<Microsoft.Azure.Management.Compute.ComputeManagementClient>.HttpClientHandler
+  nameWithType.vb: ServiceClient(Of ComputeManagementClient).HttpClientHandler
+  fullname.vb: Microsoft.Rest.ServiceClient(Of Microsoft.Azure.Management.Compute.ComputeManagementClient).HttpClientHandler
+- uid: Microsoft.Rest.ServiceClient{Microsoft.Azure.Management.Compute.ComputeManagementClient}.CreateRootHandler
+  commentId: M:Microsoft.Rest.ServiceClient{Microsoft.Azure.Management.Compute.ComputeManagementClient}.CreateRootHandler
+  parent: Microsoft.Rest.ServiceClient{Microsoft.Azure.Management.Compute.ComputeManagementClient}
+  definition: Microsoft.Rest.ServiceClient`1.CreateRootHandler
+  name: CreateRootHandler()
+  nameWithType: ServiceClient<ComputeManagementClient>.CreateRootHandler()
+  fullName: Microsoft.Rest.ServiceClient<Microsoft.Azure.Management.Compute.ComputeManagementClient>.CreateRootHandler()
+  nameWithType.vb: ServiceClient(Of ComputeManagementClient).CreateRootHandler()
+  fullname.vb: Microsoft.Rest.ServiceClient(Of Microsoft.Azure.Management.Compute.ComputeManagementClient).CreateRootHandler()
+  spec.csharp:
+  - uid: Microsoft.Rest.ServiceClient`1.CreateRootHandler
+    name: CreateRootHandler
+    nameWithType: ServiceClient<ComputeManagementClient>.CreateRootHandler
+    fullName: Microsoft.Rest.ServiceClient<Microsoft.Azure.Management.Compute.ComputeManagementClient>.CreateRootHandler
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.Rest.ServiceClient`1.CreateRootHandler
+    name: CreateRootHandler
+    nameWithType: ServiceClient(Of ComputeManagementClient).CreateRootHandler
+    fullName: Microsoft.Rest.ServiceClient(Of Microsoft.Azure.Management.Compute.ComputeManagementClient).CreateRootHandler
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Rest.ServiceClient{Microsoft.Azure.Management.Compute.ComputeManagementClient}.HttpClient
+  commentId: P:Microsoft.Rest.ServiceClient{Microsoft.Azure.Management.Compute.ComputeManagementClient}.HttpClient
+  parent: Microsoft.Rest.ServiceClient{Microsoft.Azure.Management.Compute.ComputeManagementClient}
+  definition: Microsoft.Rest.ServiceClient`1.HttpClient
+  name: HttpClient
+  nameWithType: ServiceClient<ComputeManagementClient>.HttpClient
+  fullName: Microsoft.Rest.ServiceClient<Microsoft.Azure.Management.Compute.ComputeManagementClient>.HttpClient
+  nameWithType.vb: ServiceClient(Of ComputeManagementClient).HttpClient
+  fullname.vb: Microsoft.Rest.ServiceClient(Of Microsoft.Azure.Management.Compute.ComputeManagementClient).HttpClient
+- uid: Microsoft.Rest.ServiceClient{Microsoft.Azure.Management.Compute.ComputeManagementClient}.UserAgent
+  commentId: P:Microsoft.Rest.ServiceClient{Microsoft.Azure.Management.Compute.ComputeManagementClient}.UserAgent
+  parent: Microsoft.Rest.ServiceClient{Microsoft.Azure.Management.Compute.ComputeManagementClient}
+  definition: Microsoft.Rest.ServiceClient`1.UserAgent
+  name: UserAgent
+  nameWithType: ServiceClient<ComputeManagementClient>.UserAgent
+  fullName: Microsoft.Rest.ServiceClient<Microsoft.Azure.Management.Compute.ComputeManagementClient>.UserAgent
+  nameWithType.vb: ServiceClient(Of ComputeManagementClient).UserAgent
+  fullname.vb: Microsoft.Rest.ServiceClient(Of Microsoft.Azure.Management.Compute.ComputeManagementClient).UserAgent
+- uid: Microsoft.Rest.ServiceClient{Microsoft.Azure.Management.Compute.ComputeManagementClient}.HttpMessageHandlers
+  commentId: P:Microsoft.Rest.ServiceClient{Microsoft.Azure.Management.Compute.ComputeManagementClient}.HttpMessageHandlers
+  parent: Microsoft.Rest.ServiceClient{Microsoft.Azure.Management.Compute.ComputeManagementClient}
+  definition: Microsoft.Rest.ServiceClient`1.HttpMessageHandlers
+  name: HttpMessageHandlers
+  nameWithType: ServiceClient<ComputeManagementClient>.HttpMessageHandlers
+  fullName: Microsoft.Rest.ServiceClient<Microsoft.Azure.Management.Compute.ComputeManagementClient>.HttpMessageHandlers
+  nameWithType.vb: ServiceClient(Of ComputeManagementClient).HttpMessageHandlers
+  fullname.vb: Microsoft.Rest.ServiceClient(Of Microsoft.Azure.Management.Compute.ComputeManagementClient).HttpMessageHandlers
+- uid: Microsoft.Rest.ServiceClient{Microsoft.Azure.Management.Compute.ComputeManagementClient}.SetRetryPolicy(Microsoft.Rest.TransientFaultHandling.RetryPolicy)
+  commentId: M:Microsoft.Rest.ServiceClient{Microsoft.Azure.Management.Compute.ComputeManagementClient}.SetRetryPolicy(Microsoft.Rest.TransientFaultHandling.RetryPolicy)
+  parent: Microsoft.Rest.ServiceClient{Microsoft.Azure.Management.Compute.ComputeManagementClient}
+  definition: Microsoft.Rest.ServiceClient`1.SetRetryPolicy(Microsoft.Rest.TransientFaultHandling.RetryPolicy)
+  name: SetRetryPolicy(RetryPolicy)
+  nameWithType: ServiceClient<ComputeManagementClient>.SetRetryPolicy(RetryPolicy)
+  fullName: Microsoft.Rest.ServiceClient<Microsoft.Azure.Management.Compute.ComputeManagementClient>.SetRetryPolicy(Microsoft.Rest.TransientFaultHandling.RetryPolicy)
+  nameWithType.vb: ServiceClient(Of ComputeManagementClient).SetRetryPolicy(RetryPolicy)
+  fullname.vb: Microsoft.Rest.ServiceClient(Of Microsoft.Azure.Management.Compute.ComputeManagementClient).SetRetryPolicy(Microsoft.Rest.TransientFaultHandling.RetryPolicy)
+  spec.csharp:
+  - uid: Microsoft.Rest.ServiceClient`1.SetRetryPolicy(Microsoft.Rest.TransientFaultHandling.RetryPolicy)
+    name: SetRetryPolicy
+    nameWithType: ServiceClient<ComputeManagementClient>.SetRetryPolicy
+    fullName: Microsoft.Rest.ServiceClient<Microsoft.Azure.Management.Compute.ComputeManagementClient>.SetRetryPolicy
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.Rest.TransientFaultHandling.RetryPolicy
+    name: RetryPolicy
+    nameWithType: RetryPolicy
+    fullName: Microsoft.Rest.TransientFaultHandling.RetryPolicy
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.Rest.ServiceClient`1.SetRetryPolicy(Microsoft.Rest.TransientFaultHandling.RetryPolicy)
+    name: SetRetryPolicy
+    nameWithType: ServiceClient(Of ComputeManagementClient).SetRetryPolicy
+    fullName: Microsoft.Rest.ServiceClient(Of Microsoft.Azure.Management.Compute.ComputeManagementClient).SetRetryPolicy
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.Rest.TransientFaultHandling.RetryPolicy
+    name: RetryPolicy
+    nameWithType: RetryPolicy
+    fullName: Microsoft.Rest.TransientFaultHandling.RetryPolicy
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Rest.ServiceClient{Microsoft.Azure.Management.Compute.ComputeManagementClient}.Dispose
+  commentId: M:Microsoft.Rest.ServiceClient{Microsoft.Azure.Management.Compute.ComputeManagementClient}.Dispose
+  parent: Microsoft.Rest.ServiceClient{Microsoft.Azure.Management.Compute.ComputeManagementClient}
+  definition: Microsoft.Rest.ServiceClient`1.Dispose
+  name: Dispose()
+  nameWithType: ServiceClient<ComputeManagementClient>.Dispose()
+  fullName: Microsoft.Rest.ServiceClient<Microsoft.Azure.Management.Compute.ComputeManagementClient>.Dispose()
+  nameWithType.vb: ServiceClient(Of ComputeManagementClient).Dispose()
+  fullname.vb: Microsoft.Rest.ServiceClient(Of Microsoft.Azure.Management.Compute.ComputeManagementClient).Dispose()
+  spec.csharp:
+  - uid: Microsoft.Rest.ServiceClient`1.Dispose
+    name: Dispose
+    nameWithType: ServiceClient<ComputeManagementClient>.Dispose
+    fullName: Microsoft.Rest.ServiceClient<Microsoft.Azure.Management.Compute.ComputeManagementClient>.Dispose
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.Rest.ServiceClient`1.Dispose
+    name: Dispose
+    nameWithType: ServiceClient(Of ComputeManagementClient).Dispose
+    fullName: Microsoft.Rest.ServiceClient(Of Microsoft.Azure.Management.Compute.ComputeManagementClient).Dispose
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Rest.ServiceClient{Microsoft.Azure.Management.Compute.ComputeManagementClient}.Dispose(System.Boolean)
+  commentId: M:Microsoft.Rest.ServiceClient{Microsoft.Azure.Management.Compute.ComputeManagementClient}.Dispose(System.Boolean)
+  parent: Microsoft.Rest.ServiceClient{Microsoft.Azure.Management.Compute.ComputeManagementClient}
+  definition: Microsoft.Rest.ServiceClient`1.Dispose(System.Boolean)
+  name: Dispose(Boolean)
+  nameWithType: ServiceClient<ComputeManagementClient>.Dispose(Boolean)
+  fullName: Microsoft.Rest.ServiceClient<Microsoft.Azure.Management.Compute.ComputeManagementClient>.Dispose(System.Boolean)
+  nameWithType.vb: ServiceClient(Of ComputeManagementClient).Dispose(Boolean)
+  fullname.vb: Microsoft.Rest.ServiceClient(Of Microsoft.Azure.Management.Compute.ComputeManagementClient).Dispose(System.Boolean)
+  spec.csharp:
+  - uid: Microsoft.Rest.ServiceClient`1.Dispose(System.Boolean)
+    name: Dispose
+    nameWithType: ServiceClient<ComputeManagementClient>.Dispose
+    fullName: Microsoft.Rest.ServiceClient<Microsoft.Azure.Management.Compute.ComputeManagementClient>.Dispose
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.Rest.ServiceClient`1.Dispose(System.Boolean)
+    name: Dispose
+    nameWithType: ServiceClient(Of ComputeManagementClient).Dispose
+    fullName: Microsoft.Rest.ServiceClient(Of Microsoft.Azure.Management.Compute.ComputeManagementClient).Dispose
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Rest.ServiceClient{Microsoft.Azure.Management.Compute.ComputeManagementClient}.InitializeHttpClient(System.Net.Http.HttpClientHandler,System.Net.Http.DelegatingHandler[])
+  commentId: M:Microsoft.Rest.ServiceClient{Microsoft.Azure.Management.Compute.ComputeManagementClient}.InitializeHttpClient(System.Net.Http.HttpClientHandler,System.Net.Http.DelegatingHandler[])
+  parent: Microsoft.Rest.ServiceClient{Microsoft.Azure.Management.Compute.ComputeManagementClient}
+  definition: Microsoft.Rest.ServiceClient`1.InitializeHttpClient(System.Net.Http.HttpClientHandler,System.Net.Http.DelegatingHandler[])
+  name: InitializeHttpClient(HttpClientHandler, DelegatingHandler[])
+  nameWithType: ServiceClient<ComputeManagementClient>.InitializeHttpClient(HttpClientHandler, DelegatingHandler[])
+  fullName: Microsoft.Rest.ServiceClient<Microsoft.Azure.Management.Compute.ComputeManagementClient>.InitializeHttpClient(System.Net.Http.HttpClientHandler, System.Net.Http.DelegatingHandler[])
+  nameWithType.vb: ServiceClient(Of ComputeManagementClient).InitializeHttpClient(HttpClientHandler, DelegatingHandler())
+  fullname.vb: Microsoft.Rest.ServiceClient(Of Microsoft.Azure.Management.Compute.ComputeManagementClient).InitializeHttpClient(System.Net.Http.HttpClientHandler, System.Net.Http.DelegatingHandler())
+  name.vb: InitializeHttpClient(HttpClientHandler, DelegatingHandler())
+  spec.csharp:
+  - uid: Microsoft.Rest.ServiceClient`1.InitializeHttpClient(System.Net.Http.HttpClientHandler,System.Net.Http.DelegatingHandler[])
+    name: InitializeHttpClient
+    nameWithType: ServiceClient<ComputeManagementClient>.InitializeHttpClient
+    fullName: Microsoft.Rest.ServiceClient<Microsoft.Azure.Management.Compute.ComputeManagementClient>.InitializeHttpClient
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpClientHandler
+    name: HttpClientHandler
+    nameWithType: HttpClientHandler
+    fullName: System.Net.Http.HttpClientHandler
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Net.Http.DelegatingHandler
+    name: DelegatingHandler
+    nameWithType: DelegatingHandler
+    fullName: System.Net.Http.DelegatingHandler
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.Rest.ServiceClient`1.InitializeHttpClient(System.Net.Http.HttpClientHandler,System.Net.Http.DelegatingHandler[])
+    name: InitializeHttpClient
+    nameWithType: ServiceClient(Of ComputeManagementClient).InitializeHttpClient
+    fullName: Microsoft.Rest.ServiceClient(Of Microsoft.Azure.Management.Compute.ComputeManagementClient).InitializeHttpClient
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpClientHandler
+    name: HttpClientHandler
+    nameWithType: HttpClientHandler
+    fullName: System.Net.Http.HttpClientHandler
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Net.Http.DelegatingHandler
+    name: DelegatingHandler
+    nameWithType: DelegatingHandler
+    fullName: System.Net.Http.DelegatingHandler
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Rest.ServiceClient{Microsoft.Azure.Management.Compute.ComputeManagementClient}.SetUserAgent(System.String)
+  commentId: M:Microsoft.Rest.ServiceClient{Microsoft.Azure.Management.Compute.ComputeManagementClient}.SetUserAgent(System.String)
+  parent: Microsoft.Rest.ServiceClient{Microsoft.Azure.Management.Compute.ComputeManagementClient}
+  definition: Microsoft.Rest.ServiceClient`1.SetUserAgent(System.String)
+  name: SetUserAgent(String)
+  nameWithType: ServiceClient<ComputeManagementClient>.SetUserAgent(String)
+  fullName: Microsoft.Rest.ServiceClient<Microsoft.Azure.Management.Compute.ComputeManagementClient>.SetUserAgent(System.String)
+  nameWithType.vb: ServiceClient(Of ComputeManagementClient).SetUserAgent(String)
+  fullname.vb: Microsoft.Rest.ServiceClient(Of Microsoft.Azure.Management.Compute.ComputeManagementClient).SetUserAgent(System.String)
+  spec.csharp:
+  - uid: Microsoft.Rest.ServiceClient`1.SetUserAgent(System.String)
+    name: SetUserAgent
+    nameWithType: ServiceClient<ComputeManagementClient>.SetUserAgent
+    fullName: Microsoft.Rest.ServiceClient<Microsoft.Azure.Management.Compute.ComputeManagementClient>.SetUserAgent
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.Rest.ServiceClient`1.SetUserAgent(System.String)
+    name: SetUserAgent
+    nameWithType: ServiceClient(Of ComputeManagementClient).SetUserAgent
+    fullName: Microsoft.Rest.ServiceClient(Of Microsoft.Azure.Management.Compute.ComputeManagementClient).SetUserAgent
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Rest.ServiceClient{Microsoft.Azure.Management.Compute.ComputeManagementClient}.SetUserAgent(System.String,System.String)
+  commentId: M:Microsoft.Rest.ServiceClient{Microsoft.Azure.Management.Compute.ComputeManagementClient}.SetUserAgent(System.String,System.String)
+  parent: Microsoft.Rest.ServiceClient{Microsoft.Azure.Management.Compute.ComputeManagementClient}
+  definition: Microsoft.Rest.ServiceClient`1.SetUserAgent(System.String,System.String)
+  name: SetUserAgent(String, String)
+  nameWithType: ServiceClient<ComputeManagementClient>.SetUserAgent(String, String)
+  fullName: Microsoft.Rest.ServiceClient<Microsoft.Azure.Management.Compute.ComputeManagementClient>.SetUserAgent(System.String, System.String)
+  nameWithType.vb: ServiceClient(Of ComputeManagementClient).SetUserAgent(String, String)
+  fullname.vb: Microsoft.Rest.ServiceClient(Of Microsoft.Azure.Management.Compute.ComputeManagementClient).SetUserAgent(System.String, System.String)
+  spec.csharp:
+  - uid: Microsoft.Rest.ServiceClient`1.SetUserAgent(System.String,System.String)
+    name: SetUserAgent
+    nameWithType: ServiceClient<ComputeManagementClient>.SetUserAgent
+    fullName: Microsoft.Rest.ServiceClient<Microsoft.Azure.Management.Compute.ComputeManagementClient>.SetUserAgent
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.Rest.ServiceClient`1.SetUserAgent(System.String,System.String)
+    name: SetUserAgent
+    nameWithType: ServiceClient(Of ComputeManagementClient).SetUserAgent
+    fullName: Microsoft.Rest.ServiceClient(Of Microsoft.Azure.Management.Compute.ComputeManagementClient).SetUserAgent
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Microsoft.Rest.ServiceClient`1
+  commentId: T:Microsoft.Rest.ServiceClient`1
+  isExternal: false
+  name: ServiceClient<T>
+  nameWithType: ServiceClient<T>
+  fullName: Microsoft.Rest.ServiceClient<T>
+  nameWithType.vb: ServiceClient(Of T)
+  fullname.vb: Microsoft.Rest.ServiceClient(Of T)
+  name.vb: ServiceClient(Of T)
+  spec.csharp:
+  - uid: Microsoft.Rest.ServiceClient`1
+    name: ServiceClient
+    nameWithType: ServiceClient
+    fullName: Microsoft.Rest.ServiceClient
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.Rest.ServiceClient`1
+    name: ServiceClient
+    nameWithType: ServiceClient
+    fullName: Microsoft.Rest.ServiceClient
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Rest
+  commentId: N:Microsoft.Rest
+  isExternal: false
+  name: Microsoft.Rest
+  nameWithType: Microsoft.Rest
+  fullName: Microsoft.Rest
+- uid: Microsoft.Rest.Azure
+  commentId: N:Microsoft.Rest.Azure
+  isExternal: false
+  name: Microsoft.Rest.Azure
+  nameWithType: Microsoft.Rest.Azure
+  fullName: Microsoft.Rest.Azure
+- uid: Microsoft.Rest.ServiceClient`1.FirstMessageHandler
+  commentId: P:Microsoft.Rest.ServiceClient`1.FirstMessageHandler
+  isExternal: false
+  name: FirstMessageHandler
+  nameWithType: ServiceClient<T>.FirstMessageHandler
+  fullName: Microsoft.Rest.ServiceClient<T>.FirstMessageHandler
+  nameWithType.vb: ServiceClient(Of T).FirstMessageHandler
+  fullname.vb: Microsoft.Rest.ServiceClient(Of T).FirstMessageHandler
+- uid: Microsoft.Rest.ServiceClient`1.HttpClientHandler
+  commentId: P:Microsoft.Rest.ServiceClient`1.HttpClientHandler
+  isExternal: false
+  name: HttpClientHandler
+  nameWithType: ServiceClient<T>.HttpClientHandler
+  fullName: Microsoft.Rest.ServiceClient<T>.HttpClientHandler
+  nameWithType.vb: ServiceClient(Of T).HttpClientHandler
+  fullname.vb: Microsoft.Rest.ServiceClient(Of T).HttpClientHandler
+- uid: Microsoft.Rest.ServiceClient`1.CreateRootHandler
+  commentId: M:Microsoft.Rest.ServiceClient`1.CreateRootHandler
+  isExternal: false
+  name: CreateRootHandler()
+  nameWithType: ServiceClient<T>.CreateRootHandler()
+  fullName: Microsoft.Rest.ServiceClient<T>.CreateRootHandler()
+  nameWithType.vb: ServiceClient(Of T).CreateRootHandler()
+  fullname.vb: Microsoft.Rest.ServiceClient(Of T).CreateRootHandler()
+  spec.csharp:
+  - uid: Microsoft.Rest.ServiceClient`1.CreateRootHandler
+    name: CreateRootHandler
+    nameWithType: ServiceClient<T>.CreateRootHandler
+    fullName: Microsoft.Rest.ServiceClient<T>.CreateRootHandler
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.Rest.ServiceClient`1.CreateRootHandler
+    name: CreateRootHandler
+    nameWithType: ServiceClient(Of T).CreateRootHandler
+    fullName: Microsoft.Rest.ServiceClient(Of T).CreateRootHandler
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Rest.ServiceClient`1.HttpClient
+  commentId: P:Microsoft.Rest.ServiceClient`1.HttpClient
+  isExternal: false
+  name: HttpClient
+  nameWithType: ServiceClient<T>.HttpClient
+  fullName: Microsoft.Rest.ServiceClient<T>.HttpClient
+  nameWithType.vb: ServiceClient(Of T).HttpClient
+  fullname.vb: Microsoft.Rest.ServiceClient(Of T).HttpClient
+- uid: Microsoft.Rest.ServiceClient`1.UserAgent
+  commentId: P:Microsoft.Rest.ServiceClient`1.UserAgent
+  isExternal: false
+  name: UserAgent
+  nameWithType: ServiceClient<T>.UserAgent
+  fullName: Microsoft.Rest.ServiceClient<T>.UserAgent
+  nameWithType.vb: ServiceClient(Of T).UserAgent
+  fullname.vb: Microsoft.Rest.ServiceClient(Of T).UserAgent
+- uid: Microsoft.Rest.ServiceClient`1.HttpMessageHandlers
+  commentId: P:Microsoft.Rest.ServiceClient`1.HttpMessageHandlers
+  isExternal: false
+  name: HttpMessageHandlers
+  nameWithType: ServiceClient<T>.HttpMessageHandlers
+  fullName: Microsoft.Rest.ServiceClient<T>.HttpMessageHandlers
+  nameWithType.vb: ServiceClient(Of T).HttpMessageHandlers
+  fullname.vb: Microsoft.Rest.ServiceClient(Of T).HttpMessageHandlers
+- uid: Microsoft.Rest.ServiceClient`1.SetRetryPolicy(Microsoft.Rest.TransientFaultHandling.RetryPolicy)
+  commentId: M:Microsoft.Rest.ServiceClient`1.SetRetryPolicy(Microsoft.Rest.TransientFaultHandling.RetryPolicy)
+  isExternal: false
+  name: SetRetryPolicy(RetryPolicy)
+  nameWithType: ServiceClient<T>.SetRetryPolicy(RetryPolicy)
+  fullName: Microsoft.Rest.ServiceClient<T>.SetRetryPolicy(Microsoft.Rest.TransientFaultHandling.RetryPolicy)
+  nameWithType.vb: ServiceClient(Of T).SetRetryPolicy(RetryPolicy)
+  fullname.vb: Microsoft.Rest.ServiceClient(Of T).SetRetryPolicy(Microsoft.Rest.TransientFaultHandling.RetryPolicy)
+  spec.csharp:
+  - uid: Microsoft.Rest.ServiceClient`1.SetRetryPolicy(Microsoft.Rest.TransientFaultHandling.RetryPolicy)
+    name: SetRetryPolicy
+    nameWithType: ServiceClient<T>.SetRetryPolicy
+    fullName: Microsoft.Rest.ServiceClient<T>.SetRetryPolicy
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.Rest.TransientFaultHandling.RetryPolicy
+    name: RetryPolicy
+    nameWithType: RetryPolicy
+    fullName: Microsoft.Rest.TransientFaultHandling.RetryPolicy
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.Rest.ServiceClient`1.SetRetryPolicy(Microsoft.Rest.TransientFaultHandling.RetryPolicy)
+    name: SetRetryPolicy
+    nameWithType: ServiceClient(Of T).SetRetryPolicy
+    fullName: Microsoft.Rest.ServiceClient(Of T).SetRetryPolicy
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.Rest.TransientFaultHandling.RetryPolicy
+    name: RetryPolicy
+    nameWithType: RetryPolicy
+    fullName: Microsoft.Rest.TransientFaultHandling.RetryPolicy
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Rest.ServiceClient`1.Dispose
+  commentId: M:Microsoft.Rest.ServiceClient`1.Dispose
+  isExternal: false
+  name: Dispose()
+  nameWithType: ServiceClient<T>.Dispose()
+  fullName: Microsoft.Rest.ServiceClient<T>.Dispose()
+  nameWithType.vb: ServiceClient(Of T).Dispose()
+  fullname.vb: Microsoft.Rest.ServiceClient(Of T).Dispose()
+  spec.csharp:
+  - uid: Microsoft.Rest.ServiceClient`1.Dispose
+    name: Dispose
+    nameWithType: ServiceClient<T>.Dispose
+    fullName: Microsoft.Rest.ServiceClient<T>.Dispose
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.Rest.ServiceClient`1.Dispose
+    name: Dispose
+    nameWithType: ServiceClient(Of T).Dispose
+    fullName: Microsoft.Rest.ServiceClient(Of T).Dispose
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Rest.ServiceClient`1.Dispose(System.Boolean)
+  commentId: M:Microsoft.Rest.ServiceClient`1.Dispose(System.Boolean)
+  isExternal: true
+  name: Dispose(Boolean)
+  nameWithType: ServiceClient<T>.Dispose(Boolean)
+  fullName: Microsoft.Rest.ServiceClient<T>.Dispose(System.Boolean)
+  nameWithType.vb: ServiceClient(Of T).Dispose(Boolean)
+  fullname.vb: Microsoft.Rest.ServiceClient(Of T).Dispose(System.Boolean)
+  spec.csharp:
+  - uid: Microsoft.Rest.ServiceClient`1.Dispose(System.Boolean)
+    name: Dispose
+    nameWithType: ServiceClient<T>.Dispose
+    fullName: Microsoft.Rest.ServiceClient<T>.Dispose
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.Rest.ServiceClient`1.Dispose(System.Boolean)
+    name: Dispose
+    nameWithType: ServiceClient(Of T).Dispose
+    fullName: Microsoft.Rest.ServiceClient(Of T).Dispose
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Rest.ServiceClient`1.InitializeHttpClient(System.Net.Http.HttpClientHandler,System.Net.Http.DelegatingHandler[])
+  commentId: M:Microsoft.Rest.ServiceClient`1.InitializeHttpClient(System.Net.Http.HttpClientHandler,System.Net.Http.DelegatingHandler[])
+  isExternal: true
+  name: InitializeHttpClient(HttpClientHandler, DelegatingHandler[])
+  nameWithType: ServiceClient<T>.InitializeHttpClient(HttpClientHandler, DelegatingHandler[])
+  fullName: Microsoft.Rest.ServiceClient<T>.InitializeHttpClient(System.Net.Http.HttpClientHandler, System.Net.Http.DelegatingHandler[])
+  nameWithType.vb: ServiceClient(Of T).InitializeHttpClient(HttpClientHandler, DelegatingHandler())
+  fullname.vb: Microsoft.Rest.ServiceClient(Of T).InitializeHttpClient(System.Net.Http.HttpClientHandler, System.Net.Http.DelegatingHandler())
+  name.vb: InitializeHttpClient(HttpClientHandler, DelegatingHandler())
+  spec.csharp:
+  - uid: Microsoft.Rest.ServiceClient`1.InitializeHttpClient(System.Net.Http.HttpClientHandler,System.Net.Http.DelegatingHandler[])
+    name: InitializeHttpClient
+    nameWithType: ServiceClient<T>.InitializeHttpClient
+    fullName: Microsoft.Rest.ServiceClient<T>.InitializeHttpClient
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpClientHandler
+    name: HttpClientHandler
+    nameWithType: HttpClientHandler
+    fullName: System.Net.Http.HttpClientHandler
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Net.Http.DelegatingHandler
+    name: DelegatingHandler
+    nameWithType: DelegatingHandler
+    fullName: System.Net.Http.DelegatingHandler
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.Rest.ServiceClient`1.InitializeHttpClient(System.Net.Http.HttpClientHandler,System.Net.Http.DelegatingHandler[])
+    name: InitializeHttpClient
+    nameWithType: ServiceClient(Of T).InitializeHttpClient
+    fullName: Microsoft.Rest.ServiceClient(Of T).InitializeHttpClient
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpClientHandler
+    name: HttpClientHandler
+    nameWithType: HttpClientHandler
+    fullName: System.Net.Http.HttpClientHandler
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Net.Http.DelegatingHandler
+    name: DelegatingHandler
+    nameWithType: DelegatingHandler
+    fullName: System.Net.Http.DelegatingHandler
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Rest.ServiceClient`1.SetUserAgent(System.String)
+  commentId: M:Microsoft.Rest.ServiceClient`1.SetUserAgent(System.String)
+  isExternal: true
+  name: SetUserAgent(String)
+  nameWithType: ServiceClient<T>.SetUserAgent(String)
+  fullName: Microsoft.Rest.ServiceClient<T>.SetUserAgent(System.String)
+  nameWithType.vb: ServiceClient(Of T).SetUserAgent(String)
+  fullname.vb: Microsoft.Rest.ServiceClient(Of T).SetUserAgent(System.String)
+  spec.csharp:
+  - uid: Microsoft.Rest.ServiceClient`1.SetUserAgent(System.String)
+    name: SetUserAgent
+    nameWithType: ServiceClient<T>.SetUserAgent
+    fullName: Microsoft.Rest.ServiceClient<T>.SetUserAgent
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.Rest.ServiceClient`1.SetUserAgent(System.String)
+    name: SetUserAgent
+    nameWithType: ServiceClient(Of T).SetUserAgent
+    fullName: Microsoft.Rest.ServiceClient(Of T).SetUserAgent
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Rest.ServiceClient`1.SetUserAgent(System.String,System.String)
+  commentId: M:Microsoft.Rest.ServiceClient`1.SetUserAgent(System.String,System.String)
+  isExternal: true
+  name: SetUserAgent(String, String)
+  nameWithType: ServiceClient<T>.SetUserAgent(String, String)
+  fullName: Microsoft.Rest.ServiceClient<T>.SetUserAgent(System.String, System.String)
+  nameWithType.vb: ServiceClient(Of T).SetUserAgent(String, String)
+  fullname.vb: Microsoft.Rest.ServiceClient(Of T).SetUserAgent(System.String, System.String)
+  spec.csharp:
+  - uid: Microsoft.Rest.ServiceClient`1.SetUserAgent(System.String,System.String)
+    name: SetUserAgent
+    nameWithType: ServiceClient<T>.SetUserAgent
+    fullName: Microsoft.Rest.ServiceClient<T>.SetUserAgent
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.Rest.ServiceClient`1.SetUserAgent(System.String,System.String)
+    name: SetUserAgent
+    nameWithType: ServiceClient(Of T).SetUserAgent
+    fullName: Microsoft.Rest.ServiceClient(Of T).SetUserAgent
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Azure.Management.Compute.ComputeManagementClient.BaseUri*
+  commentId: Overload:Microsoft.Azure.Management.Compute.ComputeManagementClient.BaseUri
+  isExternal: false
+  name: BaseUri
+  nameWithType: ComputeManagementClient.BaseUri
+  fullName: Microsoft.Azure.Management.Compute.ComputeManagementClient.BaseUri
+- uid: Microsoft.Azure.Management.Compute.IComputeManagementClient.BaseUri
+  commentId: P:Microsoft.Azure.Management.Compute.IComputeManagementClient.BaseUri
+  parent: Microsoft.Azure.Management.Compute.IComputeManagementClient
+  isExternal: false
+  name: BaseUri
+  nameWithType: IComputeManagementClient.BaseUri
+  fullName: Microsoft.Azure.Management.Compute.IComputeManagementClient.BaseUri
+- uid: System.Uri
+  commentId: T:System.Uri
+  parent: System
+  isExternal: true
+  name: Uri
+  nameWithType: Uri
+  fullName: System.Uri
+- uid: Microsoft.Azure.Management.Compute.ComputeManagementClient.SerializationSettings*
+  commentId: Overload:Microsoft.Azure.Management.Compute.ComputeManagementClient.SerializationSettings
+  isExternal: false
+  name: SerializationSettings
+  nameWithType: ComputeManagementClient.SerializationSettings
+  fullName: Microsoft.Azure.Management.Compute.ComputeManagementClient.SerializationSettings
+- uid: Microsoft.Azure.Management.Compute.IComputeManagementClient.SerializationSettings
+  commentId: P:Microsoft.Azure.Management.Compute.IComputeManagementClient.SerializationSettings
+  parent: Microsoft.Azure.Management.Compute.IComputeManagementClient
+  isExternal: false
+  name: SerializationSettings
+  nameWithType: IComputeManagementClient.SerializationSettings
+  fullName: Microsoft.Azure.Management.Compute.IComputeManagementClient.SerializationSettings
+- uid: Microsoft.Rest.Azure.IAzureClient.SerializationSettings
+  commentId: P:Microsoft.Rest.Azure.IAzureClient.SerializationSettings
+  parent: Microsoft.Rest.Azure.IAzureClient
+  isExternal: false
+  name: SerializationSettings
+  nameWithType: IAzureClient.SerializationSettings
+  fullName: Microsoft.Rest.Azure.IAzureClient.SerializationSettings
+- uid: Newtonsoft.Json.JsonSerializerSettings
+  commentId: T:Newtonsoft.Json.JsonSerializerSettings
+  parent: Newtonsoft.Json
+  isExternal: true
+  name: JsonSerializerSettings
+  nameWithType: JsonSerializerSettings
+  fullName: Newtonsoft.Json.JsonSerializerSettings
+- uid: Newtonsoft.Json
+  commentId: N:Newtonsoft.Json
+  isExternal: false
+  name: Newtonsoft.Json
+  nameWithType: Newtonsoft.Json
+  fullName: Newtonsoft.Json
+- uid: Microsoft.Azure.Management.Compute.ComputeManagementClient.DeserializationSettings*
+  commentId: Overload:Microsoft.Azure.Management.Compute.ComputeManagementClient.DeserializationSettings
+  isExternal: false
+  name: DeserializationSettings
+  nameWithType: ComputeManagementClient.DeserializationSettings
+  fullName: Microsoft.Azure.Management.Compute.ComputeManagementClient.DeserializationSettings
+- uid: Microsoft.Azure.Management.Compute.IComputeManagementClient.DeserializationSettings
+  commentId: P:Microsoft.Azure.Management.Compute.IComputeManagementClient.DeserializationSettings
+  parent: Microsoft.Azure.Management.Compute.IComputeManagementClient
+  isExternal: false
+  name: DeserializationSettings
+  nameWithType: IComputeManagementClient.DeserializationSettings
+  fullName: Microsoft.Azure.Management.Compute.IComputeManagementClient.DeserializationSettings
+- uid: Microsoft.Rest.Azure.IAzureClient.DeserializationSettings
+  commentId: P:Microsoft.Rest.Azure.IAzureClient.DeserializationSettings
+  parent: Microsoft.Rest.Azure.IAzureClient
+  isExternal: false
+  name: DeserializationSettings
+  nameWithType: IAzureClient.DeserializationSettings
+  fullName: Microsoft.Rest.Azure.IAzureClient.DeserializationSettings
+- uid: Microsoft.Azure.Management.Compute.ComputeManagementClient.Credentials*
+  commentId: Overload:Microsoft.Azure.Management.Compute.ComputeManagementClient.Credentials
+  isExternal: false
+  name: Credentials
+  nameWithType: ComputeManagementClient.Credentials
+  fullName: Microsoft.Azure.Management.Compute.ComputeManagementClient.Credentials
+- uid: Microsoft.Azure.Management.Compute.IComputeManagementClient.Credentials
+  commentId: P:Microsoft.Azure.Management.Compute.IComputeManagementClient.Credentials
+  parent: Microsoft.Azure.Management.Compute.IComputeManagementClient
+  isExternal: false
+  name: Credentials
+  nameWithType: IComputeManagementClient.Credentials
+  fullName: Microsoft.Azure.Management.Compute.IComputeManagementClient.Credentials
+- uid: Microsoft.Rest.Azure.IAzureClient.Credentials
+  commentId: P:Microsoft.Rest.Azure.IAzureClient.Credentials
+  parent: Microsoft.Rest.Azure.IAzureClient
+  isExternal: false
+  name: Credentials
+  nameWithType: IAzureClient.Credentials
+  fullName: Microsoft.Rest.Azure.IAzureClient.Credentials
+- uid: Microsoft.Rest.ServiceClientCredentials
+  commentId: T:Microsoft.Rest.ServiceClientCredentials
+  parent: Microsoft.Rest
+  isExternal: false
+  name: ServiceClientCredentials
+  nameWithType: ServiceClientCredentials
+  fullName: Microsoft.Rest.ServiceClientCredentials
+- uid: Microsoft.Azure.Management.Compute.ComputeManagementClient.SubscriptionId*
+  commentId: Overload:Microsoft.Azure.Management.Compute.ComputeManagementClient.SubscriptionId
+  isExternal: false
+  name: SubscriptionId
+  nameWithType: ComputeManagementClient.SubscriptionId
+  fullName: Microsoft.Azure.Management.Compute.ComputeManagementClient.SubscriptionId
+- uid: Microsoft.Azure.Management.Compute.IComputeManagementClient.SubscriptionId
+  commentId: P:Microsoft.Azure.Management.Compute.IComputeManagementClient.SubscriptionId
+  parent: Microsoft.Azure.Management.Compute.IComputeManagementClient
+  isExternal: false
+  name: SubscriptionId
+  nameWithType: IComputeManagementClient.SubscriptionId
+  fullName: Microsoft.Azure.Management.Compute.IComputeManagementClient.SubscriptionId
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Microsoft.Azure.Management.Compute.ComputeManagementClient.AcceptLanguage*
+  commentId: Overload:Microsoft.Azure.Management.Compute.ComputeManagementClient.AcceptLanguage
+  isExternal: false
+  name: AcceptLanguage
+  nameWithType: ComputeManagementClient.AcceptLanguage
+  fullName: Microsoft.Azure.Management.Compute.ComputeManagementClient.AcceptLanguage
+- uid: Microsoft.Azure.Management.Compute.IComputeManagementClient.AcceptLanguage
+  commentId: P:Microsoft.Azure.Management.Compute.IComputeManagementClient.AcceptLanguage
+  parent: Microsoft.Azure.Management.Compute.IComputeManagementClient
+  isExternal: false
+  name: AcceptLanguage
+  nameWithType: IComputeManagementClient.AcceptLanguage
+  fullName: Microsoft.Azure.Management.Compute.IComputeManagementClient.AcceptLanguage
+- uid: Microsoft.Azure.Management.Compute.ComputeManagementClient.LongRunningOperationRetryTimeout*
+  commentId: Overload:Microsoft.Azure.Management.Compute.ComputeManagementClient.LongRunningOperationRetryTimeout
+  isExternal: false
+  name: LongRunningOperationRetryTimeout
+  nameWithType: ComputeManagementClient.LongRunningOperationRetryTimeout
+  fullName: Microsoft.Azure.Management.Compute.ComputeManagementClient.LongRunningOperationRetryTimeout
+- uid: Microsoft.Azure.Management.Compute.IComputeManagementClient.LongRunningOperationRetryTimeout
+  commentId: P:Microsoft.Azure.Management.Compute.IComputeManagementClient.LongRunningOperationRetryTimeout
+  parent: Microsoft.Azure.Management.Compute.IComputeManagementClient
+  isExternal: false
+  name: LongRunningOperationRetryTimeout
+  nameWithType: IComputeManagementClient.LongRunningOperationRetryTimeout
+  fullName: Microsoft.Azure.Management.Compute.IComputeManagementClient.LongRunningOperationRetryTimeout
+- uid: Microsoft.Rest.Azure.IAzureClient.LongRunningOperationRetryTimeout
+  commentId: P:Microsoft.Rest.Azure.IAzureClient.LongRunningOperationRetryTimeout
+  parent: Microsoft.Rest.Azure.IAzureClient
+  isExternal: false
+  name: LongRunningOperationRetryTimeout
+  nameWithType: IAzureClient.LongRunningOperationRetryTimeout
+  fullName: Microsoft.Rest.Azure.IAzureClient.LongRunningOperationRetryTimeout
+- uid: System.Nullable{System.Int32}
+  commentId: T:System.Nullable{System.Int32}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<Int32>
+  nameWithType: Nullable<Int32>
+  fullName: System.Nullable<System.Int32>
+  nameWithType.vb: Nullable(Of Int32)
+  fullname.vb: System.Nullable(Of System.Int32)
+  name.vb: Nullable(Of Int32)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullname.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Azure.Management.Compute.ComputeManagementClient.GenerateClientRequestId*
+  commentId: Overload:Microsoft.Azure.Management.Compute.ComputeManagementClient.GenerateClientRequestId
+  isExternal: false
+  name: GenerateClientRequestId
+  nameWithType: ComputeManagementClient.GenerateClientRequestId
+  fullName: Microsoft.Azure.Management.Compute.ComputeManagementClient.GenerateClientRequestId
+- uid: Microsoft.Azure.Management.Compute.IComputeManagementClient.GenerateClientRequestId
+  commentId: P:Microsoft.Azure.Management.Compute.IComputeManagementClient.GenerateClientRequestId
+  parent: Microsoft.Azure.Management.Compute.IComputeManagementClient
+  isExternal: false
+  name: GenerateClientRequestId
+  nameWithType: IComputeManagementClient.GenerateClientRequestId
+  fullName: Microsoft.Azure.Management.Compute.IComputeManagementClient.GenerateClientRequestId
+- uid: Microsoft.Rest.Azure.IAzureClient.GenerateClientRequestId
+  commentId: P:Microsoft.Rest.Azure.IAzureClient.GenerateClientRequestId
+  parent: Microsoft.Rest.Azure.IAzureClient
+  isExternal: false
+  name: GenerateClientRequestId
+  nameWithType: IAzureClient.GenerateClientRequestId
+  fullName: Microsoft.Rest.Azure.IAzureClient.GenerateClientRequestId
+- uid: System.Nullable{System.Boolean}
+  commentId: T:System.Nullable{System.Boolean}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<Boolean>
+  nameWithType: Nullable<Boolean>
+  fullName: System.Nullable<System.Boolean>
+  nameWithType.vb: Nullable(Of Boolean)
+  fullname.vb: System.Nullable(Of System.Boolean)
+  name.vb: Nullable(Of Boolean)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Azure.Management.Compute.ComputeManagementClient.AvailabilitySets*
+  commentId: Overload:Microsoft.Azure.Management.Compute.ComputeManagementClient.AvailabilitySets
+  isExternal: false
+  name: AvailabilitySets
+  nameWithType: ComputeManagementClient.AvailabilitySets
+  fullName: Microsoft.Azure.Management.Compute.ComputeManagementClient.AvailabilitySets
+- uid: Microsoft.Azure.Management.Compute.IComputeManagementClient.AvailabilitySets
+  commentId: P:Microsoft.Azure.Management.Compute.IComputeManagementClient.AvailabilitySets
+  parent: Microsoft.Azure.Management.Compute.IComputeManagementClient
+  isExternal: false
+  name: AvailabilitySets
+  nameWithType: IComputeManagementClient.AvailabilitySets
+  fullName: Microsoft.Azure.Management.Compute.IComputeManagementClient.AvailabilitySets
+- uid: Microsoft.Azure.Management.Compute.IAvailabilitySetsOperations
+  commentId: T:Microsoft.Azure.Management.Compute.IAvailabilitySetsOperations
+  parent: Microsoft.Azure.Management.Compute
+  isExternal: false
+  name: IAvailabilitySetsOperations
+  nameWithType: IAvailabilitySetsOperations
+  fullName: Microsoft.Azure.Management.Compute.IAvailabilitySetsOperations
+- uid: Microsoft.Azure.Management.Compute.ComputeManagementClient.VirtualMachineExtensionImages*
+  commentId: Overload:Microsoft.Azure.Management.Compute.ComputeManagementClient.VirtualMachineExtensionImages
+  isExternal: false
+  name: VirtualMachineExtensionImages
+  nameWithType: ComputeManagementClient.VirtualMachineExtensionImages
+  fullName: Microsoft.Azure.Management.Compute.ComputeManagementClient.VirtualMachineExtensionImages
+- uid: Microsoft.Azure.Management.Compute.IComputeManagementClient.VirtualMachineExtensionImages
+  commentId: P:Microsoft.Azure.Management.Compute.IComputeManagementClient.VirtualMachineExtensionImages
+  parent: Microsoft.Azure.Management.Compute.IComputeManagementClient
+  isExternal: false
+  name: VirtualMachineExtensionImages
+  nameWithType: IComputeManagementClient.VirtualMachineExtensionImages
+  fullName: Microsoft.Azure.Management.Compute.IComputeManagementClient.VirtualMachineExtensionImages
+- uid: Microsoft.Azure.Management.Compute.IVirtualMachineExtensionImagesOperations
+  commentId: T:Microsoft.Azure.Management.Compute.IVirtualMachineExtensionImagesOperations
+  parent: Microsoft.Azure.Management.Compute
+  isExternal: false
+  name: IVirtualMachineExtensionImagesOperations
+  nameWithType: IVirtualMachineExtensionImagesOperations
+  fullName: Microsoft.Azure.Management.Compute.IVirtualMachineExtensionImagesOperations
+- uid: Microsoft.Azure.Management.Compute.ComputeManagementClient.VirtualMachineExtensions*
+  commentId: Overload:Microsoft.Azure.Management.Compute.ComputeManagementClient.VirtualMachineExtensions
+  isExternal: false
+  name: VirtualMachineExtensions
+  nameWithType: ComputeManagementClient.VirtualMachineExtensions
+  fullName: Microsoft.Azure.Management.Compute.ComputeManagementClient.VirtualMachineExtensions
+- uid: Microsoft.Azure.Management.Compute.IComputeManagementClient.VirtualMachineExtensions
+  commentId: P:Microsoft.Azure.Management.Compute.IComputeManagementClient.VirtualMachineExtensions
+  parent: Microsoft.Azure.Management.Compute.IComputeManagementClient
+  isExternal: false
+  name: VirtualMachineExtensions
+  nameWithType: IComputeManagementClient.VirtualMachineExtensions
+  fullName: Microsoft.Azure.Management.Compute.IComputeManagementClient.VirtualMachineExtensions
+- uid: Microsoft.Azure.Management.Compute.IVirtualMachineExtensionsOperations
+  commentId: T:Microsoft.Azure.Management.Compute.IVirtualMachineExtensionsOperations
+  parent: Microsoft.Azure.Management.Compute
+  isExternal: false
+  name: IVirtualMachineExtensionsOperations
+  nameWithType: IVirtualMachineExtensionsOperations
+  fullName: Microsoft.Azure.Management.Compute.IVirtualMachineExtensionsOperations
+- uid: Microsoft.Azure.Management.Compute.ComputeManagementClient.VirtualMachineImages*
+  commentId: Overload:Microsoft.Azure.Management.Compute.ComputeManagementClient.VirtualMachineImages
+  isExternal: false
+  name: VirtualMachineImages
+  nameWithType: ComputeManagementClient.VirtualMachineImages
+  fullName: Microsoft.Azure.Management.Compute.ComputeManagementClient.VirtualMachineImages
+- uid: Microsoft.Azure.Management.Compute.IComputeManagementClient.VirtualMachineImages
+  commentId: P:Microsoft.Azure.Management.Compute.IComputeManagementClient.VirtualMachineImages
+  parent: Microsoft.Azure.Management.Compute.IComputeManagementClient
+  isExternal: false
+  name: VirtualMachineImages
+  nameWithType: IComputeManagementClient.VirtualMachineImages
+  fullName: Microsoft.Azure.Management.Compute.IComputeManagementClient.VirtualMachineImages
+- uid: Microsoft.Azure.Management.Compute.IVirtualMachineImagesOperations
+  commentId: T:Microsoft.Azure.Management.Compute.IVirtualMachineImagesOperations
+  parent: Microsoft.Azure.Management.Compute
+  isExternal: false
+  name: IVirtualMachineImagesOperations
+  nameWithType: IVirtualMachineImagesOperations
+  fullName: Microsoft.Azure.Management.Compute.IVirtualMachineImagesOperations
+- uid: Microsoft.Azure.Management.Compute.ComputeManagementClient.Usage*
+  commentId: Overload:Microsoft.Azure.Management.Compute.ComputeManagementClient.Usage
+  isExternal: false
+  name: Usage
+  nameWithType: ComputeManagementClient.Usage
+  fullName: Microsoft.Azure.Management.Compute.ComputeManagementClient.Usage
+- uid: Microsoft.Azure.Management.Compute.IComputeManagementClient.Usage
+  commentId: P:Microsoft.Azure.Management.Compute.IComputeManagementClient.Usage
+  parent: Microsoft.Azure.Management.Compute.IComputeManagementClient
+  isExternal: false
+  name: Usage
+  nameWithType: IComputeManagementClient.Usage
+  fullName: Microsoft.Azure.Management.Compute.IComputeManagementClient.Usage
+- uid: Microsoft.Azure.Management.Compute.IUsageOperations
+  commentId: T:Microsoft.Azure.Management.Compute.IUsageOperations
+  parent: Microsoft.Azure.Management.Compute
+  isExternal: false
+  name: IUsageOperations
+  nameWithType: IUsageOperations
+  fullName: Microsoft.Azure.Management.Compute.IUsageOperations
+- uid: Microsoft.Azure.Management.Compute.ComputeManagementClient.VirtualMachineSizes*
+  commentId: Overload:Microsoft.Azure.Management.Compute.ComputeManagementClient.VirtualMachineSizes
+  isExternal: false
+  name: VirtualMachineSizes
+  nameWithType: ComputeManagementClient.VirtualMachineSizes
+  fullName: Microsoft.Azure.Management.Compute.ComputeManagementClient.VirtualMachineSizes
+- uid: Microsoft.Azure.Management.Compute.IComputeManagementClient.VirtualMachineSizes
+  commentId: P:Microsoft.Azure.Management.Compute.IComputeManagementClient.VirtualMachineSizes
+  parent: Microsoft.Azure.Management.Compute.IComputeManagementClient
+  isExternal: false
+  name: VirtualMachineSizes
+  nameWithType: IComputeManagementClient.VirtualMachineSizes
+  fullName: Microsoft.Azure.Management.Compute.IComputeManagementClient.VirtualMachineSizes
+- uid: Microsoft.Azure.Management.Compute.IVirtualMachineSizesOperations
+  commentId: T:Microsoft.Azure.Management.Compute.IVirtualMachineSizesOperations
+  parent: Microsoft.Azure.Management.Compute
+  isExternal: false
+  name: IVirtualMachineSizesOperations
+  nameWithType: IVirtualMachineSizesOperations
+  fullName: Microsoft.Azure.Management.Compute.IVirtualMachineSizesOperations
+- uid: Microsoft.Azure.Management.Compute.ComputeManagementClient.VirtualMachines*
+  commentId: Overload:Microsoft.Azure.Management.Compute.ComputeManagementClient.VirtualMachines
+  isExternal: false
+  name: VirtualMachines
+  nameWithType: ComputeManagementClient.VirtualMachines
+  fullName: Microsoft.Azure.Management.Compute.ComputeManagementClient.VirtualMachines
+- uid: Microsoft.Azure.Management.Compute.IComputeManagementClient.VirtualMachines
+  commentId: P:Microsoft.Azure.Management.Compute.IComputeManagementClient.VirtualMachines
+  parent: Microsoft.Azure.Management.Compute.IComputeManagementClient
+  isExternal: false
+  name: VirtualMachines
+  nameWithType: IComputeManagementClient.VirtualMachines
+  fullName: Microsoft.Azure.Management.Compute.IComputeManagementClient.VirtualMachines
+- uid: Microsoft.Azure.Management.Compute.IVirtualMachinesOperations
+  commentId: T:Microsoft.Azure.Management.Compute.IVirtualMachinesOperations
+  parent: Microsoft.Azure.Management.Compute
+  isExternal: false
+  name: IVirtualMachinesOperations
+  nameWithType: IVirtualMachinesOperations
+  fullName: Microsoft.Azure.Management.Compute.IVirtualMachinesOperations
+- uid: Microsoft.Azure.Management.Compute.ComputeManagementClient.VirtualMachineScaleSets*
+  commentId: Overload:Microsoft.Azure.Management.Compute.ComputeManagementClient.VirtualMachineScaleSets
+  isExternal: false
+  name: VirtualMachineScaleSets
+  nameWithType: ComputeManagementClient.VirtualMachineScaleSets
+  fullName: Microsoft.Azure.Management.Compute.ComputeManagementClient.VirtualMachineScaleSets
+- uid: Microsoft.Azure.Management.Compute.IComputeManagementClient.VirtualMachineScaleSets
+  commentId: P:Microsoft.Azure.Management.Compute.IComputeManagementClient.VirtualMachineScaleSets
+  parent: Microsoft.Azure.Management.Compute.IComputeManagementClient
+  isExternal: false
+  name: VirtualMachineScaleSets
+  nameWithType: IComputeManagementClient.VirtualMachineScaleSets
+  fullName: Microsoft.Azure.Management.Compute.IComputeManagementClient.VirtualMachineScaleSets
+- uid: Microsoft.Azure.Management.Compute.IVirtualMachineScaleSetsOperations
+  commentId: T:Microsoft.Azure.Management.Compute.IVirtualMachineScaleSetsOperations
+  parent: Microsoft.Azure.Management.Compute
+  isExternal: false
+  name: IVirtualMachineScaleSetsOperations
+  nameWithType: IVirtualMachineScaleSetsOperations
+  fullName: Microsoft.Azure.Management.Compute.IVirtualMachineScaleSetsOperations
+- uid: Microsoft.Azure.Management.Compute.ComputeManagementClient.VirtualMachineScaleSetVMs*
+  commentId: Overload:Microsoft.Azure.Management.Compute.ComputeManagementClient.VirtualMachineScaleSetVMs
+  isExternal: false
+  name: VirtualMachineScaleSetVMs
+  nameWithType: ComputeManagementClient.VirtualMachineScaleSetVMs
+  fullName: Microsoft.Azure.Management.Compute.ComputeManagementClient.VirtualMachineScaleSetVMs
+- uid: Microsoft.Azure.Management.Compute.IComputeManagementClient.VirtualMachineScaleSetVMs
+  commentId: P:Microsoft.Azure.Management.Compute.IComputeManagementClient.VirtualMachineScaleSetVMs
+  parent: Microsoft.Azure.Management.Compute.IComputeManagementClient
+  isExternal: false
+  name: VirtualMachineScaleSetVMs
+  nameWithType: IComputeManagementClient.VirtualMachineScaleSetVMs
+  fullName: Microsoft.Azure.Management.Compute.IComputeManagementClient.VirtualMachineScaleSetVMs
+- uid: Microsoft.Azure.Management.Compute.IVirtualMachineScaleSetVMsOperations
+  commentId: T:Microsoft.Azure.Management.Compute.IVirtualMachineScaleSetVMsOperations
+  parent: Microsoft.Azure.Management.Compute
+  isExternal: false
+  name: IVirtualMachineScaleSetVMsOperations
+  nameWithType: IVirtualMachineScaleSetVMsOperations
+  fullName: Microsoft.Azure.Management.Compute.IVirtualMachineScaleSetVMsOperations
+- uid: Microsoft.Azure.Management.Compute.ComputeManagementClient.ContainerService*
+  commentId: Overload:Microsoft.Azure.Management.Compute.ComputeManagementClient.ContainerService
+  isExternal: false
+  name: ContainerService
+  nameWithType: ComputeManagementClient.ContainerService
+  fullName: Microsoft.Azure.Management.Compute.ComputeManagementClient.ContainerService
+- uid: Microsoft.Azure.Management.Compute.IComputeManagementClient.ContainerService
+  commentId: P:Microsoft.Azure.Management.Compute.IComputeManagementClient.ContainerService
+  parent: Microsoft.Azure.Management.Compute.IComputeManagementClient
+  isExternal: false
+  name: ContainerService
+  nameWithType: IComputeManagementClient.ContainerService
+  fullName: Microsoft.Azure.Management.Compute.IComputeManagementClient.ContainerService
+- uid: Microsoft.Azure.Management.Compute.IContainerServiceOperations
+  commentId: T:Microsoft.Azure.Management.Compute.IContainerServiceOperations
+  parent: Microsoft.Azure.Management.Compute
+  isExternal: false
+  name: IContainerServiceOperations
+  nameWithType: IContainerServiceOperations
+  fullName: Microsoft.Azure.Management.Compute.IContainerServiceOperations
+- uid: Microsoft.Azure.Management.Compute.ComputeManagementClient.#ctor*
+  commentId: Overload:Microsoft.Azure.Management.Compute.ComputeManagementClient.#ctor
+  isExternal: false
+  name: ComputeManagementClient
+  nameWithType: ComputeManagementClient.ComputeManagementClient
+  fullName: Microsoft.Azure.Management.Compute.ComputeManagementClient.ComputeManagementClient
+- uid: System.Net.Http.DelegatingHandler[]
+  name: DelegatingHandler[]
+  nameWithType: DelegatingHandler[]
+  fullName: System.Net.Http.DelegatingHandler[]
+  nameWithType.vb: DelegatingHandler()
+  fullname.vb: System.Net.Http.DelegatingHandler()
+  name.vb: DelegatingHandler()
+  spec.csharp:
+  - uid: System.Net.Http.DelegatingHandler
+    name: DelegatingHandler
+    nameWithType: DelegatingHandler
+    fullName: System.Net.Http.DelegatingHandler
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Net.Http.DelegatingHandler
+    name: DelegatingHandler
+    nameWithType: DelegatingHandler
+    fullName: System.Net.Http.DelegatingHandler
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.Net.Http.HttpClientHandler
+  commentId: T:System.Net.Http.HttpClientHandler
+  parent: System.Net.Http
+  isExternal: true
+  name: HttpClientHandler
+  nameWithType: HttpClientHandler
+  fullName: System.Net.Http.HttpClientHandler
+- uid: System.Net.Http
+  commentId: N:System.Net.Http
+  isExternal: false
+  name: System.Net.Http
+  nameWithType: System.Net.Http
+  fullName: System.Net.Http
+- uid: System.ArgumentNullException
+  commentId: T:System.ArgumentNullException

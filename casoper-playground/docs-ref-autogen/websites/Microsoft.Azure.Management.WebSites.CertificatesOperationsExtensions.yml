@@ -1,0 +1,2371 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions
+  commentId: T:Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions
+  id: CertificatesOperationsExtensions
+  parent: Microsoft.Azure.Management.WebSites
+  children:
+  - Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.CreateOrUpdate(Microsoft.Azure.Management.WebSites.ICertificatesOperations,System.String,System.String,Microsoft.Azure.Management.WebSites.Models.Certificate)
+  - Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.CreateOrUpdateAsync(Microsoft.Azure.Management.WebSites.ICertificatesOperations,System.String,System.String,Microsoft.Azure.Management.WebSites.Models.Certificate,System.Threading.CancellationToken)
+  - Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.CreateOrUpdateCsr(Microsoft.Azure.Management.WebSites.ICertificatesOperations,System.String,System.String,Microsoft.Azure.Management.WebSites.Models.Csr)
+  - Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.CreateOrUpdateCsrAsync(Microsoft.Azure.Management.WebSites.ICertificatesOperations,System.String,System.String,Microsoft.Azure.Management.WebSites.Models.Csr,System.Threading.CancellationToken)
+  - Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.Delete(Microsoft.Azure.Management.WebSites.ICertificatesOperations,System.String,System.String)
+  - Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.DeleteAsync(Microsoft.Azure.Management.WebSites.ICertificatesOperations,System.String,System.String,System.Threading.CancellationToken)
+  - Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.DeleteCsr(Microsoft.Azure.Management.WebSites.ICertificatesOperations,System.String,System.String)
+  - Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.DeleteCsrAsync(Microsoft.Azure.Management.WebSites.ICertificatesOperations,System.String,System.String,System.Threading.CancellationToken)
+  - Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.Get(Microsoft.Azure.Management.WebSites.ICertificatesOperations,System.String,System.String)
+  - Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.GetAsync(Microsoft.Azure.Management.WebSites.ICertificatesOperations,System.String,System.String,System.Threading.CancellationToken)
+  - Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.GetCsr(Microsoft.Azure.Management.WebSites.ICertificatesOperations,System.String,System.String)
+  - Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.GetCsrAsync(Microsoft.Azure.Management.WebSites.ICertificatesOperations,System.String,System.String,System.Threading.CancellationToken)
+  - Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.List(Microsoft.Azure.Management.WebSites.ICertificatesOperations)
+  - Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.ListAsync(Microsoft.Azure.Management.WebSites.ICertificatesOperations,System.Threading.CancellationToken)
+  - Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.ListByResourceGroup(Microsoft.Azure.Management.WebSites.ICertificatesOperations,System.String)
+  - Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.ListByResourceGroupAsync(Microsoft.Azure.Management.WebSites.ICertificatesOperations,System.String,System.Threading.CancellationToken)
+  - Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.ListByResourceGroupNext(Microsoft.Azure.Management.WebSites.ICertificatesOperations,System.String)
+  - Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.ListByResourceGroupNextAsync(Microsoft.Azure.Management.WebSites.ICertificatesOperations,System.String,System.Threading.CancellationToken)
+  - Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.ListCsrs(Microsoft.Azure.Management.WebSites.ICertificatesOperations,System.String)
+  - Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.ListCsrsAsync(Microsoft.Azure.Management.WebSites.ICertificatesOperations,System.String,System.Threading.CancellationToken)
+  - Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.ListNext(Microsoft.Azure.Management.WebSites.ICertificatesOperations,System.String)
+  - Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.ListNextAsync(Microsoft.Azure.Management.WebSites.ICertificatesOperations,System.String,System.Threading.CancellationToken)
+  - Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.Update(Microsoft.Azure.Management.WebSites.ICertificatesOperations,System.String,System.String,Microsoft.Azure.Management.WebSites.Models.Certificate)
+  - Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.UpdateAsync(Microsoft.Azure.Management.WebSites.ICertificatesOperations,System.String,System.String,Microsoft.Azure.Management.WebSites.Models.Certificate,System.Threading.CancellationToken)
+  - Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.UpdateCsr(Microsoft.Azure.Management.WebSites.ICertificatesOperations,System.String,System.String,Microsoft.Azure.Management.WebSites.Models.Csr)
+  - Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.UpdateCsrAsync(Microsoft.Azure.Management.WebSites.ICertificatesOperations,System.String,System.String,Microsoft.Azure.Management.WebSites.Models.Csr,System.Threading.CancellationToken)
+  langs:
+  - csharp
+  - vb
+  name: CertificatesOperationsExtensions
+  nameWithType: CertificatesOperationsExtensions
+  fullName: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions
+  type: Class
+  source:
+    remote:
+      path: src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/CertificatesOperationsExtensions.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: CertificatesOperationsExtensions
+    path: src/azure-sdk-for-net/src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/CertificatesOperationsExtensions.cs
+    startLine: 22
+  assemblies:
+  - Microsoft.Azure.Management.Websites
+  namespace: Microsoft.Azure.Management.WebSites
+  summary: "\nExtension methods for CertificatesOperations.\n"
+  example: []
+  syntax:
+    content: public static class CertificatesOperationsExtensions
+    content.vb: Public Module CertificatesOperationsExtensions
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.List(Microsoft.Azure.Management.WebSites.ICertificatesOperations)
+  commentId: M:Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.List(Microsoft.Azure.Management.WebSites.ICertificatesOperations)
+  id: List(Microsoft.Azure.Management.WebSites.ICertificatesOperations)
+  isExtensionMethod: true
+  parent: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions
+  langs:
+  - csharp
+  - vb
+  name: List(ICertificatesOperations)
+  nameWithType: CertificatesOperationsExtensions.List(ICertificatesOperations)
+  fullName: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.List(Microsoft.Azure.Management.WebSites.ICertificatesOperations)
+  type: Method
+  source:
+    remote:
+      path: src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/CertificatesOperationsExtensions.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: List
+    path: src/azure-sdk-for-net/src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/CertificatesOperationsExtensions.cs
+    startLine: 31
+  assemblies:
+  - Microsoft.Azure.Management.Websites
+  namespace: Microsoft.Azure.Management.WebSites
+  summary: "\nGet all certificates for a subscription\n"
+  example: []
+  syntax:
+    content: public static IPage<Certificate> List(this ICertificatesOperations operations)
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function List(operations As ICertificatesOperations) As IPage(Of Certificate)
+    parameters:
+    - id: operations
+      type: Microsoft.Azure.Management.WebSites.ICertificatesOperations
+      description: "\nThe operations group for this extension method.\n"
+    return:
+      type: Microsoft.Rest.Azure.IPage{Microsoft.Azure.Management.WebSites.Models.Certificate}
+  overload: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.List*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.ListAsync(Microsoft.Azure.Management.WebSites.ICertificatesOperations,System.Threading.CancellationToken)
+  commentId: M:Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.ListAsync(Microsoft.Azure.Management.WebSites.ICertificatesOperations,System.Threading.CancellationToken)
+  id: ListAsync(Microsoft.Azure.Management.WebSites.ICertificatesOperations,System.Threading.CancellationToken)
+  isExtensionMethod: true
+  parent: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions
+  langs:
+  - csharp
+  - vb
+  name: ListAsync(ICertificatesOperations, CancellationToken)
+  nameWithType: CertificatesOperationsExtensions.ListAsync(ICertificatesOperations, CancellationToken)
+  fullName: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.ListAsync(Microsoft.Azure.Management.WebSites.ICertificatesOperations, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/CertificatesOperationsExtensions.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: ListAsync
+    path: src/azure-sdk-for-net/src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/CertificatesOperationsExtensions.cs
+    startLine: 46
+  assemblies:
+  - Microsoft.Azure.Management.Websites
+  namespace: Microsoft.Azure.Management.WebSites
+  summary: "\nGet all certificates for a subscription\n"
+  example: []
+  syntax:
+    content: public static Task<IPage<Certificate>> ListAsync(this ICertificatesOperations operations, CancellationToken cancellationToken = null)
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ListAsync(operations As ICertificatesOperations, cancellationToken As CancellationToken = Nothing) As Task(Of IPage(Of Certificate))
+    parameters:
+    - id: operations
+      type: Microsoft.Azure.Management.WebSites.ICertificatesOperations
+      description: "\nThe operations group for this extension method.\n"
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: "\nThe cancellation token.\n"
+    return:
+      type: System.Threading.Tasks.Task{Microsoft.Rest.Azure.IPage{Microsoft.Azure.Management.WebSites.Models.Certificate}}
+  overload: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.ListAsync*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.ListByResourceGroup(Microsoft.Azure.Management.WebSites.ICertificatesOperations,System.String)
+  commentId: M:Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.ListByResourceGroup(Microsoft.Azure.Management.WebSites.ICertificatesOperations,System.String)
+  id: ListByResourceGroup(Microsoft.Azure.Management.WebSites.ICertificatesOperations,System.String)
+  isExtensionMethod: true
+  parent: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions
+  langs:
+  - csharp
+  - vb
+  name: ListByResourceGroup(ICertificatesOperations, String)
+  nameWithType: CertificatesOperationsExtensions.ListByResourceGroup(ICertificatesOperations, String)
+  fullName: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.ListByResourceGroup(Microsoft.Azure.Management.WebSites.ICertificatesOperations, System.String)
+  type: Method
+  source:
+    remote:
+      path: src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/CertificatesOperationsExtensions.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: ListByResourceGroup
+    path: src/azure-sdk-for-net/src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/CertificatesOperationsExtensions.cs
+    startLine: 64
+  assemblies:
+  - Microsoft.Azure.Management.Websites
+  namespace: Microsoft.Azure.Management.WebSites
+  summary: "\nGet certificates for a subscription in the specified resource group.\n"
+  example: []
+  syntax:
+    content: public static IPage<Certificate> ListByResourceGroup(this ICertificatesOperations operations, string resourceGroupName)
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ListByResourceGroup(operations As ICertificatesOperations, resourceGroupName As String) As IPage(Of Certificate)
+    parameters:
+    - id: operations
+      type: Microsoft.Azure.Management.WebSites.ICertificatesOperations
+      description: "\nThe operations group for this extension method.\n"
+    - id: resourceGroupName
+      type: System.String
+      description: "\nName of the resource group\n"
+    return:
+      type: Microsoft.Rest.Azure.IPage{Microsoft.Azure.Management.WebSites.Models.Certificate}
+  overload: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.ListByResourceGroup*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.ListByResourceGroupAsync(Microsoft.Azure.Management.WebSites.ICertificatesOperations,System.String,System.Threading.CancellationToken)
+  commentId: M:Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.ListByResourceGroupAsync(Microsoft.Azure.Management.WebSites.ICertificatesOperations,System.String,System.Threading.CancellationToken)
+  id: ListByResourceGroupAsync(Microsoft.Azure.Management.WebSites.ICertificatesOperations,System.String,System.Threading.CancellationToken)
+  isExtensionMethod: true
+  parent: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions
+  langs:
+  - csharp
+  - vb
+  name: ListByResourceGroupAsync(ICertificatesOperations, String, CancellationToken)
+  nameWithType: CertificatesOperationsExtensions.ListByResourceGroupAsync(ICertificatesOperations, String, CancellationToken)
+  fullName: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.ListByResourceGroupAsync(Microsoft.Azure.Management.WebSites.ICertificatesOperations, System.String, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/CertificatesOperationsExtensions.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: ListByResourceGroupAsync
+    path: src/azure-sdk-for-net/src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/CertificatesOperationsExtensions.cs
+    startLine: 82
+  assemblies:
+  - Microsoft.Azure.Management.Websites
+  namespace: Microsoft.Azure.Management.WebSites
+  summary: "\nGet certificates for a subscription in the specified resource group.\n"
+  example: []
+  syntax:
+    content: public static Task<IPage<Certificate>> ListByResourceGroupAsync(this ICertificatesOperations operations, string resourceGroupName, CancellationToken cancellationToken = null)
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ListByResourceGroupAsync(operations As ICertificatesOperations, resourceGroupName As String, cancellationToken As CancellationToken = Nothing) As Task(Of IPage(Of Certificate))
+    parameters:
+    - id: operations
+      type: Microsoft.Azure.Management.WebSites.ICertificatesOperations
+      description: "\nThe operations group for this extension method.\n"
+    - id: resourceGroupName
+      type: System.String
+      description: "\nName of the resource group\n"
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: "\nThe cancellation token.\n"
+    return:
+      type: System.Threading.Tasks.Task{Microsoft.Rest.Azure.IPage{Microsoft.Azure.Management.WebSites.Models.Certificate}}
+  overload: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.ListByResourceGroupAsync*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.Get(Microsoft.Azure.Management.WebSites.ICertificatesOperations,System.String,System.String)
+  commentId: M:Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.Get(Microsoft.Azure.Management.WebSites.ICertificatesOperations,System.String,System.String)
+  id: Get(Microsoft.Azure.Management.WebSites.ICertificatesOperations,System.String,System.String)
+  isExtensionMethod: true
+  parent: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions
+  langs:
+  - csharp
+  - vb
+  name: Get(ICertificatesOperations, String, String)
+  nameWithType: CertificatesOperationsExtensions.Get(ICertificatesOperations, String, String)
+  fullName: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.Get(Microsoft.Azure.Management.WebSites.ICertificatesOperations, System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/CertificatesOperationsExtensions.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: Get
+    path: src/azure-sdk-for-net/src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/CertificatesOperationsExtensions.cs
+    startLine: 105
+  assemblies:
+  - Microsoft.Azure.Management.Websites
+  namespace: Microsoft.Azure.Management.WebSites
+  summary: "\nGet a certificate by certificate name for a subscription in the specified\nresource group.\n"
+  example: []
+  syntax:
+    content: public static Certificate Get(this ICertificatesOperations operations, string resourceGroupName, string name)
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Get(operations As ICertificatesOperations, resourceGroupName As String, name As String) As Certificate
+    parameters:
+    - id: operations
+      type: Microsoft.Azure.Management.WebSites.ICertificatesOperations
+      description: "\nThe operations group for this extension method.\n"
+    - id: resourceGroupName
+      type: System.String
+      description: "\nName of the resource group\n"
+    - id: name
+      type: System.String
+      description: "\nName of the certificate.\n"
+    return:
+      type: Microsoft.Azure.Management.WebSites.Models.Certificate
+  overload: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.Get*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.GetAsync(Microsoft.Azure.Management.WebSites.ICertificatesOperations,System.String,System.String,System.Threading.CancellationToken)
+  commentId: M:Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.GetAsync(Microsoft.Azure.Management.WebSites.ICertificatesOperations,System.String,System.String,System.Threading.CancellationToken)
+  id: GetAsync(Microsoft.Azure.Management.WebSites.ICertificatesOperations,System.String,System.String,System.Threading.CancellationToken)
+  isExtensionMethod: true
+  parent: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetAsync(ICertificatesOperations, String, String, CancellationToken)
+  nameWithType: CertificatesOperationsExtensions.GetAsync(ICertificatesOperations, String, String, CancellationToken)
+  fullName: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.GetAsync(Microsoft.Azure.Management.WebSites.ICertificatesOperations, System.String, System.String, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/CertificatesOperationsExtensions.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: GetAsync
+    path: src/azure-sdk-for-net/src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/CertificatesOperationsExtensions.cs
+    startLine: 128
+  assemblies:
+  - Microsoft.Azure.Management.Websites
+  namespace: Microsoft.Azure.Management.WebSites
+  summary: "\nGet a certificate by certificate name for a subscription in the specified\nresource group.\n"
+  example: []
+  syntax:
+    content: public static Task<Certificate> GetAsync(this ICertificatesOperations operations, string resourceGroupName, string name, CancellationToken cancellationToken = null)
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetAsync(operations As ICertificatesOperations, resourceGroupName As String, name As String, cancellationToken As CancellationToken = Nothing) As Task(Of Certificate)
+    parameters:
+    - id: operations
+      type: Microsoft.Azure.Management.WebSites.ICertificatesOperations
+      description: "\nThe operations group for this extension method.\n"
+    - id: resourceGroupName
+      type: System.String
+      description: "\nName of the resource group\n"
+    - id: name
+      type: System.String
+      description: "\nName of the certificate.\n"
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: "\nThe cancellation token.\n"
+    return:
+      type: System.Threading.Tasks.Task{Microsoft.Azure.Management.WebSites.Models.Certificate}
+  overload: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.GetAsync*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.CreateOrUpdate(Microsoft.Azure.Management.WebSites.ICertificatesOperations,System.String,System.String,Microsoft.Azure.Management.WebSites.Models.Certificate)
+  commentId: M:Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.CreateOrUpdate(Microsoft.Azure.Management.WebSites.ICertificatesOperations,System.String,System.String,Microsoft.Azure.Management.WebSites.Models.Certificate)
+  id: CreateOrUpdate(Microsoft.Azure.Management.WebSites.ICertificatesOperations,System.String,System.String,Microsoft.Azure.Management.WebSites.Models.Certificate)
+  isExtensionMethod: true
+  parent: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions
+  langs:
+  - csharp
+  - vb
+  name: CreateOrUpdate(ICertificatesOperations, String, String, Certificate)
+  nameWithType: CertificatesOperationsExtensions.CreateOrUpdate(ICertificatesOperations, String, String, Certificate)
+  fullName: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.CreateOrUpdate(Microsoft.Azure.Management.WebSites.ICertificatesOperations, System.String, System.String, Microsoft.Azure.Management.WebSites.Models.Certificate)
+  type: Method
+  source:
+    remote:
+      path: src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/CertificatesOperationsExtensions.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: CreateOrUpdate
+    path: src/azure-sdk-for-net/src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/CertificatesOperationsExtensions.cs
+    startLine: 152
+  assemblies:
+  - Microsoft.Azure.Management.Websites
+  namespace: Microsoft.Azure.Management.WebSites
+  summary: "\nCreates or modifies an existing certificate.\n"
+  example: []
+  syntax:
+    content: public static Certificate CreateOrUpdate(this ICertificatesOperations operations, string resourceGroupName, string name, Certificate certificateEnvelope)
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function CreateOrUpdate(operations As ICertificatesOperations, resourceGroupName As String, name As String, certificateEnvelope As Certificate) As Certificate
+    parameters:
+    - id: operations
+      type: Microsoft.Azure.Management.WebSites.ICertificatesOperations
+      description: "\nThe operations group for this extension method.\n"
+    - id: resourceGroupName
+      type: System.String
+      description: "\nName of the resource group\n"
+    - id: name
+      type: System.String
+      description: "\nName of the certificate.\n"
+    - id: certificateEnvelope
+      type: Microsoft.Azure.Management.WebSites.Models.Certificate
+      description: "\nDetails of certificate if it exists already.\n"
+    return:
+      type: Microsoft.Azure.Management.WebSites.Models.Certificate
+  overload: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.CreateOrUpdate*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.CreateOrUpdateAsync(Microsoft.Azure.Management.WebSites.ICertificatesOperations,System.String,System.String,Microsoft.Azure.Management.WebSites.Models.Certificate,System.Threading.CancellationToken)
+  commentId: M:Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.CreateOrUpdateAsync(Microsoft.Azure.Management.WebSites.ICertificatesOperations,System.String,System.String,Microsoft.Azure.Management.WebSites.Models.Certificate,System.Threading.CancellationToken)
+  id: CreateOrUpdateAsync(Microsoft.Azure.Management.WebSites.ICertificatesOperations,System.String,System.String,Microsoft.Azure.Management.WebSites.Models.Certificate,System.Threading.CancellationToken)
+  isExtensionMethod: true
+  parent: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions
+  langs:
+  - csharp
+  - vb
+  name: CreateOrUpdateAsync(ICertificatesOperations, String, String, Certificate, CancellationToken)
+  nameWithType: CertificatesOperationsExtensions.CreateOrUpdateAsync(ICertificatesOperations, String, String, Certificate, CancellationToken)
+  fullName: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.CreateOrUpdateAsync(Microsoft.Azure.Management.WebSites.ICertificatesOperations, System.String, System.String, Microsoft.Azure.Management.WebSites.Models.Certificate, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/CertificatesOperationsExtensions.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: CreateOrUpdateAsync
+    path: src/azure-sdk-for-net/src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/CertificatesOperationsExtensions.cs
+    startLine: 176
+  assemblies:
+  - Microsoft.Azure.Management.Websites
+  namespace: Microsoft.Azure.Management.WebSites
+  summary: "\nCreates or modifies an existing certificate.\n"
+  example: []
+  syntax:
+    content: public static Task<Certificate> CreateOrUpdateAsync(this ICertificatesOperations operations, string resourceGroupName, string name, Certificate certificateEnvelope, CancellationToken cancellationToken = null)
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function CreateOrUpdateAsync(operations As ICertificatesOperations, resourceGroupName As String, name As String, certificateEnvelope As Certificate, cancellationToken As CancellationToken = Nothing) As Task(Of Certificate)
+    parameters:
+    - id: operations
+      type: Microsoft.Azure.Management.WebSites.ICertificatesOperations
+      description: "\nThe operations group for this extension method.\n"
+    - id: resourceGroupName
+      type: System.String
+      description: "\nName of the resource group\n"
+    - id: name
+      type: System.String
+      description: "\nName of the certificate.\n"
+    - id: certificateEnvelope
+      type: Microsoft.Azure.Management.WebSites.Models.Certificate
+      description: "\nDetails of certificate if it exists already.\n"
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: "\nThe cancellation token.\n"
+    return:
+      type: System.Threading.Tasks.Task{Microsoft.Azure.Management.WebSites.Models.Certificate}
+  overload: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.CreateOrUpdateAsync*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.Delete(Microsoft.Azure.Management.WebSites.ICertificatesOperations,System.String,System.String)
+  commentId: M:Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.Delete(Microsoft.Azure.Management.WebSites.ICertificatesOperations,System.String,System.String)
+  id: Delete(Microsoft.Azure.Management.WebSites.ICertificatesOperations,System.String,System.String)
+  isExtensionMethod: true
+  parent: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions
+  langs:
+  - csharp
+  - vb
+  name: Delete(ICertificatesOperations, String, String)
+  nameWithType: CertificatesOperationsExtensions.Delete(ICertificatesOperations, String, String)
+  fullName: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.Delete(Microsoft.Azure.Management.WebSites.ICertificatesOperations, System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/CertificatesOperationsExtensions.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: Delete
+    path: src/azure-sdk-for-net/src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/CertificatesOperationsExtensions.cs
+    startLine: 199
+  assemblies:
+  - Microsoft.Azure.Management.Websites
+  namespace: Microsoft.Azure.Management.WebSites
+  summary: "\nDelete a certificate by name in a specificed subscription and\nresourcegroup.\n"
+  example: []
+  syntax:
+    content: public static object Delete(this ICertificatesOperations operations, string resourceGroupName, string name)
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Delete(operations As ICertificatesOperations, resourceGroupName As String, name As String) As Object
+    parameters:
+    - id: operations
+      type: Microsoft.Azure.Management.WebSites.ICertificatesOperations
+      description: "\nThe operations group for this extension method.\n"
+    - id: resourceGroupName
+      type: System.String
+      description: "\nName of the resource group\n"
+    - id: name
+      type: System.String
+      description: "\nName of the certificate to be deleted.\n"
+    return:
+      type: System.Object
+  overload: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.Delete*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.DeleteAsync(Microsoft.Azure.Management.WebSites.ICertificatesOperations,System.String,System.String,System.Threading.CancellationToken)
+  commentId: M:Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.DeleteAsync(Microsoft.Azure.Management.WebSites.ICertificatesOperations,System.String,System.String,System.Threading.CancellationToken)
+  id: DeleteAsync(Microsoft.Azure.Management.WebSites.ICertificatesOperations,System.String,System.String,System.Threading.CancellationToken)
+  isExtensionMethod: true
+  parent: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions
+  langs:
+  - csharp
+  - vb
+  name: DeleteAsync(ICertificatesOperations, String, String, CancellationToken)
+  nameWithType: CertificatesOperationsExtensions.DeleteAsync(ICertificatesOperations, String, String, CancellationToken)
+  fullName: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.DeleteAsync(Microsoft.Azure.Management.WebSites.ICertificatesOperations, System.String, System.String, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/CertificatesOperationsExtensions.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: DeleteAsync
+    path: src/azure-sdk-for-net/src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/CertificatesOperationsExtensions.cs
+    startLine: 222
+  assemblies:
+  - Microsoft.Azure.Management.Websites
+  namespace: Microsoft.Azure.Management.WebSites
+  summary: "\nDelete a certificate by name in a specificed subscription and\nresourcegroup.\n"
+  example: []
+  syntax:
+    content: public static Task<object> DeleteAsync(this ICertificatesOperations operations, string resourceGroupName, string name, CancellationToken cancellationToken = null)
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function DeleteAsync(operations As ICertificatesOperations, resourceGroupName As String, name As String, cancellationToken As CancellationToken = Nothing) As Task(Of Object)
+    parameters:
+    - id: operations
+      type: Microsoft.Azure.Management.WebSites.ICertificatesOperations
+      description: "\nThe operations group for this extension method.\n"
+    - id: resourceGroupName
+      type: System.String
+      description: "\nName of the resource group\n"
+    - id: name
+      type: System.String
+      description: "\nName of the certificate to be deleted.\n"
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: "\nThe cancellation token.\n"
+    return:
+      type: System.Threading.Tasks.Task{System.Object}
+  overload: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.DeleteAsync*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.Update(Microsoft.Azure.Management.WebSites.ICertificatesOperations,System.String,System.String,Microsoft.Azure.Management.WebSites.Models.Certificate)
+  commentId: M:Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.Update(Microsoft.Azure.Management.WebSites.ICertificatesOperations,System.String,System.String,Microsoft.Azure.Management.WebSites.Models.Certificate)
+  id: Update(Microsoft.Azure.Management.WebSites.ICertificatesOperations,System.String,System.String,Microsoft.Azure.Management.WebSites.Models.Certificate)
+  isExtensionMethod: true
+  parent: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions
+  langs:
+  - csharp
+  - vb
+  name: Update(ICertificatesOperations, String, String, Certificate)
+  nameWithType: CertificatesOperationsExtensions.Update(ICertificatesOperations, String, String, Certificate)
+  fullName: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.Update(Microsoft.Azure.Management.WebSites.ICertificatesOperations, System.String, System.String, Microsoft.Azure.Management.WebSites.Models.Certificate)
+  type: Method
+  source:
+    remote:
+      path: src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/CertificatesOperationsExtensions.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: Update
+    path: src/azure-sdk-for-net/src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/CertificatesOperationsExtensions.cs
+    startLine: 246
+  assemblies:
+  - Microsoft.Azure.Management.Websites
+  namespace: Microsoft.Azure.Management.WebSites
+  summary: "\nCreates or modifies an existing certificate.\n"
+  example: []
+  syntax:
+    content: public static Certificate Update(this ICertificatesOperations operations, string resourceGroupName, string name, Certificate certificateEnvelope)
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Update(operations As ICertificatesOperations, resourceGroupName As String, name As String, certificateEnvelope As Certificate) As Certificate
+    parameters:
+    - id: operations
+      type: Microsoft.Azure.Management.WebSites.ICertificatesOperations
+      description: "\nThe operations group for this extension method.\n"
+    - id: resourceGroupName
+      type: System.String
+      description: "\nName of the resource group\n"
+    - id: name
+      type: System.String
+      description: "\nName of the certificate.\n"
+    - id: certificateEnvelope
+      type: Microsoft.Azure.Management.WebSites.Models.Certificate
+      description: "\nDetails of certificate if it exists already.\n"
+    return:
+      type: Microsoft.Azure.Management.WebSites.Models.Certificate
+  overload: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.Update*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.UpdateAsync(Microsoft.Azure.Management.WebSites.ICertificatesOperations,System.String,System.String,Microsoft.Azure.Management.WebSites.Models.Certificate,System.Threading.CancellationToken)
+  commentId: M:Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.UpdateAsync(Microsoft.Azure.Management.WebSites.ICertificatesOperations,System.String,System.String,Microsoft.Azure.Management.WebSites.Models.Certificate,System.Threading.CancellationToken)
+  id: UpdateAsync(Microsoft.Azure.Management.WebSites.ICertificatesOperations,System.String,System.String,Microsoft.Azure.Management.WebSites.Models.Certificate,System.Threading.CancellationToken)
+  isExtensionMethod: true
+  parent: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions
+  langs:
+  - csharp
+  - vb
+  name: UpdateAsync(ICertificatesOperations, String, String, Certificate, CancellationToken)
+  nameWithType: CertificatesOperationsExtensions.UpdateAsync(ICertificatesOperations, String, String, Certificate, CancellationToken)
+  fullName: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.UpdateAsync(Microsoft.Azure.Management.WebSites.ICertificatesOperations, System.String, System.String, Microsoft.Azure.Management.WebSites.Models.Certificate, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/CertificatesOperationsExtensions.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: UpdateAsync
+    path: src/azure-sdk-for-net/src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/CertificatesOperationsExtensions.cs
+    startLine: 270
+  assemblies:
+  - Microsoft.Azure.Management.Websites
+  namespace: Microsoft.Azure.Management.WebSites
+  summary: "\nCreates or modifies an existing certificate.\n"
+  example: []
+  syntax:
+    content: public static Task<Certificate> UpdateAsync(this ICertificatesOperations operations, string resourceGroupName, string name, Certificate certificateEnvelope, CancellationToken cancellationToken = null)
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function UpdateAsync(operations As ICertificatesOperations, resourceGroupName As String, name As String, certificateEnvelope As Certificate, cancellationToken As CancellationToken = Nothing) As Task(Of Certificate)
+    parameters:
+    - id: operations
+      type: Microsoft.Azure.Management.WebSites.ICertificatesOperations
+      description: "\nThe operations group for this extension method.\n"
+    - id: resourceGroupName
+      type: System.String
+      description: "\nName of the resource group\n"
+    - id: name
+      type: System.String
+      description: "\nName of the certificate.\n"
+    - id: certificateEnvelope
+      type: Microsoft.Azure.Management.WebSites.Models.Certificate
+      description: "\nDetails of certificate if it exists already.\n"
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: "\nThe cancellation token.\n"
+    return:
+      type: System.Threading.Tasks.Task{Microsoft.Azure.Management.WebSites.Models.Certificate}
+  overload: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.UpdateAsync*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.ListCsrs(Microsoft.Azure.Management.WebSites.ICertificatesOperations,System.String)
+  commentId: M:Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.ListCsrs(Microsoft.Azure.Management.WebSites.ICertificatesOperations,System.String)
+  id: ListCsrs(Microsoft.Azure.Management.WebSites.ICertificatesOperations,System.String)
+  isExtensionMethod: true
+  parent: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions
+  langs:
+  - csharp
+  - vb
+  name: ListCsrs(ICertificatesOperations, String)
+  nameWithType: CertificatesOperationsExtensions.ListCsrs(ICertificatesOperations, String)
+  fullName: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.ListCsrs(Microsoft.Azure.Management.WebSites.ICertificatesOperations, System.String)
+  type: Method
+  source:
+    remote:
+      path: src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/CertificatesOperationsExtensions.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: ListCsrs
+    path: src/azure-sdk-for-net/src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/CertificatesOperationsExtensions.cs
+    startLine: 290
+  assemblies:
+  - Microsoft.Azure.Management.Websites
+  namespace: Microsoft.Azure.Management.WebSites
+  summary: "\nGets the certificate signing requests for a subscription in the specified\nresource group\n"
+  example: []
+  syntax:
+    content: public static IList<Csr> ListCsrs(this ICertificatesOperations operations, string resourceGroupName)
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ListCsrs(operations As ICertificatesOperations, resourceGroupName As String) As IList(Of Csr)
+    parameters:
+    - id: operations
+      type: Microsoft.Azure.Management.WebSites.ICertificatesOperations
+      description: "\nThe operations group for this extension method.\n"
+    - id: resourceGroupName
+      type: System.String
+      description: "\nName of the resource group\n"
+    return:
+      type: System.Collections.Generic.IList{Microsoft.Azure.Management.WebSites.Models.Csr}
+  overload: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.ListCsrs*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.ListCsrsAsync(Microsoft.Azure.Management.WebSites.ICertificatesOperations,System.String,System.Threading.CancellationToken)
+  commentId: M:Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.ListCsrsAsync(Microsoft.Azure.Management.WebSites.ICertificatesOperations,System.String,System.Threading.CancellationToken)
+  id: ListCsrsAsync(Microsoft.Azure.Management.WebSites.ICertificatesOperations,System.String,System.Threading.CancellationToken)
+  isExtensionMethod: true
+  parent: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions
+  langs:
+  - csharp
+  - vb
+  name: ListCsrsAsync(ICertificatesOperations, String, CancellationToken)
+  nameWithType: CertificatesOperationsExtensions.ListCsrsAsync(ICertificatesOperations, String, CancellationToken)
+  fullName: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.ListCsrsAsync(Microsoft.Azure.Management.WebSites.ICertificatesOperations, System.String, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/CertificatesOperationsExtensions.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: ListCsrsAsync
+    path: src/azure-sdk-for-net/src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/CertificatesOperationsExtensions.cs
+    startLine: 310
+  assemblies:
+  - Microsoft.Azure.Management.Websites
+  namespace: Microsoft.Azure.Management.WebSites
+  summary: "\nGets the certificate signing requests for a subscription in the specified\nresource group\n"
+  example: []
+  syntax:
+    content: public static Task<IList<Csr>> ListCsrsAsync(this ICertificatesOperations operations, string resourceGroupName, CancellationToken cancellationToken = null)
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ListCsrsAsync(operations As ICertificatesOperations, resourceGroupName As String, cancellationToken As CancellationToken = Nothing) As Task(Of IList(Of Csr))
+    parameters:
+    - id: operations
+      type: Microsoft.Azure.Management.WebSites.ICertificatesOperations
+      description: "\nThe operations group for this extension method.\n"
+    - id: resourceGroupName
+      type: System.String
+      description: "\nName of the resource group\n"
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: "\nThe cancellation token.\n"
+    return:
+      type: System.Threading.Tasks.Task{System.Collections.Generic.IList{Microsoft.Azure.Management.WebSites.Models.Csr}}
+  overload: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.ListCsrsAsync*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.GetCsr(Microsoft.Azure.Management.WebSites.ICertificatesOperations,System.String,System.String)
+  commentId: M:Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.GetCsr(Microsoft.Azure.Management.WebSites.ICertificatesOperations,System.String,System.String)
+  id: GetCsr(Microsoft.Azure.Management.WebSites.ICertificatesOperations,System.String,System.String)
+  isExtensionMethod: true
+  parent: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetCsr(ICertificatesOperations, String, String)
+  nameWithType: CertificatesOperationsExtensions.GetCsr(ICertificatesOperations, String, String)
+  fullName: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.GetCsr(Microsoft.Azure.Management.WebSites.ICertificatesOperations, System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/CertificatesOperationsExtensions.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: GetCsr
+    path: src/azure-sdk-for-net/src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/CertificatesOperationsExtensions.cs
+    startLine: 333
+  assemblies:
+  - Microsoft.Azure.Management.Websites
+  namespace: Microsoft.Azure.Management.WebSites
+  summary: "\nGets a certificate signing request by certificate name for a subscription\nin the specified resource group\n"
+  example: []
+  syntax:
+    content: public static Csr GetCsr(this ICertificatesOperations operations, string resourceGroupName, string name)
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetCsr(operations As ICertificatesOperations, resourceGroupName As String, name As String) As Csr
+    parameters:
+    - id: operations
+      type: Microsoft.Azure.Management.WebSites.ICertificatesOperations
+      description: "\nThe operations group for this extension method.\n"
+    - id: resourceGroupName
+      type: System.String
+      description: "\nName of the resource group\n"
+    - id: name
+      type: System.String
+      description: "\nName of the certificate.\n"
+    return:
+      type: Microsoft.Azure.Management.WebSites.Models.Csr
+  overload: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.GetCsr*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.GetCsrAsync(Microsoft.Azure.Management.WebSites.ICertificatesOperations,System.String,System.String,System.Threading.CancellationToken)
+  commentId: M:Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.GetCsrAsync(Microsoft.Azure.Management.WebSites.ICertificatesOperations,System.String,System.String,System.Threading.CancellationToken)
+  id: GetCsrAsync(Microsoft.Azure.Management.WebSites.ICertificatesOperations,System.String,System.String,System.Threading.CancellationToken)
+  isExtensionMethod: true
+  parent: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetCsrAsync(ICertificatesOperations, String, String, CancellationToken)
+  nameWithType: CertificatesOperationsExtensions.GetCsrAsync(ICertificatesOperations, String, String, CancellationToken)
+  fullName: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.GetCsrAsync(Microsoft.Azure.Management.WebSites.ICertificatesOperations, System.String, System.String, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/CertificatesOperationsExtensions.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: GetCsrAsync
+    path: src/azure-sdk-for-net/src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/CertificatesOperationsExtensions.cs
+    startLine: 356
+  assemblies:
+  - Microsoft.Azure.Management.Websites
+  namespace: Microsoft.Azure.Management.WebSites
+  summary: "\nGets a certificate signing request by certificate name for a subscription\nin the specified resource group\n"
+  example: []
+  syntax:
+    content: public static Task<Csr> GetCsrAsync(this ICertificatesOperations operations, string resourceGroupName, string name, CancellationToken cancellationToken = null)
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetCsrAsync(operations As ICertificatesOperations, resourceGroupName As String, name As String, cancellationToken As CancellationToken = Nothing) As Task(Of Csr)
+    parameters:
+    - id: operations
+      type: Microsoft.Azure.Management.WebSites.ICertificatesOperations
+      description: "\nThe operations group for this extension method.\n"
+    - id: resourceGroupName
+      type: System.String
+      description: "\nName of the resource group\n"
+    - id: name
+      type: System.String
+      description: "\nName of the certificate.\n"
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: "\nThe cancellation token.\n"
+    return:
+      type: System.Threading.Tasks.Task{Microsoft.Azure.Management.WebSites.Models.Csr}
+  overload: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.GetCsrAsync*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.CreateOrUpdateCsr(Microsoft.Azure.Management.WebSites.ICertificatesOperations,System.String,System.String,Microsoft.Azure.Management.WebSites.Models.Csr)
+  commentId: M:Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.CreateOrUpdateCsr(Microsoft.Azure.Management.WebSites.ICertificatesOperations,System.String,System.String,Microsoft.Azure.Management.WebSites.Models.Csr)
+  id: CreateOrUpdateCsr(Microsoft.Azure.Management.WebSites.ICertificatesOperations,System.String,System.String,Microsoft.Azure.Management.WebSites.Models.Csr)
+  isExtensionMethod: true
+  parent: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions
+  langs:
+  - csharp
+  - vb
+  name: CreateOrUpdateCsr(ICertificatesOperations, String, String, Csr)
+  nameWithType: CertificatesOperationsExtensions.CreateOrUpdateCsr(ICertificatesOperations, String, String, Csr)
+  fullName: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.CreateOrUpdateCsr(Microsoft.Azure.Management.WebSites.ICertificatesOperations, System.String, System.String, Microsoft.Azure.Management.WebSites.Models.Csr)
+  type: Method
+  source:
+    remote:
+      path: src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/CertificatesOperationsExtensions.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: CreateOrUpdateCsr
+    path: src/azure-sdk-for-net/src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/CertificatesOperationsExtensions.cs
+    startLine: 380
+  assemblies:
+  - Microsoft.Azure.Management.Websites
+  namespace: Microsoft.Azure.Management.WebSites
+  summary: "\nCreates or modifies an existing certificate signing request.\n"
+  example: []
+  syntax:
+    content: public static Csr CreateOrUpdateCsr(this ICertificatesOperations operations, string resourceGroupName, string name, Csr csrEnvelope)
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function CreateOrUpdateCsr(operations As ICertificatesOperations, resourceGroupName As String, name As String, csrEnvelope As Csr) As Csr
+    parameters:
+    - id: operations
+      type: Microsoft.Azure.Management.WebSites.ICertificatesOperations
+      description: "\nThe operations group for this extension method.\n"
+    - id: resourceGroupName
+      type: System.String
+      description: "\nName of the resource group\n"
+    - id: name
+      type: System.String
+      description: "\nName of the certificate.\n"
+    - id: csrEnvelope
+      type: Microsoft.Azure.Management.WebSites.Models.Csr
+      description: "\nDetails of certificate signing request if it exists already.\n"
+    return:
+      type: Microsoft.Azure.Management.WebSites.Models.Csr
+  overload: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.CreateOrUpdateCsr*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.CreateOrUpdateCsrAsync(Microsoft.Azure.Management.WebSites.ICertificatesOperations,System.String,System.String,Microsoft.Azure.Management.WebSites.Models.Csr,System.Threading.CancellationToken)
+  commentId: M:Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.CreateOrUpdateCsrAsync(Microsoft.Azure.Management.WebSites.ICertificatesOperations,System.String,System.String,Microsoft.Azure.Management.WebSites.Models.Csr,System.Threading.CancellationToken)
+  id: CreateOrUpdateCsrAsync(Microsoft.Azure.Management.WebSites.ICertificatesOperations,System.String,System.String,Microsoft.Azure.Management.WebSites.Models.Csr,System.Threading.CancellationToken)
+  isExtensionMethod: true
+  parent: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions
+  langs:
+  - csharp
+  - vb
+  name: CreateOrUpdateCsrAsync(ICertificatesOperations, String, String, Csr, CancellationToken)
+  nameWithType: CertificatesOperationsExtensions.CreateOrUpdateCsrAsync(ICertificatesOperations, String, String, Csr, CancellationToken)
+  fullName: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.CreateOrUpdateCsrAsync(Microsoft.Azure.Management.WebSites.ICertificatesOperations, System.String, System.String, Microsoft.Azure.Management.WebSites.Models.Csr, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/CertificatesOperationsExtensions.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: CreateOrUpdateCsrAsync
+    path: src/azure-sdk-for-net/src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/CertificatesOperationsExtensions.cs
+    startLine: 404
+  assemblies:
+  - Microsoft.Azure.Management.Websites
+  namespace: Microsoft.Azure.Management.WebSites
+  summary: "\nCreates or modifies an existing certificate signing request.\n"
+  example: []
+  syntax:
+    content: public static Task<Csr> CreateOrUpdateCsrAsync(this ICertificatesOperations operations, string resourceGroupName, string name, Csr csrEnvelope, CancellationToken cancellationToken = null)
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function CreateOrUpdateCsrAsync(operations As ICertificatesOperations, resourceGroupName As String, name As String, csrEnvelope As Csr, cancellationToken As CancellationToken = Nothing) As Task(Of Csr)
+    parameters:
+    - id: operations
+      type: Microsoft.Azure.Management.WebSites.ICertificatesOperations
+      description: "\nThe operations group for this extension method.\n"
+    - id: resourceGroupName
+      type: System.String
+      description: "\nName of the resource group\n"
+    - id: name
+      type: System.String
+      description: "\nName of the certificate.\n"
+    - id: csrEnvelope
+      type: Microsoft.Azure.Management.WebSites.Models.Csr
+      description: "\nDetails of certificate signing request if it exists already.\n"
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: "\nThe cancellation token.\n"
+    return:
+      type: System.Threading.Tasks.Task{Microsoft.Azure.Management.WebSites.Models.Csr}
+  overload: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.CreateOrUpdateCsrAsync*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.DeleteCsr(Microsoft.Azure.Management.WebSites.ICertificatesOperations,System.String,System.String)
+  commentId: M:Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.DeleteCsr(Microsoft.Azure.Management.WebSites.ICertificatesOperations,System.String,System.String)
+  id: DeleteCsr(Microsoft.Azure.Management.WebSites.ICertificatesOperations,System.String,System.String)
+  isExtensionMethod: true
+  parent: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions
+  langs:
+  - csharp
+  - vb
+  name: DeleteCsr(ICertificatesOperations, String, String)
+  nameWithType: CertificatesOperationsExtensions.DeleteCsr(ICertificatesOperations, String, String)
+  fullName: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.DeleteCsr(Microsoft.Azure.Management.WebSites.ICertificatesOperations, System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/CertificatesOperationsExtensions.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: DeleteCsr
+    path: src/azure-sdk-for-net/src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/CertificatesOperationsExtensions.cs
+    startLine: 425
+  assemblies:
+  - Microsoft.Azure.Management.Websites
+  namespace: Microsoft.Azure.Management.WebSites
+  summary: "\nDelete the certificate signing request.\n"
+  example: []
+  syntax:
+    content: public static object DeleteCsr(this ICertificatesOperations operations, string resourceGroupName, string name)
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function DeleteCsr(operations As ICertificatesOperations, resourceGroupName As String, name As String) As Object
+    parameters:
+    - id: operations
+      type: Microsoft.Azure.Management.WebSites.ICertificatesOperations
+      description: "\nThe operations group for this extension method.\n"
+    - id: resourceGroupName
+      type: System.String
+      description: "\nName of the resource group\n"
+    - id: name
+      type: System.String
+      description: "\nName of the certificate signing request.\n"
+    return:
+      type: System.Object
+  overload: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.DeleteCsr*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.DeleteCsrAsync(Microsoft.Azure.Management.WebSites.ICertificatesOperations,System.String,System.String,System.Threading.CancellationToken)
+  commentId: M:Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.DeleteCsrAsync(Microsoft.Azure.Management.WebSites.ICertificatesOperations,System.String,System.String,System.Threading.CancellationToken)
+  id: DeleteCsrAsync(Microsoft.Azure.Management.WebSites.ICertificatesOperations,System.String,System.String,System.Threading.CancellationToken)
+  isExtensionMethod: true
+  parent: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions
+  langs:
+  - csharp
+  - vb
+  name: DeleteCsrAsync(ICertificatesOperations, String, String, CancellationToken)
+  nameWithType: CertificatesOperationsExtensions.DeleteCsrAsync(ICertificatesOperations, String, String, CancellationToken)
+  fullName: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.DeleteCsrAsync(Microsoft.Azure.Management.WebSites.ICertificatesOperations, System.String, System.String, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/CertificatesOperationsExtensions.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: DeleteCsrAsync
+    path: src/azure-sdk-for-net/src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/CertificatesOperationsExtensions.cs
+    startLine: 446
+  assemblies:
+  - Microsoft.Azure.Management.Websites
+  namespace: Microsoft.Azure.Management.WebSites
+  summary: "\nDelete the certificate signing request.\n"
+  example: []
+  syntax:
+    content: public static Task<object> DeleteCsrAsync(this ICertificatesOperations operations, string resourceGroupName, string name, CancellationToken cancellationToken = null)
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function DeleteCsrAsync(operations As ICertificatesOperations, resourceGroupName As String, name As String, cancellationToken As CancellationToken = Nothing) As Task(Of Object)
+    parameters:
+    - id: operations
+      type: Microsoft.Azure.Management.WebSites.ICertificatesOperations
+      description: "\nThe operations group for this extension method.\n"
+    - id: resourceGroupName
+      type: System.String
+      description: "\nName of the resource group\n"
+    - id: name
+      type: System.String
+      description: "\nName of the certificate signing request.\n"
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: "\nThe cancellation token.\n"
+    return:
+      type: System.Threading.Tasks.Task{System.Object}
+  overload: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.DeleteCsrAsync*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.UpdateCsr(Microsoft.Azure.Management.WebSites.ICertificatesOperations,System.String,System.String,Microsoft.Azure.Management.WebSites.Models.Csr)
+  commentId: M:Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.UpdateCsr(Microsoft.Azure.Management.WebSites.ICertificatesOperations,System.String,System.String,Microsoft.Azure.Management.WebSites.Models.Csr)
+  id: UpdateCsr(Microsoft.Azure.Management.WebSites.ICertificatesOperations,System.String,System.String,Microsoft.Azure.Management.WebSites.Models.Csr)
+  isExtensionMethod: true
+  parent: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions
+  langs:
+  - csharp
+  - vb
+  name: UpdateCsr(ICertificatesOperations, String, String, Csr)
+  nameWithType: CertificatesOperationsExtensions.UpdateCsr(ICertificatesOperations, String, String, Csr)
+  fullName: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.UpdateCsr(Microsoft.Azure.Management.WebSites.ICertificatesOperations, System.String, System.String, Microsoft.Azure.Management.WebSites.Models.Csr)
+  type: Method
+  source:
+    remote:
+      path: src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/CertificatesOperationsExtensions.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: UpdateCsr
+    path: src/azure-sdk-for-net/src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/CertificatesOperationsExtensions.cs
+    startLine: 470
+  assemblies:
+  - Microsoft.Azure.Management.Websites
+  namespace: Microsoft.Azure.Management.WebSites
+  summary: "\nCreates or modifies an existing certificate signing request.\n"
+  example: []
+  syntax:
+    content: public static Csr UpdateCsr(this ICertificatesOperations operations, string resourceGroupName, string name, Csr csrEnvelope)
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function UpdateCsr(operations As ICertificatesOperations, resourceGroupName As String, name As String, csrEnvelope As Csr) As Csr
+    parameters:
+    - id: operations
+      type: Microsoft.Azure.Management.WebSites.ICertificatesOperations
+      description: "\nThe operations group for this extension method.\n"
+    - id: resourceGroupName
+      type: System.String
+      description: "\nName of the resource group\n"
+    - id: name
+      type: System.String
+      description: "\nName of the certificate.\n"
+    - id: csrEnvelope
+      type: Microsoft.Azure.Management.WebSites.Models.Csr
+      description: "\nDetails of certificate signing request if it exists already.\n"
+    return:
+      type: Microsoft.Azure.Management.WebSites.Models.Csr
+  overload: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.UpdateCsr*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.UpdateCsrAsync(Microsoft.Azure.Management.WebSites.ICertificatesOperations,System.String,System.String,Microsoft.Azure.Management.WebSites.Models.Csr,System.Threading.CancellationToken)
+  commentId: M:Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.UpdateCsrAsync(Microsoft.Azure.Management.WebSites.ICertificatesOperations,System.String,System.String,Microsoft.Azure.Management.WebSites.Models.Csr,System.Threading.CancellationToken)
+  id: UpdateCsrAsync(Microsoft.Azure.Management.WebSites.ICertificatesOperations,System.String,System.String,Microsoft.Azure.Management.WebSites.Models.Csr,System.Threading.CancellationToken)
+  isExtensionMethod: true
+  parent: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions
+  langs:
+  - csharp
+  - vb
+  name: UpdateCsrAsync(ICertificatesOperations, String, String, Csr, CancellationToken)
+  nameWithType: CertificatesOperationsExtensions.UpdateCsrAsync(ICertificatesOperations, String, String, Csr, CancellationToken)
+  fullName: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.UpdateCsrAsync(Microsoft.Azure.Management.WebSites.ICertificatesOperations, System.String, System.String, Microsoft.Azure.Management.WebSites.Models.Csr, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/CertificatesOperationsExtensions.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: UpdateCsrAsync
+    path: src/azure-sdk-for-net/src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/CertificatesOperationsExtensions.cs
+    startLine: 494
+  assemblies:
+  - Microsoft.Azure.Management.Websites
+  namespace: Microsoft.Azure.Management.WebSites
+  summary: "\nCreates or modifies an existing certificate signing request.\n"
+  example: []
+  syntax:
+    content: public static Task<Csr> UpdateCsrAsync(this ICertificatesOperations operations, string resourceGroupName, string name, Csr csrEnvelope, CancellationToken cancellationToken = null)
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function UpdateCsrAsync(operations As ICertificatesOperations, resourceGroupName As String, name As String, csrEnvelope As Csr, cancellationToken As CancellationToken = Nothing) As Task(Of Csr)
+    parameters:
+    - id: operations
+      type: Microsoft.Azure.Management.WebSites.ICertificatesOperations
+      description: "\nThe operations group for this extension method.\n"
+    - id: resourceGroupName
+      type: System.String
+      description: "\nName of the resource group\n"
+    - id: name
+      type: System.String
+      description: "\nName of the certificate.\n"
+    - id: csrEnvelope
+      type: Microsoft.Azure.Management.WebSites.Models.Csr
+      description: "\nDetails of certificate signing request if it exists already.\n"
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: "\nThe cancellation token.\n"
+    return:
+      type: System.Threading.Tasks.Task{Microsoft.Azure.Management.WebSites.Models.Csr}
+  overload: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.UpdateCsrAsync*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.ListNext(Microsoft.Azure.Management.WebSites.ICertificatesOperations,System.String)
+  commentId: M:Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.ListNext(Microsoft.Azure.Management.WebSites.ICertificatesOperations,System.String)
+  id: ListNext(Microsoft.Azure.Management.WebSites.ICertificatesOperations,System.String)
+  isExtensionMethod: true
+  parent: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions
+  langs:
+  - csharp
+  - vb
+  name: ListNext(ICertificatesOperations, String)
+  nameWithType: CertificatesOperationsExtensions.ListNext(ICertificatesOperations, String)
+  fullName: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.ListNext(Microsoft.Azure.Management.WebSites.ICertificatesOperations, System.String)
+  type: Method
+  source:
+    remote:
+      path: src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/CertificatesOperationsExtensions.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: ListNext
+    path: src/azure-sdk-for-net/src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/CertificatesOperationsExtensions.cs
+    startLine: 512
+  assemblies:
+  - Microsoft.Azure.Management.Websites
+  namespace: Microsoft.Azure.Management.WebSites
+  summary: "\nGet all certificates for a subscription\n"
+  example: []
+  syntax:
+    content: public static IPage<Certificate> ListNext(this ICertificatesOperations operations, string nextPageLink)
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ListNext(operations As ICertificatesOperations, nextPageLink As String) As IPage(Of Certificate)
+    parameters:
+    - id: operations
+      type: Microsoft.Azure.Management.WebSites.ICertificatesOperations
+      description: "\nThe operations group for this extension method.\n"
+    - id: nextPageLink
+      type: System.String
+      description: "\nThe NextLink from the previous successful call to List operation.\n"
+    return:
+      type: Microsoft.Rest.Azure.IPage{Microsoft.Azure.Management.WebSites.Models.Certificate}
+  overload: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.ListNext*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.ListNextAsync(Microsoft.Azure.Management.WebSites.ICertificatesOperations,System.String,System.Threading.CancellationToken)
+  commentId: M:Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.ListNextAsync(Microsoft.Azure.Management.WebSites.ICertificatesOperations,System.String,System.Threading.CancellationToken)
+  id: ListNextAsync(Microsoft.Azure.Management.WebSites.ICertificatesOperations,System.String,System.Threading.CancellationToken)
+  isExtensionMethod: true
+  parent: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions
+  langs:
+  - csharp
+  - vb
+  name: ListNextAsync(ICertificatesOperations, String, CancellationToken)
+  nameWithType: CertificatesOperationsExtensions.ListNextAsync(ICertificatesOperations, String, CancellationToken)
+  fullName: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.ListNextAsync(Microsoft.Azure.Management.WebSites.ICertificatesOperations, System.String, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/CertificatesOperationsExtensions.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: ListNextAsync
+    path: src/azure-sdk-for-net/src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/CertificatesOperationsExtensions.cs
+    startLine: 530
+  assemblies:
+  - Microsoft.Azure.Management.Websites
+  namespace: Microsoft.Azure.Management.WebSites
+  summary: "\nGet all certificates for a subscription\n"
+  example: []
+  syntax:
+    content: public static Task<IPage<Certificate>> ListNextAsync(this ICertificatesOperations operations, string nextPageLink, CancellationToken cancellationToken = null)
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ListNextAsync(operations As ICertificatesOperations, nextPageLink As String, cancellationToken As CancellationToken = Nothing) As Task(Of IPage(Of Certificate))
+    parameters:
+    - id: operations
+      type: Microsoft.Azure.Management.WebSites.ICertificatesOperations
+      description: "\nThe operations group for this extension method.\n"
+    - id: nextPageLink
+      type: System.String
+      description: "\nThe NextLink from the previous successful call to List operation.\n"
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: "\nThe cancellation token.\n"
+    return:
+      type: System.Threading.Tasks.Task{Microsoft.Rest.Azure.IPage{Microsoft.Azure.Management.WebSites.Models.Certificate}}
+  overload: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.ListNextAsync*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.ListByResourceGroupNext(Microsoft.Azure.Management.WebSites.ICertificatesOperations,System.String)
+  commentId: M:Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.ListByResourceGroupNext(Microsoft.Azure.Management.WebSites.ICertificatesOperations,System.String)
+  id: ListByResourceGroupNext(Microsoft.Azure.Management.WebSites.ICertificatesOperations,System.String)
+  isExtensionMethod: true
+  parent: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions
+  langs:
+  - csharp
+  - vb
+  name: ListByResourceGroupNext(ICertificatesOperations, String)
+  nameWithType: CertificatesOperationsExtensions.ListByResourceGroupNext(ICertificatesOperations, String)
+  fullName: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.ListByResourceGroupNext(Microsoft.Azure.Management.WebSites.ICertificatesOperations, System.String)
+  type: Method
+  source:
+    remote:
+      path: src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/CertificatesOperationsExtensions.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: ListByResourceGroupNext
+    path: src/azure-sdk-for-net/src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/CertificatesOperationsExtensions.cs
+    startLine: 548
+  assemblies:
+  - Microsoft.Azure.Management.Websites
+  namespace: Microsoft.Azure.Management.WebSites
+  summary: "\nGet certificates for a subscription in the specified resource group.\n"
+  example: []
+  syntax:
+    content: public static IPage<Certificate> ListByResourceGroupNext(this ICertificatesOperations operations, string nextPageLink)
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ListByResourceGroupNext(operations As ICertificatesOperations, nextPageLink As String) As IPage(Of Certificate)
+    parameters:
+    - id: operations
+      type: Microsoft.Azure.Management.WebSites.ICertificatesOperations
+      description: "\nThe operations group for this extension method.\n"
+    - id: nextPageLink
+      type: System.String
+      description: "\nThe NextLink from the previous successful call to List operation.\n"
+    return:
+      type: Microsoft.Rest.Azure.IPage{Microsoft.Azure.Management.WebSites.Models.Certificate}
+  overload: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.ListByResourceGroupNext*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.ListByResourceGroupNextAsync(Microsoft.Azure.Management.WebSites.ICertificatesOperations,System.String,System.Threading.CancellationToken)
+  commentId: M:Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.ListByResourceGroupNextAsync(Microsoft.Azure.Management.WebSites.ICertificatesOperations,System.String,System.Threading.CancellationToken)
+  id: ListByResourceGroupNextAsync(Microsoft.Azure.Management.WebSites.ICertificatesOperations,System.String,System.Threading.CancellationToken)
+  isExtensionMethod: true
+  parent: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions
+  langs:
+  - csharp
+  - vb
+  name: ListByResourceGroupNextAsync(ICertificatesOperations, String, CancellationToken)
+  nameWithType: CertificatesOperationsExtensions.ListByResourceGroupNextAsync(ICertificatesOperations, String, CancellationToken)
+  fullName: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.ListByResourceGroupNextAsync(Microsoft.Azure.Management.WebSites.ICertificatesOperations, System.String, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/CertificatesOperationsExtensions.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: ListByResourceGroupNextAsync
+    path: src/azure-sdk-for-net/src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/CertificatesOperationsExtensions.cs
+    startLine: 566
+  assemblies:
+  - Microsoft.Azure.Management.Websites
+  namespace: Microsoft.Azure.Management.WebSites
+  summary: "\nGet certificates for a subscription in the specified resource group.\n"
+  example: []
+  syntax:
+    content: public static Task<IPage<Certificate>> ListByResourceGroupNextAsync(this ICertificatesOperations operations, string nextPageLink, CancellationToken cancellationToken = null)
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ListByResourceGroupNextAsync(operations As ICertificatesOperations, nextPageLink As String, cancellationToken As CancellationToken = Nothing) As Task(Of IPage(Of Certificate))
+    parameters:
+    - id: operations
+      type: Microsoft.Azure.Management.WebSites.ICertificatesOperations
+      description: "\nThe operations group for this extension method.\n"
+    - id: nextPageLink
+      type: System.String
+      description: "\nThe NextLink from the previous successful call to List operation.\n"
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: "\nThe cancellation token.\n"
+    return:
+      type: System.Threading.Tasks.Task{Microsoft.Rest.Azure.IPage{Microsoft.Azure.Management.WebSites.Models.Certificate}}
+  overload: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.ListByResourceGroupNextAsync*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Microsoft.Azure.Management.WebSites
+  commentId: N:Microsoft.Azure.Management.WebSites
+  isExternal: false
+  name: Microsoft.Azure.Management.WebSites
+  nameWithType: Microsoft.Azure.Management.WebSites
+  fullName: Microsoft.Azure.Management.WebSites
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.List*
+  commentId: Overload:Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.List
+  isExternal: false
+  name: List
+  nameWithType: CertificatesOperationsExtensions.List
+  fullName: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.List
+- uid: Microsoft.Azure.Management.WebSites.ICertificatesOperations
+  commentId: T:Microsoft.Azure.Management.WebSites.ICertificatesOperations
+  parent: Microsoft.Azure.Management.WebSites
+  isExternal: false
+  name: ICertificatesOperations
+  nameWithType: ICertificatesOperations
+  fullName: Microsoft.Azure.Management.WebSites.ICertificatesOperations
+- uid: Microsoft.Rest.Azure.IPage{Microsoft.Azure.Management.WebSites.Models.Certificate}
+  commentId: T:Microsoft.Rest.Azure.IPage{Microsoft.Azure.Management.WebSites.Models.Certificate}
+  parent: Microsoft.Rest.Azure
+  definition: Microsoft.Rest.Azure.IPage`1
+  name: IPage<Certificate>
+  nameWithType: IPage<Certificate>
+  fullName: Microsoft.Rest.Azure.IPage<Microsoft.Azure.Management.WebSites.Models.Certificate>
+  nameWithType.vb: IPage(Of Certificate)
+  fullname.vb: Microsoft.Rest.Azure.IPage(Of Microsoft.Azure.Management.WebSites.Models.Certificate)
+  name.vb: IPage(Of Certificate)
+  spec.csharp:
+  - uid: Microsoft.Rest.Azure.IPage`1
+    name: IPage
+    nameWithType: IPage
+    fullName: Microsoft.Rest.Azure.IPage
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Microsoft.Azure.Management.WebSites.Models.Certificate
+    name: Certificate
+    nameWithType: Certificate
+    fullName: Microsoft.Azure.Management.WebSites.Models.Certificate
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.Rest.Azure.IPage`1
+    name: IPage
+    nameWithType: IPage
+    fullName: Microsoft.Rest.Azure.IPage
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Microsoft.Azure.Management.WebSites.Models.Certificate
+    name: Certificate
+    nameWithType: Certificate
+    fullName: Microsoft.Azure.Management.WebSites.Models.Certificate
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Rest.Azure.IPage`1
+  commentId: T:Microsoft.Rest.Azure.IPage`1
+  isExternal: false
+  name: IPage<T>
+  nameWithType: IPage<T>
+  fullName: Microsoft.Rest.Azure.IPage<T>
+  nameWithType.vb: IPage(Of T)
+  fullname.vb: Microsoft.Rest.Azure.IPage(Of T)
+  name.vb: IPage(Of T)
+  spec.csharp:
+  - uid: Microsoft.Rest.Azure.IPage`1
+    name: IPage
+    nameWithType: IPage
+    fullName: Microsoft.Rest.Azure.IPage
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.Rest.Azure.IPage`1
+    name: IPage
+    nameWithType: IPage
+    fullName: Microsoft.Rest.Azure.IPage
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Rest.Azure
+  commentId: N:Microsoft.Rest.Azure
+  isExternal: false
+  name: Microsoft.Rest.Azure
+  nameWithType: Microsoft.Rest.Azure
+  fullName: Microsoft.Rest.Azure
+- uid: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.ListAsync*
+  commentId: Overload:Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.ListAsync
+  isExternal: false
+  name: ListAsync
+  nameWithType: CertificatesOperationsExtensions.ListAsync
+  fullName: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.ListAsync
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{Microsoft.Rest.Azure.IPage{Microsoft.Azure.Management.WebSites.Models.Certificate}}
+  commentId: T:System.Threading.Tasks.Task{Microsoft.Rest.Azure.IPage{Microsoft.Azure.Management.WebSites.Models.Certificate}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<IPage<Certificate>>
+  nameWithType: Task<IPage<Certificate>>
+  fullName: System.Threading.Tasks.Task<Microsoft.Rest.Azure.IPage<Microsoft.Azure.Management.WebSites.Models.Certificate>>
+  nameWithType.vb: Task(Of IPage(Of Certificate))
+  fullname.vb: System.Threading.Tasks.Task(Of Microsoft.Rest.Azure.IPage(Of Microsoft.Azure.Management.WebSites.Models.Certificate))
+  name.vb: Task(Of IPage(Of Certificate))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Microsoft.Rest.Azure.IPage`1
+    name: IPage
+    nameWithType: IPage
+    fullName: Microsoft.Rest.Azure.IPage
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Microsoft.Azure.Management.WebSites.Models.Certificate
+    name: Certificate
+    nameWithType: Certificate
+    fullName: Microsoft.Azure.Management.WebSites.Models.Certificate
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Microsoft.Rest.Azure.IPage`1
+    name: IPage
+    nameWithType: IPage
+    fullName: Microsoft.Rest.Azure.IPage
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Microsoft.Azure.Management.WebSites.Models.Certificate
+    name: Certificate
+    nameWithType: Certificate
+    fullName: Microsoft.Azure.Management.WebSites.Models.Certificate
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: false
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullname.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: false
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+- uid: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.ListByResourceGroup*
+  commentId: Overload:Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.ListByResourceGroup
+  isExternal: false
+  name: ListByResourceGroup
+  nameWithType: CertificatesOperationsExtensions.ListByResourceGroup
+  fullName: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.ListByResourceGroup
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.ListByResourceGroupAsync*
+  commentId: Overload:Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.ListByResourceGroupAsync
+  isExternal: false
+  name: ListByResourceGroupAsync
+  nameWithType: CertificatesOperationsExtensions.ListByResourceGroupAsync
+  fullName: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.ListByResourceGroupAsync
+- uid: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.Get*
+  commentId: Overload:Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.Get
+  isExternal: false
+  name: Get
+  nameWithType: CertificatesOperationsExtensions.Get
+  fullName: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.Get
+- uid: Microsoft.Azure.Management.WebSites.Models.Certificate
+  commentId: T:Microsoft.Azure.Management.WebSites.Models.Certificate
+  parent: Microsoft.Azure.Management.WebSites.Models
+  isExternal: false
+  name: Certificate
+  nameWithType: Certificate
+  fullName: Microsoft.Azure.Management.WebSites.Models.Certificate
+- uid: Microsoft.Azure.Management.WebSites.Models
+  commentId: N:Microsoft.Azure.Management.WebSites.Models
+  isExternal: false
+  name: Microsoft.Azure.Management.WebSites.Models
+  nameWithType: Microsoft.Azure.Management.WebSites.Models
+  fullName: Microsoft.Azure.Management.WebSites.Models
+- uid: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.GetAsync*
+  commentId: Overload:Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.GetAsync
+  isExternal: false
+  name: GetAsync
+  nameWithType: CertificatesOperationsExtensions.GetAsync
+  fullName: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.GetAsync
+- uid: System.Threading.Tasks.Task{Microsoft.Azure.Management.WebSites.Models.Certificate}
+  commentId: T:System.Threading.Tasks.Task{Microsoft.Azure.Management.WebSites.Models.Certificate}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Certificate>
+  nameWithType: Task<Certificate>
+  fullName: System.Threading.Tasks.Task<Microsoft.Azure.Management.WebSites.Models.Certificate>
+  nameWithType.vb: Task(Of Certificate)
+  fullname.vb: System.Threading.Tasks.Task(Of Microsoft.Azure.Management.WebSites.Models.Certificate)
+  name.vb: Task(Of Certificate)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Microsoft.Azure.Management.WebSites.Models.Certificate
+    name: Certificate
+    nameWithType: Certificate
+    fullName: Microsoft.Azure.Management.WebSites.Models.Certificate
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Microsoft.Azure.Management.WebSites.Models.Certificate
+    name: Certificate
+    nameWithType: Certificate
+    fullName: Microsoft.Azure.Management.WebSites.Models.Certificate
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.CreateOrUpdate*
+  commentId: Overload:Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.CreateOrUpdate
+  isExternal: false
+  name: CreateOrUpdate
+  nameWithType: CertificatesOperationsExtensions.CreateOrUpdate
+  fullName: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.CreateOrUpdate
+- uid: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.CreateOrUpdateAsync*
+  commentId: Overload:Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.CreateOrUpdateAsync
+  isExternal: false
+  name: CreateOrUpdateAsync
+  nameWithType: CertificatesOperationsExtensions.CreateOrUpdateAsync
+  fullName: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.CreateOrUpdateAsync
+- uid: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.Delete*
+  commentId: Overload:Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.Delete
+  isExternal: false
+  name: Delete
+  nameWithType: CertificatesOperationsExtensions.Delete
+  fullName: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.Delete
+- uid: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.DeleteAsync*
+  commentId: Overload:Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.DeleteAsync
+  isExternal: false
+  name: DeleteAsync
+  nameWithType: CertificatesOperationsExtensions.DeleteAsync
+  fullName: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.DeleteAsync
+- uid: System.Threading.Tasks.Task{System.Object}
+  commentId: T:System.Threading.Tasks.Task{System.Object}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Object>
+  nameWithType: Task<Object>
+  fullName: System.Threading.Tasks.Task<System.Object>
+  nameWithType.vb: Task(Of Object)
+  fullname.vb: System.Threading.Tasks.Task(Of System.Object)
+  name.vb: Task(Of Object)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.Update*
+  commentId: Overload:Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.Update
+  isExternal: false
+  name: Update
+  nameWithType: CertificatesOperationsExtensions.Update
+  fullName: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.Update
+- uid: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.UpdateAsync*
+  commentId: Overload:Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.UpdateAsync
+  isExternal: false
+  name: UpdateAsync
+  nameWithType: CertificatesOperationsExtensions.UpdateAsync
+  fullName: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.UpdateAsync
+- uid: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.ListCsrs*
+  commentId: Overload:Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.ListCsrs
+  isExternal: false
+  name: ListCsrs
+  nameWithType: CertificatesOperationsExtensions.ListCsrs
+  fullName: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.ListCsrs
+- uid: System.Collections.Generic.IList{Microsoft.Azure.Management.WebSites.Models.Csr}
+  commentId: T:System.Collections.Generic.IList{Microsoft.Azure.Management.WebSites.Models.Csr}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IList`1
+  name: IList<Csr>
+  nameWithType: IList<Csr>
+  fullName: System.Collections.Generic.IList<Microsoft.Azure.Management.WebSites.Models.Csr>
+  nameWithType.vb: IList(Of Csr)
+  fullname.vb: System.Collections.Generic.IList(Of Microsoft.Azure.Management.WebSites.Models.Csr)
+  name.vb: IList(Of Csr)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Microsoft.Azure.Management.WebSites.Models.Csr
+    name: Csr
+    nameWithType: Csr
+    fullName: Microsoft.Azure.Management.WebSites.Models.Csr
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Microsoft.Azure.Management.WebSites.Models.Csr
+    name: Csr
+    nameWithType: Csr
+    fullName: Microsoft.Azure.Management.WebSites.Models.Csr
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IList`1
+  commentId: T:System.Collections.Generic.IList`1
+  isExternal: true
+  name: IList<T>
+  nameWithType: IList<T>
+  fullName: System.Collections.Generic.IList<T>
+  nameWithType.vb: IList(Of T)
+  fullname.vb: System.Collections.Generic.IList(Of T)
+  name.vb: IList(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: false
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.ListCsrsAsync*
+  commentId: Overload:Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.ListCsrsAsync
+  isExternal: false
+  name: ListCsrsAsync
+  nameWithType: CertificatesOperationsExtensions.ListCsrsAsync
+  fullName: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.ListCsrsAsync
+- uid: System.Threading.Tasks.Task{System.Collections.Generic.IList{Microsoft.Azure.Management.WebSites.Models.Csr}}
+  commentId: T:System.Threading.Tasks.Task{System.Collections.Generic.IList{Microsoft.Azure.Management.WebSites.Models.Csr}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<IList<Csr>>
+  nameWithType: Task<IList<Csr>>
+  fullName: System.Threading.Tasks.Task<System.Collections.Generic.IList<Microsoft.Azure.Management.WebSites.Models.Csr>>
+  nameWithType.vb: Task(Of IList(Of Csr))
+  fullname.vb: System.Threading.Tasks.Task(Of System.Collections.Generic.IList(Of Microsoft.Azure.Management.WebSites.Models.Csr))
+  name.vb: Task(Of IList(Of Csr))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Microsoft.Azure.Management.WebSites.Models.Csr
+    name: Csr
+    nameWithType: Csr
+    fullName: Microsoft.Azure.Management.WebSites.Models.Csr
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Microsoft.Azure.Management.WebSites.Models.Csr
+    name: Csr
+    nameWithType: Csr
+    fullName: Microsoft.Azure.Management.WebSites.Models.Csr
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.GetCsr*
+  commentId: Overload:Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.GetCsr
+  isExternal: false
+  name: GetCsr
+  nameWithType: CertificatesOperationsExtensions.GetCsr
+  fullName: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.GetCsr
+- uid: Microsoft.Azure.Management.WebSites.Models.Csr
+  commentId: T:Microsoft.Azure.Management.WebSites.Models.Csr
+  parent: Microsoft.Azure.Management.WebSites.Models
+  isExternal: false
+  name: Csr
+  nameWithType: Csr
+  fullName: Microsoft.Azure.Management.WebSites.Models.Csr
+- uid: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.GetCsrAsync*
+  commentId: Overload:Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.GetCsrAsync
+  isExternal: false
+  name: GetCsrAsync
+  nameWithType: CertificatesOperationsExtensions.GetCsrAsync
+  fullName: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.GetCsrAsync
+- uid: System.Threading.Tasks.Task{Microsoft.Azure.Management.WebSites.Models.Csr}
+  commentId: T:System.Threading.Tasks.Task{Microsoft.Azure.Management.WebSites.Models.Csr}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Csr>
+  nameWithType: Task<Csr>
+  fullName: System.Threading.Tasks.Task<Microsoft.Azure.Management.WebSites.Models.Csr>
+  nameWithType.vb: Task(Of Csr)
+  fullname.vb: System.Threading.Tasks.Task(Of Microsoft.Azure.Management.WebSites.Models.Csr)
+  name.vb: Task(Of Csr)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Microsoft.Azure.Management.WebSites.Models.Csr
+    name: Csr
+    nameWithType: Csr
+    fullName: Microsoft.Azure.Management.WebSites.Models.Csr
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Microsoft.Azure.Management.WebSites.Models.Csr
+    name: Csr
+    nameWithType: Csr
+    fullName: Microsoft.Azure.Management.WebSites.Models.Csr
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.CreateOrUpdateCsr*
+  commentId: Overload:Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.CreateOrUpdateCsr
+  isExternal: false
+  name: CreateOrUpdateCsr
+  nameWithType: CertificatesOperationsExtensions.CreateOrUpdateCsr
+  fullName: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.CreateOrUpdateCsr
+- uid: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.CreateOrUpdateCsrAsync*
+  commentId: Overload:Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.CreateOrUpdateCsrAsync
+  isExternal: false
+  name: CreateOrUpdateCsrAsync
+  nameWithType: CertificatesOperationsExtensions.CreateOrUpdateCsrAsync
+  fullName: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.CreateOrUpdateCsrAsync
+- uid: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.DeleteCsr*
+  commentId: Overload:Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.DeleteCsr
+  isExternal: false
+  name: DeleteCsr
+  nameWithType: CertificatesOperationsExtensions.DeleteCsr
+  fullName: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.DeleteCsr
+- uid: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.DeleteCsrAsync*
+  commentId: Overload:Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.DeleteCsrAsync
+  isExternal: false
+  name: DeleteCsrAsync
+  nameWithType: CertificatesOperationsExtensions.DeleteCsrAsync
+  fullName: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.DeleteCsrAsync
+- uid: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.UpdateCsr*
+  commentId: Overload:Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.UpdateCsr
+  isExternal: false
+  name: UpdateCsr
+  nameWithType: CertificatesOperationsExtensions.UpdateCsr
+  fullName: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.UpdateCsr
+- uid: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.UpdateCsrAsync*
+  commentId: Overload:Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.UpdateCsrAsync
+  isExternal: false
+  name: UpdateCsrAsync
+  nameWithType: CertificatesOperationsExtensions.UpdateCsrAsync
+  fullName: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.UpdateCsrAsync
+- uid: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.ListNext*
+  commentId: Overload:Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.ListNext
+  isExternal: false
+  name: ListNext
+  nameWithType: CertificatesOperationsExtensions.ListNext
+  fullName: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.ListNext
+- uid: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.ListNextAsync*
+  commentId: Overload:Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.ListNextAsync
+  isExternal: false
+  name: ListNextAsync
+  nameWithType: CertificatesOperationsExtensions.ListNextAsync
+  fullName: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.ListNextAsync
+- uid: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.ListByResourceGroupNext*
+  commentId: Overload:Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.ListByResourceGroupNext
+  isExternal: false
+  name: ListByResourceGroupNext
+  nameWithType: CertificatesOperationsExtensions.ListByResourceGroupNext
+  fullName: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.ListByResourceGroupNext
+- uid: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.ListByResourceGroupNextAsync*
+  commentId: Overload:Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.ListByResourceGroupNextAsync
+  isExternal: false
+  name: ListByResourceGroupNextAsync
+  nameWithType: CertificatesOperationsExtensions.ListByResourceGroupNextAsync
+  fullName: Microsoft.Azure.Management.WebSites.CertificatesOperationsExtensions.ListByResourceGroupNextAsync

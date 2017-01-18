@@ -1,0 +1,724 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.Azure.Management.Network.Models.VpnClientRevokedCertificate
+  commentId: T:Microsoft.Azure.Management.Network.Models.VpnClientRevokedCertificate
+  id: VpnClientRevokedCertificate
+  parent: Microsoft.Azure.Management.Network.Models
+  children:
+  - Microsoft.Azure.Management.Network.Models.VpnClientRevokedCertificate.#ctor
+  - Microsoft.Azure.Management.Network.Models.VpnClientRevokedCertificate.#ctor(System.String,System.String,System.String,System.String,System.String)
+  - Microsoft.Azure.Management.Network.Models.VpnClientRevokedCertificate.Etag
+  - Microsoft.Azure.Management.Network.Models.VpnClientRevokedCertificate.Name
+  - Microsoft.Azure.Management.Network.Models.VpnClientRevokedCertificate.ProvisioningState
+  - Microsoft.Azure.Management.Network.Models.VpnClientRevokedCertificate.Thumbprint
+  langs:
+  - csharp
+  - vb
+  name: VpnClientRevokedCertificate
+  nameWithType: VpnClientRevokedCertificate
+  fullName: Microsoft.Azure.Management.Network.Models.VpnClientRevokedCertificate
+  type: Class
+  source:
+    remote:
+      path: src/ResourceManagement/Network/Microsoft.Azure.Management.Network/Generated/Models/VpnClientRevokedCertificate.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: VpnClientRevokedCertificate
+    path: src/azure-sdk-for-net/src/ResourceManagement/Network/Microsoft.Azure.Management.Network/Generated/Models/VpnClientRevokedCertificate.cs
+    startLine: 21
+  assemblies:
+  - Microsoft.Azure.Management.Network
+  namespace: Microsoft.Azure.Management.Network.Models
+  summary: "\nVPN client revoked certificate of virtual network gateway.\n"
+  example: []
+  syntax:
+    content: 'public class VpnClientRevokedCertificate : SubResource, IResource'
+    content.vb: >-
+      Public Class VpnClientRevokedCertificate
+          Inherits SubResource
+          Implements IResource
+  inheritance:
+  - System.Object
+  - Microsoft.Azure.Management.Network.Models.SubResource
+  implements:
+  - Microsoft.Rest.Azure.IResource
+  inheritedMembers:
+  - Microsoft.Azure.Management.Network.Models.SubResource.Id
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Microsoft.Azure.Management.Network.Models.VpnClientRevokedCertificate.#ctor
+  commentId: M:Microsoft.Azure.Management.Network.Models.VpnClientRevokedCertificate.#ctor
+  id: '#ctor'
+  parent: Microsoft.Azure.Management.Network.Models.VpnClientRevokedCertificate
+  langs:
+  - csharp
+  - vb
+  name: VpnClientRevokedCertificate()
+  nameWithType: VpnClientRevokedCertificate.VpnClientRevokedCertificate()
+  fullName: Microsoft.Azure.Management.Network.Models.VpnClientRevokedCertificate.VpnClientRevokedCertificate()
+  type: Constructor
+  source:
+    remote:
+      path: src/ResourceManagement/Network/Microsoft.Azure.Management.Network/Generated/Models/VpnClientRevokedCertificate.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: .ctor
+    path: src/azure-sdk-for-net/src/ResourceManagement/Network/Microsoft.Azure.Management.Network/Generated/Models/VpnClientRevokedCertificate.cs
+    startLine: 28
+  assemblies:
+  - Microsoft.Azure.Management.Network
+  namespace: Microsoft.Azure.Management.Network.Models
+  summary: "\nInitializes a new instance of the VpnClientRevokedCertificate\nclass.\n"
+  example: []
+  syntax:
+    content: public VpnClientRevokedCertificate()
+    content.vb: Public Sub New
+  overload: Microsoft.Azure.Management.Network.Models.VpnClientRevokedCertificate.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Azure.Management.Network.Models.VpnClientRevokedCertificate.#ctor(System.String,System.String,System.String,System.String,System.String)
+  commentId: M:Microsoft.Azure.Management.Network.Models.VpnClientRevokedCertificate.#ctor(System.String,System.String,System.String,System.String,System.String)
+  id: '#ctor(System.String,System.String,System.String,System.String,System.String)'
+  parent: Microsoft.Azure.Management.Network.Models.VpnClientRevokedCertificate
+  langs:
+  - csharp
+  - vb
+  name: VpnClientRevokedCertificate(String, String, String, String, String)
+  nameWithType: VpnClientRevokedCertificate.VpnClientRevokedCertificate(String, String, String, String, String)
+  fullName: Microsoft.Azure.Management.Network.Models.VpnClientRevokedCertificate.VpnClientRevokedCertificate(System.String, System.String, System.String, System.String, System.String)
+  type: Constructor
+  source:
+    remote:
+      path: src/ResourceManagement/Network/Microsoft.Azure.Management.Network/Generated/Models/VpnClientRevokedCertificate.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: .ctor
+    path: src/azure-sdk-for-net/src/ResourceManagement/Network/Microsoft.Azure.Management.Network/Generated/Models/VpnClientRevokedCertificate.cs
+    startLine: 45
+  assemblies:
+  - Microsoft.Azure.Management.Network
+  namespace: Microsoft.Azure.Management.Network.Models
+  summary: "\nInitializes a new instance of the VpnClientRevokedCertificate\nclass.\n"
+  example: []
+  syntax:
+    content: public VpnClientRevokedCertificate(string id = null, string thumbprint = null, string provisioningState = null, string name = null, string etag = null)
+    content.vb: Public Sub New(id As String = Nothing, thumbprint As String = Nothing, provisioningState As String = Nothing, name As String = Nothing, etag As String = Nothing)
+    parameters:
+    - id: id
+      type: System.String
+      description: Resource ID.
+    - id: thumbprint
+      type: System.String
+      description: >-
+        The revoked VPN client certificate
+
+        thumbprint.
+    - id: provisioningState
+      type: System.String
+      description: >-
+        The provisioning state of the VPN
+
+        client revoked certificate resource. Possible values are:
+
+        'Updating', 'Deleting', and 'Failed'.
+    - id: name
+      type: System.String
+      description: >-
+        The name of the resource that is unique within a
+
+        resource group. This name can be used to access the
+
+        resource.
+    - id: etag
+      type: System.String
+      description: >-
+        A unique read-only string that changes whenever
+
+        the resource is updated.
+  overload: Microsoft.Azure.Management.Network.Models.VpnClientRevokedCertificate.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Azure.Management.Network.Models.VpnClientRevokedCertificate.Thumbprint
+  commentId: P:Microsoft.Azure.Management.Network.Models.VpnClientRevokedCertificate.Thumbprint
+  id: Thumbprint
+  parent: Microsoft.Azure.Management.Network.Models.VpnClientRevokedCertificate
+  langs:
+  - csharp
+  - vb
+  name: Thumbprint
+  nameWithType: VpnClientRevokedCertificate.Thumbprint
+  fullName: Microsoft.Azure.Management.Network.Models.VpnClientRevokedCertificate.Thumbprint
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/Network/Microsoft.Azure.Management.Network/Generated/Models/VpnClientRevokedCertificate.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: Thumbprint
+    path: src/azure-sdk-for-net/src/ResourceManagement/Network/Microsoft.Azure.Management.Network/Generated/Models/VpnClientRevokedCertificate.cs
+    startLine: 57
+  assemblies:
+  - Microsoft.Azure.Management.Network
+  namespace: Microsoft.Azure.Management.Network.Models
+  summary: "\nGets or sets the revoked VPN client certificate thumbprint.\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty(PropertyName = "properties.thumbprint")]
+
+      public string Thumbprint { get; set; }
+    content.vb: >-
+      <JsonProperty(PropertyName:="properties.thumbprint")>
+
+      Public Property Thumbprint As String
+    parameters: []
+    return:
+      type: System.String
+  overload: Microsoft.Azure.Management.Network.Models.VpnClientRevokedCertificate.Thumbprint*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: PropertyName
+      type: System.String
+      value: properties.thumbprint
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Azure.Management.Network.Models.VpnClientRevokedCertificate.ProvisioningState
+  commentId: P:Microsoft.Azure.Management.Network.Models.VpnClientRevokedCertificate.ProvisioningState
+  id: ProvisioningState
+  parent: Microsoft.Azure.Management.Network.Models.VpnClientRevokedCertificate
+  langs:
+  - csharp
+  - vb
+  name: ProvisioningState
+  nameWithType: VpnClientRevokedCertificate.ProvisioningState
+  fullName: Microsoft.Azure.Management.Network.Models.VpnClientRevokedCertificate.ProvisioningState
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/Network/Microsoft.Azure.Management.Network/Generated/Models/VpnClientRevokedCertificate.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: ProvisioningState
+    path: src/azure-sdk-for-net/src/ResourceManagement/Network/Microsoft.Azure.Management.Network/Generated/Models/VpnClientRevokedCertificate.cs
+    startLine: 65
+  assemblies:
+  - Microsoft.Azure.Management.Network
+  namespace: Microsoft.Azure.Management.Network.Models
+  summary: "\nGets the provisioning state of the VPN client revoked certificate\nresource. Possible values are: 'Updating', 'Deleting', and\n'Failed'.\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty(PropertyName = "properties.provisioningState")]
+
+      public string ProvisioningState { get; protected set; }
+    content.vb: >-
+      <JsonProperty(PropertyName:="properties.provisioningState")>
+
+      Public Property ProvisioningState As String
+    parameters: []
+    return:
+      type: System.String
+  overload: Microsoft.Azure.Management.Network.Models.VpnClientRevokedCertificate.ProvisioningState*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: PropertyName
+      type: System.String
+      value: properties.provisioningState
+  modifiers.csharp:
+  - public
+  - get
+  - protected set
+  modifiers.vb:
+  - Public
+  - Get
+  - Protected Set
+- uid: Microsoft.Azure.Management.Network.Models.VpnClientRevokedCertificate.Name
+  commentId: P:Microsoft.Azure.Management.Network.Models.VpnClientRevokedCertificate.Name
+  id: Name
+  parent: Microsoft.Azure.Management.Network.Models.VpnClientRevokedCertificate
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: VpnClientRevokedCertificate.Name
+  fullName: Microsoft.Azure.Management.Network.Models.VpnClientRevokedCertificate.Name
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/Network/Microsoft.Azure.Management.Network/Generated/Models/VpnClientRevokedCertificate.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: Name
+    path: src/azure-sdk-for-net/src/ResourceManagement/Network/Microsoft.Azure.Management.Network/Generated/Models/VpnClientRevokedCertificate.cs
+    startLine: 72
+  assemblies:
+  - Microsoft.Azure.Management.Network
+  namespace: Microsoft.Azure.Management.Network.Models
+  summary: "\nGets or sets the name of the resource that is unique within a\nresource group. This name can be used to access the resource.\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty(PropertyName = "name")]
+
+      public string Name { get; set; }
+    content.vb: >-
+      <JsonProperty(PropertyName:="name")>
+
+      Public Property Name As String
+    parameters: []
+    return:
+      type: System.String
+  overload: Microsoft.Azure.Management.Network.Models.VpnClientRevokedCertificate.Name*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: PropertyName
+      type: System.String
+      value: name
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Azure.Management.Network.Models.VpnClientRevokedCertificate.Etag
+  commentId: P:Microsoft.Azure.Management.Network.Models.VpnClientRevokedCertificate.Etag
+  id: Etag
+  parent: Microsoft.Azure.Management.Network.Models.VpnClientRevokedCertificate
+  langs:
+  - csharp
+  - vb
+  name: Etag
+  nameWithType: VpnClientRevokedCertificate.Etag
+  fullName: Microsoft.Azure.Management.Network.Models.VpnClientRevokedCertificate.Etag
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/Network/Microsoft.Azure.Management.Network/Generated/Models/VpnClientRevokedCertificate.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: Etag
+    path: src/azure-sdk-for-net/src/ResourceManagement/Network/Microsoft.Azure.Management.Network/Generated/Models/VpnClientRevokedCertificate.cs
+    startLine: 79
+  assemblies:
+  - Microsoft.Azure.Management.Network
+  namespace: Microsoft.Azure.Management.Network.Models
+  summary: "\nGets or sets a unique read-only string that changes whenever the\nresource is updated.\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty(PropertyName = "etag")]
+
+      public string Etag { get; set; }
+    content.vb: >-
+      <JsonProperty(PropertyName:="etag")>
+
+      Public Property Etag As String
+    parameters: []
+    return:
+      type: System.String
+  overload: Microsoft.Azure.Management.Network.Models.VpnClientRevokedCertificate.Etag*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: PropertyName
+      type: System.String
+      value: etag
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Microsoft.Azure.Management.Network.Models
+  commentId: N:Microsoft.Azure.Management.Network.Models
+  isExternal: false
+  name: Microsoft.Azure.Management.Network.Models
+  nameWithType: Microsoft.Azure.Management.Network.Models
+  fullName: Microsoft.Azure.Management.Network.Models
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Microsoft.Azure.Management.Network.Models.SubResource
+  commentId: T:Microsoft.Azure.Management.Network.Models.SubResource
+  parent: Microsoft.Azure.Management.Network.Models
+  isExternal: false
+  name: SubResource
+  nameWithType: SubResource
+  fullName: Microsoft.Azure.Management.Network.Models.SubResource
+- uid: Microsoft.Rest.Azure.IResource
+  commentId: T:Microsoft.Rest.Azure.IResource
+  parent: Microsoft.Rest.Azure
+  isExternal: false
+  name: IResource
+  nameWithType: IResource
+  fullName: Microsoft.Rest.Azure.IResource
+- uid: Microsoft.Azure.Management.Network.Models.SubResource.Id
+  commentId: P:Microsoft.Azure.Management.Network.Models.SubResource.Id
+  parent: Microsoft.Azure.Management.Network.Models.SubResource
+  isExternal: false
+  name: Id
+  nameWithType: SubResource.Id
+  fullName: Microsoft.Azure.Management.Network.Models.SubResource.Id
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Microsoft.Rest.Azure
+  commentId: N:Microsoft.Rest.Azure
+  isExternal: false
+  name: Microsoft.Rest.Azure
+  nameWithType: Microsoft.Rest.Azure
+  fullName: Microsoft.Rest.Azure
+- uid: Microsoft.Azure.Management.Network.Models.VpnClientRevokedCertificate.#ctor*
+  commentId: Overload:Microsoft.Azure.Management.Network.Models.VpnClientRevokedCertificate.#ctor
+  isExternal: false
+  name: VpnClientRevokedCertificate
+  nameWithType: VpnClientRevokedCertificate.VpnClientRevokedCertificate
+  fullName: Microsoft.Azure.Management.Network.Models.VpnClientRevokedCertificate.VpnClientRevokedCertificate
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Microsoft.Azure.Management.Network.Models.VpnClientRevokedCertificate.Thumbprint*
+  commentId: Overload:Microsoft.Azure.Management.Network.Models.VpnClientRevokedCertificate.Thumbprint
+  isExternal: false
+  name: Thumbprint
+  nameWithType: VpnClientRevokedCertificate.Thumbprint
+  fullName: Microsoft.Azure.Management.Network.Models.VpnClientRevokedCertificate.Thumbprint
+- uid: Microsoft.Azure.Management.Network.Models.VpnClientRevokedCertificate.ProvisioningState*
+  commentId: Overload:Microsoft.Azure.Management.Network.Models.VpnClientRevokedCertificate.ProvisioningState
+  isExternal: false
+  name: ProvisioningState
+  nameWithType: VpnClientRevokedCertificate.ProvisioningState
+  fullName: Microsoft.Azure.Management.Network.Models.VpnClientRevokedCertificate.ProvisioningState
+- uid: Microsoft.Azure.Management.Network.Models.VpnClientRevokedCertificate.Name*
+  commentId: Overload:Microsoft.Azure.Management.Network.Models.VpnClientRevokedCertificate.Name
+  isExternal: false
+  name: Name
+  nameWithType: VpnClientRevokedCertificate.Name
+  fullName: Microsoft.Azure.Management.Network.Models.VpnClientRevokedCertificate.Name
+- uid: Microsoft.Azure.Management.Network.Models.VpnClientRevokedCertificate.Etag*
+  commentId: Overload:Microsoft.Azure.Management.Network.Models.VpnClientRevokedCertificate.Etag
+  isExternal: false
+  name: Etag
+  nameWithType: VpnClientRevokedCertificate.Etag
+  fullName: Microsoft.Azure.Management.Network.Models.VpnClientRevokedCertificate.Etag

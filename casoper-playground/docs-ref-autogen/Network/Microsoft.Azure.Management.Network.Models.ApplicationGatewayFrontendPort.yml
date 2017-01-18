@@ -1,0 +1,805 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.Azure.Management.Network.Models.ApplicationGatewayFrontendPort
+  commentId: T:Microsoft.Azure.Management.Network.Models.ApplicationGatewayFrontendPort
+  id: ApplicationGatewayFrontendPort
+  parent: Microsoft.Azure.Management.Network.Models
+  children:
+  - Microsoft.Azure.Management.Network.Models.ApplicationGatewayFrontendPort.#ctor
+  - Microsoft.Azure.Management.Network.Models.ApplicationGatewayFrontendPort.#ctor(System.String,System.Nullable{System.Int32},System.String,System.String,System.String)
+  - Microsoft.Azure.Management.Network.Models.ApplicationGatewayFrontendPort.Etag
+  - Microsoft.Azure.Management.Network.Models.ApplicationGatewayFrontendPort.Name
+  - Microsoft.Azure.Management.Network.Models.ApplicationGatewayFrontendPort.Port
+  - Microsoft.Azure.Management.Network.Models.ApplicationGatewayFrontendPort.ProvisioningState
+  langs:
+  - csharp
+  - vb
+  name: ApplicationGatewayFrontendPort
+  nameWithType: ApplicationGatewayFrontendPort
+  fullName: Microsoft.Azure.Management.Network.Models.ApplicationGatewayFrontendPort
+  type: Class
+  source:
+    remote:
+      path: src/ResourceManagement/Network/Microsoft.Azure.Management.Network/Generated/Models/ApplicationGatewayFrontendPort.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: ApplicationGatewayFrontendPort
+    path: src/azure-sdk-for-net/src/ResourceManagement/Network/Microsoft.Azure.Management.Network/Generated/Models/ApplicationGatewayFrontendPort.cs
+    startLine: 21
+  assemblies:
+  - Microsoft.Azure.Management.Network
+  namespace: Microsoft.Azure.Management.Network.Models
+  summary: "\nFrontend port of an application gateway.\n"
+  example: []
+  syntax:
+    content: 'public class ApplicationGatewayFrontendPort : SubResource, IResource'
+    content.vb: >-
+      Public Class ApplicationGatewayFrontendPort
+          Inherits SubResource
+          Implements IResource
+  inheritance:
+  - System.Object
+  - Microsoft.Azure.Management.Network.Models.SubResource
+  implements:
+  - Microsoft.Rest.Azure.IResource
+  inheritedMembers:
+  - Microsoft.Azure.Management.Network.Models.SubResource.Id
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Microsoft.Azure.Management.Network.Models.ApplicationGatewayFrontendPort.#ctor
+  commentId: M:Microsoft.Azure.Management.Network.Models.ApplicationGatewayFrontendPort.#ctor
+  id: '#ctor'
+  parent: Microsoft.Azure.Management.Network.Models.ApplicationGatewayFrontendPort
+  langs:
+  - csharp
+  - vb
+  name: ApplicationGatewayFrontendPort()
+  nameWithType: ApplicationGatewayFrontendPort.ApplicationGatewayFrontendPort()
+  fullName: Microsoft.Azure.Management.Network.Models.ApplicationGatewayFrontendPort.ApplicationGatewayFrontendPort()
+  type: Constructor
+  source:
+    remote:
+      path: src/ResourceManagement/Network/Microsoft.Azure.Management.Network/Generated/Models/ApplicationGatewayFrontendPort.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: .ctor
+    path: src/azure-sdk-for-net/src/ResourceManagement/Network/Microsoft.Azure.Management.Network/Generated/Models/ApplicationGatewayFrontendPort.cs
+    startLine: 28
+  assemblies:
+  - Microsoft.Azure.Management.Network
+  namespace: Microsoft.Azure.Management.Network.Models
+  summary: "\nInitializes a new instance of the ApplicationGatewayFrontendPort\nclass.\n"
+  example: []
+  syntax:
+    content: public ApplicationGatewayFrontendPort()
+    content.vb: Public Sub New
+  overload: Microsoft.Azure.Management.Network.Models.ApplicationGatewayFrontendPort.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Azure.Management.Network.Models.ApplicationGatewayFrontendPort.#ctor(System.String,System.Nullable{System.Int32},System.String,System.String,System.String)
+  commentId: M:Microsoft.Azure.Management.Network.Models.ApplicationGatewayFrontendPort.#ctor(System.String,System.Nullable{System.Int32},System.String,System.String,System.String)
+  id: '#ctor(System.String,System.Nullable{System.Int32},System.String,System.String,System.String)'
+  parent: Microsoft.Azure.Management.Network.Models.ApplicationGatewayFrontendPort
+  langs:
+  - csharp
+  - vb
+  name: ApplicationGatewayFrontendPort(String, Nullable<Int32>, String, String, String)
+  nameWithType: ApplicationGatewayFrontendPort.ApplicationGatewayFrontendPort(String, Nullable<Int32>, String, String, String)
+  fullName: Microsoft.Azure.Management.Network.Models.ApplicationGatewayFrontendPort.ApplicationGatewayFrontendPort(System.String, System.Nullable<System.Int32>, System.String, System.String, System.String)
+  type: Constructor
+  source:
+    remote:
+      path: src/ResourceManagement/Network/Microsoft.Azure.Management.Network/Generated/Models/ApplicationGatewayFrontendPort.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: .ctor
+    path: src/azure-sdk-for-net/src/ResourceManagement/Network/Microsoft.Azure.Management.Network/Generated/Models/ApplicationGatewayFrontendPort.cs
+    startLine: 44
+  assemblies:
+  - Microsoft.Azure.Management.Network
+  namespace: Microsoft.Azure.Management.Network.Models
+  summary: "\nInitializes a new instance of the ApplicationGatewayFrontendPort\nclass.\n"
+  example: []
+  syntax:
+    content: public ApplicationGatewayFrontendPort(string id = null, int ? port = null, string provisioningState = null, string name = null, string etag = null)
+    content.vb: Public Sub New(id As String = Nothing, port As Integer? = Nothing, provisioningState As String = Nothing, name As String = Nothing, etag As String = Nothing)
+    parameters:
+    - id: id
+      type: System.String
+      description: Resource ID.
+    - id: port
+      type: System.Nullable{System.Int32}
+      description: Frontend port
+    - id: provisioningState
+      type: System.String
+      description: >-
+        Provisioning state of the frontend
+
+        port resource. Possible values are: 'Updating', 'Deleting', and
+
+        'Failed'.
+    - id: name
+      type: System.String
+      description: >-
+        Name of the resource that is unique within a
+
+        resource group. This name can be used to access the
+
+        resource.
+    - id: etag
+      type: System.String
+      description: >-
+        A unique read-only string that changes whenever
+
+        the resource is updated.
+  overload: Microsoft.Azure.Management.Network.Models.ApplicationGatewayFrontendPort.#ctor*
+  nameWithType.vb: ApplicationGatewayFrontendPort.ApplicationGatewayFrontendPort(String, Nullable(Of Int32), String, String, String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Microsoft.Azure.Management.Network.Models.ApplicationGatewayFrontendPort.ApplicationGatewayFrontendPort(System.String, System.Nullable(Of System.Int32), System.String, System.String, System.String)
+  name.vb: ApplicationGatewayFrontendPort(String, Nullable(Of Int32), String, String, String)
+- uid: Microsoft.Azure.Management.Network.Models.ApplicationGatewayFrontendPort.Port
+  commentId: P:Microsoft.Azure.Management.Network.Models.ApplicationGatewayFrontendPort.Port
+  id: Port
+  parent: Microsoft.Azure.Management.Network.Models.ApplicationGatewayFrontendPort
+  langs:
+  - csharp
+  - vb
+  name: Port
+  nameWithType: ApplicationGatewayFrontendPort.Port
+  fullName: Microsoft.Azure.Management.Network.Models.ApplicationGatewayFrontendPort.Port
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/Network/Microsoft.Azure.Management.Network/Generated/Models/ApplicationGatewayFrontendPort.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: Port
+    path: src/azure-sdk-for-net/src/ResourceManagement/Network/Microsoft.Azure.Management.Network/Generated/Models/ApplicationGatewayFrontendPort.cs
+    startLine: 56
+  assemblies:
+  - Microsoft.Azure.Management.Network
+  namespace: Microsoft.Azure.Management.Network.Models
+  summary: "\nGets or sets frontend port\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty(PropertyName = "properties.port")]
+
+      public int ? Port { get; set; }
+    content.vb: >-
+      <JsonProperty(PropertyName:="properties.port")>
+
+      Public Property Port As Integer?
+    parameters: []
+    return:
+      type: System.Nullable{System.Int32}
+  overload: Microsoft.Azure.Management.Network.Models.ApplicationGatewayFrontendPort.Port*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: PropertyName
+      type: System.String
+      value: properties.port
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Azure.Management.Network.Models.ApplicationGatewayFrontendPort.ProvisioningState
+  commentId: P:Microsoft.Azure.Management.Network.Models.ApplicationGatewayFrontendPort.ProvisioningState
+  id: ProvisioningState
+  parent: Microsoft.Azure.Management.Network.Models.ApplicationGatewayFrontendPort
+  langs:
+  - csharp
+  - vb
+  name: ProvisioningState
+  nameWithType: ApplicationGatewayFrontendPort.ProvisioningState
+  fullName: Microsoft.Azure.Management.Network.Models.ApplicationGatewayFrontendPort.ProvisioningState
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/Network/Microsoft.Azure.Management.Network/Generated/Models/ApplicationGatewayFrontendPort.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: ProvisioningState
+    path: src/azure-sdk-for-net/src/ResourceManagement/Network/Microsoft.Azure.Management.Network/Generated/Models/ApplicationGatewayFrontendPort.cs
+    startLine: 63
+  assemblies:
+  - Microsoft.Azure.Management.Network
+  namespace: Microsoft.Azure.Management.Network.Models
+  summary: "\nGets or sets provisioning state of the frontend port resource.\nPossible values are: 'Updating', 'Deleting', and 'Failed'.\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty(PropertyName = "properties.provisioningState")]
+
+      public string ProvisioningState { get; set; }
+    content.vb: >-
+      <JsonProperty(PropertyName:="properties.provisioningState")>
+
+      Public Property ProvisioningState As String
+    parameters: []
+    return:
+      type: System.String
+  overload: Microsoft.Azure.Management.Network.Models.ApplicationGatewayFrontendPort.ProvisioningState*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: PropertyName
+      type: System.String
+      value: properties.provisioningState
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Azure.Management.Network.Models.ApplicationGatewayFrontendPort.Name
+  commentId: P:Microsoft.Azure.Management.Network.Models.ApplicationGatewayFrontendPort.Name
+  id: Name
+  parent: Microsoft.Azure.Management.Network.Models.ApplicationGatewayFrontendPort
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: ApplicationGatewayFrontendPort.Name
+  fullName: Microsoft.Azure.Management.Network.Models.ApplicationGatewayFrontendPort.Name
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/Network/Microsoft.Azure.Management.Network/Generated/Models/ApplicationGatewayFrontendPort.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: Name
+    path: src/azure-sdk-for-net/src/ResourceManagement/Network/Microsoft.Azure.Management.Network/Generated/Models/ApplicationGatewayFrontendPort.cs
+    startLine: 70
+  assemblies:
+  - Microsoft.Azure.Management.Network
+  namespace: Microsoft.Azure.Management.Network.Models
+  summary: "\nGets or sets name of the resource that is unique within a resource\ngroup. This name can be used to access the resource.\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty(PropertyName = "name")]
+
+      public string Name { get; set; }
+    content.vb: >-
+      <JsonProperty(PropertyName:="name")>
+
+      Public Property Name As String
+    parameters: []
+    return:
+      type: System.String
+  overload: Microsoft.Azure.Management.Network.Models.ApplicationGatewayFrontendPort.Name*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: PropertyName
+      type: System.String
+      value: name
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Azure.Management.Network.Models.ApplicationGatewayFrontendPort.Etag
+  commentId: P:Microsoft.Azure.Management.Network.Models.ApplicationGatewayFrontendPort.Etag
+  id: Etag
+  parent: Microsoft.Azure.Management.Network.Models.ApplicationGatewayFrontendPort
+  langs:
+  - csharp
+  - vb
+  name: Etag
+  nameWithType: ApplicationGatewayFrontendPort.Etag
+  fullName: Microsoft.Azure.Management.Network.Models.ApplicationGatewayFrontendPort.Etag
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/Network/Microsoft.Azure.Management.Network/Generated/Models/ApplicationGatewayFrontendPort.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: Etag
+    path: src/azure-sdk-for-net/src/ResourceManagement/Network/Microsoft.Azure.Management.Network/Generated/Models/ApplicationGatewayFrontendPort.cs
+    startLine: 77
+  assemblies:
+  - Microsoft.Azure.Management.Network
+  namespace: Microsoft.Azure.Management.Network.Models
+  summary: "\nGets or sets a unique read-only string that changes whenever the\nresource is updated.\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty(PropertyName = "etag")]
+
+      public string Etag { get; set; }
+    content.vb: >-
+      <JsonProperty(PropertyName:="etag")>
+
+      Public Property Etag As String
+    parameters: []
+    return:
+      type: System.String
+  overload: Microsoft.Azure.Management.Network.Models.ApplicationGatewayFrontendPort.Etag*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: PropertyName
+      type: System.String
+      value: etag
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Microsoft.Azure.Management.Network.Models
+  commentId: N:Microsoft.Azure.Management.Network.Models
+  isExternal: false
+  name: Microsoft.Azure.Management.Network.Models
+  nameWithType: Microsoft.Azure.Management.Network.Models
+  fullName: Microsoft.Azure.Management.Network.Models
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Microsoft.Azure.Management.Network.Models.SubResource
+  commentId: T:Microsoft.Azure.Management.Network.Models.SubResource
+  parent: Microsoft.Azure.Management.Network.Models
+  isExternal: false
+  name: SubResource
+  nameWithType: SubResource
+  fullName: Microsoft.Azure.Management.Network.Models.SubResource
+- uid: Microsoft.Rest.Azure.IResource
+  commentId: T:Microsoft.Rest.Azure.IResource
+  parent: Microsoft.Rest.Azure
+  isExternal: false
+  name: IResource
+  nameWithType: IResource
+  fullName: Microsoft.Rest.Azure.IResource
+- uid: Microsoft.Azure.Management.Network.Models.SubResource.Id
+  commentId: P:Microsoft.Azure.Management.Network.Models.SubResource.Id
+  parent: Microsoft.Azure.Management.Network.Models.SubResource
+  isExternal: false
+  name: Id
+  nameWithType: SubResource.Id
+  fullName: Microsoft.Azure.Management.Network.Models.SubResource.Id
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Microsoft.Rest.Azure
+  commentId: N:Microsoft.Rest.Azure
+  isExternal: false
+  name: Microsoft.Rest.Azure
+  nameWithType: Microsoft.Rest.Azure
+  fullName: Microsoft.Rest.Azure
+- uid: Microsoft.Azure.Management.Network.Models.ApplicationGatewayFrontendPort.#ctor*
+  commentId: Overload:Microsoft.Azure.Management.Network.Models.ApplicationGatewayFrontendPort.#ctor
+  isExternal: false
+  name: ApplicationGatewayFrontendPort
+  nameWithType: ApplicationGatewayFrontendPort.ApplicationGatewayFrontendPort
+  fullName: Microsoft.Azure.Management.Network.Models.ApplicationGatewayFrontendPort.ApplicationGatewayFrontendPort
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Nullable{System.Int32}
+  commentId: T:System.Nullable{System.Int32}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<Int32>
+  nameWithType: Nullable<Int32>
+  fullName: System.Nullable<System.Int32>
+  nameWithType.vb: Nullable(Of Int32)
+  fullname.vb: System.Nullable(Of System.Int32)
+  name.vb: Nullable(Of Int32)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullname.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Azure.Management.Network.Models.ApplicationGatewayFrontendPort.Port*
+  commentId: Overload:Microsoft.Azure.Management.Network.Models.ApplicationGatewayFrontendPort.Port
+  isExternal: false
+  name: Port
+  nameWithType: ApplicationGatewayFrontendPort.Port
+  fullName: Microsoft.Azure.Management.Network.Models.ApplicationGatewayFrontendPort.Port
+- uid: Microsoft.Azure.Management.Network.Models.ApplicationGatewayFrontendPort.ProvisioningState*
+  commentId: Overload:Microsoft.Azure.Management.Network.Models.ApplicationGatewayFrontendPort.ProvisioningState
+  isExternal: false
+  name: ProvisioningState
+  nameWithType: ApplicationGatewayFrontendPort.ProvisioningState
+  fullName: Microsoft.Azure.Management.Network.Models.ApplicationGatewayFrontendPort.ProvisioningState
+- uid: Microsoft.Azure.Management.Network.Models.ApplicationGatewayFrontendPort.Name*
+  commentId: Overload:Microsoft.Azure.Management.Network.Models.ApplicationGatewayFrontendPort.Name
+  isExternal: false
+  name: Name
+  nameWithType: ApplicationGatewayFrontendPort.Name
+  fullName: Microsoft.Azure.Management.Network.Models.ApplicationGatewayFrontendPort.Name
+- uid: Microsoft.Azure.Management.Network.Models.ApplicationGatewayFrontendPort.Etag*
+  commentId: Overload:Microsoft.Azure.Management.Network.Models.ApplicationGatewayFrontendPort.Etag
+  isExternal: false
+  name: Etag
+  nameWithType: ApplicationGatewayFrontendPort.Etag
+  fullName: Microsoft.Azure.Management.Network.Models.ApplicationGatewayFrontendPort.Etag

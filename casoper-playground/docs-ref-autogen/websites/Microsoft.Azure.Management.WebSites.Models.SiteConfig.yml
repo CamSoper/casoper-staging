@@ -1,0 +1,3615 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.Azure.Management.WebSites.Models.SiteConfig
+  commentId: T:Microsoft.Azure.Management.WebSites.Models.SiteConfig
+  id: SiteConfig
+  parent: Microsoft.Azure.Management.WebSites.Models
+  children:
+  - Microsoft.Azure.Management.WebSites.Models.SiteConfig.#ctor
+  - Microsoft.Azure.Management.WebSites.Models.SiteConfig.#ctor(System.String,System.String,System.String,System.String,System.String,System.Collections.Generic.IDictionary{System.String,System.String},System.Nullable{System.Int32},System.Collections.Generic.IList{System.String},System.String,System.String,System.String,System.String,System.Nullable{System.Boolean},System.Nullable{System.DateTime},System.Nullable{System.Boolean},System.String,System.Nullable{System.Boolean},System.Nullable{System.Int32},System.Nullable{System.Boolean},System.String,Microsoft.Azure.Management.WebSites.Models.SiteMachineKey,System.Collections.Generic.IList{Microsoft.Azure.Management.WebSites.Models.HandlerMapping},System.String,System.String,System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.String,System.String,System.String,System.String,System.Nullable{Microsoft.Azure.Management.WebSites.Models.ManagedPipelineMode},System.Collections.Generic.IList{Microsoft.Azure.Management.WebSites.Models.VirtualApplication},System.Nullable{Microsoft.Azure.Management.WebSites.Models.SiteLoadBalancing},Microsoft.Azure.Management.WebSites.Models.Experiments,Microsoft.Azure.Management.WebSites.Models.SiteLimits,System.Nullable{System.Boolean},Microsoft.Azure.Management.WebSites.Models.AutoHealRules,System.String,System.String,Microsoft.Azure.Management.WebSites.Models.CorsSettings,Microsoft.Azure.Management.WebSites.Models.PushSettings,Microsoft.Azure.Management.WebSites.Models.ApiDefinitionInfo,System.String,System.Nullable{System.Boolean},System.Collections.Generic.IList{Microsoft.Azure.Management.WebSites.Models.IpSecurityRestriction})
+  - Microsoft.Azure.Management.WebSites.Models.SiteConfig.AlwaysOn
+  - Microsoft.Azure.Management.WebSites.Models.SiteConfig.ApiDefinition
+  - Microsoft.Azure.Management.WebSites.Models.SiteConfig.AppCommandLine
+  - Microsoft.Azure.Management.WebSites.Models.SiteConfig.AutoHealEnabled
+  - Microsoft.Azure.Management.WebSites.Models.SiteConfig.AutoHealRules
+  - Microsoft.Azure.Management.WebSites.Models.SiteConfig.AutoSwapSlotName
+  - Microsoft.Azure.Management.WebSites.Models.SiteConfig.Cors
+  - Microsoft.Azure.Management.WebSites.Models.SiteConfig.DefaultDocuments
+  - Microsoft.Azure.Management.WebSites.Models.SiteConfig.DetailedErrorLoggingEnabled
+  - Microsoft.Azure.Management.WebSites.Models.SiteConfig.DocumentRoot
+  - Microsoft.Azure.Management.WebSites.Models.SiteConfig.Experiments
+  - Microsoft.Azure.Management.WebSites.Models.SiteConfig.HandlerMappings
+  - Microsoft.Azure.Management.WebSites.Models.SiteConfig.HttpLoggingEnabled
+  - Microsoft.Azure.Management.WebSites.Models.SiteConfig.IpSecurityRestrictions
+  - Microsoft.Azure.Management.WebSites.Models.SiteConfig.JavaContainer
+  - Microsoft.Azure.Management.WebSites.Models.SiteConfig.JavaContainerVersion
+  - Microsoft.Azure.Management.WebSites.Models.SiteConfig.JavaVersion
+  - Microsoft.Azure.Management.WebSites.Models.SiteConfig.Limits
+  - Microsoft.Azure.Management.WebSites.Models.SiteConfig.LoadBalancing
+  - Microsoft.Azure.Management.WebSites.Models.SiteConfig.LocalMySqlEnabled
+  - Microsoft.Azure.Management.WebSites.Models.SiteConfig.LogsDirectorySizeLimit
+  - Microsoft.Azure.Management.WebSites.Models.SiteConfig.MachineKey
+  - Microsoft.Azure.Management.WebSites.Models.SiteConfig.ManagedPipelineMode
+  - Microsoft.Azure.Management.WebSites.Models.SiteConfig.NetFrameworkVersion
+  - Microsoft.Azure.Management.WebSites.Models.SiteConfig.NodeVersion
+  - Microsoft.Azure.Management.WebSites.Models.SiteConfig.NumberOfWorkers
+  - Microsoft.Azure.Management.WebSites.Models.SiteConfig.PhpVersion
+  - Microsoft.Azure.Management.WebSites.Models.SiteConfig.PublishingUsername
+  - Microsoft.Azure.Management.WebSites.Models.SiteConfig.Push
+  - Microsoft.Azure.Management.WebSites.Models.SiteConfig.PythonVersion
+  - Microsoft.Azure.Management.WebSites.Models.SiteConfig.RemoteDebuggingEnabled
+  - Microsoft.Azure.Management.WebSites.Models.SiteConfig.RemoteDebuggingVersion
+  - Microsoft.Azure.Management.WebSites.Models.SiteConfig.RequestTracingEnabled
+  - Microsoft.Azure.Management.WebSites.Models.SiteConfig.RequestTracingExpirationTime
+  - Microsoft.Azure.Management.WebSites.Models.SiteConfig.ScmType
+  - Microsoft.Azure.Management.WebSites.Models.SiteConfig.TracingOptions
+  - Microsoft.Azure.Management.WebSites.Models.SiteConfig.Use32BitWorkerProcess
+  - Microsoft.Azure.Management.WebSites.Models.SiteConfig.Validate
+  - Microsoft.Azure.Management.WebSites.Models.SiteConfig.VirtualApplications
+  - Microsoft.Azure.Management.WebSites.Models.SiteConfig.VnetName
+  - Microsoft.Azure.Management.WebSites.Models.SiteConfig.WebSocketsEnabled
+  langs:
+  - csharp
+  - vb
+  name: SiteConfig
+  nameWithType: SiteConfig
+  fullName: Microsoft.Azure.Management.WebSites.Models.SiteConfig
+  type: Class
+  source:
+    remote:
+      path: src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/Models/SiteConfig.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: SiteConfig
+    path: src/azure-sdk-for-net/src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/Models/SiteConfig.cs
+    startLine: 21
+  assemblies:
+  - Microsoft.Azure.Management.Websites
+  namespace: Microsoft.Azure.Management.WebSites.Models
+  summary: "\nConfiguration of Azure web site\n"
+  example: []
+  syntax:
+    content: 'public class SiteConfig : Resource, IResource'
+    content.vb: >-
+      Public Class SiteConfig
+          Inherits Resource
+          Implements IResource
+  inheritance:
+  - System.Object
+  - Microsoft.Azure.Management.WebSites.Models.Resource
+  implements:
+  - Microsoft.Rest.Azure.IResource
+  inheritedMembers:
+  - Microsoft.Azure.Management.WebSites.Models.Resource.Id
+  - Microsoft.Azure.Management.WebSites.Models.Resource.Name
+  - Microsoft.Azure.Management.WebSites.Models.Resource.Kind
+  - Microsoft.Azure.Management.WebSites.Models.Resource.Location
+  - Microsoft.Azure.Management.WebSites.Models.Resource.Type
+  - Microsoft.Azure.Management.WebSites.Models.Resource.Tags
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Microsoft.Azure.Management.WebSites.Models.SiteConfig.#ctor
+  commentId: M:Microsoft.Azure.Management.WebSites.Models.SiteConfig.#ctor
+  id: '#ctor'
+  parent: Microsoft.Azure.Management.WebSites.Models.SiteConfig
+  langs:
+  - csharp
+  - vb
+  name: SiteConfig()
+  nameWithType: SiteConfig.SiteConfig()
+  fullName: Microsoft.Azure.Management.WebSites.Models.SiteConfig.SiteConfig()
+  type: Constructor
+  source:
+    remote:
+      path: src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/Models/SiteConfig.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: .ctor
+    path: src/azure-sdk-for-net/src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/Models/SiteConfig.cs
+    startLine: 27
+  assemblies:
+  - Microsoft.Azure.Management.Websites
+  namespace: Microsoft.Azure.Management.WebSites.Models
+  summary: "\nInitializes a new instance of the SiteConfig class.\n"
+  example: []
+  syntax:
+    content: public SiteConfig()
+    content.vb: Public Sub New
+  overload: Microsoft.Azure.Management.WebSites.Models.SiteConfig.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Azure.Management.WebSites.Models.SiteConfig.#ctor(System.String,System.String,System.String,System.String,System.String,System.Collections.Generic.IDictionary{System.String,System.String},System.Nullable{System.Int32},System.Collections.Generic.IList{System.String},System.String,System.String,System.String,System.String,System.Nullable{System.Boolean},System.Nullable{System.DateTime},System.Nullable{System.Boolean},System.String,System.Nullable{System.Boolean},System.Nullable{System.Int32},System.Nullable{System.Boolean},System.String,Microsoft.Azure.Management.WebSites.Models.SiteMachineKey,System.Collections.Generic.IList{Microsoft.Azure.Management.WebSites.Models.HandlerMapping},System.String,System.String,System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.String,System.String,System.String,System.String,System.Nullable{Microsoft.Azure.Management.WebSites.Models.ManagedPipelineMode},System.Collections.Generic.IList{Microsoft.Azure.Management.WebSites.Models.VirtualApplication},System.Nullable{Microsoft.Azure.Management.WebSites.Models.SiteLoadBalancing},Microsoft.Azure.Management.WebSites.Models.Experiments,Microsoft.Azure.Management.WebSites.Models.SiteLimits,System.Nullable{System.Boolean},Microsoft.Azure.Management.WebSites.Models.AutoHealRules,System.String,System.String,Microsoft.Azure.Management.WebSites.Models.CorsSettings,Microsoft.Azure.Management.WebSites.Models.PushSettings,Microsoft.Azure.Management.WebSites.Models.ApiDefinitionInfo,System.String,System.Nullable{System.Boolean},System.Collections.Generic.IList{Microsoft.Azure.Management.WebSites.Models.IpSecurityRestriction})
+  commentId: M:Microsoft.Azure.Management.WebSites.Models.SiteConfig.#ctor(System.String,System.String,System.String,System.String,System.String,System.Collections.Generic.IDictionary{System.String,System.String},System.Nullable{System.Int32},System.Collections.Generic.IList{System.String},System.String,System.String,System.String,System.String,System.Nullable{System.Boolean},System.Nullable{System.DateTime},System.Nullable{System.Boolean},System.String,System.Nullable{System.Boolean},System.Nullable{System.Int32},System.Nullable{System.Boolean},System.String,Microsoft.Azure.Management.WebSites.Models.SiteMachineKey,System.Collections.Generic.IList{Microsoft.Azure.Management.WebSites.Models.HandlerMapping},System.String,System.String,System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.String,System.String,System.String,System.String,System.Nullable{Microsoft.Azure.Management.WebSites.Models.ManagedPipelineMode},System.Collections.Generic.IList{Microsoft.Azure.Management.WebSites.Models.VirtualApplication},System.Nullable{Microsoft.Azure.Management.WebSites.Models.SiteLoadBalancing},Microsoft.Azure.Management.WebSites.Models.Experiments,Microsoft.Azure.Management.WebSites.Models.SiteLimits,System.Nullable{System.Boolean},Microsoft.Azure.Management.WebSites.Models.AutoHealRules,System.String,System.String,Microsoft.Azure.Management.WebSites.Models.CorsSettings,Microsoft.Azure.Management.WebSites.Models.PushSettings,Microsoft.Azure.Management.WebSites.Models.ApiDefinitionInfo,System.String,System.Nullable{System.Boolean},System.Collections.Generic.IList{Microsoft.Azure.Management.WebSites.Models.IpSecurityRestriction})
+  id: '#ctor(System.String,System.String,System.String,System.String,System.String,System.Collections.Generic.IDictionary{System.String,System.String},System.Nullable{System.Int32},System.Collections.Generic.IList{System.String},System.String,System.String,System.String,System.String,System.Nullable{System.Boolean},System.Nullable{System.DateTime},System.Nullable{System.Boolean},System.String,System.Nullable{System.Boolean},System.Nullable{System.Int32},System.Nullable{System.Boolean},System.String,Microsoft.Azure.Management.WebSites.Models.SiteMachineKey,System.Collections.Generic.IList{Microsoft.Azure.Management.WebSites.Models.HandlerMapping},System.String,System.String,System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.String,System.String,System.String,System.String,System.Nullable{Microsoft.Azure.Management.WebSites.Models.ManagedPipelineMode},System.Collections.Generic.IList{Microsoft.Azure.Management.WebSites.Models.VirtualApplication},System.Nullable{Microsoft.Azure.Management.WebSites.Models.SiteLoadBalancing},Microsoft.Azure.Management.WebSites.Models.Experiments,Microsoft.Azure.Management.WebSites.Models.SiteLimits,System.Nullable{System.Boolean},Microsoft.Azure.Management.WebSites.Models.AutoHealRules,System.String,System.String,Microsoft.Azure.Management.WebSites.Models.CorsSettings,Microsoft.Azure.Management.WebSites.Models.PushSettings,Microsoft.Azure.Management.WebSites.Models.ApiDefinitionInfo,System.String,System.Nullable{System.Boolean},System.Collections.Generic.IList{Microsoft.Azure.Management.WebSites.Models.IpSecurityRestriction})'
+  parent: Microsoft.Azure.Management.WebSites.Models.SiteConfig
+  langs:
+  - csharp
+  - vb
+  name: SiteConfig(String, String, String, String, String, IDictionary<String, String>, Nullable<Int32>, IList<String>, String, String, String, String, Nullable<Boolean>, Nullable<DateTime>, Nullable<Boolean>, String, Nullable<Boolean>, Nullable<Int32>, Nullable<Boolean>, String, SiteMachineKey, IList<HandlerMapping>, String, String, Nullable<Boolean>, Nullable<Boolean>, Nullable<Boolean>, String, String, String, String, Nullable<ManagedPipelineMode>, IList<VirtualApplication>, Nullable<SiteLoadBalancing>, Experiments, SiteLimits, Nullable<Boolean>, AutoHealRules, String, String, CorsSettings, PushSettings, ApiDefinitionInfo, String, Nullable<Boolean>, IList<IpSecurityRestriction>)
+  nameWithType: SiteConfig.SiteConfig(String, String, String, String, String, IDictionary<String, String>, Nullable<Int32>, IList<String>, String, String, String, String, Nullable<Boolean>, Nullable<DateTime>, Nullable<Boolean>, String, Nullable<Boolean>, Nullable<Int32>, Nullable<Boolean>, String, SiteMachineKey, IList<HandlerMapping>, String, String, Nullable<Boolean>, Nullable<Boolean>, Nullable<Boolean>, String, String, String, String, Nullable<ManagedPipelineMode>, IList<VirtualApplication>, Nullable<SiteLoadBalancing>, Experiments, SiteLimits, Nullable<Boolean>, AutoHealRules, String, String, CorsSettings, PushSettings, ApiDefinitionInfo, String, Nullable<Boolean>, IList<IpSecurityRestriction>)
+  fullName: Microsoft.Azure.Management.WebSites.Models.SiteConfig.SiteConfig(System.String, System.String, System.String, System.String, System.String, System.Collections.Generic.IDictionary<System.String, System.String>, System.Nullable<System.Int32>, System.Collections.Generic.IList<System.String>, System.String, System.String, System.String, System.String, System.Nullable<System.Boolean>, System.Nullable<System.DateTime>, System.Nullable<System.Boolean>, System.String, System.Nullable<System.Boolean>, System.Nullable<System.Int32>, System.Nullable<System.Boolean>, System.String, Microsoft.Azure.Management.WebSites.Models.SiteMachineKey, System.Collections.Generic.IList<Microsoft.Azure.Management.WebSites.Models.HandlerMapping>, System.String, System.String, System.Nullable<System.Boolean>, System.Nullable<System.Boolean>, System.Nullable<System.Boolean>, System.String, System.String, System.String, System.String, System.Nullable<Microsoft.Azure.Management.WebSites.Models.ManagedPipelineMode>, System.Collections.Generic.IList<Microsoft.Azure.Management.WebSites.Models.VirtualApplication>, System.Nullable<Microsoft.Azure.Management.WebSites.Models.SiteLoadBalancing>, Microsoft.Azure.Management.WebSites.Models.Experiments, Microsoft.Azure.Management.WebSites.Models.SiteLimits, System.Nullable<System.Boolean>, Microsoft.Azure.Management.WebSites.Models.AutoHealRules, System.String, System.String, Microsoft.Azure.Management.WebSites.Models.CorsSettings, Microsoft.Azure.Management.WebSites.Models.PushSettings, Microsoft.Azure.Management.WebSites.Models.ApiDefinitionInfo, System.String, System.Nullable<System.Boolean>, System.Collections.Generic.IList<Microsoft.Azure.Management.WebSites.Models.IpSecurityRestriction>)
+  type: Constructor
+  source:
+    remote:
+      path: src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/Models/SiteConfig.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: .ctor
+    path: src/azure-sdk-for-net/src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/Models/SiteConfig.cs
+    startLine: 32
+  assemblies:
+  - Microsoft.Azure.Management.Websites
+  namespace: Microsoft.Azure.Management.WebSites.Models
+  summary: "\nInitializes a new instance of the SiteConfig class.\n"
+  example: []
+  syntax:
+    content: public SiteConfig(string name, string location, string id = null, string kind = null, string type = null, IDictionary<string, string> tags = null, int ? numberOfWorkers = null, IList<string> defaultDocuments = null, string netFrameworkVersion = null, string phpVersion = null, string pythonVersion = null, string nodeVersion = null, bool ? requestTracingEnabled = null, DateTime? requestTracingExpirationTime = null, bool ? remoteDebuggingEnabled = null, string remoteDebuggingVersion = null, bool ? httpLoggingEnabled = null, int ? logsDirectorySizeLimit = null, bool ? detailedErrorLoggingEnabled = null, string publishingUsername = null, SiteMachineKey machineKey = null, IList<HandlerMapping> handlerMappings = null, string documentRoot = null, string scmType = null, bool ? use32BitWorkerProcess = null, bool ? webSocketsEnabled = null, bool ? alwaysOn = null, string javaVersion = null, string javaContainer = null, string javaContainerVersion = null, string appCommandLine = null, ManagedPipelineMode? managedPipelineMode = null, IList<VirtualApplication> virtualApplications = null, SiteLoadBalancing? loadBalancing = null, Experiments experiments = null, SiteLimits limits = null, bool ? autoHealEnabled = null, AutoHealRules autoHealRules = null, string tracingOptions = null, string vnetName = null, CorsSettings cors = null, PushSettings push = null, ApiDefinitionInfo apiDefinition = null, string autoSwapSlotName = null, bool ? localMySqlEnabled = null, IList<IpSecurityRestriction> ipSecurityRestrictions = null)
+    content.vb: Public Sub New(name As String, location As String, id As String = Nothing, kind As String = Nothing, type As String = Nothing, tags As IDictionary(Of String, String) = Nothing, numberOfWorkers As Integer? = Nothing, defaultDocuments As IList(Of String) = Nothing, netFrameworkVersion As String = Nothing, phpVersion As String = Nothing, pythonVersion As String = Nothing, nodeVersion As String = Nothing, requestTracingEnabled As Boolean? = Nothing, requestTracingExpirationTime As Date? = Nothing, remoteDebuggingEnabled As Boolean? = Nothing, remoteDebuggingVersion As String = Nothing, httpLoggingEnabled As Boolean? = Nothing, logsDirectorySizeLimit As Integer? = Nothing, detailedErrorLoggingEnabled As Boolean? = Nothing, publishingUsername As String = Nothing, machineKey As SiteMachineKey = Nothing, handlerMappings As IList(Of HandlerMapping) = Nothing, documentRoot As String = Nothing, scmType As String = Nothing, use32BitWorkerProcess As Boolean? = Nothing, webSocketsEnabled As Boolean? = Nothing, alwaysOn As Boolean? = Nothing, javaVersion As String = Nothing, javaContainer As String = Nothing, javaContainerVersion As String = Nothing, appCommandLine As String = Nothing, managedPipelineMode As ManagedPipelineMode? = Nothing, virtualApplications As IList(Of VirtualApplication) = Nothing, loadBalancing As SiteLoadBalancing? = Nothing, experiments As Experiments = Nothing, limits As SiteLimits = Nothing, autoHealEnabled As Boolean? = Nothing, autoHealRules As AutoHealRules = Nothing, tracingOptions As String = Nothing, vnetName As String = Nothing, cors As CorsSettings = Nothing, push As PushSettings = Nothing, apiDefinition As ApiDefinitionInfo = Nothing, autoSwapSlotName As String = Nothing, localMySqlEnabled As Boolean? = Nothing, ipSecurityRestrictions As IList(Of IpSecurityRestriction) = Nothing)
+    parameters:
+    - id: name
+      type: System.String
+    - id: location
+      type: System.String
+    - id: id
+      type: System.String
+    - id: kind
+      type: System.String
+    - id: type
+      type: System.String
+    - id: tags
+      type: System.Collections.Generic.IDictionary{System.String,System.String}
+    - id: numberOfWorkers
+      type: System.Nullable{System.Int32}
+    - id: defaultDocuments
+      type: System.Collections.Generic.IList{System.String}
+    - id: netFrameworkVersion
+      type: System.String
+    - id: phpVersion
+      type: System.String
+    - id: pythonVersion
+      type: System.String
+    - id: nodeVersion
+      type: System.String
+    - id: requestTracingEnabled
+      type: System.Nullable{System.Boolean}
+    - id: requestTracingExpirationTime
+      type: System.Nullable{System.DateTime}
+    - id: remoteDebuggingEnabled
+      type: System.Nullable{System.Boolean}
+    - id: remoteDebuggingVersion
+      type: System.String
+    - id: httpLoggingEnabled
+      type: System.Nullable{System.Boolean}
+    - id: logsDirectorySizeLimit
+      type: System.Nullable{System.Int32}
+    - id: detailedErrorLoggingEnabled
+      type: System.Nullable{System.Boolean}
+    - id: publishingUsername
+      type: System.String
+    - id: machineKey
+      type: Microsoft.Azure.Management.WebSites.Models.SiteMachineKey
+    - id: handlerMappings
+      type: System.Collections.Generic.IList{Microsoft.Azure.Management.WebSites.Models.HandlerMapping}
+    - id: documentRoot
+      type: System.String
+    - id: scmType
+      type: System.String
+    - id: use32BitWorkerProcess
+      type: System.Nullable{System.Boolean}
+    - id: webSocketsEnabled
+      type: System.Nullable{System.Boolean}
+    - id: alwaysOn
+      type: System.Nullable{System.Boolean}
+    - id: javaVersion
+      type: System.String
+    - id: javaContainer
+      type: System.String
+    - id: javaContainerVersion
+      type: System.String
+    - id: appCommandLine
+      type: System.String
+    - id: managedPipelineMode
+      type: System.Nullable{Microsoft.Azure.Management.WebSites.Models.ManagedPipelineMode}
+    - id: virtualApplications
+      type: System.Collections.Generic.IList{Microsoft.Azure.Management.WebSites.Models.VirtualApplication}
+    - id: loadBalancing
+      type: System.Nullable{Microsoft.Azure.Management.WebSites.Models.SiteLoadBalancing}
+    - id: experiments
+      type: Microsoft.Azure.Management.WebSites.Models.Experiments
+    - id: limits
+      type: Microsoft.Azure.Management.WebSites.Models.SiteLimits
+    - id: autoHealEnabled
+      type: System.Nullable{System.Boolean}
+    - id: autoHealRules
+      type: Microsoft.Azure.Management.WebSites.Models.AutoHealRules
+    - id: tracingOptions
+      type: System.String
+    - id: vnetName
+      type: System.String
+    - id: cors
+      type: Microsoft.Azure.Management.WebSites.Models.CorsSettings
+    - id: push
+      type: Microsoft.Azure.Management.WebSites.Models.PushSettings
+    - id: apiDefinition
+      type: Microsoft.Azure.Management.WebSites.Models.ApiDefinitionInfo
+    - id: autoSwapSlotName
+      type: System.String
+    - id: localMySqlEnabled
+      type: System.Nullable{System.Boolean}
+    - id: ipSecurityRestrictions
+      type: System.Collections.Generic.IList{Microsoft.Azure.Management.WebSites.Models.IpSecurityRestriction}
+  overload: Microsoft.Azure.Management.WebSites.Models.SiteConfig.#ctor*
+  nameWithType.vb: SiteConfig.SiteConfig(String, String, String, String, String, IDictionary(Of String, String), Nullable(Of Int32), IList(Of String), String, String, String, String, Nullable(Of Boolean), Nullable(Of DateTime), Nullable(Of Boolean), String, Nullable(Of Boolean), Nullable(Of Int32), Nullable(Of Boolean), String, SiteMachineKey, IList(Of HandlerMapping), String, String, Nullable(Of Boolean), Nullable(Of Boolean), Nullable(Of Boolean), String, String, String, String, Nullable(Of ManagedPipelineMode), IList(Of VirtualApplication), Nullable(Of SiteLoadBalancing), Experiments, SiteLimits, Nullable(Of Boolean), AutoHealRules, String, String, CorsSettings, PushSettings, ApiDefinitionInfo, String, Nullable(Of Boolean), IList(Of IpSecurityRestriction))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Microsoft.Azure.Management.WebSites.Models.SiteConfig.SiteConfig(System.String, System.String, System.String, System.String, System.String, System.Collections.Generic.IDictionary(Of System.String, System.String), System.Nullable(Of System.Int32), System.Collections.Generic.IList(Of System.String), System.String, System.String, System.String, System.String, System.Nullable(Of System.Boolean), System.Nullable(Of System.DateTime), System.Nullable(Of System.Boolean), System.String, System.Nullable(Of System.Boolean), System.Nullable(Of System.Int32), System.Nullable(Of System.Boolean), System.String, Microsoft.Azure.Management.WebSites.Models.SiteMachineKey, System.Collections.Generic.IList(Of Microsoft.Azure.Management.WebSites.Models.HandlerMapping), System.String, System.String, System.Nullable(Of System.Boolean), System.Nullable(Of System.Boolean), System.Nullable(Of System.Boolean), System.String, System.String, System.String, System.String, System.Nullable(Of Microsoft.Azure.Management.WebSites.Models.ManagedPipelineMode), System.Collections.Generic.IList(Of Microsoft.Azure.Management.WebSites.Models.VirtualApplication), System.Nullable(Of Microsoft.Azure.Management.WebSites.Models.SiteLoadBalancing), Microsoft.Azure.Management.WebSites.Models.Experiments, Microsoft.Azure.Management.WebSites.Models.SiteLimits, System.Nullable(Of System.Boolean), Microsoft.Azure.Management.WebSites.Models.AutoHealRules, System.String, System.String, Microsoft.Azure.Management.WebSites.Models.CorsSettings, Microsoft.Azure.Management.WebSites.Models.PushSettings, Microsoft.Azure.Management.WebSites.Models.ApiDefinitionInfo, System.String, System.Nullable(Of System.Boolean), System.Collections.Generic.IList(Of Microsoft.Azure.Management.WebSites.Models.IpSecurityRestriction))
+  name.vb: SiteConfig(String, String, String, String, String, IDictionary(Of String, String), Nullable(Of Int32), IList(Of String), String, String, String, String, Nullable(Of Boolean), Nullable(Of DateTime), Nullable(Of Boolean), String, Nullable(Of Boolean), Nullable(Of Int32), Nullable(Of Boolean), String, SiteMachineKey, IList(Of HandlerMapping), String, String, Nullable(Of Boolean), Nullable(Of Boolean), Nullable(Of Boolean), String, String, String, String, Nullable(Of ManagedPipelineMode), IList(Of VirtualApplication), Nullable(Of SiteLoadBalancing), Experiments, SiteLimits, Nullable(Of Boolean), AutoHealRules, String, String, CorsSettings, PushSettings, ApiDefinitionInfo, String, Nullable(Of Boolean), IList(Of IpSecurityRestriction))
+- uid: Microsoft.Azure.Management.WebSites.Models.SiteConfig.NumberOfWorkers
+  commentId: P:Microsoft.Azure.Management.WebSites.Models.SiteConfig.NumberOfWorkers
+  id: NumberOfWorkers
+  parent: Microsoft.Azure.Management.WebSites.Models.SiteConfig
+  langs:
+  - csharp
+  - vb
+  name: NumberOfWorkers
+  nameWithType: SiteConfig.NumberOfWorkers
+  fullName: Microsoft.Azure.Management.WebSites.Models.SiteConfig.NumberOfWorkers
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/Models/SiteConfig.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: NumberOfWorkers
+    path: src/azure-sdk-for-net/src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/Models/SiteConfig.cs
+    startLine: 80
+  assemblies:
+  - Microsoft.Azure.Management.Websites
+  namespace: Microsoft.Azure.Management.WebSites.Models
+  summary: "\nNumber of workers\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty(PropertyName = "properties.numberOfWorkers")]
+
+      public int ? NumberOfWorkers { get; set; }
+    content.vb: >-
+      <JsonProperty(PropertyName:="properties.numberOfWorkers")>
+
+      Public Property NumberOfWorkers As Integer?
+    parameters: []
+    return:
+      type: System.Nullable{System.Int32}
+  overload: Microsoft.Azure.Management.WebSites.Models.SiteConfig.NumberOfWorkers*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: PropertyName
+      type: System.String
+      value: properties.numberOfWorkers
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Azure.Management.WebSites.Models.SiteConfig.DefaultDocuments
+  commentId: P:Microsoft.Azure.Management.WebSites.Models.SiteConfig.DefaultDocuments
+  id: DefaultDocuments
+  parent: Microsoft.Azure.Management.WebSites.Models.SiteConfig
+  langs:
+  - csharp
+  - vb
+  name: DefaultDocuments
+  nameWithType: SiteConfig.DefaultDocuments
+  fullName: Microsoft.Azure.Management.WebSites.Models.SiteConfig.DefaultDocuments
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/Models/SiteConfig.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: DefaultDocuments
+    path: src/azure-sdk-for-net/src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/Models/SiteConfig.cs
+    startLine: 86
+  assemblies:
+  - Microsoft.Azure.Management.Websites
+  namespace: Microsoft.Azure.Management.WebSites.Models
+  summary: "\nDefault documents\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty(PropertyName = "properties.defaultDocuments")]
+
+      public IList<string> DefaultDocuments { get; set; }
+    content.vb: >-
+      <JsonProperty(PropertyName:="properties.defaultDocuments")>
+
+      Public Property DefaultDocuments As IList(Of String)
+    parameters: []
+    return:
+      type: System.Collections.Generic.IList{System.String}
+  overload: Microsoft.Azure.Management.WebSites.Models.SiteConfig.DefaultDocuments*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: PropertyName
+      type: System.String
+      value: properties.defaultDocuments
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Azure.Management.WebSites.Models.SiteConfig.NetFrameworkVersion
+  commentId: P:Microsoft.Azure.Management.WebSites.Models.SiteConfig.NetFrameworkVersion
+  id: NetFrameworkVersion
+  parent: Microsoft.Azure.Management.WebSites.Models.SiteConfig
+  langs:
+  - csharp
+  - vb
+  name: NetFrameworkVersion
+  nameWithType: SiteConfig.NetFrameworkVersion
+  fullName: Microsoft.Azure.Management.WebSites.Models.SiteConfig.NetFrameworkVersion
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/Models/SiteConfig.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: NetFrameworkVersion
+    path: src/azure-sdk-for-net/src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/Models/SiteConfig.cs
+    startLine: 92
+  assemblies:
+  - Microsoft.Azure.Management.Websites
+  namespace: Microsoft.Azure.Management.WebSites.Models
+  summary: "\nNet Framework Version\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty(PropertyName = "properties.netFrameworkVersion")]
+
+      public string NetFrameworkVersion { get; set; }
+    content.vb: >-
+      <JsonProperty(PropertyName:="properties.netFrameworkVersion")>
+
+      Public Property NetFrameworkVersion As String
+    parameters: []
+    return:
+      type: System.String
+  overload: Microsoft.Azure.Management.WebSites.Models.SiteConfig.NetFrameworkVersion*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: PropertyName
+      type: System.String
+      value: properties.netFrameworkVersion
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Azure.Management.WebSites.Models.SiteConfig.PhpVersion
+  commentId: P:Microsoft.Azure.Management.WebSites.Models.SiteConfig.PhpVersion
+  id: PhpVersion
+  parent: Microsoft.Azure.Management.WebSites.Models.SiteConfig
+  langs:
+  - csharp
+  - vb
+  name: PhpVersion
+  nameWithType: SiteConfig.PhpVersion
+  fullName: Microsoft.Azure.Management.WebSites.Models.SiteConfig.PhpVersion
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/Models/SiteConfig.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: PhpVersion
+    path: src/azure-sdk-for-net/src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/Models/SiteConfig.cs
+    startLine: 98
+  assemblies:
+  - Microsoft.Azure.Management.Websites
+  namespace: Microsoft.Azure.Management.WebSites.Models
+  summary: "\nVersion of PHP\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty(PropertyName = "properties.phpVersion")]
+
+      public string PhpVersion { get; set; }
+    content.vb: >-
+      <JsonProperty(PropertyName:="properties.phpVersion")>
+
+      Public Property PhpVersion As String
+    parameters: []
+    return:
+      type: System.String
+  overload: Microsoft.Azure.Management.WebSites.Models.SiteConfig.PhpVersion*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: PropertyName
+      type: System.String
+      value: properties.phpVersion
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Azure.Management.WebSites.Models.SiteConfig.PythonVersion
+  commentId: P:Microsoft.Azure.Management.WebSites.Models.SiteConfig.PythonVersion
+  id: PythonVersion
+  parent: Microsoft.Azure.Management.WebSites.Models.SiteConfig
+  langs:
+  - csharp
+  - vb
+  name: PythonVersion
+  nameWithType: SiteConfig.PythonVersion
+  fullName: Microsoft.Azure.Management.WebSites.Models.SiteConfig.PythonVersion
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/Models/SiteConfig.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: PythonVersion
+    path: src/azure-sdk-for-net/src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/Models/SiteConfig.cs
+    startLine: 104
+  assemblies:
+  - Microsoft.Azure.Management.Websites
+  namespace: Microsoft.Azure.Management.WebSites.Models
+  summary: "\nVersion of Python\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty(PropertyName = "properties.pythonVersion")]
+
+      public string PythonVersion { get; set; }
+    content.vb: >-
+      <JsonProperty(PropertyName:="properties.pythonVersion")>
+
+      Public Property PythonVersion As String
+    parameters: []
+    return:
+      type: System.String
+  overload: Microsoft.Azure.Management.WebSites.Models.SiteConfig.PythonVersion*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: PropertyName
+      type: System.String
+      value: properties.pythonVersion
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Azure.Management.WebSites.Models.SiteConfig.NodeVersion
+  commentId: P:Microsoft.Azure.Management.WebSites.Models.SiteConfig.NodeVersion
+  id: NodeVersion
+  parent: Microsoft.Azure.Management.WebSites.Models.SiteConfig
+  langs:
+  - csharp
+  - vb
+  name: NodeVersion
+  nameWithType: SiteConfig.NodeVersion
+  fullName: Microsoft.Azure.Management.WebSites.Models.SiteConfig.NodeVersion
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/Models/SiteConfig.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: NodeVersion
+    path: src/azure-sdk-for-net/src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/Models/SiteConfig.cs
+    startLine: 110
+  assemblies:
+  - Microsoft.Azure.Management.Websites
+  namespace: Microsoft.Azure.Management.WebSites.Models
+  summary: "\nVersion of Node\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty(PropertyName = "properties.nodeVersion")]
+
+      public string NodeVersion { get; set; }
+    content.vb: >-
+      <JsonProperty(PropertyName:="properties.nodeVersion")>
+
+      Public Property NodeVersion As String
+    parameters: []
+    return:
+      type: System.String
+  overload: Microsoft.Azure.Management.WebSites.Models.SiteConfig.NodeVersion*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: PropertyName
+      type: System.String
+      value: properties.nodeVersion
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Azure.Management.WebSites.Models.SiteConfig.RequestTracingEnabled
+  commentId: P:Microsoft.Azure.Management.WebSites.Models.SiteConfig.RequestTracingEnabled
+  id: RequestTracingEnabled
+  parent: Microsoft.Azure.Management.WebSites.Models.SiteConfig
+  langs:
+  - csharp
+  - vb
+  name: RequestTracingEnabled
+  nameWithType: SiteConfig.RequestTracingEnabled
+  fullName: Microsoft.Azure.Management.WebSites.Models.SiteConfig.RequestTracingEnabled
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/Models/SiteConfig.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: RequestTracingEnabled
+    path: src/azure-sdk-for-net/src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/Models/SiteConfig.cs
+    startLine: 116
+  assemblies:
+  - Microsoft.Azure.Management.Websites
+  namespace: Microsoft.Azure.Management.WebSites.Models
+  summary: "\nEnable request tracing\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty(PropertyName = "properties.requestTracingEnabled")]
+
+      public bool ? RequestTracingEnabled { get; set; }
+    content.vb: >-
+      <JsonProperty(PropertyName:="properties.requestTracingEnabled")>
+
+      Public Property RequestTracingEnabled As Boolean?
+    parameters: []
+    return:
+      type: System.Nullable{System.Boolean}
+  overload: Microsoft.Azure.Management.WebSites.Models.SiteConfig.RequestTracingEnabled*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: PropertyName
+      type: System.String
+      value: properties.requestTracingEnabled
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Azure.Management.WebSites.Models.SiteConfig.RequestTracingExpirationTime
+  commentId: P:Microsoft.Azure.Management.WebSites.Models.SiteConfig.RequestTracingExpirationTime
+  id: RequestTracingExpirationTime
+  parent: Microsoft.Azure.Management.WebSites.Models.SiteConfig
+  langs:
+  - csharp
+  - vb
+  name: RequestTracingExpirationTime
+  nameWithType: SiteConfig.RequestTracingExpirationTime
+  fullName: Microsoft.Azure.Management.WebSites.Models.SiteConfig.RequestTracingExpirationTime
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/Models/SiteConfig.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: RequestTracingExpirationTime
+    path: src/azure-sdk-for-net/src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/Models/SiteConfig.cs
+    startLine: 122
+  assemblies:
+  - Microsoft.Azure.Management.Websites
+  namespace: Microsoft.Azure.Management.WebSites.Models
+  summary: "\nRequest tracing expiration time\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty(PropertyName = "properties.requestTracingExpirationTime")]
+
+      public DateTime? RequestTracingExpirationTime { get; set; }
+    content.vb: >-
+      <JsonProperty(PropertyName:="properties.requestTracingExpirationTime")>
+
+      Public Property RequestTracingExpirationTime As Date?
+    parameters: []
+    return:
+      type: System.Nullable{System.DateTime}
+  overload: Microsoft.Azure.Management.WebSites.Models.SiteConfig.RequestTracingExpirationTime*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: PropertyName
+      type: System.String
+      value: properties.requestTracingExpirationTime
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Azure.Management.WebSites.Models.SiteConfig.RemoteDebuggingEnabled
+  commentId: P:Microsoft.Azure.Management.WebSites.Models.SiteConfig.RemoteDebuggingEnabled
+  id: RemoteDebuggingEnabled
+  parent: Microsoft.Azure.Management.WebSites.Models.SiteConfig
+  langs:
+  - csharp
+  - vb
+  name: RemoteDebuggingEnabled
+  nameWithType: SiteConfig.RemoteDebuggingEnabled
+  fullName: Microsoft.Azure.Management.WebSites.Models.SiteConfig.RemoteDebuggingEnabled
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/Models/SiteConfig.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: RemoteDebuggingEnabled
+    path: src/azure-sdk-for-net/src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/Models/SiteConfig.cs
+    startLine: 128
+  assemblies:
+  - Microsoft.Azure.Management.Websites
+  namespace: Microsoft.Azure.Management.WebSites.Models
+  summary: "\nRemote Debugging Enabled\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty(PropertyName = "properties.remoteDebuggingEnabled")]
+
+      public bool ? RemoteDebuggingEnabled { get; set; }
+    content.vb: >-
+      <JsonProperty(PropertyName:="properties.remoteDebuggingEnabled")>
+
+      Public Property RemoteDebuggingEnabled As Boolean?
+    parameters: []
+    return:
+      type: System.Nullable{System.Boolean}
+  overload: Microsoft.Azure.Management.WebSites.Models.SiteConfig.RemoteDebuggingEnabled*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: PropertyName
+      type: System.String
+      value: properties.remoteDebuggingEnabled
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Azure.Management.WebSites.Models.SiteConfig.RemoteDebuggingVersion
+  commentId: P:Microsoft.Azure.Management.WebSites.Models.SiteConfig.RemoteDebuggingVersion
+  id: RemoteDebuggingVersion
+  parent: Microsoft.Azure.Management.WebSites.Models.SiteConfig
+  langs:
+  - csharp
+  - vb
+  name: RemoteDebuggingVersion
+  nameWithType: SiteConfig.RemoteDebuggingVersion
+  fullName: Microsoft.Azure.Management.WebSites.Models.SiteConfig.RemoteDebuggingVersion
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/Models/SiteConfig.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: RemoteDebuggingVersion
+    path: src/azure-sdk-for-net/src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/Models/SiteConfig.cs
+    startLine: 134
+  assemblies:
+  - Microsoft.Azure.Management.Websites
+  namespace: Microsoft.Azure.Management.WebSites.Models
+  summary: "\nRemote Debugging Version\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty(PropertyName = "properties.remoteDebuggingVersion")]
+
+      public string RemoteDebuggingVersion { get; set; }
+    content.vb: >-
+      <JsonProperty(PropertyName:="properties.remoteDebuggingVersion")>
+
+      Public Property RemoteDebuggingVersion As String
+    parameters: []
+    return:
+      type: System.String
+  overload: Microsoft.Azure.Management.WebSites.Models.SiteConfig.RemoteDebuggingVersion*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: PropertyName
+      type: System.String
+      value: properties.remoteDebuggingVersion
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Azure.Management.WebSites.Models.SiteConfig.HttpLoggingEnabled
+  commentId: P:Microsoft.Azure.Management.WebSites.Models.SiteConfig.HttpLoggingEnabled
+  id: HttpLoggingEnabled
+  parent: Microsoft.Azure.Management.WebSites.Models.SiteConfig
+  langs:
+  - csharp
+  - vb
+  name: HttpLoggingEnabled
+  nameWithType: SiteConfig.HttpLoggingEnabled
+  fullName: Microsoft.Azure.Management.WebSites.Models.SiteConfig.HttpLoggingEnabled
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/Models/SiteConfig.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: HttpLoggingEnabled
+    path: src/azure-sdk-for-net/src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/Models/SiteConfig.cs
+    startLine: 140
+  assemblies:
+  - Microsoft.Azure.Management.Websites
+  namespace: Microsoft.Azure.Management.WebSites.Models
+  summary: "\nHTTP logging Enabled\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty(PropertyName = "properties.httpLoggingEnabled")]
+
+      public bool ? HttpLoggingEnabled { get; set; }
+    content.vb: >-
+      <JsonProperty(PropertyName:="properties.httpLoggingEnabled")>
+
+      Public Property HttpLoggingEnabled As Boolean?
+    parameters: []
+    return:
+      type: System.Nullable{System.Boolean}
+  overload: Microsoft.Azure.Management.WebSites.Models.SiteConfig.HttpLoggingEnabled*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: PropertyName
+      type: System.String
+      value: properties.httpLoggingEnabled
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Azure.Management.WebSites.Models.SiteConfig.LogsDirectorySizeLimit
+  commentId: P:Microsoft.Azure.Management.WebSites.Models.SiteConfig.LogsDirectorySizeLimit
+  id: LogsDirectorySizeLimit
+  parent: Microsoft.Azure.Management.WebSites.Models.SiteConfig
+  langs:
+  - csharp
+  - vb
+  name: LogsDirectorySizeLimit
+  nameWithType: SiteConfig.LogsDirectorySizeLimit
+  fullName: Microsoft.Azure.Management.WebSites.Models.SiteConfig.LogsDirectorySizeLimit
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/Models/SiteConfig.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: LogsDirectorySizeLimit
+    path: src/azure-sdk-for-net/src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/Models/SiteConfig.cs
+    startLine: 146
+  assemblies:
+  - Microsoft.Azure.Management.Websites
+  namespace: Microsoft.Azure.Management.WebSites.Models
+  summary: "\nHTTP Logs Directory size limit\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty(PropertyName = "properties.logsDirectorySizeLimit")]
+
+      public int ? LogsDirectorySizeLimit { get; set; }
+    content.vb: >-
+      <JsonProperty(PropertyName:="properties.logsDirectorySizeLimit")>
+
+      Public Property LogsDirectorySizeLimit As Integer?
+    parameters: []
+    return:
+      type: System.Nullable{System.Int32}
+  overload: Microsoft.Azure.Management.WebSites.Models.SiteConfig.LogsDirectorySizeLimit*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: PropertyName
+      type: System.String
+      value: properties.logsDirectorySizeLimit
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Azure.Management.WebSites.Models.SiteConfig.DetailedErrorLoggingEnabled
+  commentId: P:Microsoft.Azure.Management.WebSites.Models.SiteConfig.DetailedErrorLoggingEnabled
+  id: DetailedErrorLoggingEnabled
+  parent: Microsoft.Azure.Management.WebSites.Models.SiteConfig
+  langs:
+  - csharp
+  - vb
+  name: DetailedErrorLoggingEnabled
+  nameWithType: SiteConfig.DetailedErrorLoggingEnabled
+  fullName: Microsoft.Azure.Management.WebSites.Models.SiteConfig.DetailedErrorLoggingEnabled
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/Models/SiteConfig.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: DetailedErrorLoggingEnabled
+    path: src/azure-sdk-for-net/src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/Models/SiteConfig.cs
+    startLine: 152
+  assemblies:
+  - Microsoft.Azure.Management.Websites
+  namespace: Microsoft.Azure.Management.WebSites.Models
+  summary: "\nDetailed error logging enabled\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty(PropertyName = "properties.detailedErrorLoggingEnabled")]
+
+      public bool ? DetailedErrorLoggingEnabled { get; set; }
+    content.vb: >-
+      <JsonProperty(PropertyName:="properties.detailedErrorLoggingEnabled")>
+
+      Public Property DetailedErrorLoggingEnabled As Boolean?
+    parameters: []
+    return:
+      type: System.Nullable{System.Boolean}
+  overload: Microsoft.Azure.Management.WebSites.Models.SiteConfig.DetailedErrorLoggingEnabled*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: PropertyName
+      type: System.String
+      value: properties.detailedErrorLoggingEnabled
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Azure.Management.WebSites.Models.SiteConfig.PublishingUsername
+  commentId: P:Microsoft.Azure.Management.WebSites.Models.SiteConfig.PublishingUsername
+  id: PublishingUsername
+  parent: Microsoft.Azure.Management.WebSites.Models.SiteConfig
+  langs:
+  - csharp
+  - vb
+  name: PublishingUsername
+  nameWithType: SiteConfig.PublishingUsername
+  fullName: Microsoft.Azure.Management.WebSites.Models.SiteConfig.PublishingUsername
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/Models/SiteConfig.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: PublishingUsername
+    path: src/azure-sdk-for-net/src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/Models/SiteConfig.cs
+    startLine: 158
+  assemblies:
+  - Microsoft.Azure.Management.Websites
+  namespace: Microsoft.Azure.Management.WebSites.Models
+  summary: "\nPublishing user name\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty(PropertyName = "properties.publishingUsername")]
+
+      public string PublishingUsername { get; set; }
+    content.vb: >-
+      <JsonProperty(PropertyName:="properties.publishingUsername")>
+
+      Public Property PublishingUsername As String
+    parameters: []
+    return:
+      type: System.String
+  overload: Microsoft.Azure.Management.WebSites.Models.SiteConfig.PublishingUsername*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: PropertyName
+      type: System.String
+      value: properties.publishingUsername
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Azure.Management.WebSites.Models.SiteConfig.MachineKey
+  commentId: P:Microsoft.Azure.Management.WebSites.Models.SiteConfig.MachineKey
+  id: MachineKey
+  parent: Microsoft.Azure.Management.WebSites.Models.SiteConfig
+  langs:
+  - csharp
+  - vb
+  name: MachineKey
+  nameWithType: SiteConfig.MachineKey
+  fullName: Microsoft.Azure.Management.WebSites.Models.SiteConfig.MachineKey
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/Models/SiteConfig.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: MachineKey
+    path: src/azure-sdk-for-net/src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/Models/SiteConfig.cs
+    startLine: 164
+  assemblies:
+  - Microsoft.Azure.Management.Websites
+  namespace: Microsoft.Azure.Management.WebSites.Models
+  summary: "\nSite MachineKey\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty(PropertyName = "properties.machineKey")]
+
+      public SiteMachineKey MachineKey { get; set; }
+    content.vb: >-
+      <JsonProperty(PropertyName:="properties.machineKey")>
+
+      Public Property MachineKey As SiteMachineKey
+    parameters: []
+    return:
+      type: Microsoft.Azure.Management.WebSites.Models.SiteMachineKey
+  overload: Microsoft.Azure.Management.WebSites.Models.SiteConfig.MachineKey*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: PropertyName
+      type: System.String
+      value: properties.machineKey
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Azure.Management.WebSites.Models.SiteConfig.HandlerMappings
+  commentId: P:Microsoft.Azure.Management.WebSites.Models.SiteConfig.HandlerMappings
+  id: HandlerMappings
+  parent: Microsoft.Azure.Management.WebSites.Models.SiteConfig
+  langs:
+  - csharp
+  - vb
+  name: HandlerMappings
+  nameWithType: SiteConfig.HandlerMappings
+  fullName: Microsoft.Azure.Management.WebSites.Models.SiteConfig.HandlerMappings
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/Models/SiteConfig.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: HandlerMappings
+    path: src/azure-sdk-for-net/src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/Models/SiteConfig.cs
+    startLine: 170
+  assemblies:
+  - Microsoft.Azure.Management.Websites
+  namespace: Microsoft.Azure.Management.WebSites.Models
+  summary: "\nHandler mappings\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty(PropertyName = "properties.handlerMappings")]
+
+      public IList<HandlerMapping> HandlerMappings { get; set; }
+    content.vb: >-
+      <JsonProperty(PropertyName:="properties.handlerMappings")>
+
+      Public Property HandlerMappings As IList(Of HandlerMapping)
+    parameters: []
+    return:
+      type: System.Collections.Generic.IList{Microsoft.Azure.Management.WebSites.Models.HandlerMapping}
+  overload: Microsoft.Azure.Management.WebSites.Models.SiteConfig.HandlerMappings*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: PropertyName
+      type: System.String
+      value: properties.handlerMappings
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Azure.Management.WebSites.Models.SiteConfig.DocumentRoot
+  commentId: P:Microsoft.Azure.Management.WebSites.Models.SiteConfig.DocumentRoot
+  id: DocumentRoot
+  parent: Microsoft.Azure.Management.WebSites.Models.SiteConfig
+  langs:
+  - csharp
+  - vb
+  name: DocumentRoot
+  nameWithType: SiteConfig.DocumentRoot
+  fullName: Microsoft.Azure.Management.WebSites.Models.SiteConfig.DocumentRoot
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/Models/SiteConfig.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: DocumentRoot
+    path: src/azure-sdk-for-net/src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/Models/SiteConfig.cs
+    startLine: 176
+  assemblies:
+  - Microsoft.Azure.Management.Websites
+  namespace: Microsoft.Azure.Management.WebSites.Models
+  summary: "\nDocument root\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty(PropertyName = "properties.documentRoot")]
+
+      public string DocumentRoot { get; set; }
+    content.vb: >-
+      <JsonProperty(PropertyName:="properties.documentRoot")>
+
+      Public Property DocumentRoot As String
+    parameters: []
+    return:
+      type: System.String
+  overload: Microsoft.Azure.Management.WebSites.Models.SiteConfig.DocumentRoot*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: PropertyName
+      type: System.String
+      value: properties.documentRoot
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Azure.Management.WebSites.Models.SiteConfig.ScmType
+  commentId: P:Microsoft.Azure.Management.WebSites.Models.SiteConfig.ScmType
+  id: ScmType
+  parent: Microsoft.Azure.Management.WebSites.Models.SiteConfig
+  langs:
+  - csharp
+  - vb
+  name: ScmType
+  nameWithType: SiteConfig.ScmType
+  fullName: Microsoft.Azure.Management.WebSites.Models.SiteConfig.ScmType
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/Models/SiteConfig.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: ScmType
+    path: src/azure-sdk-for-net/src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/Models/SiteConfig.cs
+    startLine: 182
+  assemblies:
+  - Microsoft.Azure.Management.Websites
+  namespace: Microsoft.Azure.Management.WebSites.Models
+  summary: "\nSCM type\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty(PropertyName = "properties.scmType")]
+
+      public string ScmType { get; set; }
+    content.vb: >-
+      <JsonProperty(PropertyName:="properties.scmType")>
+
+      Public Property ScmType As String
+    parameters: []
+    return:
+      type: System.String
+  overload: Microsoft.Azure.Management.WebSites.Models.SiteConfig.ScmType*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: PropertyName
+      type: System.String
+      value: properties.scmType
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Azure.Management.WebSites.Models.SiteConfig.Use32BitWorkerProcess
+  commentId: P:Microsoft.Azure.Management.WebSites.Models.SiteConfig.Use32BitWorkerProcess
+  id: Use32BitWorkerProcess
+  parent: Microsoft.Azure.Management.WebSites.Models.SiteConfig
+  langs:
+  - csharp
+  - vb
+  name: Use32BitWorkerProcess
+  nameWithType: SiteConfig.Use32BitWorkerProcess
+  fullName: Microsoft.Azure.Management.WebSites.Models.SiteConfig.Use32BitWorkerProcess
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/Models/SiteConfig.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: Use32BitWorkerProcess
+    path: src/azure-sdk-for-net/src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/Models/SiteConfig.cs
+    startLine: 188
+  assemblies:
+  - Microsoft.Azure.Management.Websites
+  namespace: Microsoft.Azure.Management.WebSites.Models
+  summary: "\nUse 32 bit worker process\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty(PropertyName = "properties.use32BitWorkerProcess")]
+
+      public bool ? Use32BitWorkerProcess { get; set; }
+    content.vb: >-
+      <JsonProperty(PropertyName:="properties.use32BitWorkerProcess")>
+
+      Public Property Use32BitWorkerProcess As Boolean?
+    parameters: []
+    return:
+      type: System.Nullable{System.Boolean}
+  overload: Microsoft.Azure.Management.WebSites.Models.SiteConfig.Use32BitWorkerProcess*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: PropertyName
+      type: System.String
+      value: properties.use32BitWorkerProcess
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Azure.Management.WebSites.Models.SiteConfig.WebSocketsEnabled
+  commentId: P:Microsoft.Azure.Management.WebSites.Models.SiteConfig.WebSocketsEnabled
+  id: WebSocketsEnabled
+  parent: Microsoft.Azure.Management.WebSites.Models.SiteConfig
+  langs:
+  - csharp
+  - vb
+  name: WebSocketsEnabled
+  nameWithType: SiteConfig.WebSocketsEnabled
+  fullName: Microsoft.Azure.Management.WebSites.Models.SiteConfig.WebSocketsEnabled
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/Models/SiteConfig.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: WebSocketsEnabled
+    path: src/azure-sdk-for-net/src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/Models/SiteConfig.cs
+    startLine: 194
+  assemblies:
+  - Microsoft.Azure.Management.Websites
+  namespace: Microsoft.Azure.Management.WebSites.Models
+  summary: "\nWeb socket enabled.\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty(PropertyName = "properties.webSocketsEnabled")]
+
+      public bool ? WebSocketsEnabled { get; set; }
+    content.vb: >-
+      <JsonProperty(PropertyName:="properties.webSocketsEnabled")>
+
+      Public Property WebSocketsEnabled As Boolean?
+    parameters: []
+    return:
+      type: System.Nullable{System.Boolean}
+  overload: Microsoft.Azure.Management.WebSites.Models.SiteConfig.WebSocketsEnabled*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: PropertyName
+      type: System.String
+      value: properties.webSocketsEnabled
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Azure.Management.WebSites.Models.SiteConfig.AlwaysOn
+  commentId: P:Microsoft.Azure.Management.WebSites.Models.SiteConfig.AlwaysOn
+  id: AlwaysOn
+  parent: Microsoft.Azure.Management.WebSites.Models.SiteConfig
+  langs:
+  - csharp
+  - vb
+  name: AlwaysOn
+  nameWithType: SiteConfig.AlwaysOn
+  fullName: Microsoft.Azure.Management.WebSites.Models.SiteConfig.AlwaysOn
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/Models/SiteConfig.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: AlwaysOn
+    path: src/azure-sdk-for-net/src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/Models/SiteConfig.cs
+    startLine: 200
+  assemblies:
+  - Microsoft.Azure.Management.Websites
+  namespace: Microsoft.Azure.Management.WebSites.Models
+  summary: "\nAlways On\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty(PropertyName = "properties.alwaysOn")]
+
+      public bool ? AlwaysOn { get; set; }
+    content.vb: >-
+      <JsonProperty(PropertyName:="properties.alwaysOn")>
+
+      Public Property AlwaysOn As Boolean?
+    parameters: []
+    return:
+      type: System.Nullable{System.Boolean}
+  overload: Microsoft.Azure.Management.WebSites.Models.SiteConfig.AlwaysOn*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: PropertyName
+      type: System.String
+      value: properties.alwaysOn
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Azure.Management.WebSites.Models.SiteConfig.JavaVersion
+  commentId: P:Microsoft.Azure.Management.WebSites.Models.SiteConfig.JavaVersion
+  id: JavaVersion
+  parent: Microsoft.Azure.Management.WebSites.Models.SiteConfig
+  langs:
+  - csharp
+  - vb
+  name: JavaVersion
+  nameWithType: SiteConfig.JavaVersion
+  fullName: Microsoft.Azure.Management.WebSites.Models.SiteConfig.JavaVersion
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/Models/SiteConfig.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: JavaVersion
+    path: src/azure-sdk-for-net/src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/Models/SiteConfig.cs
+    startLine: 206
+  assemblies:
+  - Microsoft.Azure.Management.Websites
+  namespace: Microsoft.Azure.Management.WebSites.Models
+  summary: "\nJava version\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty(PropertyName = "properties.javaVersion")]
+
+      public string JavaVersion { get; set; }
+    content.vb: >-
+      <JsonProperty(PropertyName:="properties.javaVersion")>
+
+      Public Property JavaVersion As String
+    parameters: []
+    return:
+      type: System.String
+  overload: Microsoft.Azure.Management.WebSites.Models.SiteConfig.JavaVersion*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: PropertyName
+      type: System.String
+      value: properties.javaVersion
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Azure.Management.WebSites.Models.SiteConfig.JavaContainer
+  commentId: P:Microsoft.Azure.Management.WebSites.Models.SiteConfig.JavaContainer
+  id: JavaContainer
+  parent: Microsoft.Azure.Management.WebSites.Models.SiteConfig
+  langs:
+  - csharp
+  - vb
+  name: JavaContainer
+  nameWithType: SiteConfig.JavaContainer
+  fullName: Microsoft.Azure.Management.WebSites.Models.SiteConfig.JavaContainer
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/Models/SiteConfig.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: JavaContainer
+    path: src/azure-sdk-for-net/src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/Models/SiteConfig.cs
+    startLine: 212
+  assemblies:
+  - Microsoft.Azure.Management.Websites
+  namespace: Microsoft.Azure.Management.WebSites.Models
+  summary: "\nJava container\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty(PropertyName = "properties.javaContainer")]
+
+      public string JavaContainer { get; set; }
+    content.vb: >-
+      <JsonProperty(PropertyName:="properties.javaContainer")>
+
+      Public Property JavaContainer As String
+    parameters: []
+    return:
+      type: System.String
+  overload: Microsoft.Azure.Management.WebSites.Models.SiteConfig.JavaContainer*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: PropertyName
+      type: System.String
+      value: properties.javaContainer
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Azure.Management.WebSites.Models.SiteConfig.JavaContainerVersion
+  commentId: P:Microsoft.Azure.Management.WebSites.Models.SiteConfig.JavaContainerVersion
+  id: JavaContainerVersion
+  parent: Microsoft.Azure.Management.WebSites.Models.SiteConfig
+  langs:
+  - csharp
+  - vb
+  name: JavaContainerVersion
+  nameWithType: SiteConfig.JavaContainerVersion
+  fullName: Microsoft.Azure.Management.WebSites.Models.SiteConfig.JavaContainerVersion
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/Models/SiteConfig.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: JavaContainerVersion
+    path: src/azure-sdk-for-net/src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/Models/SiteConfig.cs
+    startLine: 218
+  assemblies:
+  - Microsoft.Azure.Management.Websites
+  namespace: Microsoft.Azure.Management.WebSites.Models
+  summary: "\nJava container version\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty(PropertyName = "properties.javaContainerVersion")]
+
+      public string JavaContainerVersion { get; set; }
+    content.vb: >-
+      <JsonProperty(PropertyName:="properties.javaContainerVersion")>
+
+      Public Property JavaContainerVersion As String
+    parameters: []
+    return:
+      type: System.String
+  overload: Microsoft.Azure.Management.WebSites.Models.SiteConfig.JavaContainerVersion*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: PropertyName
+      type: System.String
+      value: properties.javaContainerVersion
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Azure.Management.WebSites.Models.SiteConfig.AppCommandLine
+  commentId: P:Microsoft.Azure.Management.WebSites.Models.SiteConfig.AppCommandLine
+  id: AppCommandLine
+  parent: Microsoft.Azure.Management.WebSites.Models.SiteConfig
+  langs:
+  - csharp
+  - vb
+  name: AppCommandLine
+  nameWithType: SiteConfig.AppCommandLine
+  fullName: Microsoft.Azure.Management.WebSites.Models.SiteConfig.AppCommandLine
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/Models/SiteConfig.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: AppCommandLine
+    path: src/azure-sdk-for-net/src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/Models/SiteConfig.cs
+    startLine: 224
+  assemblies:
+  - Microsoft.Azure.Management.Websites
+  namespace: Microsoft.Azure.Management.WebSites.Models
+  summary: "\nApp Command Line to launch\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty(PropertyName = "properties.appCommandLine")]
+
+      public string AppCommandLine { get; set; }
+    content.vb: >-
+      <JsonProperty(PropertyName:="properties.appCommandLine")>
+
+      Public Property AppCommandLine As String
+    parameters: []
+    return:
+      type: System.String
+  overload: Microsoft.Azure.Management.WebSites.Models.SiteConfig.AppCommandLine*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: PropertyName
+      type: System.String
+      value: properties.appCommandLine
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Azure.Management.WebSites.Models.SiteConfig.ManagedPipelineMode
+  commentId: P:Microsoft.Azure.Management.WebSites.Models.SiteConfig.ManagedPipelineMode
+  id: ManagedPipelineMode
+  parent: Microsoft.Azure.Management.WebSites.Models.SiteConfig
+  langs:
+  - csharp
+  - vb
+  name: ManagedPipelineMode
+  nameWithType: SiteConfig.ManagedPipelineMode
+  fullName: Microsoft.Azure.Management.WebSites.Models.SiteConfig.ManagedPipelineMode
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/Models/SiteConfig.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: ManagedPipelineMode
+    path: src/azure-sdk-for-net/src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/Models/SiteConfig.cs
+    startLine: 231
+  assemblies:
+  - Microsoft.Azure.Management.Websites
+  namespace: Microsoft.Azure.Management.WebSites.Models
+  summary: "\nManaged pipeline mode. Possible values include: 'Integrated',\n'Classic'\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty(PropertyName = "properties.managedPipelineMode")]
+
+      public ManagedPipelineMode? ManagedPipelineMode { get; set; }
+    content.vb: >-
+      <JsonProperty(PropertyName:="properties.managedPipelineMode")>
+
+      Public Property ManagedPipelineMode As ManagedPipelineMode?
+    parameters: []
+    return:
+      type: System.Nullable{Microsoft.Azure.Management.WebSites.Models.ManagedPipelineMode}
+  overload: Microsoft.Azure.Management.WebSites.Models.SiteConfig.ManagedPipelineMode*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: PropertyName
+      type: System.String
+      value: properties.managedPipelineMode
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Azure.Management.WebSites.Models.SiteConfig.VirtualApplications
+  commentId: P:Microsoft.Azure.Management.WebSites.Models.SiteConfig.VirtualApplications
+  id: VirtualApplications
+  parent: Microsoft.Azure.Management.WebSites.Models.SiteConfig
+  langs:
+  - csharp
+  - vb
+  name: VirtualApplications
+  nameWithType: SiteConfig.VirtualApplications
+  fullName: Microsoft.Azure.Management.WebSites.Models.SiteConfig.VirtualApplications
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/Models/SiteConfig.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: VirtualApplications
+    path: src/azure-sdk-for-net/src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/Models/SiteConfig.cs
+    startLine: 237
+  assemblies:
+  - Microsoft.Azure.Management.Websites
+  namespace: Microsoft.Azure.Management.WebSites.Models
+  summary: "\nVirtual applications\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty(PropertyName = "properties.virtualApplications")]
+
+      public IList<VirtualApplication> VirtualApplications { get; set; }
+    content.vb: >-
+      <JsonProperty(PropertyName:="properties.virtualApplications")>
+
+      Public Property VirtualApplications As IList(Of VirtualApplication)
+    parameters: []
+    return:
+      type: System.Collections.Generic.IList{Microsoft.Azure.Management.WebSites.Models.VirtualApplication}
+  overload: Microsoft.Azure.Management.WebSites.Models.SiteConfig.VirtualApplications*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: PropertyName
+      type: System.String
+      value: properties.virtualApplications
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Azure.Management.WebSites.Models.SiteConfig.LoadBalancing
+  commentId: P:Microsoft.Azure.Management.WebSites.Models.SiteConfig.LoadBalancing
+  id: LoadBalancing
+  parent: Microsoft.Azure.Management.WebSites.Models.SiteConfig
+  langs:
+  - csharp
+  - vb
+  name: LoadBalancing
+  nameWithType: SiteConfig.LoadBalancing
+  fullName: Microsoft.Azure.Management.WebSites.Models.SiteConfig.LoadBalancing
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/Models/SiteConfig.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: LoadBalancing
+    path: src/azure-sdk-for-net/src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/Models/SiteConfig.cs
+    startLine: 245
+  assemblies:
+  - Microsoft.Azure.Management.Websites
+  namespace: Microsoft.Azure.Management.WebSites.Models
+  summary: "\nSite load balancing. Possible values include:\n'WeightedRoundRobin', 'LeastRequests', 'LeastResponseTime',\n'WeightedTotalTraffic', 'RequestHash'\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty(PropertyName = "properties.loadBalancing")]
+
+      public SiteLoadBalancing? LoadBalancing { get; set; }
+    content.vb: >-
+      <JsonProperty(PropertyName:="properties.loadBalancing")>
+
+      Public Property LoadBalancing As SiteLoadBalancing?
+    parameters: []
+    return:
+      type: System.Nullable{Microsoft.Azure.Management.WebSites.Models.SiteLoadBalancing}
+  overload: Microsoft.Azure.Management.WebSites.Models.SiteConfig.LoadBalancing*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: PropertyName
+      type: System.String
+      value: properties.loadBalancing
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Azure.Management.WebSites.Models.SiteConfig.Experiments
+  commentId: P:Microsoft.Azure.Management.WebSites.Models.SiteConfig.Experiments
+  id: Experiments
+  parent: Microsoft.Azure.Management.WebSites.Models.SiteConfig
+  langs:
+  - csharp
+  - vb
+  name: Experiments
+  nameWithType: SiteConfig.Experiments
+  fullName: Microsoft.Azure.Management.WebSites.Models.SiteConfig.Experiments
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/Models/SiteConfig.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: Experiments
+    path: src/azure-sdk-for-net/src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/Models/SiteConfig.cs
+    startLine: 251
+  assemblies:
+  - Microsoft.Azure.Management.Websites
+  namespace: Microsoft.Azure.Management.WebSites.Models
+  summary: "\nThis is work around for polymophic types\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty(PropertyName = "properties.experiments")]
+
+      public Experiments Experiments { get; set; }
+    content.vb: >-
+      <JsonProperty(PropertyName:="properties.experiments")>
+
+      Public Property Experiments As Experiments
+    parameters: []
+    return:
+      type: Microsoft.Azure.Management.WebSites.Models.Experiments
+  overload: Microsoft.Azure.Management.WebSites.Models.SiteConfig.Experiments*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: PropertyName
+      type: System.String
+      value: properties.experiments
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Azure.Management.WebSites.Models.SiteConfig.Limits
+  commentId: P:Microsoft.Azure.Management.WebSites.Models.SiteConfig.Limits
+  id: Limits
+  parent: Microsoft.Azure.Management.WebSites.Models.SiteConfig
+  langs:
+  - csharp
+  - vb
+  name: Limits
+  nameWithType: SiteConfig.Limits
+  fullName: Microsoft.Azure.Management.WebSites.Models.SiteConfig.Limits
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/Models/SiteConfig.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: Limits
+    path: src/azure-sdk-for-net/src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/Models/SiteConfig.cs
+    startLine: 257
+  assemblies:
+  - Microsoft.Azure.Management.Websites
+  namespace: Microsoft.Azure.Management.WebSites.Models
+  summary: "\nSite limits\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty(PropertyName = "properties.limits")]
+
+      public SiteLimits Limits { get; set; }
+    content.vb: >-
+      <JsonProperty(PropertyName:="properties.limits")>
+
+      Public Property Limits As SiteLimits
+    parameters: []
+    return:
+      type: Microsoft.Azure.Management.WebSites.Models.SiteLimits
+  overload: Microsoft.Azure.Management.WebSites.Models.SiteConfig.Limits*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: PropertyName
+      type: System.String
+      value: properties.limits
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Azure.Management.WebSites.Models.SiteConfig.AutoHealEnabled
+  commentId: P:Microsoft.Azure.Management.WebSites.Models.SiteConfig.AutoHealEnabled
+  id: AutoHealEnabled
+  parent: Microsoft.Azure.Management.WebSites.Models.SiteConfig
+  langs:
+  - csharp
+  - vb
+  name: AutoHealEnabled
+  nameWithType: SiteConfig.AutoHealEnabled
+  fullName: Microsoft.Azure.Management.WebSites.Models.SiteConfig.AutoHealEnabled
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/Models/SiteConfig.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: AutoHealEnabled
+    path: src/azure-sdk-for-net/src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/Models/SiteConfig.cs
+    startLine: 263
+  assemblies:
+  - Microsoft.Azure.Management.Websites
+  namespace: Microsoft.Azure.Management.WebSites.Models
+  summary: "\nAuto heal enabled\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty(PropertyName = "properties.autoHealEnabled")]
+
+      public bool ? AutoHealEnabled { get; set; }
+    content.vb: >-
+      <JsonProperty(PropertyName:="properties.autoHealEnabled")>
+
+      Public Property AutoHealEnabled As Boolean?
+    parameters: []
+    return:
+      type: System.Nullable{System.Boolean}
+  overload: Microsoft.Azure.Management.WebSites.Models.SiteConfig.AutoHealEnabled*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: PropertyName
+      type: System.String
+      value: properties.autoHealEnabled
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Azure.Management.WebSites.Models.SiteConfig.AutoHealRules
+  commentId: P:Microsoft.Azure.Management.WebSites.Models.SiteConfig.AutoHealRules
+  id: AutoHealRules
+  parent: Microsoft.Azure.Management.WebSites.Models.SiteConfig
+  langs:
+  - csharp
+  - vb
+  name: AutoHealRules
+  nameWithType: SiteConfig.AutoHealRules
+  fullName: Microsoft.Azure.Management.WebSites.Models.SiteConfig.AutoHealRules
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/Models/SiteConfig.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: AutoHealRules
+    path: src/azure-sdk-for-net/src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/Models/SiteConfig.cs
+    startLine: 269
+  assemblies:
+  - Microsoft.Azure.Management.Websites
+  namespace: Microsoft.Azure.Management.WebSites.Models
+  summary: "\nAuto heal rules\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty(PropertyName = "properties.autoHealRules")]
+
+      public AutoHealRules AutoHealRules { get; set; }
+    content.vb: >-
+      <JsonProperty(PropertyName:="properties.autoHealRules")>
+
+      Public Property AutoHealRules As AutoHealRules
+    parameters: []
+    return:
+      type: Microsoft.Azure.Management.WebSites.Models.AutoHealRules
+  overload: Microsoft.Azure.Management.WebSites.Models.SiteConfig.AutoHealRules*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: PropertyName
+      type: System.String
+      value: properties.autoHealRules
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Azure.Management.WebSites.Models.SiteConfig.TracingOptions
+  commentId: P:Microsoft.Azure.Management.WebSites.Models.SiteConfig.TracingOptions
+  id: TracingOptions
+  parent: Microsoft.Azure.Management.WebSites.Models.SiteConfig
+  langs:
+  - csharp
+  - vb
+  name: TracingOptions
+  nameWithType: SiteConfig.TracingOptions
+  fullName: Microsoft.Azure.Management.WebSites.Models.SiteConfig.TracingOptions
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/Models/SiteConfig.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: TracingOptions
+    path: src/azure-sdk-for-net/src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/Models/SiteConfig.cs
+    startLine: 275
+  assemblies:
+  - Microsoft.Azure.Management.Websites
+  namespace: Microsoft.Azure.Management.WebSites.Models
+  summary: "\nTracing options\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty(PropertyName = "properties.tracingOptions")]
+
+      public string TracingOptions { get; set; }
+    content.vb: >-
+      <JsonProperty(PropertyName:="properties.tracingOptions")>
+
+      Public Property TracingOptions As String
+    parameters: []
+    return:
+      type: System.String
+  overload: Microsoft.Azure.Management.WebSites.Models.SiteConfig.TracingOptions*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: PropertyName
+      type: System.String
+      value: properties.tracingOptions
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Azure.Management.WebSites.Models.SiteConfig.VnetName
+  commentId: P:Microsoft.Azure.Management.WebSites.Models.SiteConfig.VnetName
+  id: VnetName
+  parent: Microsoft.Azure.Management.WebSites.Models.SiteConfig
+  langs:
+  - csharp
+  - vb
+  name: VnetName
+  nameWithType: SiteConfig.VnetName
+  fullName: Microsoft.Azure.Management.WebSites.Models.SiteConfig.VnetName
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/Models/SiteConfig.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: VnetName
+    path: src/azure-sdk-for-net/src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/Models/SiteConfig.cs
+    startLine: 281
+  assemblies:
+  - Microsoft.Azure.Management.Websites
+  namespace: Microsoft.Azure.Management.WebSites.Models
+  summary: "\nVnet name\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty(PropertyName = "properties.vnetName")]
+
+      public string VnetName { get; set; }
+    content.vb: >-
+      <JsonProperty(PropertyName:="properties.vnetName")>
+
+      Public Property VnetName As String
+    parameters: []
+    return:
+      type: System.String
+  overload: Microsoft.Azure.Management.WebSites.Models.SiteConfig.VnetName*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: PropertyName
+      type: System.String
+      value: properties.vnetName
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Azure.Management.WebSites.Models.SiteConfig.Cors
+  commentId: P:Microsoft.Azure.Management.WebSites.Models.SiteConfig.Cors
+  id: Cors
+  parent: Microsoft.Azure.Management.WebSites.Models.SiteConfig
+  langs:
+  - csharp
+  - vb
+  name: Cors
+  nameWithType: SiteConfig.Cors
+  fullName: Microsoft.Azure.Management.WebSites.Models.SiteConfig.Cors
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/Models/SiteConfig.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: Cors
+    path: src/azure-sdk-for-net/src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/Models/SiteConfig.cs
+    startLine: 287
+  assemblies:
+  - Microsoft.Azure.Management.Websites
+  namespace: Microsoft.Azure.Management.WebSites.Models
+  summary: "\nCross-Origin Resource Sharing (CORS) settings.\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty(PropertyName = "properties.cors")]
+
+      public CorsSettings Cors { get; set; }
+    content.vb: >-
+      <JsonProperty(PropertyName:="properties.cors")>
+
+      Public Property Cors As CorsSettings
+    parameters: []
+    return:
+      type: Microsoft.Azure.Management.WebSites.Models.CorsSettings
+  overload: Microsoft.Azure.Management.WebSites.Models.SiteConfig.Cors*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: PropertyName
+      type: System.String
+      value: properties.cors
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Azure.Management.WebSites.Models.SiteConfig.Push
+  commentId: P:Microsoft.Azure.Management.WebSites.Models.SiteConfig.Push
+  id: Push
+  parent: Microsoft.Azure.Management.WebSites.Models.SiteConfig
+  langs:
+  - csharp
+  - vb
+  name: Push
+  nameWithType: SiteConfig.Push
+  fullName: Microsoft.Azure.Management.WebSites.Models.SiteConfig.Push
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/Models/SiteConfig.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: Push
+    path: src/azure-sdk-for-net/src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/Models/SiteConfig.cs
+    startLine: 293
+  assemblies:
+  - Microsoft.Azure.Management.Websites
+  namespace: Microsoft.Azure.Management.WebSites.Models
+  summary: "\nPush endpoint settings.\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty(PropertyName = "properties.push")]
+
+      public PushSettings Push { get; set; }
+    content.vb: >-
+      <JsonProperty(PropertyName:="properties.push")>
+
+      Public Property Push As PushSettings
+    parameters: []
+    return:
+      type: Microsoft.Azure.Management.WebSites.Models.PushSettings
+  overload: Microsoft.Azure.Management.WebSites.Models.SiteConfig.Push*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: PropertyName
+      type: System.String
+      value: properties.push
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Azure.Management.WebSites.Models.SiteConfig.ApiDefinition
+  commentId: P:Microsoft.Azure.Management.WebSites.Models.SiteConfig.ApiDefinition
+  id: ApiDefinition
+  parent: Microsoft.Azure.Management.WebSites.Models.SiteConfig
+  langs:
+  - csharp
+  - vb
+  name: ApiDefinition
+  nameWithType: SiteConfig.ApiDefinition
+  fullName: Microsoft.Azure.Management.WebSites.Models.SiteConfig.ApiDefinition
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/Models/SiteConfig.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: ApiDefinition
+    path: src/azure-sdk-for-net/src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/Models/SiteConfig.cs
+    startLine: 299
+  assemblies:
+  - Microsoft.Azure.Management.Websites
+  namespace: Microsoft.Azure.Management.WebSites.Models
+  summary: "\nInformation about the formal API definition for the web app.\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty(PropertyName = "properties.apiDefinition")]
+
+      public ApiDefinitionInfo ApiDefinition { get; set; }
+    content.vb: >-
+      <JsonProperty(PropertyName:="properties.apiDefinition")>
+
+      Public Property ApiDefinition As ApiDefinitionInfo
+    parameters: []
+    return:
+      type: Microsoft.Azure.Management.WebSites.Models.ApiDefinitionInfo
+  overload: Microsoft.Azure.Management.WebSites.Models.SiteConfig.ApiDefinition*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: PropertyName
+      type: System.String
+      value: properties.apiDefinition
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Azure.Management.WebSites.Models.SiteConfig.AutoSwapSlotName
+  commentId: P:Microsoft.Azure.Management.WebSites.Models.SiteConfig.AutoSwapSlotName
+  id: AutoSwapSlotName
+  parent: Microsoft.Azure.Management.WebSites.Models.SiteConfig
+  langs:
+  - csharp
+  - vb
+  name: AutoSwapSlotName
+  nameWithType: SiteConfig.AutoSwapSlotName
+  fullName: Microsoft.Azure.Management.WebSites.Models.SiteConfig.AutoSwapSlotName
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/Models/SiteConfig.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: AutoSwapSlotName
+    path: src/azure-sdk-for-net/src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/Models/SiteConfig.cs
+    startLine: 305
+  assemblies:
+  - Microsoft.Azure.Management.Websites
+  namespace: Microsoft.Azure.Management.WebSites.Models
+  summary: "\nAuto swap slot name\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty(PropertyName = "properties.autoSwapSlotName")]
+
+      public string AutoSwapSlotName { get; set; }
+    content.vb: >-
+      <JsonProperty(PropertyName:="properties.autoSwapSlotName")>
+
+      Public Property AutoSwapSlotName As String
+    parameters: []
+    return:
+      type: System.String
+  overload: Microsoft.Azure.Management.WebSites.Models.SiteConfig.AutoSwapSlotName*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: PropertyName
+      type: System.String
+      value: properties.autoSwapSlotName
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Azure.Management.WebSites.Models.SiteConfig.LocalMySqlEnabled
+  commentId: P:Microsoft.Azure.Management.WebSites.Models.SiteConfig.LocalMySqlEnabled
+  id: LocalMySqlEnabled
+  parent: Microsoft.Azure.Management.WebSites.Models.SiteConfig
+  langs:
+  - csharp
+  - vb
+  name: LocalMySqlEnabled
+  nameWithType: SiteConfig.LocalMySqlEnabled
+  fullName: Microsoft.Azure.Management.WebSites.Models.SiteConfig.LocalMySqlEnabled
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/Models/SiteConfig.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: LocalMySqlEnabled
+    path: src/azure-sdk-for-net/src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/Models/SiteConfig.cs
+    startLine: 311
+  assemblies:
+  - Microsoft.Azure.Management.Websites
+  namespace: Microsoft.Azure.Management.WebSites.Models
+  summary: "\nLocal mysql enabled\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty(PropertyName = "properties.localMySqlEnabled")]
+
+      public bool ? LocalMySqlEnabled { get; set; }
+    content.vb: >-
+      <JsonProperty(PropertyName:="properties.localMySqlEnabled")>
+
+      Public Property LocalMySqlEnabled As Boolean?
+    parameters: []
+    return:
+      type: System.Nullable{System.Boolean}
+  overload: Microsoft.Azure.Management.WebSites.Models.SiteConfig.LocalMySqlEnabled*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: PropertyName
+      type: System.String
+      value: properties.localMySqlEnabled
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Azure.Management.WebSites.Models.SiteConfig.IpSecurityRestrictions
+  commentId: P:Microsoft.Azure.Management.WebSites.Models.SiteConfig.IpSecurityRestrictions
+  id: IpSecurityRestrictions
+  parent: Microsoft.Azure.Management.WebSites.Models.SiteConfig
+  langs:
+  - csharp
+  - vb
+  name: IpSecurityRestrictions
+  nameWithType: SiteConfig.IpSecurityRestrictions
+  fullName: Microsoft.Azure.Management.WebSites.Models.SiteConfig.IpSecurityRestrictions
+  type: Property
+  source:
+    remote:
+      path: src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/Models/SiteConfig.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: IpSecurityRestrictions
+    path: src/azure-sdk-for-net/src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/Models/SiteConfig.cs
+    startLine: 317
+  assemblies:
+  - Microsoft.Azure.Management.Websites
+  namespace: Microsoft.Azure.Management.WebSites.Models
+  summary: "\nIp Security restrictions\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty(PropertyName = "properties.ipSecurityRestrictions")]
+
+      public IList<IpSecurityRestriction> IpSecurityRestrictions { get; set; }
+    content.vb: >-
+      <JsonProperty(PropertyName:="properties.ipSecurityRestrictions")>
+
+      Public Property IpSecurityRestrictions As IList(Of IpSecurityRestriction)
+    parameters: []
+    return:
+      type: System.Collections.Generic.IList{Microsoft.Azure.Management.WebSites.Models.IpSecurityRestriction}
+  overload: Microsoft.Azure.Management.WebSites.Models.SiteConfig.IpSecurityRestrictions*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: PropertyName
+      type: System.String
+      value: properties.ipSecurityRestrictions
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Microsoft.Azure.Management.WebSites.Models.SiteConfig.Validate
+  commentId: M:Microsoft.Azure.Management.WebSites.Models.SiteConfig.Validate
+  id: Validate
+  parent: Microsoft.Azure.Management.WebSites.Models.SiteConfig
+  langs:
+  - csharp
+  - vb
+  name: Validate()
+  nameWithType: SiteConfig.Validate()
+  fullName: Microsoft.Azure.Management.WebSites.Models.SiteConfig.Validate()
+  type: Method
+  source:
+    remote:
+      path: src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/Models/SiteConfig.cs
+      branch: AutoRest
+      repo: https://github.com/Azure/azure-sdk-for-net.git
+    id: Validate
+    path: src/azure-sdk-for-net/src/ResourceManagement/WebSite/Microsoft.Azure.Management.Websites/Generated/Models/SiteConfig.cs
+    startLine: 323
+  assemblies:
+  - Microsoft.Azure.Management.Websites
+  namespace: Microsoft.Azure.Management.WebSites.Models
+  summary: "\nValidate the object. Throws ValidationException if validation fails.\n"
+  example: []
+  syntax:
+    content: public override void Validate()
+    content.vb: Public Overrides Sub Validate
+  overridden: Microsoft.Azure.Management.WebSites.Models.Resource.Validate
+  overload: Microsoft.Azure.Management.WebSites.Models.SiteConfig.Validate*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: Microsoft.Azure.Management.WebSites.Models
+  commentId: N:Microsoft.Azure.Management.WebSites.Models
+  isExternal: false
+  name: Microsoft.Azure.Management.WebSites.Models
+  nameWithType: Microsoft.Azure.Management.WebSites.Models
+  fullName: Microsoft.Azure.Management.WebSites.Models
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Microsoft.Azure.Management.WebSites.Models.Resource
+  commentId: T:Microsoft.Azure.Management.WebSites.Models.Resource
+  parent: Microsoft.Azure.Management.WebSites.Models
+  isExternal: false
+  name: Resource
+  nameWithType: Resource
+  fullName: Microsoft.Azure.Management.WebSites.Models.Resource
+- uid: Microsoft.Rest.Azure.IResource
+  commentId: T:Microsoft.Rest.Azure.IResource
+  parent: Microsoft.Rest.Azure
+  isExternal: false
+  name: IResource
+  nameWithType: IResource
+  fullName: Microsoft.Rest.Azure.IResource
+- uid: Microsoft.Azure.Management.WebSites.Models.Resource.Id
+  commentId: P:Microsoft.Azure.Management.WebSites.Models.Resource.Id
+  parent: Microsoft.Azure.Management.WebSites.Models.Resource
+  isExternal: false
+  name: Id
+  nameWithType: Resource.Id
+  fullName: Microsoft.Azure.Management.WebSites.Models.Resource.Id
+- uid: Microsoft.Azure.Management.WebSites.Models.Resource.Name
+  commentId: P:Microsoft.Azure.Management.WebSites.Models.Resource.Name
+  parent: Microsoft.Azure.Management.WebSites.Models.Resource
+  isExternal: false
+  name: Name
+  nameWithType: Resource.Name
+  fullName: Microsoft.Azure.Management.WebSites.Models.Resource.Name
+- uid: Microsoft.Azure.Management.WebSites.Models.Resource.Kind
+  commentId: P:Microsoft.Azure.Management.WebSites.Models.Resource.Kind
+  parent: Microsoft.Azure.Management.WebSites.Models.Resource
+  isExternal: false
+  name: Kind
+  nameWithType: Resource.Kind
+  fullName: Microsoft.Azure.Management.WebSites.Models.Resource.Kind
+- uid: Microsoft.Azure.Management.WebSites.Models.Resource.Location
+  commentId: P:Microsoft.Azure.Management.WebSites.Models.Resource.Location
+  parent: Microsoft.Azure.Management.WebSites.Models.Resource
+  isExternal: false
+  name: Location
+  nameWithType: Resource.Location
+  fullName: Microsoft.Azure.Management.WebSites.Models.Resource.Location
+- uid: Microsoft.Azure.Management.WebSites.Models.Resource.Type
+  commentId: P:Microsoft.Azure.Management.WebSites.Models.Resource.Type
+  parent: Microsoft.Azure.Management.WebSites.Models.Resource
+  isExternal: false
+  name: Type
+  nameWithType: Resource.Type
+  fullName: Microsoft.Azure.Management.WebSites.Models.Resource.Type
+- uid: Microsoft.Azure.Management.WebSites.Models.Resource.Tags
+  commentId: P:Microsoft.Azure.Management.WebSites.Models.Resource.Tags
+  parent: Microsoft.Azure.Management.WebSites.Models.Resource
+  isExternal: false
+  name: Tags
+  nameWithType: Resource.Tags
+  fullName: Microsoft.Azure.Management.WebSites.Models.Resource.Tags
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Microsoft.Rest.Azure
+  commentId: N:Microsoft.Rest.Azure
+  isExternal: false
+  name: Microsoft.Rest.Azure
+  nameWithType: Microsoft.Rest.Azure
+  fullName: Microsoft.Rest.Azure
+- uid: Microsoft.Azure.Management.WebSites.Models.SiteConfig.#ctor*
+  commentId: Overload:Microsoft.Azure.Management.WebSites.Models.SiteConfig.#ctor
+  isExternal: false
+  name: SiteConfig
+  nameWithType: SiteConfig.SiteConfig
+  fullName: Microsoft.Azure.Management.WebSites.Models.SiteConfig.SiteConfig
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Collections.Generic.IDictionary{System.String,System.String}
+  commentId: T:System.Collections.Generic.IDictionary{System.String,System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IDictionary`2
+  name: IDictionary<String, String>
+  nameWithType: IDictionary<String, String>
+  fullName: System.Collections.Generic.IDictionary<System.String, System.String>
+  nameWithType.vb: IDictionary(Of String, String)
+  fullname.vb: System.Collections.Generic.IDictionary(Of System.String, System.String)
+  name.vb: IDictionary(Of String, String)
+  spec.csharp:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: System.Collections.Generic.IDictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: System.Collections.Generic.IDictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable{System.Int32}
+  commentId: T:System.Nullable{System.Int32}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<Int32>
+  nameWithType: Nullable<Int32>
+  fullName: System.Nullable<System.Int32>
+  nameWithType.vb: Nullable(Of Int32)
+  fullname.vb: System.Nullable(Of System.Int32)
+  name.vb: Nullable(Of Int32)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IList{System.String}
+  commentId: T:System.Collections.Generic.IList{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IList`1
+  name: IList<String>
+  nameWithType: IList<String>
+  fullName: System.Collections.Generic.IList<System.String>
+  nameWithType.vb: IList(Of String)
+  fullname.vb: System.Collections.Generic.IList(Of System.String)
+  name.vb: IList(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable{System.Boolean}
+  commentId: T:System.Nullable{System.Boolean}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<Boolean>
+  nameWithType: Nullable<Boolean>
+  fullName: System.Nullable<System.Boolean>
+  nameWithType.vb: Nullable(Of Boolean)
+  fullname.vb: System.Nullable(Of System.Boolean)
+  name.vb: Nullable(Of Boolean)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable{System.DateTime}
+  commentId: T:System.Nullable{System.DateTime}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<DateTime>
+  nameWithType: Nullable<DateTime>
+  fullName: System.Nullable<System.DateTime>
+  nameWithType.vb: Nullable(Of DateTime)
+  fullname.vb: System.Nullable(Of System.DateTime)
+  name.vb: Nullable(Of DateTime)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Azure.Management.WebSites.Models.SiteMachineKey
+  commentId: T:Microsoft.Azure.Management.WebSites.Models.SiteMachineKey
+  parent: Microsoft.Azure.Management.WebSites.Models
+  isExternal: false
+  name: SiteMachineKey
+  nameWithType: SiteMachineKey
+  fullName: Microsoft.Azure.Management.WebSites.Models.SiteMachineKey
+- uid: System.Collections.Generic.IList{Microsoft.Azure.Management.WebSites.Models.HandlerMapping}
+  commentId: T:System.Collections.Generic.IList{Microsoft.Azure.Management.WebSites.Models.HandlerMapping}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IList`1
+  name: IList<HandlerMapping>
+  nameWithType: IList<HandlerMapping>
+  fullName: System.Collections.Generic.IList<Microsoft.Azure.Management.WebSites.Models.HandlerMapping>
+  nameWithType.vb: IList(Of HandlerMapping)
+  fullname.vb: System.Collections.Generic.IList(Of Microsoft.Azure.Management.WebSites.Models.HandlerMapping)
+  name.vb: IList(Of HandlerMapping)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Microsoft.Azure.Management.WebSites.Models.HandlerMapping
+    name: HandlerMapping
+    nameWithType: HandlerMapping
+    fullName: Microsoft.Azure.Management.WebSites.Models.HandlerMapping
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Microsoft.Azure.Management.WebSites.Models.HandlerMapping
+    name: HandlerMapping
+    nameWithType: HandlerMapping
+    fullName: Microsoft.Azure.Management.WebSites.Models.HandlerMapping
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable{Microsoft.Azure.Management.WebSites.Models.ManagedPipelineMode}
+  commentId: T:System.Nullable{Microsoft.Azure.Management.WebSites.Models.ManagedPipelineMode}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<ManagedPipelineMode>
+  nameWithType: Nullable<ManagedPipelineMode>
+  fullName: System.Nullable<Microsoft.Azure.Management.WebSites.Models.ManagedPipelineMode>
+  nameWithType.vb: Nullable(Of ManagedPipelineMode)
+  fullname.vb: System.Nullable(Of Microsoft.Azure.Management.WebSites.Models.ManagedPipelineMode)
+  name.vb: Nullable(Of ManagedPipelineMode)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Microsoft.Azure.Management.WebSites.Models.ManagedPipelineMode
+    name: ManagedPipelineMode
+    nameWithType: ManagedPipelineMode
+    fullName: Microsoft.Azure.Management.WebSites.Models.ManagedPipelineMode
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Microsoft.Azure.Management.WebSites.Models.ManagedPipelineMode
+    name: ManagedPipelineMode
+    nameWithType: ManagedPipelineMode
+    fullName: Microsoft.Azure.Management.WebSites.Models.ManagedPipelineMode
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IList{Microsoft.Azure.Management.WebSites.Models.VirtualApplication}
+  commentId: T:System.Collections.Generic.IList{Microsoft.Azure.Management.WebSites.Models.VirtualApplication}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IList`1
+  name: IList<VirtualApplication>
+  nameWithType: IList<VirtualApplication>
+  fullName: System.Collections.Generic.IList<Microsoft.Azure.Management.WebSites.Models.VirtualApplication>
+  nameWithType.vb: IList(Of VirtualApplication)
+  fullname.vb: System.Collections.Generic.IList(Of Microsoft.Azure.Management.WebSites.Models.VirtualApplication)
+  name.vb: IList(Of VirtualApplication)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Microsoft.Azure.Management.WebSites.Models.VirtualApplication
+    name: VirtualApplication
+    nameWithType: VirtualApplication
+    fullName: Microsoft.Azure.Management.WebSites.Models.VirtualApplication
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Microsoft.Azure.Management.WebSites.Models.VirtualApplication
+    name: VirtualApplication
+    nameWithType: VirtualApplication
+    fullName: Microsoft.Azure.Management.WebSites.Models.VirtualApplication
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable{Microsoft.Azure.Management.WebSites.Models.SiteLoadBalancing}
+  commentId: T:System.Nullable{Microsoft.Azure.Management.WebSites.Models.SiteLoadBalancing}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<SiteLoadBalancing>
+  nameWithType: Nullable<SiteLoadBalancing>
+  fullName: System.Nullable<Microsoft.Azure.Management.WebSites.Models.SiteLoadBalancing>
+  nameWithType.vb: Nullable(Of SiteLoadBalancing)
+  fullname.vb: System.Nullable(Of Microsoft.Azure.Management.WebSites.Models.SiteLoadBalancing)
+  name.vb: Nullable(Of SiteLoadBalancing)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Microsoft.Azure.Management.WebSites.Models.SiteLoadBalancing
+    name: SiteLoadBalancing
+    nameWithType: SiteLoadBalancing
+    fullName: Microsoft.Azure.Management.WebSites.Models.SiteLoadBalancing
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Microsoft.Azure.Management.WebSites.Models.SiteLoadBalancing
+    name: SiteLoadBalancing
+    nameWithType: SiteLoadBalancing
+    fullName: Microsoft.Azure.Management.WebSites.Models.SiteLoadBalancing
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Azure.Management.WebSites.Models.Experiments
+  commentId: T:Microsoft.Azure.Management.WebSites.Models.Experiments
+  parent: Microsoft.Azure.Management.WebSites.Models
+  isExternal: false
+  name: Experiments
+  nameWithType: Experiments
+  fullName: Microsoft.Azure.Management.WebSites.Models.Experiments
+- uid: Microsoft.Azure.Management.WebSites.Models.SiteLimits
+  commentId: T:Microsoft.Azure.Management.WebSites.Models.SiteLimits
+  parent: Microsoft.Azure.Management.WebSites.Models
+  isExternal: false
+  name: SiteLimits
+  nameWithType: SiteLimits
+  fullName: Microsoft.Azure.Management.WebSites.Models.SiteLimits
+- uid: Microsoft.Azure.Management.WebSites.Models.AutoHealRules
+  commentId: T:Microsoft.Azure.Management.WebSites.Models.AutoHealRules
+  parent: Microsoft.Azure.Management.WebSites.Models
+  isExternal: false
+  name: AutoHealRules
+  nameWithType: AutoHealRules
+  fullName: Microsoft.Azure.Management.WebSites.Models.AutoHealRules
+- uid: Microsoft.Azure.Management.WebSites.Models.CorsSettings
+  commentId: T:Microsoft.Azure.Management.WebSites.Models.CorsSettings
+  parent: Microsoft.Azure.Management.WebSites.Models
+  isExternal: false
+  name: CorsSettings
+  nameWithType: CorsSettings
+  fullName: Microsoft.Azure.Management.WebSites.Models.CorsSettings
+- uid: Microsoft.Azure.Management.WebSites.Models.PushSettings
+  commentId: T:Microsoft.Azure.Management.WebSites.Models.PushSettings
+  parent: Microsoft.Azure.Management.WebSites.Models
+  isExternal: false
+  name: PushSettings
+  nameWithType: PushSettings
+  fullName: Microsoft.Azure.Management.WebSites.Models.PushSettings
+- uid: Microsoft.Azure.Management.WebSites.Models.ApiDefinitionInfo
+  commentId: T:Microsoft.Azure.Management.WebSites.Models.ApiDefinitionInfo
+  parent: Microsoft.Azure.Management.WebSites.Models
+  isExternal: false
+  name: ApiDefinitionInfo
+  nameWithType: ApiDefinitionInfo
+  fullName: Microsoft.Azure.Management.WebSites.Models.ApiDefinitionInfo
+- uid: System.Collections.Generic.IList{Microsoft.Azure.Management.WebSites.Models.IpSecurityRestriction}
+  commentId: T:System.Collections.Generic.IList{Microsoft.Azure.Management.WebSites.Models.IpSecurityRestriction}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IList`1
+  name: IList<IpSecurityRestriction>
+  nameWithType: IList<IpSecurityRestriction>
+  fullName: System.Collections.Generic.IList<Microsoft.Azure.Management.WebSites.Models.IpSecurityRestriction>
+  nameWithType.vb: IList(Of IpSecurityRestriction)
+  fullname.vb: System.Collections.Generic.IList(Of Microsoft.Azure.Management.WebSites.Models.IpSecurityRestriction)
+  name.vb: IList(Of IpSecurityRestriction)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Microsoft.Azure.Management.WebSites.Models.IpSecurityRestriction
+    name: IpSecurityRestriction
+    nameWithType: IpSecurityRestriction
+    fullName: Microsoft.Azure.Management.WebSites.Models.IpSecurityRestriction
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Microsoft.Azure.Management.WebSites.Models.IpSecurityRestriction
+    name: IpSecurityRestriction
+    nameWithType: IpSecurityRestriction
+    fullName: Microsoft.Azure.Management.WebSites.Models.IpSecurityRestriction
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IDictionary`2
+  commentId: T:System.Collections.Generic.IDictionary`2
+  isExternal: true
+  name: IDictionary<TKey, TValue>
+  nameWithType: IDictionary<TKey, TValue>
+  fullName: System.Collections.Generic.IDictionary<TKey, TValue>
+  nameWithType.vb: IDictionary(Of TKey, TValue)
+  fullname.vb: System.Collections.Generic.IDictionary(Of TKey, TValue)
+  name.vb: IDictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: System.Collections.Generic.IDictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: System.Collections.Generic.IDictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: false
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullname.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IList`1
+  commentId: T:System.Collections.Generic.IList`1
+  isExternal: true
+  name: IList<T>
+  nameWithType: IList<T>
+  fullName: System.Collections.Generic.IList<T>
+  nameWithType.vb: IList(Of T)
+  fullname.vb: System.Collections.Generic.IList(Of T)
+  name.vb: IList(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Azure.Management.WebSites.Models.SiteConfig.NumberOfWorkers*
+  commentId: Overload:Microsoft.Azure.Management.WebSites.Models.SiteConfig.NumberOfWorkers
+  isExternal: false
+  name: NumberOfWorkers
+  nameWithType: SiteConfig.NumberOfWorkers
+  fullName: Microsoft.Azure.Management.WebSites.Models.SiteConfig.NumberOfWorkers
+- uid: Microsoft.Azure.Management.WebSites.Models.SiteConfig.DefaultDocuments*
+  commentId: Overload:Microsoft.Azure.Management.WebSites.Models.SiteConfig.DefaultDocuments
+  isExternal: false
+  name: DefaultDocuments
+  nameWithType: SiteConfig.DefaultDocuments
+  fullName: Microsoft.Azure.Management.WebSites.Models.SiteConfig.DefaultDocuments
+- uid: Microsoft.Azure.Management.WebSites.Models.SiteConfig.NetFrameworkVersion*
+  commentId: Overload:Microsoft.Azure.Management.WebSites.Models.SiteConfig.NetFrameworkVersion
+  isExternal: false
+  name: NetFrameworkVersion
+  nameWithType: SiteConfig.NetFrameworkVersion
+  fullName: Microsoft.Azure.Management.WebSites.Models.SiteConfig.NetFrameworkVersion
+- uid: Microsoft.Azure.Management.WebSites.Models.SiteConfig.PhpVersion*
+  commentId: Overload:Microsoft.Azure.Management.WebSites.Models.SiteConfig.PhpVersion
+  isExternal: false
+  name: PhpVersion
+  nameWithType: SiteConfig.PhpVersion
+  fullName: Microsoft.Azure.Management.WebSites.Models.SiteConfig.PhpVersion
+- uid: Microsoft.Azure.Management.WebSites.Models.SiteConfig.PythonVersion*
+  commentId: Overload:Microsoft.Azure.Management.WebSites.Models.SiteConfig.PythonVersion
+  isExternal: false
+  name: PythonVersion
+  nameWithType: SiteConfig.PythonVersion
+  fullName: Microsoft.Azure.Management.WebSites.Models.SiteConfig.PythonVersion
+- uid: Microsoft.Azure.Management.WebSites.Models.SiteConfig.NodeVersion*
+  commentId: Overload:Microsoft.Azure.Management.WebSites.Models.SiteConfig.NodeVersion
+  isExternal: false
+  name: NodeVersion
+  nameWithType: SiteConfig.NodeVersion
+  fullName: Microsoft.Azure.Management.WebSites.Models.SiteConfig.NodeVersion
+- uid: Microsoft.Azure.Management.WebSites.Models.SiteConfig.RequestTracingEnabled*
+  commentId: Overload:Microsoft.Azure.Management.WebSites.Models.SiteConfig.RequestTracingEnabled
+  isExternal: false
+  name: RequestTracingEnabled
+  nameWithType: SiteConfig.RequestTracingEnabled
+  fullName: Microsoft.Azure.Management.WebSites.Models.SiteConfig.RequestTracingEnabled
+- uid: Microsoft.Azure.Management.WebSites.Models.SiteConfig.RequestTracingExpirationTime*
+  commentId: Overload:Microsoft.Azure.Management.WebSites.Models.SiteConfig.RequestTracingExpirationTime
+  isExternal: false
+  name: RequestTracingExpirationTime
+  nameWithType: SiteConfig.RequestTracingExpirationTime
+  fullName: Microsoft.Azure.Management.WebSites.Models.SiteConfig.RequestTracingExpirationTime
+- uid: Microsoft.Azure.Management.WebSites.Models.SiteConfig.RemoteDebuggingEnabled*
+  commentId: Overload:Microsoft.Azure.Management.WebSites.Models.SiteConfig.RemoteDebuggingEnabled
+  isExternal: false
+  name: RemoteDebuggingEnabled
+  nameWithType: SiteConfig.RemoteDebuggingEnabled
+  fullName: Microsoft.Azure.Management.WebSites.Models.SiteConfig.RemoteDebuggingEnabled
+- uid: Microsoft.Azure.Management.WebSites.Models.SiteConfig.RemoteDebuggingVersion*
+  commentId: Overload:Microsoft.Azure.Management.WebSites.Models.SiteConfig.RemoteDebuggingVersion
+  isExternal: false
+  name: RemoteDebuggingVersion
+  nameWithType: SiteConfig.RemoteDebuggingVersion
+  fullName: Microsoft.Azure.Management.WebSites.Models.SiteConfig.RemoteDebuggingVersion
+- uid: Microsoft.Azure.Management.WebSites.Models.SiteConfig.HttpLoggingEnabled*
+  commentId: Overload:Microsoft.Azure.Management.WebSites.Models.SiteConfig.HttpLoggingEnabled
+  isExternal: false
+  name: HttpLoggingEnabled
+  nameWithType: SiteConfig.HttpLoggingEnabled
+  fullName: Microsoft.Azure.Management.WebSites.Models.SiteConfig.HttpLoggingEnabled
+- uid: Microsoft.Azure.Management.WebSites.Models.SiteConfig.LogsDirectorySizeLimit*
+  commentId: Overload:Microsoft.Azure.Management.WebSites.Models.SiteConfig.LogsDirectorySizeLimit
+  isExternal: false
+  name: LogsDirectorySizeLimit
+  nameWithType: SiteConfig.LogsDirectorySizeLimit
+  fullName: Microsoft.Azure.Management.WebSites.Models.SiteConfig.LogsDirectorySizeLimit
+- uid: Microsoft.Azure.Management.WebSites.Models.SiteConfig.DetailedErrorLoggingEnabled*
+  commentId: Overload:Microsoft.Azure.Management.WebSites.Models.SiteConfig.DetailedErrorLoggingEnabled
+  isExternal: false
+  name: DetailedErrorLoggingEnabled
+  nameWithType: SiteConfig.DetailedErrorLoggingEnabled
+  fullName: Microsoft.Azure.Management.WebSites.Models.SiteConfig.DetailedErrorLoggingEnabled
+- uid: Microsoft.Azure.Management.WebSites.Models.SiteConfig.PublishingUsername*
+  commentId: Overload:Microsoft.Azure.Management.WebSites.Models.SiteConfig.PublishingUsername
+  isExternal: false
+  name: PublishingUsername
+  nameWithType: SiteConfig.PublishingUsername
+  fullName: Microsoft.Azure.Management.WebSites.Models.SiteConfig.PublishingUsername
+- uid: Microsoft.Azure.Management.WebSites.Models.SiteConfig.MachineKey*
+  commentId: Overload:Microsoft.Azure.Management.WebSites.Models.SiteConfig.MachineKey
+  isExternal: false
+  name: MachineKey
+  nameWithType: SiteConfig.MachineKey
+  fullName: Microsoft.Azure.Management.WebSites.Models.SiteConfig.MachineKey
+- uid: Microsoft.Azure.Management.WebSites.Models.SiteConfig.HandlerMappings*
+  commentId: Overload:Microsoft.Azure.Management.WebSites.Models.SiteConfig.HandlerMappings
+  isExternal: false
+  name: HandlerMappings
+  nameWithType: SiteConfig.HandlerMappings
+  fullName: Microsoft.Azure.Management.WebSites.Models.SiteConfig.HandlerMappings
+- uid: Microsoft.Azure.Management.WebSites.Models.SiteConfig.DocumentRoot*
+  commentId: Overload:Microsoft.Azure.Management.WebSites.Models.SiteConfig.DocumentRoot
+  isExternal: false
+  name: DocumentRoot
+  nameWithType: SiteConfig.DocumentRoot
+  fullName: Microsoft.Azure.Management.WebSites.Models.SiteConfig.DocumentRoot
+- uid: Microsoft.Azure.Management.WebSites.Models.SiteConfig.ScmType*
+  commentId: Overload:Microsoft.Azure.Management.WebSites.Models.SiteConfig.ScmType
+  isExternal: false
+  name: ScmType
+  nameWithType: SiteConfig.ScmType
+  fullName: Microsoft.Azure.Management.WebSites.Models.SiteConfig.ScmType
+- uid: Microsoft.Azure.Management.WebSites.Models.SiteConfig.Use32BitWorkerProcess*
+  commentId: Overload:Microsoft.Azure.Management.WebSites.Models.SiteConfig.Use32BitWorkerProcess
+  isExternal: false
+  name: Use32BitWorkerProcess
+  nameWithType: SiteConfig.Use32BitWorkerProcess
+  fullName: Microsoft.Azure.Management.WebSites.Models.SiteConfig.Use32BitWorkerProcess
+- uid: Microsoft.Azure.Management.WebSites.Models.SiteConfig.WebSocketsEnabled*
+  commentId: Overload:Microsoft.Azure.Management.WebSites.Models.SiteConfig.WebSocketsEnabled
+  isExternal: false
+  name: WebSocketsEnabled
+  nameWithType: SiteConfig.WebSocketsEnabled
+  fullName: Microsoft.Azure.Management.WebSites.Models.SiteConfig.WebSocketsEnabled
+- uid: Microsoft.Azure.Management.WebSites.Models.SiteConfig.AlwaysOn*
+  commentId: Overload:Microsoft.Azure.Management.WebSites.Models.SiteConfig.AlwaysOn
+  isExternal: false
+  name: AlwaysOn
+  nameWithType: SiteConfig.AlwaysOn
+  fullName: Microsoft.Azure.Management.WebSites.Models.SiteConfig.AlwaysOn
+- uid: Microsoft.Azure.Management.WebSites.Models.SiteConfig.JavaVersion*
+  commentId: Overload:Microsoft.Azure.Management.WebSites.Models.SiteConfig.JavaVersion
+  isExternal: false
+  name: JavaVersion
+  nameWithType: SiteConfig.JavaVersion
+  fullName: Microsoft.Azure.Management.WebSites.Models.SiteConfig.JavaVersion
+- uid: Microsoft.Azure.Management.WebSites.Models.SiteConfig.JavaContainer*
+  commentId: Overload:Microsoft.Azure.Management.WebSites.Models.SiteConfig.JavaContainer
+  isExternal: false
+  name: JavaContainer
+  nameWithType: SiteConfig.JavaContainer
+  fullName: Microsoft.Azure.Management.WebSites.Models.SiteConfig.JavaContainer
+- uid: Microsoft.Azure.Management.WebSites.Models.SiteConfig.JavaContainerVersion*
+  commentId: Overload:Microsoft.Azure.Management.WebSites.Models.SiteConfig.JavaContainerVersion
+  isExternal: false
+  name: JavaContainerVersion
+  nameWithType: SiteConfig.JavaContainerVersion
+  fullName: Microsoft.Azure.Management.WebSites.Models.SiteConfig.JavaContainerVersion
+- uid: Microsoft.Azure.Management.WebSites.Models.SiteConfig.AppCommandLine*
+  commentId: Overload:Microsoft.Azure.Management.WebSites.Models.SiteConfig.AppCommandLine
+  isExternal: false
+  name: AppCommandLine
+  nameWithType: SiteConfig.AppCommandLine
+  fullName: Microsoft.Azure.Management.WebSites.Models.SiteConfig.AppCommandLine
+- uid: Microsoft.Azure.Management.WebSites.Models.SiteConfig.ManagedPipelineMode*
+  commentId: Overload:Microsoft.Azure.Management.WebSites.Models.SiteConfig.ManagedPipelineMode
+  isExternal: false
+  name: ManagedPipelineMode
+  nameWithType: SiteConfig.ManagedPipelineMode
+  fullName: Microsoft.Azure.Management.WebSites.Models.SiteConfig.ManagedPipelineMode
+- uid: Microsoft.Azure.Management.WebSites.Models.SiteConfig.VirtualApplications*
+  commentId: Overload:Microsoft.Azure.Management.WebSites.Models.SiteConfig.VirtualApplications
+  isExternal: false
+  name: VirtualApplications
+  nameWithType: SiteConfig.VirtualApplications
+  fullName: Microsoft.Azure.Management.WebSites.Models.SiteConfig.VirtualApplications
+- uid: Microsoft.Azure.Management.WebSites.Models.SiteConfig.LoadBalancing*
+  commentId: Overload:Microsoft.Azure.Management.WebSites.Models.SiteConfig.LoadBalancing
+  isExternal: false
+  name: LoadBalancing
+  nameWithType: SiteConfig.LoadBalancing
+  fullName: Microsoft.Azure.Management.WebSites.Models.SiteConfig.LoadBalancing
+- uid: Microsoft.Azure.Management.WebSites.Models.SiteConfig.Experiments*
+  commentId: Overload:Microsoft.Azure.Management.WebSites.Models.SiteConfig.Experiments
+  isExternal: false
+  name: Experiments
+  nameWithType: SiteConfig.Experiments
+  fullName: Microsoft.Azure.Management.WebSites.Models.SiteConfig.Experiments
+- uid: Microsoft.Azure.Management.WebSites.Models.SiteConfig.Limits*
+  commentId: Overload:Microsoft.Azure.Management.WebSites.Models.SiteConfig.Limits
+  isExternal: false
+  name: Limits
+  nameWithType: SiteConfig.Limits
+  fullName: Microsoft.Azure.Management.WebSites.Models.SiteConfig.Limits
+- uid: Microsoft.Azure.Management.WebSites.Models.SiteConfig.AutoHealEnabled*
+  commentId: Overload:Microsoft.Azure.Management.WebSites.Models.SiteConfig.AutoHealEnabled
+  isExternal: false
+  name: AutoHealEnabled
+  nameWithType: SiteConfig.AutoHealEnabled
+  fullName: Microsoft.Azure.Management.WebSites.Models.SiteConfig.AutoHealEnabled
+- uid: Microsoft.Azure.Management.WebSites.Models.SiteConfig.AutoHealRules*
+  commentId: Overload:Microsoft.Azure.Management.WebSites.Models.SiteConfig.AutoHealRules
+  isExternal: false
+  name: AutoHealRules
+  nameWithType: SiteConfig.AutoHealRules
+  fullName: Microsoft.Azure.Management.WebSites.Models.SiteConfig.AutoHealRules
+- uid: Microsoft.Azure.Management.WebSites.Models.SiteConfig.TracingOptions*
+  commentId: Overload:Microsoft.Azure.Management.WebSites.Models.SiteConfig.TracingOptions
+  isExternal: false
+  name: TracingOptions
+  nameWithType: SiteConfig.TracingOptions
+  fullName: Microsoft.Azure.Management.WebSites.Models.SiteConfig.TracingOptions
+- uid: Microsoft.Azure.Management.WebSites.Models.SiteConfig.VnetName*
+  commentId: Overload:Microsoft.Azure.Management.WebSites.Models.SiteConfig.VnetName
+  isExternal: false
+  name: VnetName
+  nameWithType: SiteConfig.VnetName
+  fullName: Microsoft.Azure.Management.WebSites.Models.SiteConfig.VnetName
+- uid: Microsoft.Azure.Management.WebSites.Models.SiteConfig.Cors*
+  commentId: Overload:Microsoft.Azure.Management.WebSites.Models.SiteConfig.Cors
+  isExternal: false
+  name: Cors
+  nameWithType: SiteConfig.Cors
+  fullName: Microsoft.Azure.Management.WebSites.Models.SiteConfig.Cors
+- uid: Microsoft.Azure.Management.WebSites.Models.SiteConfig.Push*
+  commentId: Overload:Microsoft.Azure.Management.WebSites.Models.SiteConfig.Push
+  isExternal: false
+  name: Push
+  nameWithType: SiteConfig.Push
+  fullName: Microsoft.Azure.Management.WebSites.Models.SiteConfig.Push
+- uid: Microsoft.Azure.Management.WebSites.Models.SiteConfig.ApiDefinition*
+  commentId: Overload:Microsoft.Azure.Management.WebSites.Models.SiteConfig.ApiDefinition
+  isExternal: false
+  name: ApiDefinition
+  nameWithType: SiteConfig.ApiDefinition
+  fullName: Microsoft.Azure.Management.WebSites.Models.SiteConfig.ApiDefinition
+- uid: Microsoft.Azure.Management.WebSites.Models.SiteConfig.AutoSwapSlotName*
+  commentId: Overload:Microsoft.Azure.Management.WebSites.Models.SiteConfig.AutoSwapSlotName
+  isExternal: false
+  name: AutoSwapSlotName
+  nameWithType: SiteConfig.AutoSwapSlotName
+  fullName: Microsoft.Azure.Management.WebSites.Models.SiteConfig.AutoSwapSlotName
+- uid: Microsoft.Azure.Management.WebSites.Models.SiteConfig.LocalMySqlEnabled*
+  commentId: Overload:Microsoft.Azure.Management.WebSites.Models.SiteConfig.LocalMySqlEnabled
+  isExternal: false
+  name: LocalMySqlEnabled
+  nameWithType: SiteConfig.LocalMySqlEnabled
+  fullName: Microsoft.Azure.Management.WebSites.Models.SiteConfig.LocalMySqlEnabled
+- uid: Microsoft.Azure.Management.WebSites.Models.SiteConfig.IpSecurityRestrictions*
+  commentId: Overload:Microsoft.Azure.Management.WebSites.Models.SiteConfig.IpSecurityRestrictions
+  isExternal: false
+  name: IpSecurityRestrictions
+  nameWithType: SiteConfig.IpSecurityRestrictions
+  fullName: Microsoft.Azure.Management.WebSites.Models.SiteConfig.IpSecurityRestrictions
+- uid: Microsoft.Azure.Management.WebSites.Models.Resource.Validate
+  commentId: M:Microsoft.Azure.Management.WebSites.Models.Resource.Validate
+  parent: Microsoft.Azure.Management.WebSites.Models.Resource
+  isExternal: false
+  name: Validate()
+  nameWithType: Resource.Validate()
+  fullName: Microsoft.Azure.Management.WebSites.Models.Resource.Validate()
+  spec.csharp:
+  - uid: Microsoft.Azure.Management.WebSites.Models.Resource.Validate
+    name: Validate
+    nameWithType: Resource.Validate
+    fullName: Microsoft.Azure.Management.WebSites.Models.Resource.Validate
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.Azure.Management.WebSites.Models.Resource.Validate
+    name: Validate
+    nameWithType: Resource.Validate
+    fullName: Microsoft.Azure.Management.WebSites.Models.Resource.Validate
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Azure.Management.WebSites.Models.SiteConfig.Validate*
+  commentId: Overload:Microsoft.Azure.Management.WebSites.Models.SiteConfig.Validate
+  isExternal: false
+  name: Validate
+  nameWithType: SiteConfig.Validate
+  fullName: Microsoft.Azure.Management.WebSites.Models.SiteConfig.Validate
