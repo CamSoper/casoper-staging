@@ -19,10 +19,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
         Downloads
         </td>
         <td border="0">
-        Downloads
+        Reference
         </td>
         <td border="0">
-        Downloads
+        &nbsp;
         </td>
     </tr>
 </table>
