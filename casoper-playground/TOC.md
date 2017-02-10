@@ -7,7 +7,8 @@
 # [How to](#)
 ## [Lift & shift a web app](#)
 ## [Web app using NoSQL](#)
-## [Create Virtual Machines](#)
+## [Create virtual machines](#)
+## [Containerize an app](#)
 
 # [Reference](#)
 ## [Autogen'd Topic 1](#)
