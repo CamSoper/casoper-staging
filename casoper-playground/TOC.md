@@ -1,9 +1,10 @@
 # [Overview](index.md)
-## [Install](#)
+## [Install & Get Started](#)
 ### [Visual Studio 2017](#)
 ### [Visual Studio 2015](#)
 ### [Others](#)
-## [Get started](#)
+
+# [Downloads](#)
 
 # [How to](#)
 ## [Long tutorial/case study](#)
@@ -13,8 +14,6 @@
 ## [Topic 1](#)
 ## [Topic 2](#)
 ## [Topic 3](#)
-
-# [Downloads](#)
 
 # [Reference](#)
 ## [Autogen'd Topic 1](#)
