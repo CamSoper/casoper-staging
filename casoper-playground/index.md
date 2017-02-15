@@ -9,7 +9,7 @@ Welcome!  You've found the right place for all the resources you'll need for dev
 
 <ul class="panelContent cardsFTitle">
     <li>
-        <a href="#">
+        <a href="./get-started">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
