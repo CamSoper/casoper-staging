@@ -1,11 +1,13 @@
 ---
 layout: LandingPage
-description: Azure for .NET developers
+description: .NET for Azure developers
 ---
 
-# Azure for .NET developers
+# .NET for Azure developers
 
-Welcome!  You've found the right place for all the resources you'll need for development with .NET and Microsoft Azure.
+Welcome!  You've found the right place for all the resources you'll need for development with .NET and Microsoft Azure.  [Get started](get-started.md) will show you how to set up your development environment and build your first .NET Azure application.  After that, you can find more tutorials and sample code in **How-to**.
+
+If you're just getting started on Azure, you can get a [free trial](https://azure.microsoft.com/free/).
 
 <ul class="panelContent cardsFTitle">
     <li>
