@@ -14,7 +14,7 @@ Welcome!  You've found the right place for all the resources you'll need for dev
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3><b>Install and get started</b> - Configure your development environment and consume Azure SDK NuGet packages.</h3>
+                        <h3><b>Install and get started</b> - Configure your development environment and consume Azure NuGet packages.</h3>
                     </div>
                 </div>
             </div>
