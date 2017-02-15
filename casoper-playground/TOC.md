@@ -1,8 +1,8 @@
 # [Overview](index.md)
-## [Install & get started](#)
-### [Visual Studio](#)
-### [VS Code & CLI](#)
-## [Packages](#)
+## [Get started](get-started.md)
+### [Visual Studio](get-started.md#visual-studio)
+### [VS Code & CLI](get-started.md#other-environments)
+## [NuGet packages](#)
 
 # [How to](#)
 ## [Lift & shift a web app](#)

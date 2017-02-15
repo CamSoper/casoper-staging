@@ -19,7 +19,7 @@ Welcome!  You've found the right place for all the resources you'll need for dev
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Install and get started - Configure your development environment.</h3>
+                        <h3>Get started - Configure your development environment.</h3>
                     </div>
                 </div>
             </div>
@@ -37,7 +37,7 @@ Welcome!  You've found the right place for all the resources you'll need for dev
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Packages - Browse the full list of Azure packages.</h3>
+                        <h3>NuGet packages - Browse the full list of Azure packages.</h3>
                     </div>
                 </div>
             </div>
@@ -55,7 +55,7 @@ Welcome!  You've found the right place for all the resources you'll need for dev
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>How-to - Find samples and tutorials for common tasks.</h3>
+                        <h3>How-to - Samples and tutorials for common tasks.</h3>
                     </div>
                 </div>
             </div>
@@ -73,7 +73,7 @@ Welcome!  You've found the right place for all the resources you'll need for dev
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Reference - Browse the complete API reference documentation.</h3>
+                        <h3>Reference - Browse the API reference documentation.</h3>
                     </div>
                 </div>
             </div>
