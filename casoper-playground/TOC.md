@@ -1,5 +1,5 @@
 # [Overview](index.md)
-## [Install & Get Started](#)
+## [Install & get started](#)
 ### [Visual Studio](#)
 ### [VS Code & CLI](#)
 ### [Packages](#)
