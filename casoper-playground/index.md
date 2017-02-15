@@ -15,7 +15,7 @@ Welcome!  You've found the right place for all the resources you'll need for dev
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="media/index/placeholder.png" alt="" />
+                            <img src="media/index/get-started.svg" alt="" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -33,7 +33,7 @@ Welcome!  You've found the right place for all the resources you'll need for dev
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="media/index/placeholder.png" alt="" />
+                            <img src="media/index/article.svg" alt="" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -51,7 +51,7 @@ Welcome!  You've found the right place for all the resources you'll need for dev
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="media/index/placeholder.png" alt="" />
+                            <img src="media/index/deploy.svg" alt="" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -69,7 +69,7 @@ Welcome!  You've found the right place for all the resources you'll need for dev
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="media/index/placeholder.png" alt="" />
+                            <img src="media/index/tutorial.svg" alt="" />
                         </div>
                     </div>
                     <div class="cardText">
