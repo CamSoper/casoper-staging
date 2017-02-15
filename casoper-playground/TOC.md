@@ -2,7 +2,7 @@
 ## [Install & get started](#)
 ### [Visual Studio](#)
 ### [VS Code & CLI](#)
-### [Packages](#)
+## [Packages](#)
 
 # [How to](#)
 ## [Lift & shift a web app](#)
