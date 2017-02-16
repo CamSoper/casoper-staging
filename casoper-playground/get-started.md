@@ -26,9 +26,14 @@ ms.author: casoper
 
 **\<STEPS TO CREATE NEW PROJECT AND CONSUME NUGET PACKAGE\>**
 
+### DISCUSSION POINT:  Should we assume .NET Core?  .NET 4.6?
+
 ## Other environments
 
 **\<STEPS TO CREATE NEW PROJECT AND CONSUME NUGET PACKAGE\>**
+
+### DISCUSSION POINT:  Only viable choice here is .NET Core, right?
+
 
 ## Authentication
 

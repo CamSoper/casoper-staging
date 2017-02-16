@@ -23,34 +23,28 @@ Use the libraries in the .NET SDK for Azure to manage and use Azure services in 
    
 For an overview of Azure and .NET, visit the [.NET developer center for Azure](#).
 
+### DISCUSSION POINT: How are we going to handle packages that [won't run on .NET Core](https://github.com/Azure/azure-sdk-for-net/blob/AutoRest/Documentation/README.md)? 
+
 ## Installation
 
-### Maven
+### Visual Studio
 
-Add a dependency entry in your pom.xml to add a library from the SDK to your [Maven](https://maven.apache.org) project.
+Use the NuGet package manager console to import the package into your project.
 
 For example, to include the latest version of the Azure Management SDK for Java:
 
-```XML
-<dependency>
-    <groupId>com.microsoft.azure</groupId>
-    <artifactId>azure</artifactId>
-    <version>1.0.0-beta5</version>
-</dependency>
+```powershell
+Install-Package Microsoft.Azure.Management.Resources -Pre 
 ``` 
-### Gradle
 
-Create an entry in the dependency section of your build.gradle file to add a library from the SDK to your [Gradle](https://gradle.org) project.
+### Other environments
 
-```
-dependencies {
-    compile 'com.microsoft.azure:azure:1.0.0-beta5'
-}
-```
+Edit your project.json file to add the package to the project dependencies.
+
 
 ## Azure service SDKs
 
-These libraries help you integrate Azure services into your Java applications.
+These libraries help you integrate Azure services into your .NET applications.
 
 ### [Azure Storage](https://docs.microsoft.com/azure/storage/storage-introduction)  
 
