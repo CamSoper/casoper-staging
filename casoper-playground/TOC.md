@@ -1,5 +1,5 @@
 # [Overview](index.md)
-## [NuGet packages](#)
+## [NuGet packages](packages.md)
 ## [Get started](get-started.md)
 ### [Visual Studio](get-started.md#visual-studio)
 ### [VS Code & CLI](get-started.md#other-environments)

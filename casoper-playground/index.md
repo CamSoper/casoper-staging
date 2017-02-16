@@ -29,7 +29,7 @@ If you're just getting started on Azure, you can get a [free trial](https://azur
         </a>
     </li>
     <li>
-        <a href="#">
+        <a href="./packages">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
