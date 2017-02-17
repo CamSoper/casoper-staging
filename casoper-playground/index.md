@@ -89,14 +89,14 @@ If you're just getting started on Azure, you can get a [free trial](https://azur
 If you want to skip the reading and get right to some samples, use the following commands in a terminal. All you need are .NET Core and the Git client for your operating system.
 
 ### VM management sample
-```text
+```cli
 git clone https://github.com/Azure-Samples/compute-dotnet-manage-vm.git
 cd compute-dotnet-manage-vm
 dotnet restore
 ```
 
 ### Web app management sample
-```text
+```cli
 git clone https://github.com/Azure-Samples/app-service-web-dotnet-manage.git
 cd c app-service-web-dotnet-manage
 dotnet restore

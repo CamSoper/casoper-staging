@@ -23,7 +23,7 @@ Use the libraries in the .NET SDK for Azure to manage and use Azure services in 
    
 For an overview of Azure and .NET, visit the [.NET developer center for Azure](#).
 
-### DISCUSSION POINT: How are we going to handle packages that [won't run on .NET Core](https://github.com/Azure/azure-sdk-for-net/blob/AutoRest/Documentation/README.md)? 
+### This page is a Work in Progress and is not meant to be representative of final work.  I'm waiting on some information from PMs.
 
 ## Installation
 

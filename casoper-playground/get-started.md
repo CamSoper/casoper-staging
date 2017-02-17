@@ -20,7 +20,9 @@ ms.author: casoper
 
 # Get started with Azure development in .NET
 
-**\<INTRODUCTION\>**
+**\<INTRODUCTION - TBD\>**
+
+This page is a Work in Progress and is not meant to be representative of final work.
 
 ## Visual Studio
 
