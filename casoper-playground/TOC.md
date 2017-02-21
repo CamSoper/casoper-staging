@@ -1,8 +1,7 @@
 # [Overview](index.md)
-## [Get started](get-started.md)
-## [Tools](#)
-
+# [Tools](#)
 # [NuGet packages](packages.md)
+# [Get started](get-started.md)
 
 # [How to](#)
 ## [Lift & shift a web app](#)
