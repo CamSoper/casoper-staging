@@ -9,6 +9,7 @@
 ## Build applications hosted in Azure
 ### [Lift & shift a web app](#)
 ### [Web app using NoSQL](#)
+### [Containerize an app](#)
 ### [Etc.](#)
 
 ## Consume Azure services
@@ -21,13 +22,11 @@
 ### [Manage web apps](#)
 ### [Etc.](#)
 
-### [Containerize an app](#)
-
 # Downloads
 ## [Tools](#)
 ## [NuGet Packages](packages.md)
 
-# [Reference](#)
+# Reference
 ## [Autogen'd Topic 1](#)
 ## [Autogen'd Topic 2](#)
 ## [Autogen'd Topic 3](#)
