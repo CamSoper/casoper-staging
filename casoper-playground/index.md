@@ -9,14 +9,14 @@ This is where you'll find all the resources you'll need for development with .NE
 
 If you're just getting started on Azure, you can get a [free trial](https://azure.microsoft.com/free/).
 
-<ul class="cardsF">
+<ul class="panelContent cardsF">
     <li>
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="media/index/getstarted-vs.svg" alt="" />
+                            <img src="media/index/net.svg" alt="" />
                         </div>
                     </div>
                     <div class="cardText">
