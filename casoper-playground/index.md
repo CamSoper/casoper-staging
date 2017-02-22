@@ -46,6 +46,8 @@ If you're just getting started on Azure, you can get a [free trial](https://azur
         </div>
         </a>
     </li>
+</ul>
+<ul class="panelContent cardsFTitle">
     <li>
         <a href="#">
         <div class="cardSize">

@@ -11,15 +11,17 @@
 # How to
 
 ## Build applications hosted in Azure
-### Lift & shift a web app
-### Web app using NoSQL
-### Containerize an app
-### Etc.
+### Migrate an ASP.NET web application
+### ASP.NET Core web app using DocumentDB
+### ASP.NET web application using Azure Functions
+### Containers and Linux
+### Microservices for Service Fabric
 
 ## Consume Azure services
-### Use DocumentDB in a client application
-### Use Azure SQL Database in a web application
-### Etc.
+### Authentication with Azure Active Directory in a UWP app
+### Untitles Machine Learning
+### Untitled Event Hub
+### Untitle Storage
 
 ## Manage Azure resources with .NET
 ### Manage virtual machines
