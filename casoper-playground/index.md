@@ -9,45 +9,43 @@ This is where you'll find all the resources you'll need for development with .NE
 
 If you're just getting started on Azure, you can get a [free trial](https://azure.microsoft.com/free/).
 
-<ul class="panelContent cardsFTitle">
+<ul class="cardsF">
     <li>
-        <a href="./get-started">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="media/index/article.svg" alt="" />
+                            <img src="media/index/getstarted-vs.svg" alt="" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Get started - Use Visual Studio and .NET to build web applications and APIs hosted in Azure.</h3>
+                        <h3><a href="/dotnet/articles/welcome">Get Started with Visual Studio</a></h3>
+                        <p>blah blah blah</p>
                     </div>
                 </div>
             </div>
         </div>
-        </a>
     </li>
     <li>
-        <a href="#">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="media/index/article.svg" alt="" />
+                            <img src="media/index/netcore.svg" alt="" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Get started - Use .NET Core, Visual Studio Code, and Azure CLI 2.0 to build cross-platform applications hosted in Azure.</h3>
+                        <h3><a href="/dotnet/articles/core">.NET Core Guide</a></h3>
+                        <p>blah blah blah</p>
                     </div>
                 </div>
             </div>
         </div>
-        </a>
     </li>
 </ul>
-<ul class="panelContent cardsFTitle">
+<ul class="panelContent cardsF">
     <li>
         <a href="#">
         <div class="cardSize">

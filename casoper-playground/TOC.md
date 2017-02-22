@@ -19,14 +19,17 @@
 
 ## Consume Azure services
 ### Authentication with Azure Active Directory in a UWP app
-### Untitles Machine Learning
-### Untitled Event Hub
-### Untitle Storage
+### Untitled Machine Learning topic
+### Untitled Event Hub topic
+### Untitled Storage topic
+### Untitled Mobile Service topic
 
 ## Manage Azure resources with .NET
-### Manage virtual machines
+### Manage VM scale sets
+### Create and manage virtual machines
 ### Manage web apps
-### Etc.
+### Untitled Key Vault topic
+### Batch, Backup, or automation?
 
 # Reference
 ## Autogen'd Topic 1
