@@ -56,7 +56,7 @@ There are several development scenarios for .NET in Azure.  Choose the scenario 
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Use the Azure .NET SDK to build client applications that consume Azure PaaS services.</h3>
+                        <h3>Use the Azure .NET SDK to build client applications that consume or manage Azure services.</h3>
                     </div>
                 </div>
             </div>
