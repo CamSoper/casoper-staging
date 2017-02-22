@@ -20,8 +20,8 @@ If you're just getting started on Azure, you can get a [free trial](https://azur
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3><a href="/dotnet/articles/welcome">Get Started with Visual Studio</a></h3>
-                        <p>blah blah blah</p>
+                        <h3><a href="./getstarted-vs">Get started with Visual Studio</a></h3>
+                        <p>Use Visual Studio and .NET to build web applications and APIs hosted in Azure.</p>
                     </div>
                 </div>
             </div>
@@ -37,8 +37,8 @@ If you're just getting started on Azure, you can get a [free trial](https://azur
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3><a href="/dotnet/articles/core">.NET Core Guide</a></h3>
-                        <p>blah blah blah</p>
+                        <h3><a href="./getstarted-cli">Get started with .NET Core</a></h3>
+                        <p>Use .NET Core, Visual Studio Code, and Azure CLI 2.0 to build cross-platform applications hosted in Azure.</p>
                     </div>
                 </div>
             </div>
@@ -57,7 +57,8 @@ If you're just getting started on Azure, you can get a [free trial](https://azur
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>How-to - Samples and tutorials for common tasks.</h3>
+                        <h3>How-to</h3>
+                        <p>Samples and tutorials for common tasks.</p>
                     </div>
                 </div>
             </div>
@@ -75,7 +76,8 @@ If you're just getting started on Azure, you can get a [free trial](https://azur
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Tools - Get Visual Studio, Visual Studio Code, .NET Core, and other tools.</h3>
+                        <h3>Tools</h3>
+                        <p>Get Visual Studio, Visual Studio Code, .NET Core, and other tools.</p>
                     </div>
                 </div>
             </div>
@@ -93,7 +95,8 @@ If you're just getting started on Azure, you can get a [free trial](https://azur
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>NuGet packages - Browse the full list of Azure packages.</h3>
+                        <h3><a href="./packages">NuGet packages</a></h3>
+                        <p>Browse the full list of Azure packages.</p>
                     </div>
                 </div>
             </div>
@@ -111,7 +114,8 @@ If you're just getting started on Azure, you can get a [free trial](https://azur
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Reference - Browse the API reference documentation.</h3>
+                        <h3>Reference</h3>
+                        <p>Browse the API reference documentation.</p>
                     </div>
                 </div>
             </div>
