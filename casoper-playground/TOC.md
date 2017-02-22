@@ -1,9 +1,5 @@
 # [Overview](index.md)
 
-# Downloads
-## [Tools](#)
-## [NuGet Packages](packages.md)
-
 # [Get started](get-started.md)
 ## [Visual Studio and .NET](#)
 ## [.NET Core using Visual Studio Code and Azure CLI 2.0](#)
@@ -26,6 +22,10 @@
 ### [Etc.](#)
 
 ### [Containerize an app](#)
+
+# Downloads
+## [Tools](#)
+## [NuGet Packages](packages.md)
 
 # [Reference](#)
 ## [Autogen'd Topic 1](#)

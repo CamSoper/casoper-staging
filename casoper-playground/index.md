@@ -35,6 +35,24 @@ If you're just getting started on Azure, you can get a [free trial](https://azur
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
+                            <img src="media/index/deploy.svg" alt="" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>How-to - Samples and tutorials for common tasks.</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="#">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
                             <img src="media/index/article.svg" alt="" />
                         </div>
                     </div>
@@ -58,24 +76,6 @@ If you're just getting started on Azure, you can get a [free trial](https://azur
                     </div>
                     <div class="cardText">
                         <h3>NuGet packages - Browse the full list of Azure packages.</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="#">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="media/index/deploy.svg" alt="" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>How-to - Samples and tutorials for common tasks.</h3>
                     </div>
                 </div>
             </div>
