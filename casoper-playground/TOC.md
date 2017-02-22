@@ -1,17 +1,31 @@
 # [Overview](index.md)
+
 # Downloads
 ## [Tools](#)
 ## [NuGet Packages](packages.md)
+
 # [Get started](get-started.md)
 ## [Visual Studio and .NET](#)
-## [.NET Core using Visual Studio Code (or other editors)](#)
-## [Client apps using the Azure .NET SDK](#)
+## [.NET Core using Visual Studio Code and Azure CLI 2.0](#)
 
-# [How to](#)
-## [Lift & shift a web app](#)
-## [Web app using NoSQL](#)
-## [Create virtual machines](#)
-## [Containerize an app](#)
+# How to
+
+## Build applications hosted in Azure
+### [Lift & shift a web app](#)
+### [Web app using NoSQL](#)
+### [Etc.](#)
+
+## Consume Azure services
+### [Use DocumentDB in a client application](#)
+### [Use Azure SQL Database in a web application](#)
+### [Etc.](#)
+
+## Managing Azure resources with .NET
+### [Manage virtual machines](#)
+### [Manage web apps](#)
+### [Etc.](#)
+
+### [Containerize an app](#)
 
 # [Reference](#)
 ## [Autogen'd Topic 1](#)
