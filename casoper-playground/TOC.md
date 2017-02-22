@@ -1,5 +1,9 @@
 # [Overview](index.md)
 
+# Install
+## [Tools](#)
+## [NuGet Packages](packages.md)
+
 # [Get started](get-started.md)
 ## [Visual Studio and .NET](#)
 ## [.NET Core using Visual Studio Code and Azure CLI 2.0](#)
@@ -21,10 +25,6 @@
 ### [Manage virtual machines](#)
 ### [Manage web apps](#)
 ### [Etc.](#)
-
-# Downloads
-## [Tools](#)
-## [NuGet Packages](packages.md)
 
 # Reference
 ## [Autogen'd Topic 1](#)
