@@ -20,7 +20,7 @@ There are several development scenarios for .NET in Azure.  Choose the scenario 
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Use Visual Studio and .NET to build web applications and APIs hosted in Azure.</h3>
+                        <h3>Get started - Use Visual Studio and .NET to build web applications and APIs hosted in Azure.</h3>
                     </div>
                 </div>
             </div>
@@ -38,7 +38,7 @@ There are several development scenarios for .NET in Azure.  Choose the scenario 
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Use .NET Core, Visual Studio Code, and Azure CLI 2.0 to build cross-platform applications hosted in Azure.</h3>
+                        <h3>Get started - Use .NET Core, Visual Studio Code, and Azure CLI 2.0 to build cross-platform applications hosted in Azure.</h3>
                     </div>
                 </div>
             </div>
