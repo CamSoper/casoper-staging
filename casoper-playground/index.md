@@ -29,7 +29,25 @@ If you're just getting started on Azure, you can get a [free trial](https://azur
         </a>
     </li>
     <li>
-        <a href="./packages">
+        <a href="#">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="media/index/article.svg" alt="" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Tools - Get Visual Studio, Visual Studio Code, .NET Core, and other tools.</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="./packages.md">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">

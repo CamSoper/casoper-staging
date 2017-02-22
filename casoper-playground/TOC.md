@@ -1,7 +1,11 @@
 # [Overview](index.md)
-# [Tools](#)
-# [NuGet packages](packages.md)
+# Downloads
+## [Tools](#)
+## [NuGet Packages](packages.md)
 # [Get started](get-started.md)
+## [Visual Studio and .NET](#)
+## [.NET Core using Visual Studio Code (or other editors)](#)
+## [Client apps using the Azure .NET SDK](#)
 
 # [How to](#)
 ## [Lift & shift a web app](#)
