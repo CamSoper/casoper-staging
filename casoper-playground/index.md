@@ -57,7 +57,7 @@ If you're just getting started on Azure, you can get a [free trial](https://azur
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>How-to</h3>
+                        <h3><a href="#">How-to</a></h3>
                         <p>Samples and tutorials for common tasks.</p>
                     </div>
                 </div>
@@ -76,7 +76,7 @@ If you're just getting started on Azure, you can get a [free trial](https://azur
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Tools</h3>
+                        <h3><a href="#">Tools</a></h3>
                         <p>Get Visual Studio, Visual Studio Code, .NET Core, and other tools.</p>
                     </div>
                 </div>
@@ -114,7 +114,7 @@ If you're just getting started on Azure, you can get a [free trial](https://azur
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Reference</h3>
+                        <h3><a href="#">Reference</a></h3>
                         <p>Browse the API reference documentation.</p>
                     </div>
                 </div>
