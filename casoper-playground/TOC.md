@@ -21,7 +21,7 @@
 ### [Use Azure SQL Database in a web application](#)
 ### [Etc.](#)
 
-## Managing Azure resources with .NET
+## Manage Azure resources with .NET
 ### [Manage virtual machines](#)
 ### [Manage web apps](#)
 ### [Etc.](#)
