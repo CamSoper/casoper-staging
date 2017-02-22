@@ -70,7 +70,8 @@ If you're using .NET Core with Visual Studio Code (or any other editor), edit yo
 }
 ```
 
-[!WARNING] Be sure you're editing the top-level **dependencies** object, and not the framework dependencies.
+> [!WARNING]
+> Be sure you're editing the top-level **dependencies** object, and not the framework dependencies.
 
 ## Azure services packages
 
