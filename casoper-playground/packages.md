@@ -79,7 +79,7 @@ If you're using .NET Core with Visual Studio Code (or any other editor), edit yo
 
 Service | Data package | Management package
 --------|--------------|-------------------
-[Azure Resource Manager]() | | [Microsoft.Azure.Management.ResourceManager](https://www.nuget.org/packages/Microsoft.Azure.Management.ResourceManager)<br/>[Microsoft.Azure.Management.Fluent](https://www.nuget.org/packages/Microsoft.Azure.Management.Fluent)
+[Azure Resource Manager](https://docs.microsoft.com/azure/azure-resource-manager/) | | [Microsoft.Azure.Management.ResourceManager](https://www.nuget.org/packages/Microsoft.Azure.Management.ResourceManager)<br/>[Microsoft.Azure.Management.Fluent](https://www.nuget.org/packages/Microsoft.Azure.Management.Fluent)
 [Azure Active Directory](https://docs.microsoft.com/azure/active-directory) | [Microsoft.IdentityModel.Clients.ActiveDirectory](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory) |
 [Virtual Machines](https://docs.microsoft.com/azure/virtual-machines/) | | [Microsoft.Azure.Management.Compute](https://www.nuget.org/packages/Microsoft.Azure.Management.Compute)
 [Web Apps](https://docs.microsoft.com/azure/app-service-web) | | [Microsoft.Azure.Management.Websites](https://www.nuget.org/packages/Microsoft.Azure.Management.Websites)
