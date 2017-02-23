@@ -1,11 +1,11 @@
 # [Overview](index.md)
 
 # Install
-## Tools
+## [Tools](tools.md)
 ## [NuGet Packages](packages.md)
 
 # Get started
-## [Visual Studio and .NET](get-started-net.md)
+## [Visual Studio and .NET](get-started-vs.md)
 ## [.NET Core using Visual Studio Code and Azure CLI 2.0](get-started-cli.md)
 
 # How to
