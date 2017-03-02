@@ -12,24 +12,22 @@
 
 ## Build applications hosted in Azure
 ### Migrate an ASP.NET web application
-### ASP.NET Core web app using DocumentDB
-### ASP.NET web application using Azure Functions
+### ASP.NET web application using Azure SQL Database
+<!-- ### ASP.NET Core web app using DocumentDB -->
+<!-- ### ASP.NET web application using Azure Functions  -->
 ### Containers and Linux
 ### Microservices for Service Fabric
 
 ## Consume Azure services
-### Authentication with Azure Active Directory in a UWP app
-### Untitled Machine Learning topic
-### Untitled Event Hub topic
-### Untitled Storage topic
-### Untitled Mobile Service topic
+### Authentication with Azure Active Directory
+### Untitled Storage topic <!-- low pri -->
 
 ## Manage Azure resources with .NET
+### Manage virtual machines
 ### Manage VM scale sets
-### Create and manage virtual machines
 ### Manage web apps
-### Untitled Key Vault topic
-### Batch, Backup, or automation?
+### Untitled Key Vault topic  <!-- lower pri -->
+
 
 # Reference
 ## Autogen'd Topic 1
