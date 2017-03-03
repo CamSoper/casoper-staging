@@ -9,7 +9,7 @@ description: .NET Tools for Azure developers
 
 ## Windows
 
-[Visual Studio](https://www.visualstudio.com/downloads/) (Community, Professional, or Enterprise)
+[Visual Studio](https://www.visualstudio.com/downloads/) (Community, Professional, or Enterprise)<br />
 [Azure PowerShell](https://docs.microsoft.com/azure/powershell-install-configure)
 
 >[!NOTE]
@@ -18,6 +18,6 @@ description: .NET Tools for Azure developers
 
 ## Cross-platform (Windows, MacOS, Linux)
 
-[Visual Studio Code](http://code.visualstudio.com/)
-[.NET Core](https://www.microsoft.com/net/core)
+[Visual Studio Code](http://code.visualstudio.com/)<br />
+[.NET Core](https://www.microsoft.com/net/core)<br />
 [Azure CLI 2.0](https://docs.microsoft.com/cli/azure/overview)
