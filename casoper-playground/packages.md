@@ -19,57 +19,16 @@ ms.author: casoper
 ---
 # Azure NuGet Packages
 
-Use the libraries in the .NET SDK for Azure to manage and consume Azure services in your applications.  
+Use the libraries in the .NET SDK for Azure to manage and consume Azure services in your applications.
 
-## Installation
-
-### Visual Studio
-
-If you're using Visual Studio, use the **NuGet Package Manager Console** to import the package into your project.
-
-1. With your Visual Studio solution open, launch the console by clicking **Tools**, followed by **NuGet Packager Manager**, and then click **Package Manager Console**.  
-
-    ![Package Manager Console](./media/packages/package-manager.png)
-
-2. In the console window, use the **Install-Package** cmdlet to download and install the NuGet package.  For example, to include the latest version of the [Azure Resource Management Library](http://www.nuget.org/packages/Microsoft.Azure.Management.ResourceManager) for .NET:
-
-    ```powershell
-    Install-Package Microsoft.Azure.Management.ResourceManager -Pre 
-    ``` 
-    To use a specific version, include the version number like this:
-
-    ```powershell
-    Install-Package Microsoft.Azure.Management.ResourceMananger -Version 1.4.0-preview
-    ``` 
-
-### .NET Core
-
-If you're using .NET Core with Visual Studio Code (or any other editor), edit your csproj file to add the package as a **PackageReference** element.  This example uses a specific version of **Microsoft.Azure.Management.ResourceManager**, but you can also use [floating versions](/nuget/consume-packages/package-references-in-project-files#floating-versions).
-
-```xml
-<Project Sdk="Microsoft.NET.Sdk">
-
-  <PropertyGroup>
-    <OutputType>Exe</OutputType>
-    <TargetFramework>netcoreapp1.1</TargetFramework>
-  </PropertyGroup>
-
-  <ItemGroup>
-    <PackageReference Include="Microsoft.Azure.Management.ResourceManager" Version="1.4.0-preview" />
-  </ItemGroup>
-
-</Project>
-```
-
-> [!TIP]
-> Previous versions of .NET Core used project.json files instead of csproj.  To learn about mapping project.json to csproj, [see this document](/dotnet/articles/core/tools/project-json-to-csproj).
+The .NET SDK for Azure libraries all support [.NET Framework](https://docs.microsoft.com/dotnet/articles/standard/choosing-core-framework-server).  .NET Core support is provided by most packages.  You can verify .NET Core support by checking for a *.NETStandard* dependency, as you can see with [WindowsAzure.Storage](https://www.nuget.org/packages/WindowsAzure.Storage). Some of these packages are in preview, requiring you to opt into search and installation of preview NuGet packages.
 
 ## Packages
 
-**Data plane** packages are used to **consume** Azure services in your .NET applications.  **Management plane** packages are used to **manage** resources in Azure.  **Fluent** management plane packages (ending in **\*.Fluent**) use a [simplified, easy-to-read syntax](https://azure.microsoft.com/blog/simpler-azure-management-libraries-for-net/).
+**Data plane** packages are used to **consume** Azure services in your .NET applications.  **Management plane** packages are used to **manage** resources in Azure.  **Fluent** management plane packages (ending in **\*.Fluent**) use a [simplified, easy-to-read syntax](https://azure.microsoft.com/blog/simpler-azure-management-libraries-for-net/). Use the fluent packages if you prefer the fluent syntax.
 
-> [!NOTE]
-> For projects using .NET Core, you may need to use a preview version of a given package. Check the dependencies for *.NETStandard* to verify .NET Core support.
+> [!TIP]
+> [Microsoft.Azure.Management.Fluent](https://www.nuget.org/packages/Microsoft.Azure.Management.Fluent) is a rollup package that contains all of the fluent management libraries.
 
 Service | Data plane package | Management plane package
 --------|--------------------|-------------------------
@@ -98,7 +57,7 @@ Graph | | [Microsoft.Azure.Graph.RBAC](https://www.nuget.org/packages/Microsoft.
 Insights | | [Microsoft.Azure.Insights](https://www.nuget.org/packages/Microsoft.Azure.Insights)
 Intune | | [Microsoft.Azure.Management.Intune](https://www.nuget.org/packages/Microsoft.Azure.Management.Intune)
 [IoT Hub](https://www.nuget.org/packages/Microsoft.Azure.DocumentDB.Core/) | [Microsoft.Azure.Devices](https://www.nuget.org/packages/Microsoft.Azure.Devices)<br/>[Microsoft.Azure.Devices.Client](https://www.nuget.org/packages/Microsoft.Azure.Devices.Client)
-[Key Vault](https://docs.microsoft.com/azure/key-vault/) | [Microsoft.Azure.KeyVault](https://www.nuget.org/packages/Microsoft.Azure.KeyVault) | [Microsoft.Azure.Management.KeyVault.Fluent](https://www.nuget.org/packages/Microsoft.Azure.Management.KeyVault.Fluent)[Microsoft.Azure.Management.KeyVault](https://www.nuget.org/packages/Microsoft.Azure.Management.KeyVault)
+[Key Vault](https://docs.microsoft.com/azure/key-vault/) | [Microsoft.Azure.KeyVault](https://www.nuget.org/packages/Microsoft.Azure.KeyVault) | [Microsoft.Azure.Management.KeyVault.Fluent](https://www.nuget.org/packages/Microsoft.Azure.Management.KeyVault.Fluent)<br/>[Microsoft.Azure.Management.KeyVault](https://www.nuget.org/packages/Microsoft.Azure.Management.KeyVault)
 [Logic Apps](https://docs.microsoft.com/azure/logic-apps/) | | [Microsoft.Azure.Management.Logic](https://www.nuget.org/packages/Microsoft.Azure.Management.Logic)
 [MachineLearning](https://docs.microsoft.com/azure/machine-learning/) | | [Microsoft.Azure.Management.MachineLearning](https://www.nuget.org/packages/Microsoft.Azure.Management.MachineLearning)
 [Media Services](https://docs.microsoft.com/azure/media-services/) | [windowsazure.mediaservices.extensions](https://www.nuget.org/packages/windowsazure.mediaservices.extensions) | [Microsoft.Azure.Management.Media](https://www.nuget.org/packages/Microsoft.Azure.Management.Media)
@@ -107,7 +66,7 @@ Operational Insights | | [Microsoft.Azure.Management.OperationalInsights](https:
 [PowerBI Embedded](https://docs.microsoft.com/azure/power-bi-embedded/) | | [Microsoft.Azure.Management.PowerBIEmbedded](https://www.nuget.org/packages/Microsoft.Azure.Management.PowerBIEmbedded)
 [Recovery Services](https://docs.microsoft.com/azure/site-recovery/) | | [Microsoft.Azure.Management.RecoveryServices](https://www.nuget.org/packages/Microsoft.Azure.Management.RecoveryServices)
 [Redis Cache](https://docs.microsoft.com/azure/redis-cache/) | [StackExchange.Redis](https://www.nuget.org/packages/StackExchange.Redis/) | [Microsoft.Azure.Management.Redis.Fluent](https://www.nuget.org/packages/Microsoft.Azure.Management.Redis.Fluent)<br/>[Microsoft.Azure.Management.Redis](https://www.nuget.org/packages/Microsoft.Azure.Management.Redis)
-[Resource Manager](https://docs.microsoft.com/azure/azure-resource-manager/) | | [Microsoft.Azure.Management.ResourceManager.Fluent](https://www.nuget.org/packages/Microsoft.Azure.Management.ResourceManager.Fluent)<br/>[Microsoft.Azure.Management.ResourceManager](https://www.nuget.org/packages/Microsoft.Azure.Management.ResourceManager))
+[Resource Manager](https://docs.microsoft.com/azure/azure-resource-manager/) | | [Microsoft.Azure.Management.ResourceManager.Fluent](https://www.nuget.org/packages/Microsoft.Azure.Management.ResourceManager.Fluent)<br/>[Microsoft.Azure.Management.ResourceManager](https://www.nuget.org/packages/Microsoft.Azure.Management.ResourceManager)
 [Scheduler](https://docs.microsoft.com/azure/scheduler/) | | [Microsoft.Azure.Management.Scheduler](https://www.nuget.org/packages/Microsoft.Azure.Management.Scheduler)
 [Search](https://docs.microsoft.com/azure/search/) | [Microsoft.Azure.Search](https://www.nuget.org/packages/Microsoft.Azure.Search) | [Microsoft.Azure.Management.Search](https://www.nuget.org/packages/Microsoft.Azure.Management.Search)
 [Service Bus](https://docs.microsoft.com/azure/service-bus/) | [WindowsAzure.ServiceBus](https://www.nuget.org/packages/WindowsAzure.ServiceBus/) | [Microsoft.Azure.Management.ServiceBus](https://www.nuget.org/packages/Microsoft.Azure.Management.ServiceBus)
@@ -121,5 +80,46 @@ Operational Insights | | [Microsoft.Azure.Management.OperationalInsights](https:
 [Virtual Network](https://docs.microsoft.com/azure/virtual-network/) | | [Microsoft.Azure.Management.Network.Fluent](https://www.nuget.org/packages/Microsoft.Azure.Management.Network.Fluent)<br/>[Microsoft.Azure.Management.Network](https://www.nuget.org/packages/Microsoft.Azure.Management.Network)
 [Web Apps](https://docs.microsoft.com/azure/app-service-web) | | [Microsoft.Azure.Management.AppService.Fluent](https://www.nuget.org/packages/Microsoft.Azure.Management.AppService.Fluent)<br/>[Microsoft.Azure.Management.Websites](https://www.nuget.org/packages/Microsoft.Azure.Management.Websites)
 
+## Installation
+
+### Visual Studio
+
+If you're using Visual Studio, use the **NuGet Package Manager Console** to import the package into your project.
+
+1. With your Visual Studio solution open, launch the console by clicking **Tools**, followed by **NuGet Packager Manager**, and then click **Package Manager Console**.  
+
+    ![Package Manager Console](media/packages/package-manager.png)
+
+2. In the console window, use the **Install-Package** cmdlet to download and install the NuGet package.  For example, to include the latest version of the [Azure Resource Management Library](http://www.nuget.org/packages/Microsoft.Azure.Management.ResourceManager) for .NET:
+
+    ```powershell
+    Install-Package Microsoft.Azure.Management.ResourceManager -Pre 
+    ``` 
+    To use a specific version, include the version number like this:
+
+    ```powershell
+    Install-Package Microsoft.Azure.Management.ResourceMananger -Version 1.4.0-preview
+    ``` 
+
+### .NET Core
+
+If you're using .NET Core with Visual Studio Code (or any other editor), edit your csproj file to add the package as a **PackageReference** element.  This example uses a specific version of **Microsoft.Azure.Management.ResourceManager**, which is the best practice, but NuGet [floating versions](/nuget/consume-packages/package-references-in-project-files#floating-versions) are also supported.
+
+```xml
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Azure.Management.ResourceManager" Version="1.4.0-preview" />
+  </ItemGroup>
+
+</Project>
+```
+
 > [!TIP]
-> [Microsoft.Azure.Management.Fluent](https://www.nuget.org/packages/Microsoft.Azure.Management.Fluent) is a rollup package that contains all of the fluent libraries.
+> Previous versions of .NET Core used project.json files instead of csproj.  To learn about mapping project.json to csproj, [see this document](/dotnet/articles/core/tools/project-json-to-csproj).
+
