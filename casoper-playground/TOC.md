@@ -5,8 +5,8 @@
 ## [NuGet Packages](packages.md)
 
 # Get started
-## [Visual Studio and .NET](get-started-vs.md)
-## [.NET Core using Visual Studio Code and Azure CLI 2.0](get-started-cli.md)
+## [Visual Studio and .NET](get-started-framework.md)
+## [.NET Core using Visual Studio Code and Azure CLI 2.0](get-started-core.md)
 
 # How to
 

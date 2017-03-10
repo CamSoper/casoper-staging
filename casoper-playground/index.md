@@ -5,7 +5,7 @@ description: .NET for Azure developers
 
 # .NET for Azure developers
 
-This is where you'll find all the resources you'll need for development with .NET and Microsoft Azure.  If you're new to developing with .NET for Azure, choose the **Get started** tutorial for your preferred development environment.  You'll learn how to set up your development environment and build your first .NET Azure application.  After that, you can find more tutorials and sample code in the **How-to** section.
+This is where you'll find all the resources you'll need for development with .NET and Microsoft Azure.  If you're new to developing with .NET for Azure, choose the **Get started** tutorial for your preferred .NET platform.  You'll learn how to set up your development environment and build your first .NET Azure application.  After that, you can find more tutorials and sample code in the **How-to** section.
 
 If you're just getting started on Azure, you can get a [free trial](https://azure.microsoft.com/free/).
 
@@ -20,8 +20,8 @@ If you're just getting started on Azure, you can get a [free trial](https://azur
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3><a href="./get-started-vs">Get started with Visual Studio and .NET Framework</a></h3>
-                        <p>Use Visual Studio and .NET in Windows to build web applications and APIs hosted in Azure.</p>
+                        <h3><a href="./get-started-framework">Get started with Visual Studio and .NET Framework</a></h3>
+                        <p>Use Visual Studio and .NET Framework in Windows to build web applications and APIs hosted in Azure.</p>
                     </div>
                 </div>
             </div>
@@ -37,14 +37,17 @@ If you're just getting started on Azure, you can get a [free trial](https://azur
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3><a href="./get-started-cli">Get started with Visual Studio Code and .NET Core</a></h3>
-                        <p>Use .NET Core, Visual Studio Code, and Azure CLI 2.0 to build cross-platform applications hosted in Azure.</p>
+                        <h3><a href="./get-started-core">Get started with .NET Core</a></h3>
+                        <p>Use .NET Core to build cross-platform applications hosted in Azure.</p>
                     </div>
                 </div>
             </div>
         </div>
     </li>
 </ul>
+
+> [!TIP] If you're not sure whether to choose .NET Framework or .NET Core, [here's some information to help you decide](/dotnet/articles/standard/choosing-core-framework-server).
+
 <ul class="panelContent cardsF">
     <li>
         <a href="#">
