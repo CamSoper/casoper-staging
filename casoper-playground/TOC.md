@@ -20,13 +20,13 @@
 
 ## Consume Azure services
 ### Authentication with Azure Active Directory
-### Untitled Storage topic <!-- low pri -->
+<!-- ### Untitled Storage topic   low pri -->
 
 ## Manage Azure resources with .NET
 ### Manage virtual machines
 ### Manage VM scale sets
 ### Manage web apps
-### Untitled Key Vault topic  <!-- lower pri -->
+<!-- ### Untitled Key Vault topic   lower pri -->
 
 
 # Reference
