@@ -5,7 +5,7 @@ description: .NET for Azure developers
 
 # .NET for Azure developers
 
-This is where you'll find all the resources you'll need for development with .NET and Microsoft Azure.  If you're new to developing with .NET for Azure, choose the **Get started** tutorial for your preferred .NET platform.  You'll learn how to set up your development environment and build your first .NET Azure application.  After that, you can find more tutorials and sample code in the **How-to** section.
+This is where you'll find all the resources you'll need for development with .NET and Microsoft Azure.  If you're new to developing with .NET for Azure, choose the **Get started** tutorial for your [preferred .NET platform](/dotnet/articles/standard/choosing-core-framework-server).  You'll learn how to set up your development environment and build your first .NET Azure application.  After that, you can find more tutorials and sample code in the **How-to** section.
 
 If you're just getting started on Azure, you can get a [free trial](https://azure.microsoft.com/free/).
 
@@ -21,7 +21,7 @@ If you're just getting started on Azure, you can get a [free trial](https://azur
                     </div>
                     <div class="cardText">
                         <h3><a href="./get-started-framework">Get started with Visual Studio and .NET Framework</a></h3>
-                        <p>Use Visual Studio and .NET Framework in Windows to build web applications and APIs hosted in Azure.</p>
+                        <p>Use Visual Studio and <a href="/dotnet/articles/standard/choosing-core-framework-server#when-to-choose-net-framework">.NET Framework</a> in Windows to build web applications and APIs hosted in Azure.</p>
                     </div>
                 </div>
             </div>
@@ -38,15 +38,13 @@ If you're just getting started on Azure, you can get a [free trial](https://azur
                     </div>
                     <div class="cardText">
                         <h3><a href="./get-started-core">Get started with .NET Core</a></h3>
-                        <p>Use .NET Core to build cross-platform applications hosted in Azure.</p>
+                        <p>Use <a href="/dotnet/articles/standard/choosing-core-framework-server#when-to-choose-net-core">.NET Core</a> to build cross-platform applications hosted in Azure.</p>
                     </div>
                 </div>
             </div>
         </div>
     </li>
 </ul>
-
-> [!TIP] If you're not sure whether to choose .NET Framework or .NET Core, [here's some information to help you decide](/dotnet/articles/standard/choosing-core-framework-server).
 
 <ul class="panelContent cardsF">
     <li>
