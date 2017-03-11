@@ -2,7 +2,7 @@
 
 # Get started with .NET for Azure developers
 
-This tutorial will walk you through building and deploying your first application in Microsoft Azure.  When finished, you'll have a web-based to-do application built in ASP.NET, hosted as an Azure Web App, and using Azure DocumentDB for data storage.
+This tutorial will walk you through building and deploying a Microsoft Azure application using Visual Studio and .NET.  When finished, you'll have a web-based to-do application built in ASP.NET, hosted as an Azure Web App, and using Azure DocumentDB for data storage.
 
 ## Prerequisites
 
