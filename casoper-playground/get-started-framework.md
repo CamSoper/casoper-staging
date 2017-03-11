@@ -47,7 +47,7 @@ You've successfully built an application that uses Azure services like DocumentD
 
 1. In Visual Studio Solution Explorer, right-click on the project name and select **Publish...**
 
-2. Using the Publish dialog, select **Microsoft Azure App Service**, **Create New**, then click **Publish**
+2. Using the Publish dialog, select **Microsoft Azure App Service**, select **Create New**, and then click **Publish**
 
 3. Complete the Create App Service dialog as follows:
 
