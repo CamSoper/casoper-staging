@@ -31,7 +31,7 @@ First, let's get the sample code for this walkthrough and hook it up to our Docu
 
     In the **endpoint** key, replace **FILLME** with your DocumentDB URI.  In the **authKey** key, replace **FILLME** with the either the primary or secondary access key for your DocumentDB account.  [Here's where to find your URI and access keys](/azure/documentdb/documentdb-manage-account#a-idkeysaview-copy-and-regenerate-access-keys).
 
-    > [!WARNING]
+    > [!IMPORTANT]
     > Make sure you're using a key from the **Read-Write** tab, not **Read-Only**.
 
 4. Press **F5** to restore the project's NuGet packages, build the project, and run it locally.
@@ -42,7 +42,7 @@ The web application should run locally in your browser.  Note the the data you e
 
 You've successfully built an application that uses Azure services like DocumentDB.  Next, we'll deploy our web application to the cloud.
 
-> [!NOTE]
+> [!IMPORTANT]
 > Be sure you're signed into Visual Studio with the same account your Azure subscription is associated with.
 
 1. In Visual Studio Solution Explorer, right-click on the project name and select **Publish...**
