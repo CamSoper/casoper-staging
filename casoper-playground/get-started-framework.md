@@ -54,7 +54,7 @@ You've successfully built an application that uses Azure services like DocumentD
     * Enter a unique **Web App Name**.  This will be part of the URL for your app.
     * Select the Azure **Subscription** you're deploying to.  We recommend using the same subscription you used for DocumentDB, but it's not required.
     * Select or create a **Resource Group** for your web application. Again, using the same one you used for DocumentDB is recommended.
-    * Select or create an **App Service Plan** to determine the pricing your your application.  [More information about App Service Plans](/azure/app-service/azure-web-sites-web-hosting-plans-in-depth-overview).
+    * Select or create an **App Service Plan** to determine the pricing your your application.  Here's [more information about App Service Plans](/azure/app-service/azure-web-sites-web-hosting-plans-in-depth-overview).
 
 4. Click **Create** to deploy the application.  When deployment is complete, a browser will open with your deployed application.
 
