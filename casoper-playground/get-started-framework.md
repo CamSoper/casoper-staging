@@ -6,16 +6,13 @@ This tutorial will walk you through building and deploying an ASP.NET applicatio
 
 ## Prerequisites
 
-* [Visual Studio 2017](https://www.visualstudio.com/downloads/)
-
-    Visual Studio should be configured with the following [workloads](/visualstudio/install/modify-visual-studio):
-
+* [Visual Studio 2017](https://www.visualstudio.com/downloads/) with the following [workloads](/visualstudio/install/modify-visual-studio):
     * ASP.NET and web development
     * Azure development
 * [SQL Server 2016 Express LocalDB](https://msdn.microsoft.com/en-us/library/hh510202.aspx)
 
-    This can be installed with Visual Studio 2017 as part of the **.NET desktop development** workload.  LocalDB can also be installed with [SQL Server Express](https://go.microsoft.com/fwlink/?LinkID=799012). 
-
+    >[!TIP]
+    >This can be installed with Visual Studio 2017 as part of the **.NET desktop development** workload. 
 * A [Microsoft Azure subscription](https://azure.microsoft.com/free/)
 
 
