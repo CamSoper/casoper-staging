@@ -21,7 +21,7 @@ If you're just getting started on Azure, you can get a [free trial](https://azur
                     </div>
                     <div class="cardText">
                         <h3><a href="./get-started-framework">Get started with Visual Studio and .NET Framework</a></h3>
-                        <p>Use Visual Studio and <a href="/dotnet/articles/standard/choosing-core-framework-server#when-to-choose-net-framework">.NET Framework</a> in Windows to build web applications and APIs hosted in Azure.</p>
+                        <p>Use Visual Studio and <a href="/dotnet/articles/standard/choosing-core-framework-server#when-to-choose-net-framework">.NET Framework</a> in Windows to build web applications and APIs in Azure.</p>
                     </div>
                 </div>
             </div>
@@ -38,7 +38,7 @@ If you're just getting started on Azure, you can get a [free trial](https://azur
                     </div>
                     <div class="cardText">
                         <h3><a href="./get-started-core">Get started with Visual Studio for Mac and .NET Core</a></h3>
-                        <p>Use Visual Studio for Mac in OSX to build cross-platform applications hosted in Azure.</p>
+                        <p>Use Visual Studio for Mac to build cross-platform applications in Azure.</p>
                     </div>
                 </div>
             </div>
@@ -55,7 +55,7 @@ If you're just getting started on Azure, you can get a [free trial](https://azur
                     </div>
                     <div class="cardText">
                         <h3><a href="./get-started-core">Get started with Visual Studio Code and .NET Core</a></h3>
-                        <p>Use Visual Studio Code and <a href="/dotnet/articles/standard/choosing-core-framework-server#when-to-choose-net-core">.NET Core</a> to build cross-platform applications hosted in Azure.</p>
+                        <p>Use Visual Studio Code and <a href="/dotnet/articles/standard/choosing-core-framework-server#when-to-choose-net-core">.NET Core</a> to build cross-platform applications in Azure.</p>
                     </div>
                 </div>
             </div>
