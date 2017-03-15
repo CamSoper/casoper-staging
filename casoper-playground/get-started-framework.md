@@ -20,7 +20,11 @@ This tutorial will walk you through building and deploying an ASP.NET applicatio
 
 First, get the sample code for this walkthrough and run it locally.
 
-1. Download the sample code.  You can [get it from GitHub](https://github.com/CamSoper/contoso-university), or if you have the [git command line client](https://git-scm.com/), clone it to your local machine with the following command:
+1. Download the sample code from GitHub.
+    
+    [Sample - Contoso University](https://github.com/CamSoper/contoso-university)
+    
+    Alternatively, clone it to your local machine with the following [git command-line client](https://git-scm.com/) command:
 
     ```cmd
     git clone https://github.com/CamSoper/contoso-university
