@@ -33,19 +33,7 @@ First, get the sample code for this walkthrough and run it locally.
 2. Open **ContosoUniversity.sln** in Visual Studio.
 
 3. Press **CTRL+F5** to restore the project's NuGet packages, build the project, and run it locally.
-<!--        
-    The web application should run locally in your browser.  Click the  **Students** link at the top of the page, and note that the application has no data.  This sample includes an [Entity Framework Code First Migration](https://msdn.microsoft.com/library/jj591621.aspx).  You're going to use that to seed the database next.
 
-4. In **Visual Studio**, from the **Tools** menu, click **NuGet Package Manager**, and then **Package Manager Console**.
-
-5. In the console, run the Entity Framework Code First Migration by entering:
-
-    ```powershell
-    Update-Database
-    ```
-
-6. Refresh your browser (or press **CTRL+F5** again to re-launch the browser with your application).  Note that the database has been seeded with sample data.
--->
 ## Deploying the application to Azure
 
 You've successfully built the application and you've run it locally using IISExpress as its web server and SQL Server Express LocalDB as its database.  Next, you'll deploy your web application to the cloud.
