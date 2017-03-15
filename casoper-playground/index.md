@@ -38,7 +38,7 @@ If you're just getting started on Azure, you can get a [free trial](https://azur
                     </div>
                     <div class="cardText">
                         <h3><a href="./get-started-core">Get started with Visual Studio for Mac and .NET Core</a></h3>
-                        <p>Use Visual Studio for Mac and <a href="/dotnet/articles/standard/choosing-core-framework-server#when-to-choose-net-core">.NET Core</a> to build cross-platform applications hosted in Azure.</p>
+                        <p>Use Visual Studio for Mac in OSX to build cross-platform applications hosted in Azure.</p>
                     </div>
                 </div>
             </div>
