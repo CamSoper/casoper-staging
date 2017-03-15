@@ -18,7 +18,7 @@ This tutorial will walk you through building and deploying an ASP.NET applicatio
 
 ## Downloading and running the application
 
-First, let's get the sample code for this walkthrough and run it locally.
+First, get the sample code for this walkthrough and run it locally.
 
 1. Download the sample code.  You can [get it from GitHub](https://github.com/CamSoper/contoso-university), or if you have the [git command line client](https://git-scm.com/), clone it to your local machine with the following command:
 
@@ -28,42 +28,67 @@ First, let's get the sample code for this walkthrough and run it locally.
 
 2. Open **ContosoUniversity.sln** in Visual Studio.
 
-3. Press **CTRL-F5** to restore the project's NuGet packages, build the project, and run it locally.
-        
-    The web application should run locally in your browser.  As you explore the application by clicking on the headings at the top of the page (**Students**, **Courses**, **Departments**), note that the application currently has no data.  This application includes an [Entity Framework Code First Migration](https://msdn.microsoft.com/library/jj591621.aspx).  We'll use it to seed the database in the next three steps.
+3. Press **CTRL+F5** to restore the project's NuGet packages, build the project, and run it locally.
+<!--        
+    The web application should run locally in your browser.  Click the  **Students** link at the top of the page, and note that the application has no data.  This sample includes an [Entity Framework Code First Migration](https://msdn.microsoft.com/library/jj591621.aspx).  You're going to use that to seed the database next.
 
 4. In **Visual Studio**, from the **Tools** menu, click **NuGet Package Manager**, and then **Package Manager Console**.
 
-5. In the console, run the Entity Framework Code First Migration to seed the database by entering:
+5. In the console, run the Entity Framework Code First Migration by entering:
 
     ```powershell
     Update-Database
     ```
 
-6. Refresh your browser (or press **CTRL-F5** again to re-launch the browser with your application).  Note that 
+6. Refresh your browser (or press **CTRL+F5** again to re-launch the browser with your application).  Note that the database has been seeded with sample data.
+-->
+## Deploying the application to Azure
 
-## Deploying the application as an Azure Web App
-
-You've successfully built an application that uses Azure services like DocumentDB.  Next, we'll deploy our web application to the cloud.
+You've successfully built the application and you've run it locally using IISExpress as its web server and SQL Server Express LocalDB as its database.  Next, you'll deploy your web application to the cloud.
 
 > [!IMPORTANT]
-> Be sure you're signed into Visual Studio with the same account your Azure subscription is associated with.
+> If this is the first time you've used the Azure tools in Visual Studio, you may be prompted to log in.  Be sure you're signed into Visual Studio with the same account your Azure subscription is associated with.
 
 1. In Visual Studio Solution Explorer, right-click on the project name and select **Publish...**
 
-2. Using the Publish dialog, select **Microsoft Azure App Service**, select **Create New**, and then click **Publish**
+2. Using the **Publish** dialog, select **Microsoft Azure App Service**, select **Create New**, and then click **Publish**
 
-3. Complete the Create App Service dialog as follows:
+3. Complete the **Create App Service** dialog as follows:
 
     * Enter a unique **Web App Name**.  This will be part of the URL for your app.
-    * Select the Azure **Subscription** you're deploying to.  We recommend using the same subscription you used for DocumentDB, but it's not required.
-    * Select or create a **Resource Group** for your web application. Again, using the same one you used for DocumentDB is recommended.
-    * Select or create an **App Service Plan** to determine the pricing your your application.  Here's [more information about App Service Plans](/azure/app-service/azure-web-sites-web-hosting-plans-in-depth-overview).
+    * Select the Azure **Subscription** you're deploying to.
+    * Select or create a **Resource Group** for your web application.
+    * Select or create an **App Service Plan** to determine the pricing used for your application.  Here's [more information about App Service Plans](/azure/app-service/azure-web-sites-web-hosting-plans-in-depth-overview).
+
+4. Click the **Services** heading on the left side of the dialog.  Click the plus sign next to **SQL Database**
+
+    ![Adding the SQL Database](media/getting-started-framework/add-sql.png)
+
+5. In the **Configure SQL Database** dialog, next to **SQL Server**, click **New...**.
+
+6. Complete the **Configure SQL Server** dialog as follows:
+
+    * Enter a unique **Server Name**.  This will be part of the address for your Azure SQL Database service.
+    * Enter an **Administrator Username**.  Common names like *admin*, *sa*, *root*, etc., are not allowed.
+    * Enter an **Administrator Password**.
+    * Confirm the **Administrator Password**.
+    * Click **OK** to return to the **Configure SQL Database** dialog.
+
+7. Complete the **Configure SQL Database** dialog as follows:
+
+    * **SQL Server**, **Administrator Username**, and **Administrator Password** should already be populated with the information you entered in the previous step.
+    * Enter a **Database Name** for your deployed database.  The default is acceptable.
+    * In **Connection String Name**, enter *SchoolContext*.
+
+        > [!IMPORTANT]
+        > *SchoolContext* should match the name of the connection string in the *web.config* file. Be sure you enter it exactly as written.
+    * Click **OK** to return to the **Create App Service** dialog.    
 
 4. Click **Create** to deploy the application.  When deployment is complete, a browser will open with your deployed application.
 
 ## Next steps
 
+* [Get started with a sample application using Azure DocumentDB](get-started-docdb.md)
 * [Use Azure Active Directory for authentication in an ASP.NET web application](/azure/active-directory/develop/active-directory-devquickstarts-webapp-dotnet)
 * [Build an Azure Web App using Azure SQL Database](/azure/app-service-web/web-sites-dotnet-get-started)
 * [Try a .NET sample application with Azure Storage](/azure/storage/storage-samples-dotnet)
