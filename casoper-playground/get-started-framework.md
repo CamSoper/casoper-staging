@@ -12,7 +12,7 @@ This tutorial will walk you through building and deploying an ASP.NET applicatio
 * [SQL Server 2016 Express LocalDB](https://msdn.microsoft.com/en-us/library/hh510202.aspx)
 
     >[!TIP]
-    >This can be installed with Visual Studio 2017 as part of the **.NET desktop development** workload. 
+    >This can be installed with **Visual Studio 2017** as part of the **.NET desktop development** workload. 
 * A [Microsoft Azure subscription](https://azure.microsoft.com/free/)
 
 
@@ -20,29 +20,27 @@ This tutorial will walk you through building and deploying an ASP.NET applicatio
 
 First, let's get the sample code for this walkthrough and run it locally.
 
-1. Download the sample code.  You can [get it from GitHub](https://github.com/Azure-Samples/documentdb-dotnet-todo-app), or if you have the [git command line client](https://git-scm.com/), clone it to your local machine with the following command:
+1. Download the sample code.  You can [get it from GitHub](https://github.com/CamSoper/contoso-university), or if you have the [git command line client](https://git-scm.com/), clone it to your local machine with the following command:
 
     ```cmd
-    git clone https://github.com/Azure-Samples/documentdb-dotnet-todo-app
+    git clone https://github.com/CamSoper/contoso-university
     ```
 
-2. Open **todo.sln** in Visual Studio.
+2. Open **ContosoUniversity.sln** in Visual Studio.
 
-3. Open **Web.config** in the web project.  Look for the following keys in the `<appSettings>` element:
+3. Press **CTRL-F5** to restore the project's NuGet packages, build the project, and run it locally.
+        
+    The web application should run locally in your browser.  As you explore the application by clicking on the headings at the top of the page (**Students**, **Courses**, **Departments**), note that the application currently has no data.  This application includes an [Entity Framework Code First Migration](https://msdn.microsoft.com/library/jj591621.aspx).  We'll use it to seed the database in the next three steps.
 
-    ```xml
-    <add key="endpoint" value="FILLME" />
-    <add key="authKey" value="FILLME" />
+4. In **Visual Studio**, from the **Tools** menu, click **NuGet Package Manager**, and then **Package Manager Console**.
+
+5. In the console, run the Entity Framework Code First Migration to seed the database by entering:
+
+    ```powershell
+    Update-Database
     ```
 
-    In the **endpoint** key, replace **FILLME** with your DocumentDB URI.  In the **authKey** key, replace **FILLME** with the either the primary or secondary access key for your DocumentDB account.  [Here's where to find your URI and access keys](/azure/documentdb/documentdb-manage-account#a-idkeysaview-copy-and-regenerate-access-keys).
-
-    > [!IMPORTANT]
-    > Make sure you're using a key from the **Read-Write** tab, not **Read-Only**.
-
-4. Press **F5** to restore the project's NuGet packages, build the project, and run it locally.
-
-The web application should run locally in your browser.  Note the the data you enter in the application is being stored in your DocumentDB account.  You can [view your data in the Azure portal](https://docs.microsoft.com/en-us/azure/documentdb/documentdb-view-json-document-explorer).
+6. Refresh your browser (or press **CTRL-F5** again to re-launch the browser with your application).  Note that 
 
 ## Deploying the application as an Azure Web App
 
