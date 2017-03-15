@@ -1,14 +1,14 @@
 # [Overview](index.md)
 
-# Install
-## [Tools](tools.md)
-## [NuGet Packages](packages.md)
+## Tools
+### [Visual Studio](visual-studio.md)
+### [NuGet Packages](packages.md)
 
-# Get started
-## [Visual Studio and .NET Framework](get-started-framework.md)
-## [.NET Core](get-started-core.md)
+## Get started
+### [Visual Studio and .NET Framework](get-started-framework.md)
+### [.NET Core](get-started-core.md)
 
-# How to
+# Samples and Tutorials
 
 ## Build applications hosted in Azure
 ### Migrate an ASP.NET web application
