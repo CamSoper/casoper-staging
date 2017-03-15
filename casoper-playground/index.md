@@ -37,8 +37,25 @@ If you're just getting started on Azure, you can get a [free trial](https://azur
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3><a href="./get-started-core">Get started with .NET Core</a></h3>
-                        <p>Use <a href="/dotnet/articles/standard/choosing-core-framework-server#when-to-choose-net-core">.NET Core</a> to build cross-platform applications hosted in Azure.</p>
+                        <h3><a href="./get-started-core">Get started with Visual Studio for Mac and .NET Core</a></h3>
+                        <p>Use Visual Studio for Mac and <a href="/dotnet/articles/standard/choosing-core-framework-server#when-to-choose-net-core">.NET Core</a> to build cross-platform applications hosted in Azure.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="media/index/netcore.svg" alt="" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3><a href="./get-started-core">Get started with Visual Studio Code and .NET Core</a></h3>
+                        <p>Use Visual Studio Code and <a href="/dotnet/articles/standard/choosing-core-framework-server#when-to-choose-net-core">.NET Core</a> to build cross-platform applications hosted in Azure.</p>
                     </div>
                 </div>
             </div>
@@ -58,8 +75,8 @@ If you're just getting started on Azure, you can get a [free trial](https://azur
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3><a href="./how-to">How-to</a></h3>
-                        <p>Samples and tutorials for common tasks.</p>
+                        <h3><a href="./how-to">Samples and Tutorials</a></h3>
+                        <p>Scenarios for common tasks.</p>
                     </div>
                 </div>
             </div>
@@ -77,7 +94,7 @@ If you're just getting started on Azure, you can get a [free trial](https://azur
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3><a href="./tools">Tools</a></h3>
+                        <h3><a href="./tools">Visual Studio</a></h3>
                         <p>Get Visual Studio, Visual Studio Code, .NET Core, and other tools.</p>
                     </div>
                 </div>

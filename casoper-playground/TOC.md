@@ -6,7 +6,8 @@
 
 ## Get started
 ### [Visual Studio and .NET Framework](get-started-framework.md)
-### [.NET Core](get-started-core.md)
+### Visual Studio for Mac
+### [Other environments](get-started-core.md)
 
 # Samples and Tutorials
 
