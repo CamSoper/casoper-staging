@@ -49,7 +49,7 @@ You've successfully built the application and you've run it locally using IISExp
 > [!IMPORTANT]
 > If this is the first time you've used the Azure tools in Visual Studio, you may be prompted to log in.  Be sure you're signed into Visual Studio with the same account your Azure subscription is associated with.
 
-1. In Visual Studio Solution Explorer, right-click on the project name and select **Publish...**
+1. In **Visual Studio Solution Explorer**, right-click on the project name and select **Publish...**
 
 2. Using the **Publish** dialog, select **Microsoft Azure App Service**, select **Create New**, and then click **Publish**
 
