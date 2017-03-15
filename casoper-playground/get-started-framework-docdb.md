@@ -2,26 +2,17 @@
 
 # Get started with .NET for Azure developers
 
-This tutorial will walk you through building and deploying an ASP.NET application to Microsoft Azure using Visual Studio.  When finished, you'll have deployed the application to Azure Web Apps with an Azure SQL Database back end.
+This tutorial will walk you through building and deploying a Microsoft Azure application using Visual Studio and .NET.  When finished, you'll have a web-based to-do application built in ASP.NET, hosted as an Azure Web App, and using Azure DocumentDB for data storage.
 
 ## Prerequisites
 
 * [Visual Studio 2017](https://www.visualstudio.com/downloads/)
-
-    Visual Studio should be configured with the following [workloads](/visualstudio/install/modify-visual-studio):
-
-    * ASP.NET and web development
-    * Azure development
-* [SQL Server 2016 Express LocalDB](https://msdn.microsoft.com/en-us/library/hh510202.aspx)
-
-    This can be installed with Visual Studio 2017 as part of the **.NET desktop development** workload.  LocalDB can also be installed with [SQL Server Express](https://go.microsoft.com/fwlink/?LinkID=799012). 
-
 * A [Microsoft Azure subscription](https://azure.microsoft.com/free/)
-
+* A [DocumentDB account](/azure/documentdb/documentdb-create-account) in your Azure subscription (you can skip creating a new collection in your account)
 
 ## Downloading and running the application
 
-First, let's get the sample code for this walkthrough and run it locally.
+First, let's get the sample code for this walkthrough and hook it up to our DocumentDB account.
 
 1. Download the sample code.  You can [get it from GitHub](https://github.com/Azure-Samples/documentdb-dotnet-todo-app), or if you have the [git command line client](https://git-scm.com/), clone it to your local machine with the following command:
 
