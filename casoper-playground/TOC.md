@@ -2,6 +2,7 @@
 
 ## Tools
 ### [Visual Studio](visual-studio.md)
+### [Other developer environments](other-environments.md)
 ### [NuGet Packages](packages.md)
 
 ## Get started

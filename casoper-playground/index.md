@@ -54,7 +54,7 @@ If you're just getting started on Azure, you can get a [free trial](https://azur
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3><a href="./get-started-core">Get started with Visual Studio Code and .NET Core</a></h3>
+                        <h3><a href="./get-started-core">Get started with just .NET Core</a></h3>
                         <p>Use Visual Studio Code and <a href="/dotnet/articles/standard/choosing-core-framework-server#when-to-choose-net-core">.NET Core</a> to build cross-platform applications in Azure.</p>
                     </div>
                 </div>
