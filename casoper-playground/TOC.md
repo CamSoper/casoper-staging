@@ -2,7 +2,7 @@
 
 ## Tools
 ### [Visual Studio](visual-studio.md)
-### [Cross-platform](other-environments.md)
+### [Cross-platform](cross-platform.md)
 ### [NuGet packages](packages.md)
 #### [Data packages](data-packages.md)
 #### [Management packages](management-packages.md)
