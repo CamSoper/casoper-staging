@@ -44,6 +44,7 @@ If you're just getting started on Azure, you can get a [free trial](https://azur
             </div>
         </div>
     </li>
+    <!--
     <li>
         <div class="cardSize">
             <div class="cardPadding">
@@ -61,6 +62,7 @@ If you're just getting started on Azure, you can get a [free trial](https://azur
             </div>
         </div>
     </li>
+    -->
 </ul>
 
 <ul class="panelContent cardsF">

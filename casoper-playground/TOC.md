@@ -2,13 +2,13 @@
 
 ## Tools
 ### [Visual Studio](visual-studio.md)
-### [Other developer environments](other-environments.md)
+### [Cross-platform development](other-environments.md)
 ### [NuGet Packages](packages.md)
 
 ## Get started
 ### [Visual Studio and .NET Framework](get-started-framework.md)
 ### Visual Studio for Mac
-### [Other environments](get-started-core.md)
+### [Cross-platform](get-started-core.md)
 
 # Samples and Tutorials
 

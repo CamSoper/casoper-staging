@@ -1,18 +1,12 @@
 
 
-# Get started with .NET for Azure developers
+# Get started with Visual Studio and .NET Framework for Azure developers
 
 This tutorial will walk you through building and deploying an ASP.NET application to Microsoft Azure using Visual Studio.  When finished, you'll have deployed the application to Azure Web Apps with an Azure SQL Database back end.
 
 ## Prerequisites
 
-* [Visual Studio 2017](https://www.visualstudio.com/downloads/) with the following [workloads](/visualstudio/install/modify-visual-studio):
-    * ASP.NET and web development
-    * Azure development
-* [SQL Server 2016 Express LocalDB](https://msdn.microsoft.com/en-us/library/hh510202.aspx)
-
-    >[!TIP]
-    >This can be installed with **Visual Studio 2017** as part of the **.NET desktop development** workload. 
+* [Visual Studio 2017](https://www.visualstudio.com/downloads/) with the **ASP.NET and web development** [workload](/visualstudio/install/modify-visual-studio).   
 * A [Microsoft Azure subscription](https://azure.microsoft.com/free/)
 
 
@@ -74,6 +68,7 @@ You've successfully built the application and you've run it locally using IISExp
 
         > [!IMPORTANT]
         > *SchoolContext* should match the name of the connection string in the *web.config* file. Be sure you enter it exactly as written.
+        
     * Click **OK** to return to the **Create App Service** dialog.    
 
 4. Click **Create** to deploy the application.  When deployment is complete, a browser will open with your deployed application.
