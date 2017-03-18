@@ -1,8 +1,11 @@
 
 
-# Get started with .NET Core for Azure developers
+# Get started with Visual Studio for Mac and .NET Core for Azure developers
 
-This tutorial will walk you through building and deploying a Microsoft Azure application using .NET Core on Windows, Linux, or Mac.  When finished, you'll have a web-based to-do application built in ASP.NET MVC Core, hosted as an Azure Web App, and using Azure DocumentDB for data storage.
+This tutorial will walk you through building and deploying a Microsoft Azure application using Visual Studio for Mac and .NET Core.  When finished, you'll have a web-based to-do application built in ASP.NET MVC Core, hosted as an Azure Web App, and using Azure DocumentDB for data storage.
+
+> [!WARNING]
+> This is just a copy/paste of the .NET Core walkthrough as a placeholder.
 
 ## Prerequisites
 
