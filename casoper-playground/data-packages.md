@@ -16,7 +16,7 @@ ms.assetid:
 # Azure Data Libraries for .NET
 
 Use these libraries to **consume** Azure services and data in your applications.
-[![Microsoft.Azure.Management.Analysis](https://img.shields.io/nuget/vpre/PACKAGE.svg)](https://img.shields.io/nuget/vpre/PACKAGE.svg)](https://img.shields.io/nuget/vpre/PACKAGE.svg)](https://www.nuget.org/packages/Microsoft.Azure.Management.ApiManagement)
+
 ## Packages
 
 Service | Package  
