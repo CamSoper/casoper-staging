@@ -1,5 +1,5 @@
 ---
-title: Azure Libraries for .NET 
+title: Azure Management Libraries for .NET 
 description: A listing of all of the .NET SDK for Azure libraries and NuGet packages.
 keywords: Azure .NET, SDK, Azure .NET API Reference, Azure .NET class library
 author: camsoper
@@ -16,8 +16,6 @@ ms.assetid:
 # Azure Management Libraries for .NET
 
 Use these libraries to **manage** Azure services in your applications.
-
-[!include[core-packages](includes/core-packages.md)]
 
 ## Packages
 
@@ -67,4 +65,3 @@ Service | Fluent package | Standard package
 [Virtual Network](/azure/virtual-network/) | [![Microsoft.Azure.Management.Network.Fluent](https://img.shields.io/nuget/vpre/Microsoft.Azure.Management.Network.Fluent.svg)](https://www.nuget.org/packages/Microsoft.Azure.Management.Network.Fluent) | [![Microsoft.Azure.Management.Network](https://img.shields.io/nuget/vpre/Microsoft.Azure.Management.Network.svg)](https://www.nuget.org/packages/Microsoft.Azure.Management.Network)
 [Web Apps](/azure/app-service-web) | [![Microsoft.Azure.Management.AppService.Fluent](https://img.shields.io/nuget/vpre/Microsoft.Azure.Management.AppService.Fluent.svg)](https://www.nuget.org/packages/Microsoft.Azure.Management.AppService.Fluent) | [![Microsoft.Azure.Management.Websites](https://img.shields.io/nuget/vpre/Microsoft.Azure.Management.Websites.svg)](https://www.nuget.org/packages/Microsoft.Azure.Management.Websites)
 
-[!include[package-instructions](includes/package-instructions.md)]

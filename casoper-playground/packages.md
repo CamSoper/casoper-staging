@@ -1,3 +1,27 @@
+---
+title: Using Azure Libraries for .NET 
+description: A listing of all of the .NET SDK for Azure libraries and NuGet packages.
+keywords: Azure .NET, SDK, Azure .NET API Reference, Azure .NET class library
+author: camsoper
+manager: douge
+ms.author: casoper
+ms.date: 03/06/2016
+ms.topic: managed-reference
+ms.prod: azure
+ms.technology: azure
+ms.devlang: dotnet
+ms.assetid: 
+---
+
+# Using Azure Libraries for .NET
+
+Use the libraries listed below to manage and consume Azure services in your applications.
+
+* [Packages for interacting with Azure services and consuming data](data-packages.md)
+* [Packages for managing Azure services](management-packages.md)
+
+The .NET SDK for Azure libraries all support [.NET Framework](/dotnet/articles/standard/choosing-core-framework-server).  .NET Core support is provided by most packages.  Verify .NET Core support by checking for a *.NETStandard* dependency, as seen with [WindowsAzure.Storage](https://www.nuget.org/packages/WindowsAzure.Storage). Some of these packages are in preview, requiring you to opt into search and installation of preview NuGet packages.
+
 ## Installation
 
 ### Visual Studio
@@ -6,7 +30,7 @@ If you're using Visual Studio, use the **NuGet Package Manager Console** to impo
 
 1. With your Visual Studio solution open, launch the console by clicking **Tools**, followed by **NuGet Packager Manager**, and then click **Package Manager Console**.  
 
-    ![Package Manager Console](../media/packages/package-manager.png)
+    ![Package Manager Console](media/packages/package-manager.png)
 
 2. In the console window, use the **Install-Package** cmdlet to download and install the NuGet package.  For example, to include the latest version of the [Azure Resource Management Library](http://www.nuget.org/packages/Microsoft.Azure.Management.ResourceManager) for .NET:
 

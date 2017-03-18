@@ -4,27 +4,20 @@ title: Tools for Azure .NET Visual Studio developers
 description: Get the tools to start developing with .NET for Azure from Visual Studio 2015 or 2017.
 ---
 
-# .NET Tools for Azure developers
+# Visual Studio Tools for Azure developers
 
-SEO-friendly summary here.
+Visual Studio has a robust ecosystem of tools for interacting with and management Azure services on Windows and Mac.  [Go here for cross-platform tools](cross-platform.md).
 
 ## Visual Studio 2017
 
-> [!NOTE]
-> Visual Studio 2017 has built-in workloads for Azure.  Just go to **MENUHERE**, select **OPTION**, and check the box for **WORKLOADENABLE OPTION**.
->
-> ![Select the Azure workload from the MENU menu](media/azure-workload.png)
->
-> - If you are working with SQL on Azure, add the **Desktop** workload as well.
-
-- [Go here for cross-platform Azure .NET tools.](other-environments.md)
+Visual Studio 2017 has built-in workloads for Azure.  To learn how to enable workloads in Visual Studio 2017, see [Modify Visual Studio 2017 by adding or removing workloads and components](/visualstudio/install/modify-visual-studio).
 
 ## Visual Studio 2015
 
 |  Tool (click link to download)                                                                                 | Notes                                                          | Docs                                                                                                                                                     |
 |----------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Azure .NET SDK for Visual Studio 2015](http://go.microsoft.com/fwlink/?LinkId=518003)                         | Rollup package that includes the Azure .NET SDK, Service Fabric Tools, and Cloud Explorer.                                                                          | [Read more here...](https://www.visualstudio.com/vs/azure-tools/)                                                                                        |
-| [Azure Service Fabric Tools for Visual Studio 2015](https://www.microsoft.com/web/handlers/webpi.ashx?command=getinstallerredirect&appid=MicrosoftAzure-ServiceFabric) (Visual Studio 2015) | --                                                                                                                                                                  | [Read more here...](https://docs.microsoft.com/api/Redirect/en-us/documentation/articles/service-fabric-create-your-first-application-in-visual-studio/) |
+| [Azure .NET SDK for Visual Studio 2015](http://go.microsoft.com/fwlink/?LinkId=518003)                         | Rollup package that includes the Azure .NET SDK, Service Fabric Tools, and Cloud Explorer. | [Read more here...](https://www.visualstudio.com/vs/azure-tools/)   |
+| [Azure Service Fabric Tools for Visual Studio 2015](https://www.microsoft.com/web/handlers/webpi.ashx?command=getinstallerredirect&appid=MicrosoftAzure-ServiceFabric) (Visual Studio 2015) | -- | [Read more here...](https://docs.microsoft.com/api/Redirect/en-us/documentation/articles/service-fabric-create-your-first-application-in-visual-studio/) |
 
 
 ## Visual Studio for Mac
@@ -39,4 +32,4 @@ SEO-friendly summary here.
 
 |  Tool (click link to download)                                                                                 | Notes                                                          | Docs                                                                                                                                                     |
 |----------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Azure .NET SDK for Visual Studio 2013](https://go.microsoft.com/fwlink/?LinkId=323510&clcid=0x409)            | Rollup package that includes the Azure .NET SDK and Cloud Explorer.     | [Read more here...](https://www.visualstudio.com/vs/azure-tools/)                                                                                        |
+| [Azure .NET SDK for Visual Studio 2013](https://go.microsoft.com/fwlink/?LinkId=323510&clcid=0x409)            | Rollup package that includes the Azure .NET SDK and Cloud Explorer.     | [Read more here...](https://www.visualstudio.com/vs/azure-tools/) |

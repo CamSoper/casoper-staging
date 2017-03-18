@@ -3,7 +3,9 @@
 ## Tools
 ### [Visual Studio](visual-studio.md)
 ### [Cross-platform](other-environments.md)
-### NuGet Packages
+### [NuGet packages](packages.md)
+#### [Data packages](data-packages.md)
+#### [Management packages](management-packages.md)
 
 ## Get started
 ### [Visual Studio and .NET Framework](get-started-framework.md)
