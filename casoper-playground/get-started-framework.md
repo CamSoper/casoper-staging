@@ -39,39 +39,28 @@ You've successfully built the application and you've run it locally using IISExp
 
 2. Using the **Publish** dialog, select **Microsoft Azure App Service**, select **Create New**, and then click **Publish**
 
-3. Complete the **Create App Service** dialog as follows:
-
-    * Enter a unique **Web App Name**.  This will be part of the URL for your app.
-    * Select the Azure **Subscription** you're deploying to.
-    * Select or create a **Resource Group** for your web application.
-    * Select or create an **App Service Plan** to determine the pricing used for your application.  Here's [more information about App Service Plans](/azure/app-service/azure-web-sites-web-hosting-plans-in-depth-overview).
-
-4. Click the **Services** heading on the left side of the dialog.  Click the plus sign next to **SQL Database**
+3. In the **Create App Service** dialog, click the **Services** heading on the left side.  Click the plus sign next to **SQL Database**
 
     ![Adding the SQL Database](media/getting-started-framework/add-sql.png)
 
-5. In the **Configure SQL Database** dialog, next to **SQL Server**, click **New...**.
+4. In the **Configure SQL Database** dialog, next to **SQL Server**, click **New...**.
 
-6. Complete the **Configure SQL Server** dialog as follows:
+5. Complete the **Configure SQL Server** dialog as follows:
 
-    * Enter a unique **Server Name**.  This will be part of the address for your Azure SQL Database service.
+    * Leave the default **Server Name**.  This will be part of the address for your Azure SQL Database service.
     * Enter an **Administrator Username**.  Common names like *admin*, *sa*, *root*, etc., are not allowed.
     * Enter an **Administrator Password**.
     * Confirm the **Administrator Password**.
     * Click **OK** to return to the **Configure SQL Database** dialog.
 
-7. Complete the **Configure SQL Database** dialog as follows:
+6. Using the **Configure SQL Database** dialog, in **Connection String Name**, enter *SchoolContext*.
+    
+    > [!IMPORTANT]
+    > *SchoolContext* should match the name of the connection string in the *web.config* file. Be sure you enter it exactly as written.
 
-    * **SQL Server**, **Administrator Username**, and **Administrator Password** should already be populated with the information you entered in the previous step.
-    * Enter a **Database Name** for your deployed database.  The default is acceptable.
-    * In **Connection String Name**, enter *SchoolContext*.
+7. Click **OK** to return to the **Create App Service** dialog.    
 
-        > [!IMPORTANT]
-        > *SchoolContext* should match the name of the connection string in the *web.config* file. Be sure you enter it exactly as written.
-        
-    * Click **OK** to return to the **Create App Service** dialog.    
-
-4. Click **Create** to deploy the application.  When deployment is complete, a browser will open with your deployed application.
+8. Click **Create** to deploy the application.  When deployment is complete, a browser will open with your deployed application.
 
 > [!TIP]
 > If you'd like to seed the database with sample data, find the **Settings...** link on the **Publish** dialog.  For the *SchoolContext* database, tick the checkbox that says *Execute Code First Migrations*.
