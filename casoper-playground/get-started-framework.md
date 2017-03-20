@@ -63,12 +63,10 @@ You've successfully built the application and you've run it locally using IISExp
 8. Click **Create** to deploy the application.  When deployment is complete, a browser will open with your deployed application.
 
 > [!TIP]
-> If you'd like to seed the database with sample data, find the **Settings...** link on the **Publish** dialog.  For the *SchoolContext* database, tick the checkbox that says *Execute Code First Migrations*.
+> If you'd like to seed the database with sample data, find the **Settings...** link on the **Publish** dialog.  For the *SchoolContext* database, tick the checkbox that says *Execute Code First Migrations* and then publish again.
 
 ## Next steps
 
 * [Use Azure Active Directory for authentication in an ASP.NET web application](/azure/active-directory/develop/active-directory-devquickstarts-webapp-dotnet)
 * [Build an Azure Web App using Azure SQL Database](/azure/app-service-web/web-sites-dotnet-get-started)
 * [Try a .NET sample application with Azure Storage](/azure/storage/storage-samples-dotnet)
-
-
