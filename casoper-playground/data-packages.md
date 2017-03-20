@@ -15,7 +15,10 @@ ms.assetid:
 
 # Azure Data Libraries for .NET
 
-Use these libraries to **consume** Azure services and data in your applications.
+Use these libraries to **consume** Azure resources and data in your applications.
+
+> [!WARNING]
+> This is currently a list of packages, but will be fleshed out with popular data-plane scenarios, etc.  These will link to "Get Started".
 
 ## Packages
 

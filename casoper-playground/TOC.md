@@ -2,15 +2,15 @@
 
 ## Tools
 ### [Visual Studio](visual-studio.md)
-### [Cross-platform](cross-platform.md)
-### [NuGet packages](packages.md)
-#### [Data packages](data-packages.md)
-#### [Management packages](management-packages.md)
+### [Additional Tools](additional-tools.md)
+### [Client Libraries](packages.md)
+#### [Consume Resources](data-packages.md)
+#### [Manage Resources](management-packages.md)
 
 ## Get started
 ### [Visual Studio and .NET Framework](get-started-framework.md)
 ### [Visual Studio for Mac](get-started-mac.md)
-### [Cross-platform](get-started-core.md)
+### [.NET Core](get-started-core.md)
 
 # Samples and Tutorials
 
