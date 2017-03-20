@@ -15,7 +15,10 @@ ms.assetid:
 
 # Azure Management Libraries for .NET
 
-Use these libraries to **manage** Azure services in your applications.
+Use these libraries to **manage** Azure resources in your applications.
+
+> [!WARNING]
+> This is currently a list of packages, but will be fleshed out with popular management-plane scenarios, etc.  These will link to "Get Started".
 
 ## Packages
 
