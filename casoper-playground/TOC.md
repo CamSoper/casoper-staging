@@ -1,5 +1,10 @@
 # [Overview](index.md)
 
+## Get started
+### [Visual Studio and .NET Framework](get-started-framework.md)
+### [Visual Studio for Mac](get-started-mac.md)
+### [.NET Core](get-started-core.md)
+
 ## Tools
 ### [Visual Studio](visual-studio.md)
 ### [Additional Tools](additional-tools.md)
@@ -7,12 +12,7 @@
 #### [Consume Resources](data-packages.md)
 #### [Manage Resources](management-packages.md)
 
-## Get started
-### [Visual Studio and .NET Framework](get-started-framework.md)
-### [Visual Studio for Mac](get-started-mac.md)
-### [.NET Core](get-started-core.md)
-
-# Samples and Tutorials
+# Samples
 
 ## Build applications hosted in Azure
 ### Migrate an ASP.NET web application
