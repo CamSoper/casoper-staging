@@ -1,127 +1,76 @@
 
 
-# Get started with .NET Core for Azure developers
+# Get started with Visual Studio and .NET Framework for Azure developers
 
-This tutorial will walk you through building and deploying a Microsoft Azure application using .NET Core on Windows, Linux, or Mac.  When finished, you'll have a web-based to-do application built in ASP.NET MVC Core, hosted as an Azure Web App, and using Azure DocumentDB for data storage.
+This tutorial will walk you through building and deploying an ASP.NET application to Microsoft Azure using Visual Studio.  When finished, you'll have deployed the application to Azure Web Apps with an Azure SQL Database back end.
 
 ## Prerequisites
 
-* [.NET Core](https://www.microsoft.com/net/download/core)
-* [Azure CLI 2.0](/cli/azure/install-az-cli2)
-* [Git](https://www.git-scm.com/) command line client.
+* [Visual Studio 2017](https://www.visualstudio.com/downloads/) with the **ASP.NET and web development** [workload](/visualstudio/install/modify-visual-studio).   
 * A [Microsoft Azure subscription](https://azure.microsoft.com/free/)
-* A [DocumentDB account](/azure/documentdb/documentdb-create-account) in your Azure subscription
+
 
 ## Downloading and running the application
 
 First, get the sample code for this walkthrough and run it locally.
 
-1. Clone the [sample code](https://github.com/CamSoper/dotnet-core-todo) from GitHub.
+1. Download the sample code from GitHub.
     
-    ```bash
-    git clone https://github.com/CamSoper/dotnet-core-todo
+    [Sample - Contoso University](https://github.com/CamSoper/dotnet-core-contoso-university/)
+    
+    Alternatively, clone it to your local machine with the following [git command-line client](https://git-scm.com/) command:
+
+    ```cmd
+    git clone https://github.com/CamSoper/dotnet-core-contoso-university/
     ```
 
-    Set your working directory to the sample directory.
+2. Open **ContosoUniversity.sln** in Visual Studio.
 
-    ```bash
-    cd dotnet-core-todo
-    ```
+3. Press **CTRL+F5** to restore the project's NuGet packages, build the project, and run it locally.
 
-2. Edit **appsettings.json** with your DocumentDB information.  Look for the following properties:
+## Deploying the application to Azure
 
-    ```json
-    "authKey": "FILLME",
-    "endpoint": "FILLME",
-    ```
-
-    In the **endpoint** property, replace **FILLME** with your DocumentDB URI.  In the **authKey** property, replace **FILLME** with either the primary or secondary access key for your DocumentDB account.  [Here's where to find your URI and access keys](/azure/documentdb/documentdb-manage-account#a-idkeysaview-copy-and-regenerate-access-keys).
-
-    > [!IMPORTANT]
-    > Make sure you're using a key from the **Read-Write** tab, not **Read-Only**.
-
-3. Commit your changes to the local Git repository.
-
-    ```bash
-    git commit -a -m "Modified settings"
-    ```
-
-4. Restore the NuGet packages and run the application.
-
-    ```bash
-    dotnet restore
-    dotnet run
-    ```
-
-The web application will be hosted in a local web server.  Follow the instructions on-screen to connect to it with your browser.  Note the the data you enter in the application is being stored in your DocumentDB account.  You can [view your data in the Azure portal](https://docs.microsoft.com/en-us/azure/documentdb/documentdb-view-json-document-explorer).
-
-## Configure Azure App Service and deploy the web app
+You've successfully built the application and you've run it locally using IISExpress as its web server and SQL Server Express LocalDB as its database.  Next, you'll deploy your web application to the cloud.
 
 > [!IMPORTANT]
-> This sample works in a Bash shell. For options on running Azure CLI scripts on Windows client, see [Using the Azure CLI on Windows](/azure/virtual-machines/virtual-machines-windows-cli-options).
+> If this is the first time you've used the Azure tools in Visual Studio, you may be prompted to log in.  Be sure you're signed into Visual Studio with the same account your Azure subscription is associated with.
 
-1. Log in to Azure CLI 2.0 if you haven't already.
+1. In **Visual Studio Solution Explorer**, right-click on the project name and select **Publish...**
 
-    ```bash
-    az login
-    ```
+2. Using the **Publish** dialog, select **Microsoft Azure App Service**, select **Create New**, and then click **Publish**
 
-2. Start by generating a unique name for the web app.
+3. In the **Create App Service** dialog, click the **Services** heading on the left side.  Click the plus sign next to **SQL Database**
 
-    ```bash
-    let randomNum=$RANDOM*$RANDOM
-    webappname=todoApp$randomNum
-    ```
+    ![Adding the SQL Database](media/getting-started-framework/add-sql.png)
 
-3. Create a Resource Group.
-    
-    ```bash
-    az group create --location westus2 --name myResourceGroup
-    ```
-    
-4. Create an App Service plan.
-    
-    ```bash 
-    az appservice plan create --name $webappname --resource-group myResourceGroup --sku FREE
-    ```
+4. In the **Configure SQL Database** dialog, next to **SQL Server**, click **New...**.
 
-5. Create the Web App.
+5. Complete the **Configure SQL Server** dialog as follows:
 
-    ```bash
-    az appservice web create --name $webappname --resource-group myResourceGroup --plan $webappname
-    ```
+    * Leave the default **Server Name**.  This will be part of the address for your Azure SQL Database service.
+    * Enter an **Administrator Username**.  Common names like *admin*, *sa*, *root*, etc., are not allowed.
+    * Enter an **Administrator Password**.
+    * Confirm the **Administrator Password**.
+    * Click **OK** to return to the **Configure SQL Database** dialog.
 
-6. Set the account-level deployment credentials. 
+6. Click **OK** to return to the **Create App Service** dialog.    
 
-    ```bash
-    az appservice web deployment user set --user-name <desired user name> --password <desired password>
-    ```
+7. Click **Create** to deploy the application.  When deployment is complete, a browser will open with your deployed application.
 
-7. Configure the web app for deployment from local Git and get the repository URL.
+> [!Warning]
+> From here on, this doc is a work in progress.
 
-    ```bash
-    url=$(az appservice web source-control config-local-git --name $webappname --resource-group myResourceGroup --query url --output tsv)
-    ```
+You may have noticed that the application doesn't run.  That's because Visual Studio deployed **appsettings.json** with the localdb connection string.  No settings that I have found in the tooling will correct this.  What you have to do is:
 
-8. Add the Azure remote to your local Git repository and push your code.  When prompted for a password, use password that you specified earlier.
-    
-    ```bash
-    git remote add azure $url
-    git push azure master
-    ```
+1. On the publish tab, click **Settings...**
+2. Observe the *ALMOST* correct connection string.  You still need to add `;MultipleActiveResultSets=true` to the end.  This is present in the localdb connection string and is required for EFCore to work properly.
+3. Tick the box for Execute Code First Migrations.
+4. Publish again.
+5. Profit!  Application should work now.
 
-9. Browse to the deployed web app.
-    
-    ```
-    az appservice web browse --name $webappname --resource-group myResourceGroup
-    ```
-
-    Alternatively, you can manually use your browser to open `https://<web app name>.azurewebsites.net`.
 
 ## Next steps
 
 * [Use Azure Active Directory for authentication in an ASP.NET web application](/azure/active-directory/develop/active-directory-devquickstarts-webapp-dotnet)
 * [Build an Azure Web App using Azure SQL Database](/azure/app-service-web/web-sites-dotnet-get-started)
 * [Try a .NET sample application with Azure Storage](/azure/storage/storage-samples-dotnet)
-
-
