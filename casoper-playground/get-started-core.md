@@ -1,6 +1,6 @@
 
 
-# Get started with Visual Studio and .NET Framework for Azure developers
+# Get started with Visual Studio and .NET Core for Azure developers
 
 This tutorial will walk you through building and deploying an ASP.NET application to Microsoft Azure using Visual Studio.  When finished, you'll have deployed the application to Azure Web Apps with an Azure SQL Database back end.
 
@@ -63,7 +63,7 @@ You've successfully built the application and you've run it locally using IISExp
 You may have noticed that the application doesn't run.  That's because Visual Studio deployed **appsettings.json** with the localdb connection string.  No settings that I have found in the tooling will correct this.  What you have to do is:
 
 1. On the publish tab, click **Settings...**
-2. Observe the *ALMOST* correct connection string.  You still need to add `;MultipleActiveResultSets=true` to the end.  This is present in the localdb connection string and is required for EFCore to work properly.
+2. For SchoolContext, observe the *ALMOST* correct connection string.  You still need to add `;MultipleActiveResultSets=true` to the end.  This is present in the localdb connection string and is required for EFCore to work properly.
 3. Tick the box for Execute Code First Migrations.
 4. Publish again.
 5. Profit!  Application should work now.
