@@ -1,39 +1,25 @@
-# [Overview](index.md)
-
-## Get started
-### [Visual Studio and .NET Framework](get-started-framework.md)
-### [Visual Studio for Mac](get-started-mac.md)
-### [.NET Core](get-started-core.md)
-
-## Tools
-### [Visual Studio](visual-studio.md)
-### [Additional Tools](additional-tools.md)
-### [Client Libraries](packages.md)
-#### [Consume Resources](data-packages.md)
-#### [Manage Resources](management-packages.md)
-
-# Samples
-
-## Build applications hosted in Azure
-### Migrate an ASP.NET web application
-### ASP.NET web application using Azure SQL Database
-<!-- ### ASP.NET Core web app using DocumentDB -->
-<!-- ### ASP.NET web application using Azure Functions  -->
-### Containers and Linux
-### Microservices for Service Fabric
-
-## Consume Azure services
-### Authentication with Azure Active Directory
-<!-- ### Untitled Storage topic   low pri -->
-
-## Manage Azure resources with .NET
-### Manage virtual machines
-### Manage VM scale sets
-### Manage web apps
-<!-- ### Untitled Key Vault topic   lower pri -->
-
-
-# Reference
-## Autogen'd Topic 1
-## Autogen'd Topic 2
-## Autogen'd Topic 3
+# [.NET SDK for Azure](overview.md)
+## [Install](dotnet-sdk-azure-install.md)
+### [Packages for using Azure services](data-packages.md)
+### [Packages for managing Azure resources](management-packages.md)
+### [Get started](dotnet-sdk-azure-get-started.md)
+## [Authentication](dotnet-sdk-azure-authenticate.md)
+### [Create a service principal](https://docs.microsoft.com/en-us/cli/azure/create-an-azure-service-principal-azure-cli?toc=%2fazure%2fdotnet%2ftoc.json&bc=%2fazure%2fdotnet%2fbreadcrumb%2ftoc.json)
+## [Patterns](dotnet-sdk-azure-patterns.md)
+### [Lazy resource creation](dotnet-sdk-azure-lazy-creation.md)
+### [Reactive development](dotnet-sdk-azure-reactive.sdk.md)
+## [Release notes](dotnet-sdk-azure-release-notes.md)
+# Sample Code
+## [Virtual machines](dotnet-sdk-azure-virtual-machine-samples.md)
+## [Resource groups](dotnet-sdk-azure-resource-groups-samples.md)
+## [Web Apps](dotnet-sdk-azure-web-apps-samples.md)
+## [Resource manager](dotnet-sdk-azure-sql-database-samples.md)
+# [Reference](/dotnet/api)
+## Storage
+### Package 1
+### Package 2
+### Package 3
+## App Service
+### Package Topic 1
+### Package Topic 2
+### Package Topic 3

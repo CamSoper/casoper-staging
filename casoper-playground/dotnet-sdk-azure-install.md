@@ -1,17 +1,20 @@
 ---
-title: Using Azure Libraries for .NET 
-description: A listing of all of the .NET SDK for Azure libraries and NuGet packages.
-keywords: Azure .NET, SDK, Azure .NET API Reference, Azure .NET class library
-author: camsoper
+title: Install the Azure SDK for .NET
+description: Import the Azure SDK for Java into your Maven or Gradle project
+keywords: Azure, Java, SDK, API, Maven, Gradle
+author: rloutlaw
+ms.author: routlaw
 manager: douge
-ms.author: casoper
-ms.date: 04/04/2017
+ms.date: 04/16/2017
 ms.topic: article
 ms.prod: azure
 ms.technology: azure
-ms.devlang: dotnet
-ms.assetid: 
+ms.devlang: java
+ms.service: multiple
+ms.assetid: 3d6961b1-5bf5-4514-84cf-100d756f41fd
 ---
+
+# Set up the Azure SDK for .NET
 
 # Using Azure Libraries for .NET
 
@@ -28,7 +31,7 @@ If you're using Visual Studio, use the **NuGet Package Manager Console** to impo
 
 1. With your Visual Studio solution open, launch the console by clicking **Tools**, followed by **NuGet Packager Manager**, and then click **Package Manager Console**.  
 
-    ![Package Manager Console](media/packages/package-manager.png)
+    ![Package Manager Console](media/dotnet-sdk-azure-install/package-manager.png)
 
 2. In the console window, use the **Install-Package** cmdlet to download and install the NuGet package.  For example, to include the latest version of the [Azure Resource Management Library](http://www.nuget.org/packages/Microsoft.Azure.Management.ResourceManager) for .NET:
 
@@ -62,3 +65,40 @@ If you're using .NET Core with Visual Studio Code (or any other editor), edit yo
 
 > [!TIP]
 > Previous versions of .NET Core used project.json files instead of csproj.  To learn about mapping project.json to csproj, [see this document](/dotnet/articles/core/tools/project-json-to-csproj).
+
+
+## Verify your install
+
+After configuring your build tool or IDE, create a new class source file in the location appropriate to your project tooling with the following contents:
+
+> [!WARNING]
+> TODO: Port to .NET
+
+```java
+import com.microsoft.azure.credentials.AzureTokenCredentials;
+import com.microsoft.azure.management.Azure;
+
+public class TestJavaSDK {
+	
+	public static void main(String[] args) {
+		
+	    AzureTokenCredentials credentials = null;
+	    
+	    try {
+	    	Azure azure = Azure.configure()
+	    			.authenticate(credentials)
+	                .withDefaultSubscription();	
+	    }
+	    catch(Exception e) {
+	    	System.out.println(e.getMessage());
+	        e.printStackTrace();
+	    }
+	}
+}
+```
+
+If you're using an IDE, the import of the SDK is successful if the `Azure` and `AzureTokenCredentials` imports resolve. On the command line, run the compile step for your build tool (such as `mvn compile` for Maven) and verify that the compile is successful.
+
+## Next steps
+
+Now that the SDK is ready to use, visit the [get started with the Azure SDK for Java] guide to see it in action.

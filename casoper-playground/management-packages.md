@@ -1,12 +1,12 @@
 ---
 title: Azure Management Libraries for .NET 
-description: A listing of all of the .NET SDK for Azure libraries and NuGet packages.
+description: A listing of all of the .NET libraries and NuGet packages for managing Azure services.
 keywords: Azure .NET, SDK, Azure .NET API Reference, Azure .NET class library
 author: camsoper
 manager: douge
 ms.author: casoper
-ms.date: 03/06/2016
-ms.topic: managed-reference
+ms.date: 04/04/2017
+ms.topic: article
 ms.prod: azure
 ms.technology: azure
 ms.devlang: dotnet
@@ -15,12 +15,9 @@ ms.assetid:
 
 # Azure Management Libraries for .NET
 
-Use these libraries to **manage** Azure resources in your applications.
+Use these libraries to **manage and provision** Azure resources in your applications.  For example, your application may need to provision virtual machines, modify settings for Azure App Service, or modify resource groups.
 
-> [!WARNING]
-> This is currently a list of packages, but will be fleshed out with popular management-plane scenarios, etc.  These will link to "Get Started".
-
-## Packages
+To learn how to download and install these packages in your application, see [Using Azure Libraries for .NET](packages.md).
 
 > [!TIP]
 > [Fluent libraries](https://azure.microsoft.com/blog/simpler-azure-management-libraries-for-net/) improve the developer experience by providing a higher-level, object-oriented API optimized for readability and writability. They clarify what is required vs. optional vs. non-modifiable. These libraries can run side-by-side with non-fluent libraries, so use the fluent packages if you prefer that syntax. [Microsoft.Azure.Management.Fluent](https://www.nuget.org/packages/Microsoft.Azure.Management.Fluent) is a rollup package that contains all of the fluent management libraries.
