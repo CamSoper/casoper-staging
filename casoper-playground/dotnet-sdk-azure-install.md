@@ -1,5 +1,5 @@
 ---
-title: Install the Azure Management Libraries for .NET
+title: Install Azure Libraries for .NET
 description: Import Azure Management Libraries for .NET into your project
 keywords: Azure, .NET, SDK, API, NuGet
 author: camsoper
@@ -14,7 +14,7 @@ ms.service: multiple
 ms.assetid:
 ---
 
-# Install the Azure Management Libraries for .NET
+# Install Azure Libraries for .NET
 
 Use the Azure Libraries for .NET to manage, integrate, and consume Azure services in your .NET applications.
 
