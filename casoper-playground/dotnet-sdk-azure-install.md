@@ -100,7 +100,7 @@ namespace MyApplication
 
 If you're using Visual Studio, the installation of the packages is successful if the `IAzure` and `AzureCredentials` can resolve (no red highlighting). On the command line for .NET Core, run `dotnet run` and verify that the compile is successful.
 
-<a id="mgmt"></a>## Azure Management Libraries for .NET
+## <a id="mgmt" />Azure Management Libraries for .NET
 
 Use these libraries to **manage and provision** Azure resources in your applications.  For example, your application may need to provision virtual machines, modify settings for Azure App Service, or modify resource groups.
 
@@ -150,7 +150,7 @@ Service | Fluent package | Standard package
 [Virtual Network](/azure/virtual-network/) | [![Microsoft.Azure.Management.Network.Fluent](https://img.shields.io/nuget/vpre/Microsoft.Azure.Management.Network.Fluent.svg)](https://www.nuget.org/packages/Microsoft.Azure.Management.Network.Fluent) | [![Microsoft.Azure.Management.Network](https://img.shields.io/nuget/vpre/Microsoft.Azure.Management.Network.svg)](https://www.nuget.org/packages/Microsoft.Azure.Management.Network)
 [Web Apps](/azure/app-service-web) | [![Microsoft.Azure.Management.AppService.Fluent](https://img.shields.io/nuget/vpre/Microsoft.Azure.Management.AppService.Fluent.svg)](https://www.nuget.org/packages/Microsoft.Azure.Management.AppService.Fluent) | [![Microsoft.Azure.Management.Websites](https://img.shields.io/nuget/vpre/Microsoft.Azure.Management.Websites.svg)](https://www.nuget.org/packages/Microsoft.Azure.Management.Websites)
 
-<a id="data"></a>## Azure Data Libraries for .NET
+## <a id="data" />Azure Data Libraries for .NET
 
 Use these libraries to **consume and integrate** Azure services in your applications.  For example, your application may need to store documents in DocumentDB, read blobs from Azure Storage, or use SQL Database.
 
