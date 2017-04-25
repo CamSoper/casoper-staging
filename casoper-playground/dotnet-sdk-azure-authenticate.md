@@ -17,9 +17,6 @@ ms.assetid: 10f457e3-578b-4655-8cd1-51339226ee7d
 
 # Authenticate with the Azure SDK for Java using a service principal
 
-> [!WARNING]
-> TODO: Port to .NET
-
 ## Authenticate with AzureTokenCredentials
 
 TBD

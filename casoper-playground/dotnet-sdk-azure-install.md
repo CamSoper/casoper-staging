@@ -1,17 +1,17 @@
 ---
-title: Install the Azure SDK for .NET
-description: Import the Azure SDK for Java into your Maven or Gradle project
-keywords: Azure, Java, SDK, API, Maven, Gradle
-author: rloutlaw
-ms.author: routlaw
+title: Install the Azure Management Libraries for .NET
+description: Import Azure Management Libraries for .NET into your project
+keywords: Azure, .NET, SDK, API, NuGet
+author: camsoper
+ms.author: casoper
 manager: douge
 ms.date: 04/16/2017
 ms.topic: article
 ms.prod: azure
 ms.technology: azure
-ms.devlang: java
+ms.devlang: dotnet
 ms.service: multiple
-ms.assetid: 3d6961b1-5bf5-4514-84cf-100d756f41fd
+ms.assetid:
 ---
 
 # Set up the Azure SDK for .NET
@@ -20,8 +20,8 @@ ms.assetid: 3d6961b1-5bf5-4514-84cf-100d756f41fd
 
 Use the Azure Libraries for .NET to manage, integrate, and consume Azure services in your .NET applications.
 
-* [Packages for integrating Azure services and consuming data](data-packages.md)
-* [Packages for managing Azure resources](management-packages.md)
+* [Packages for managing Azure resources](#mgmt)
+* [Packages for integrating Azure services and consuming data](#data)
 
 ## Installation
 
@@ -71,62 +71,38 @@ If you're using .NET Core with Visual Studio Code (or any other editor), edit yo
 
 After configuring your build tool or IDE, create a new class source file in the location appropriate to your project tooling with the following contents:
 
-> [!WARNING]
-> TODO: Port to .NET
+```csharp
+using System;
+using Microsoft.Azure.Management.Fluent;
+using Microsoft.Azure.Management.ResourceManager.Fluent.Authentication;
 
-```java
-import com.microsoft.azure.credentials.AzureTokenCredentials;
-import com.microsoft.azure.management.Azure;
+namespace MyApplication
+{
+    class AzureDotNet
+    {
+        static void Main(string[] args)
+        {
+            AzureCredentials credentials = null;
 
-public class TestJavaSDK {
-	
-	public static void main(String[] args) {
-		
-	    AzureTokenCredentials credentials = null;
-	    
-	    try {
-	    	Azure azure = Azure.configure()
-	    			.authenticate(credentials)
-	                .withDefaultSubscription();	
-	    }
-	    catch(Exception e) {
-	    	System.out.println(e.getMessage());
-	        e.printStackTrace();
-	    }
-	}
+            try
+            {
+                IAzure azure = Azure.Configure()
+                    .Authenticate(credentials)
+                    .WithDefaultSubscription();
+            }
+            catch(Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                Console.WriteLine(ex.StackTrace);
+            }
+        }
+    }
 }
 ```
 
-If you're using an IDE, the import of the SDK is successful if the `Azure` and `AzureTokenCredentials` imports resolve. On the command line, run the compile step for your build tool (such as `mvn compile` for Maven) and verify that the compile is successful.
+If you're using Visual Studio, the installation of the packages is successful if the `IAzure` and `AzureCredentials` can resolve (no red highlighting). On the command line for .NET Core, run `dotnet run` and verify that the compile is successful.
 
-## Azure Data Libraries for .NET
-
-Use these libraries to **consume and integrate** Azure services in your applications.  For example, your application may need to store documents in DocumentDB, read blobs from Azure Storage, or use SQL Database.
-
-Service | Package  
---------|--------
-[Azure Active Directory](/azure/active-directory) | [![Microsoft.IdentityModel.Clients.ActiveDirectory](https://img.shields.io/nuget/vpre/Microsoft.IdentityModel.Clients.ActiveDirectory.svg)](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory)  
-[Batch](/azure/batch/) | [![Azure.Batch](https://img.shields.io/nuget/vpre/Azure.Batch.svg)](https://www.nuget.org/packages/Azure.Batch) 
-[Data Lake Analytics](/azure/data-lake-analytics/) | [![Microsoft.Azure.Management.DataLake.Analytics](https://img.shields.io/nuget/vpre/Microsoft.Azure.Management.DataLake.Analytics.svg)](http://www.nuget.org/packages/Microsoft.Azure.Management.DataLake.Analytics)
-[Data Lake Store](/azure/data-lake-store/) | [![Microsoft.Azure.Management.DataLake.Store](https://img.shields.io/nuget/vpre/Microsoft.Azure.Management.DataLake.Store.svg)](http://www.nuget.org/packages/Microsoft.Azure.Management.DataLake.Store)
-[DocumentDB](/azure/documentdb/) | [![Microsoft.Azure.DocumentDB.Core](https://img.shields.io/nuget/vpre/Microsoft.Azure.DocumentDB.Core.svg)](https://www.nuget.org/packages/Microsoft.Azure.DocumentDB.Core)  
-[Event Hubs](/azure/event-hubs/) | [![Microsoft.Azure.EventHubs](https://img.shields.io/nuget/vpre/Microsoft.Azure.EventHubs.svg)](https://www.nuget.org/packages/Microsoft.Azure.EventHubs)<br/>[![Microsoft.Azure.EventHubs.Processor](https://img.shields.io/nuget/vpre/Microsoft.Azure.EventHubs.Processor.svg)](https://www.nuget.org/packages/Microsoft.Azure.EventHubs.Processor)
-[HD Insight](/azure/hdinsight/) | [![Microsoft.Azure.Management.HDInsight.Job](https://img.shields.io/nuget/vpre/Microsoft.Azure.Management.HDInsight.Job.svg)](http://www.nuget.org/packages/Microsoft.Azure.Management.HDInsight.Job) 
-[IoT Hub](/azure/iot-hub/)&nbsp;<b>&#42;</b> | [![Microsoft.Azure.Devices](https://img.shields.io/nuget/vpre/Microsoft.Azure.Devices.svg)](https://www.nuget.org/packages/Microsoft.Azure.Devices)<br/>[![Microsoft.Azure.Devices.Client](https://img.shields.io/nuget/vpre/Microsoft.Azure.Devices.Client.svg)](https://www.nuget.org/packages/Microsoft.Azure.Devices.Client)
-[Key Vault](/azure/key-vault/) | [![Microsoft.Azure.KeyVault](https://img.shields.io/nuget/vpre/Microsoft.Azure.KeyVault.svg)](https://www.nuget.org/packages/Microsoft.Azure.KeyVault)
-[Media Services](/azure/media-services/)&nbsp;<b>&#42;</b> | [![windowsazure.mediaservices.extensions](https://img.shields.io/nuget/vpre/windowsazure.mediaservices.extensions.svg)](https://www.nuget.org/packages/windowsazure.mediaservices.extensions) 
-[Notification Hubs](/azure/notification-hubs/)&nbsp;<b>&#42;</b> | [![Microsoft.Azure.NotificationHubs](https://img.shields.io/nuget/vpre/Microsoft.Azure.NotificationHubs.svg)](https://www.nuget.org/packages/Microsoft.Azure.NotificationHubs)<br/>[![WindowsAzure.Messaging.Managed](https://img.shields.io/nuget/vpre/WindowsAzure.Messaging.Managed.svg)](https://www.nuget.org/packages/WindowsAzure.Messaging.Managed) 
-[Redis Cache](/azure/redis-cache/) | [![StackExchange.Redis](https://img.shields.io/nuget/vpre/StackExchange.Redis.svg)](https://www.nuget.org/packages/StackExchange.Redis/)
-[Search](/azure/search/)&nbsp;<b>&#42;</b> | [![Microsoft.Azure.Search](https://img.shields.io/nuget/vpre/Microsoft.Azure.Search.svg)](https://www.nuget.org/packages/Microsoft.Azure.Search) 
-[Service Bus](/azure/service-bus/)&nbsp;<b>&#42;</b> | [![WindowsAzure.ServiceBus](https://img.shields.io/nuget/vpre/WindowsAzure.ServiceBus.svg)](https://www.nuget.org/packages/WindowsAzure.ServiceBus)
-[Service Bus Relay](/azure/service-bus-relay/) | [![Microsoft.Azure.Relay](https://img.shields.io/nuget/vpre/Microsoft.Azure.Relay.svg)](https://www.nuget.org/packages/Microsoft.Azure.Relay)
-[Service Fabric](/azure/service-fabric/)&nbsp;<b>&#42;</b> | [![Microsoft.ServiceFabric](https://img.shields.io/nuget/vpre/Microsoft.ServiceFabric.svg)](https://www.nuget.org/profiles/servicefabric)
-[SQL Database](/azure/sql-database/) | [![System.Data.SqlClient](https://img.shields.io/nuget/vpre/System.Data.SqlClient.svg)](https://www.nuget.org/packages/System.Data.SqlClient/) 
-[Storage](/azure/storage/) | [![WindowsAzure.Storage](https://img.shields.io/nuget/vpre/WindowsAzure.Storage.svg)](http://www.nuget.org/packages/WindowsAzure.Storage) 
-
-\* *- Denotes package is currently incompatible with .NET Core.*
-
-## Azure Management Libraries for .NET
+<a id="mgmt"></a>## Azure Management Libraries for .NET
 
 Use these libraries to **manage and provision** Azure resources in your applications.  For example, your application may need to provision virtual machines, modify settings for Azure App Service, or modify resource groups.
 
@@ -175,6 +151,33 @@ Service | Fluent package | Standard package
 [Virtual Machines](/azure/virtual-machines/) | [![Microsoft.Azure.Management.Compute.Fluent](https://img.shields.io/nuget/vpre/Microsoft.Azure.Management.Compute.Fluent.svg)](https://www.nuget.org/packages/Microsoft.Azure.Management.Compute.Fluent)| [![Microsoft.Azure.Management.Compute](https://img.shields.io/nuget/vpre/Microsoft.Azure.Management.Compute.svg)](https://www.nuget.org/packages/Microsoft.Azure.Management.Compute)
 [Virtual Network](/azure/virtual-network/) | [![Microsoft.Azure.Management.Network.Fluent](https://img.shields.io/nuget/vpre/Microsoft.Azure.Management.Network.Fluent.svg)](https://www.nuget.org/packages/Microsoft.Azure.Management.Network.Fluent) | [![Microsoft.Azure.Management.Network](https://img.shields.io/nuget/vpre/Microsoft.Azure.Management.Network.svg)](https://www.nuget.org/packages/Microsoft.Azure.Management.Network)
 [Web Apps](/azure/app-service-web) | [![Microsoft.Azure.Management.AppService.Fluent](https://img.shields.io/nuget/vpre/Microsoft.Azure.Management.AppService.Fluent.svg)](https://www.nuget.org/packages/Microsoft.Azure.Management.AppService.Fluent) | [![Microsoft.Azure.Management.Websites](https://img.shields.io/nuget/vpre/Microsoft.Azure.Management.Websites.svg)](https://www.nuget.org/packages/Microsoft.Azure.Management.Websites)
+
+<a id="data"></a>## Azure Data Libraries for .NET
+
+Use these libraries to **consume and integrate** Azure services in your applications.  For example, your application may need to store documents in DocumentDB, read blobs from Azure Storage, or use SQL Database.
+
+Service | Package  
+--------|--------
+[Azure Active Directory](/azure/active-directory) | [![Microsoft.IdentityModel.Clients.ActiveDirectory](https://img.shields.io/nuget/vpre/Microsoft.IdentityModel.Clients.ActiveDirectory.svg)](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory)  
+[Batch](/azure/batch/) | [![Azure.Batch](https://img.shields.io/nuget/vpre/Azure.Batch.svg)](https://www.nuget.org/packages/Azure.Batch) 
+[Data Lake Analytics](/azure/data-lake-analytics/) | [![Microsoft.Azure.Management.DataLake.Analytics](https://img.shields.io/nuget/vpre/Microsoft.Azure.Management.DataLake.Analytics.svg)](http://www.nuget.org/packages/Microsoft.Azure.Management.DataLake.Analytics)
+[Data Lake Store](/azure/data-lake-store/) | [![Microsoft.Azure.Management.DataLake.Store](https://img.shields.io/nuget/vpre/Microsoft.Azure.Management.DataLake.Store.svg)](http://www.nuget.org/packages/Microsoft.Azure.Management.DataLake.Store)
+[DocumentDB](/azure/documentdb/) | [![Microsoft.Azure.DocumentDB.Core](https://img.shields.io/nuget/vpre/Microsoft.Azure.DocumentDB.Core.svg)](https://www.nuget.org/packages/Microsoft.Azure.DocumentDB.Core)  
+[Event Hubs](/azure/event-hubs/) | [![Microsoft.Azure.EventHubs](https://img.shields.io/nuget/vpre/Microsoft.Azure.EventHubs.svg)](https://www.nuget.org/packages/Microsoft.Azure.EventHubs)<br/>[![Microsoft.Azure.EventHubs.Processor](https://img.shields.io/nuget/vpre/Microsoft.Azure.EventHubs.Processor.svg)](https://www.nuget.org/packages/Microsoft.Azure.EventHubs.Processor)
+[HD Insight](/azure/hdinsight/) | [![Microsoft.Azure.Management.HDInsight.Job](https://img.shields.io/nuget/vpre/Microsoft.Azure.Management.HDInsight.Job.svg)](http://www.nuget.org/packages/Microsoft.Azure.Management.HDInsight.Job) 
+[IoT Hub](/azure/iot-hub/)&nbsp;<b>&#42;</b> | [![Microsoft.Azure.Devices](https://img.shields.io/nuget/vpre/Microsoft.Azure.Devices.svg)](https://www.nuget.org/packages/Microsoft.Azure.Devices)<br/>[![Microsoft.Azure.Devices.Client](https://img.shields.io/nuget/vpre/Microsoft.Azure.Devices.Client.svg)](https://www.nuget.org/packages/Microsoft.Azure.Devices.Client)
+[Key Vault](/azure/key-vault/) | [![Microsoft.Azure.KeyVault](https://img.shields.io/nuget/vpre/Microsoft.Azure.KeyVault.svg)](https://www.nuget.org/packages/Microsoft.Azure.KeyVault)
+[Media Services](/azure/media-services/)&nbsp;<b>&#42;</b> | [![windowsazure.mediaservices.extensions](https://img.shields.io/nuget/vpre/windowsazure.mediaservices.extensions.svg)](https://www.nuget.org/packages/windowsazure.mediaservices.extensions) 
+[Notification Hubs](/azure/notification-hubs/)&nbsp;<b>&#42;</b> | [![Microsoft.Azure.NotificationHubs](https://img.shields.io/nuget/vpre/Microsoft.Azure.NotificationHubs.svg)](https://www.nuget.org/packages/Microsoft.Azure.NotificationHubs)<br/>[![WindowsAzure.Messaging.Managed](https://img.shields.io/nuget/vpre/WindowsAzure.Messaging.Managed.svg)](https://www.nuget.org/packages/WindowsAzure.Messaging.Managed) 
+[Redis Cache](/azure/redis-cache/) | [![StackExchange.Redis](https://img.shields.io/nuget/vpre/StackExchange.Redis.svg)](https://www.nuget.org/packages/StackExchange.Redis/)
+[Search](/azure/search/)&nbsp;<b>&#42;</b> | [![Microsoft.Azure.Search](https://img.shields.io/nuget/vpre/Microsoft.Azure.Search.svg)](https://www.nuget.org/packages/Microsoft.Azure.Search) 
+[Service Bus](/azure/service-bus/)&nbsp;<b>&#42;</b> | [![WindowsAzure.ServiceBus](https://img.shields.io/nuget/vpre/WindowsAzure.ServiceBus.svg)](https://www.nuget.org/packages/WindowsAzure.ServiceBus)
+[Service Bus Relay](/azure/service-bus-relay/) | [![Microsoft.Azure.Relay](https://img.shields.io/nuget/vpre/Microsoft.Azure.Relay.svg)](https://www.nuget.org/packages/Microsoft.Azure.Relay)
+[Service Fabric](/azure/service-fabric/)&nbsp;<b>&#42;</b> | [![Microsoft.ServiceFabric](https://img.shields.io/nuget/vpre/Microsoft.ServiceFabric.svg)](https://www.nuget.org/profiles/servicefabric)
+[SQL Database](/azure/sql-database/) | [![System.Data.SqlClient](https://img.shields.io/nuget/vpre/System.Data.SqlClient.svg)](https://www.nuget.org/packages/System.Data.SqlClient/) 
+[Storage](/azure/storage/) | [![WindowsAzure.Storage](https://img.shields.io/nuget/vpre/WindowsAzure.Storage.svg)](http://www.nuget.org/packages/WindowsAzure.Storage) 
+
+\* *- Denotes package is currently incompatible with .NET Core.*
 
 ## Next steps
 

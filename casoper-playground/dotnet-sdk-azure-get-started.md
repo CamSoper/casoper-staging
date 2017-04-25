@@ -16,14 +16,9 @@ ms.assetid: b1e10b79-f75e-4605-aecd-eed64873e2d3
 
 # Get started with the Azure SDK for .NET
 
-> [!WARNING]
-> TODO: Port to .NET
-
 ## Prerequisites
 
 - An Azure account. If you don't have one , [get a free trial](https://azure.microsoft.com/free/)
-- [Java 8](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
-- [Maven 3](http://maven.apache.org/download.cgi)
 - [Azure CLI 2.0](https://docs.microsoft.com/en-us/cli/azure/install-az-cli2)
 
 This get started guide uses the Maven build tool to build and run Java source code, but other build tools such as Gradle or SBT work fine with the Java SDK for Azure. 
@@ -37,8 +32,8 @@ Your Java application needs permissions to read and create resources in your Azu
 ```json
 {
   "appId": "a487e0c1-82af-47d9-9a0b-af184eb87646d",
-  "displayName": "JavaSDKTest",
-  "name": "http://JavaSDKTest",
+  "displayName": "AzureDotNetTest",
+  "name": "http://AzureDotNetTest",
   "password": password,
   "tenant": "XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX"
 }
