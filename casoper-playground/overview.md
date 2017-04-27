@@ -1,5 +1,5 @@
 ---
-title: Azure Management Libraries for .NET
+title: Azure Libraries for .NET
 description: Overview of the Azure SDK for .NET
 keywords: Azure, .NET, SDK, API, NuGet
 author: camsoper
@@ -14,11 +14,11 @@ ms.service: multiple
 ms.assetid: 
 ---
 
-# Azure Management Libraries for .NET
+# Azure Libraries for .NET
 
-The Azure Management Libraries for .NET let you create and manage Azure resources from your .NET applications. If you're looking for documentation to create .NET apps on Azure, see [Azure for .NET developers](https://review.docs.microsoft.com/en-us/azure/dotnet/index?branch=pr-en-us-9857).
+The Azure Libraries for .NET let you create and manage Azure resources from your .NET applications. If you're looking for documentation to create .NET apps on Azure, see [Azure for .NET developers](https://review.docs.microsoft.com/en-us/azure/dotnet/index?branch=pr-en-us-9857).
 
-The Azure Management Libraries for .NET have a [fluent](dotnet-sdk-azure-concepts.md) interface to configure resources exactly to your specifications. For example, to add a Windows VM in an existing Azure resource group:
+Many of the packages for managing Azure resources have a [fluent](dotnet-sdk-azure-concepts.md) interface to configure resources exactly to your specifications. For example, to add a Windows VM in an existing Azure resource group:
 
 ```csharp
 var windowsVM = azure.VirtualMachines.Define(windowsVmName)

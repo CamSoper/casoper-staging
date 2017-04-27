@@ -1,4 +1,4 @@
-- name: Azure Management Libraries for .NET
+- name: Azure Libraries for .NET
   href: overview.md
   items:
   - name: Install
