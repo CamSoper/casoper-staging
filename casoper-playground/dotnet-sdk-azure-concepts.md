@@ -1,77 +1,68 @@
 ---
-title: Azure SDK for Java usage concepts and patterns
+title: Azure Management Libraries for .NET usage concepts and patterns
 description: 
-keywords: Azure, Java, SDK, API, Maven, Gradle, authentication, active directory, service principal
-author: rloutlaw
-ms.author: routlaw
+keywords: Azure, .NET, SDK, API, patterns, concepts, fluent, logging
+author: camsoper
+ms.author: casoper
 manager: douge
 ms.date: 04/16/2017
 ms.topic: article
 ms.prod: azure
 ms.technology: azure
-ms.devlang: java
+ms.devlang: dotnet
 ms.service: multiple
-ms.assetid: f452468b-7aae-4944-abad-0b1aaf19170d
+ms.assetid: 
 ---
 
-## Build objects through fluent interface
+# Azure management library concepts
 
-> [!WARNING]
-> TODO: Port to .NET
+This article details several concepts that will help you understand how to effectively use the Azure Management Libraries for .NET.
 
-Do not call constructors to create objects when using the SDK. The SDK provides fluent interfaces to build objects for use in your code. Fluent interfaces let you customize objects using method chains instead of long parameter lists and allow you to customize the objects as much as you need when you create them. For example, the entry-point Azure object:
+## Building resources through a fluent interface
 
-```java
-Azure azure = Azure
-                    .configure()
-                    .withLogLevel(LogLevel.NONE)
-                    .authenticate(credFile)
-                    .withDefaultSubscription();
+Fluent interfaces let you customize objects using method chains instead of long parameter lists.  This allows you to customize the objects as you create them. For example, the entry-point Azure object is created using a fluent interface:
+
+```csharp
+var azure = Azure
+    .Configure()
+    .WithLogLevel(HttpLoggingDelegatingHandler.Level.Basic)
+    .Authenticate(credentials)
+    .WithDefaultSubscription();
 ```
 
-Once built through the fluent interface the objects are immutable (is this true? I can't find where that's not the case)
+The `Microsoft.Azure.Management.Fluent.Azure` object shown above is the entry point for all resource creation in the fluent management libraries. Select which type of resources to work with using the resource collections in the `Azure` object. For example, for SQL Database:
 
-## Resource collections
-
-The management API has a single point of entry through the `com.microsoft.azure.management.Azure` object. Select which type of resources to work with using the  resource collections in the `Azure` object. For example, SQL Database:
-
-```java
-SqlServer sqlServer = azure.sqlServers().define(sqlServerName)
-                    .withRegion(Region.US_EAST)
-                    .withNewResourceGroup(rgName)
-                    .withAdministratorLogin(administratorLogin)
-                    .withAdministratorPassword(administratorPassword)
-                    .create();
+```csharp
+var sql = azure.SqlServers.Define(sqlServerName)
+            .WithRegion(Region.USEast)
+            .WithNewResourceGroup(rgName)
+            .WithAdministratorLogin(administratorLogin)
+            .WithAdministratorPassword(administratorPassword)
+            .Create();
 ```
 
-Most fluent conversations you have with the API starts with selecting the appropriate resource collection for the Azure resources you need to work with.     
+Most fluent conversations you have with the API starts with selecting the appropriate resource collection for the Azure resources you need to work with.  Intellisense in Visual Studio then guides you through the "conversation."    
 
 ## Lists and iterations
 
-Every resource collection has a `list()` method to return every instance of that resource in your current subscription. For example, `azure.sqlServers().list()` returns all SQL databases in the subscription.
+Every resource collection has a `List()` method to return every instance of that resource in your current subscription. For example, `azure.SqlServers.List()` returns all SQL servers in the subscription.
 
-Use the `listByResourceGroup(String groupname)` method to scope the returned List to a specific [Azure resource group](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-overview#resource-groups).  
+Use the `ListByResourceGroup()` method to scope the returned List to a specific [Azure resource group](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-overview#resource-groups).  
 
-Iterate over the returned `PagedList` collection just as you would a normal `List`:
+Iterate over the returned collection just as you would a normal `List<T>`:
 
-```java
-PagedList<VirtualMachine> vms = azure.virtualMachines().list();
-for (VirtualMachine vm : vms) {
-    System.out.println("Found virtual machine with ID " + vm.id());
+```csharp
+var vmList = azure.VirtualMachines.List();
+foreach(var vm in vmList)
+{
+    Console.WriteLine("VM Name: {0}", vm.Name);
 }
 ```   
 
-## Returned object collections
-
-The management API follows convention for returned object collections depending on the properties of the returned objects:
-
-- Lists: Unordered data that is easy to iterate over.
-- Maps: Maps are key/value pairs with unique keys, but not necessarily unique values. An example of a Map would be app settings for a App Service webapp.
-- Sets: Sets have unique keys and values. A good example of a Set would be networks attached to a virtual machine, which would have both a unique identifier and a unique network configuration.
-
-The returned collection types let you make assumptions about the returned objects when working with the collections in your code.   
-
 ## Actionable verbs
+
+> [!WARNING]
+> **TODO**: Port to .NET.
 
 Resource collection methods with verbs in their names take immediate action in Azure. These methods work synchronously and block execution in the current thread until they complete. 
 
@@ -94,9 +85,48 @@ Specific resource objects have verbs that change the state of the resource in Az
 VirtualMachine vmToRestart = azure.getVirtualMachines().getById(id);
 vmToRestart.restart();
 ```
-These resource collection verbs generally do not have asynchronous versions in the management API.    
+These resource collection verbs generally do not have asynchronous versions in the management API.
+
+## Lazy resource creation
+
+> [!WARNING]
+> **TODO**: Port to .NET.
+
+A challenge when creating Azure resources arises when a new resource depends on another resource that doesn't yet exist. An example is reserving a public IP address and setting up a disk when creating a new virtual machine. You don't want to verify reserving the address or the creating the disk, you just want to configure the virtual machine with those resources.
+
+Use `Creatable<T>` objects to define Azure resources for use in your code but only create them when needed in Azure. Code written with `Creatable<T>` objects offloads resource creation in the Azure environment to the management API, boosting performance. 
+
+Generate `Creatable<T>` objects through the resource collections' `define()` verb:
+
+```java
+Creatable<PublicIPAddress> publicIPAddressCreatable = azure.publicIPAddresses().define(publicIPAddressName)
+                    .withRegion(Region.US_EAST)
+                    .withNewResourceGroup(rgName);
+```
+
+The Azure resource defined by the `Creatable<T>` does not yet exist in your subscription. A `Creatable<T>` is a local representation of a resource that the management API will create when its needed. Use this `Creatable<T>` to define other Azure resources that need this resource. 
+
+```java
+Creatable<VirtualMachine> vmCreatable = azure.virtualMachines().define("creatableVM")
+        .withNewPrimaryPublicIPAddress(publicIPAddressCreatable)
+```
+
+Create the resources in your Azure subscription using the  `create()` method for the resource collection. 
+
+```java
+CreatedResources<VirtualMachine> virtualMachine = azure.virtualMachines().create(vmCreatable);
+```
+
+Passing `Creatable<T>` to `create()` calls returns a `CreatedResources` object instead of a single resource object.  The `CreatedResources<T>` object lets you access all resources created by the `create()` call, not just the type from the resource collection. To access the public IP address created in Azure for the virtual machine created in the above example:
+
+```java
+PublicIPAddress pip = (PublicIPAddress) virtualMachine.createdRelatedResource(publicIPAddressCreatable.key());
+```    
 
 ## Exception handling
+
+> [!WARNING]
+> **TODO**: Port to .NET.
 
 The management API currently defines Exception classes that extend `com.microsoft.rest.RestException`. Catch exceptions generated by management API, with a `catch (RestException exception)` block after the relevant `try` statement.
 
@@ -106,10 +136,8 @@ Configure the amount of logging from the management API when you build the entry
 
 | Trace level | Logging enabled 
 | ------------ | ---------------
-| com.microsoft.rest.LogLevel.NONE | No output
-| com.microsoft.rest.LogLevel.BASIC | Logs the URLs to underlying REST calls, response codes and times
-| com.microsoft.rest.LogLevel.BODY | Everything in BASIC plus request and response bodies for the REST calls
-| com.microsoft.rest.LogLevel.HEADERS | Everything in BASIC plus the request and response headers REST calls
-| com.microsoft.rest.LogLevel.BODY_AND_HEADERS | Everything in both BODY and HEADERS log level
-
-Bind a [SLF4J logging implementation](https://www.slf4j.org/manual.html) if you need to log output to a logging framework like [Log4J 2](https://logging.apache.org/log4j/2.x/)
+| HttpLoggingDelegatingHandler.Level.None | No output
+| HttpLoggingDelegatingHandler.Level.Basic | Logs the URLs to underlying REST calls, response codes and times
+| HttpLoggingDelegatingHandler.Level.Body | Everything in Basic plus request and response bodies for the REST calls
+| HttpLoggingDelegatingHandler.Level.Headers | Everything in Basic plus the request and response headers REST calls
+| HttpLoggingDelegatingHandler.Level.BodyAndHeaders | Everything in both Body and Headers log level
