@@ -82,7 +82,7 @@ Install-Package Microsoft.Azure.Management.Fluent -pre
 
 ## Create a virtual machine
 
-Edit your application's `Program.cs` file.  Replace the *using* declarations at the top with the following:
+Edit your application's `Program.cs` file.  Replace the `using` declarations at the top with the following:
 
 ```csharp
 using System;

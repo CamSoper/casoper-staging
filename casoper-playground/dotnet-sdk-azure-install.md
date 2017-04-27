@@ -98,7 +98,7 @@ namespace MyApplication
 }
 ```
 
-If you're using Visual Studio, the installation of the packages is successful if the `IAzure` and `AzureCredentials` can resolve (no red highlighting). On the command line for .NET Core, run `dotnet run` and verify that the compile is successful.
+If you're using Visual Studio, the installation of the packages is successful if `IAzure` and `AzureCredentials` resolve (no red highlighting). On the command line for .NET Core, run the code with `dotnet run` and verify that the compile is successful.
 
 ## <a id="mgmt" />Azure Management Libraries for .NET
 

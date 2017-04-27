@@ -18,7 +18,7 @@ ms.assetid:
 
 The Azure Management Libraries for .NET let you create and manage Azure resources from your .NET applications. If you're looking for documentation to create .NET apps on Azure, see [Azure for .NET developers](https://review.docs.microsoft.com/en-us/azure/dotnet/index?branch=pr-en-us-9857).
 
-The Azure Management Libraries for .NET have a [fluent](dotnet-sdk-azure-patterns.md) interface to configure resources exactly to your specifications. For example, to add a Windows VM in an existing Azure resource group:
+The Azure Management Libraries for .NET have a [fluent](dotnet-sdk-azure-concepts.md) interface to configure resources exactly to your specifications. For example, to add a Windows VM in an existing Azure resource group:
 
 ```csharp
 var windowsVM = azure.VirtualMachines.Define(windowsVmName)
@@ -43,4 +43,4 @@ The following samples cover common automation tasks with the Azure SDK for Java 
 - [Web apps](dotnet-sdk-azure-web-apps-samples.md)
 - [SQL Database](dotnet-sdk-azure-sql-database-samples.md)
 
-An up to date [reference](dotnet-sdk-reference.md) is available for all packages and classes in the SDK.
+An up to date [reference](#) is available for all packages and classes in the SDK.
