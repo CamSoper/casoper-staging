@@ -48,11 +48,16 @@ CurrentStorageAccount :
 
 ```powershell
 # Create the service principal (use a strong password)
-New-AzureRmADServicePrincipal -DisplayName "AzureDotNetTest" -Password "password" | `
-    Select DisplayName, ApplicationID
+$sp = New-AzureRmADServicePrincipal -DisplayName "AzureDotNetTest" -Password "password"
+
+# Give it the permissions it needs...
+New-AzureRmRoleAssignment -ServicePrincipalName $sp.ApplicationId -RoleDefinitionName Contributor
+
+# Display the Application ID, because we'll need it later.
+$sp | Select DisplayName, ApplicationId
 ```
 
-Make sure to note the ApplicationID:
+Make sure to note the ApplicationId:
 
 ```plaintext
 DisplayName     ApplicationId
@@ -75,7 +80,7 @@ graphURL=https://graph.windows.net/
 ```
 
 - subscription: use the *SubscriptionId* value from when you ran `Login-AzureRmAccount`.
-- client: use the *ApplicationId* value from the output taken from a service principal output.
+- client: use the *ApplicationId* value from the service principal output.
 - key: use the *-Password* parameter you assigned when you ran `New-AzureRmADServicePrincipal` (without quotes).
 - tenant: use the *TenantId* value from when you ran `Login-AzureRmAccount`.
 
