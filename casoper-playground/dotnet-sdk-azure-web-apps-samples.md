@@ -20,9 +20,7 @@ This article links to source you can use to create and configure Azure Web Apps.
 
 [!include[Sample prerequisites](includes/sample-prereqs.md)]
 
-## Selected samples
-
-### Manage web app source control
+## Manage web app source control
 
 Deploy four web apps using different methods, including FTP and Git.  Requires the Git command line client on your PATH.
 
@@ -30,7 +28,7 @@ Deploy four web apps using different methods, including FTP and Git.  Requires t
 git clone https://github.com/Azure-Samples/app-service-dotnet-configure-deployment-sources-for-web-apps.git
 ```
 
-### Manage deployment slots
+## Manage deployment slots
 
 Create a web app and deploy to staging slots, then swap between slots.
 
@@ -46,7 +44,7 @@ Create an Azure Web App with a custom domain and self-signed SSL certificate.
 git clone https://github.com/Azure-Samples/app-service-dotnet-manage-web-apps-with-custom-domains.git
 ```
 
-### Scale a web app with high availability across regions
+## Scale a web app with high availability across regions
 
 Use Traffic Manager to load-balance multiple web app instances and scale for additional capacity.
 
@@ -54,7 +52,7 @@ Use Traffic Manager to load-balance multiple web app instances and scale for add
 git clone https://github.com/Azure-Samples/app-service-dotnet-scale-web-apps.git
 ```
 
-### Connect a web app to a storage account
+## Connect a web app to a storage account
 
 Create an Azure storage account and add the storage account connection string to the app settings.
 
@@ -62,7 +60,7 @@ Create an Azure storage account and add the storage account connection string to
 git clone https://github.com/Azure-Samples/app-service-dotnet-manage-storage-connections-for-web-apps.git
 ```
 
-### Deploy a web app with a SQL database
+## Deploy a web app with a SQL database
 
 Create an Azure SQL Database, deploy a web app using the database, and configure the database firewall.
 

@@ -20,9 +20,7 @@ This article links to source you can use to create and configure Azure SQL Datab
 
 [!include[Sample prerequisites](includes/sample-prereqs.md)]
 
-## Selected samples
-
-### Create and manage SQL databases
+## Create and manage SQL databases
 
 Create SQL databases, set performance levels, and configure firewalls
 
@@ -30,7 +28,7 @@ Create SQL databases, set performance levels, and configure firewalls
 git clone https://github.com/Azure-Samples/sql-database-dotnet-manage-db.git
 ```
 
-### Manage SQL databases in elastic pools
+## Manage SQL databases in elastic pools
 
 Create, delete, and move SQL databases in and out of elastic pools.
 
@@ -38,7 +36,7 @@ Create, delete, and move SQL databases in and out of elastic pools.
 git clone https://github.com/Azure-Samples/sql-database-dotnet-manage-sql-dbs-in-elastic-pool.git
 ```
 
-### Manage SQL databases across regions
+## Manage SQL databases across regions
 
 Create a master SQL databases and read-only databases from the master in multiple regions. Connect VMs to their nearest SQL database instance with a virtual network and firewall rules.
 

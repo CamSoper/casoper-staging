@@ -20,9 +20,7 @@ This article links to source you can use to create and configure Azure virtual m
 
 [!include[Sample prerequisites](includes/sample-prereqs.md)]
 
-## Selected samples
-
-### Manage virtual machines
+## Manage virtual machines
 
 Create, modify, start, stop, and delete virtual machines.
 
@@ -30,7 +28,7 @@ Create, modify, start, stop, and delete virtual machines.
 git clone https://github.com/Azure-Samples/managed-disk-dotnet-create-virtual-machine-using-custom-image-from-VHD.git
 ```
 
-### Create a virtual machine from a custom image
+## Create a virtual machine from a custom image
 
 Create a custom virtual machine image and use it to create new virtual machines. 
 
@@ -38,7 +36,7 @@ Create a custom virtual machine image and use it to create new virtual machines.
 git clone https://github.com/Azure-Samples/managed-disk-dotnet-create-virtual-machine-using-custom-image-from-VHD.git
 ```
 
-### Create a virtual machine using specialized VHD from a snapshot
+## Create a virtual machine using specialized VHD from a snapshot
 
 Create snapshot from the virtual machine's OS and data disks, create managed disks from the snapshots, then create a virtual machine by attaching the managed disks.
 
@@ -46,7 +44,7 @@ Create snapshot from the virtual machine's OS and data disks, create managed dis
 git clone https://github.com/Azure-Samples/managed-disk-dotnet-create-virtual-machine-using-specialized-disk-from-snapshot.git
 ```
 
-### Create virtual machines in parallel in the same network
+## Create virtual machines in parallel in the same network
 
 Create virtual machines in the same region on the same virtual network with two subnets in parallel. 
 
@@ -54,7 +52,7 @@ Create virtual machines in the same region on the same virtual network with two 
 git clone https://github.com/Azure-Samples/compute-dotnet-manage-virtual-machines-with-network-in-parallel.git
 ```
 
-### Create virtual machines across regions in parallel
+## Create virtual machines across regions in parallel
 
 Create and load balance a set of virtual machines across multiple Azure regions.
 
@@ -62,7 +60,7 @@ Create and load balance a set of virtual machines across multiple Azure regions.
 git clone https://github.com/Azure-Samples/compute-dotnet-create-virtual-machines-across-regions-in-parallel.git
 ```
 
-### Manage virtual networks
+## Manage virtual networks
 
 Create a virtual network with subnets.
 
@@ -70,7 +68,7 @@ Create a virtual network with subnets.
 git clone https://github.com/Azure-Samples/network-dotnet-manage-virtual-network.git
 ```
 
-### Create a virtual machine scale set with a load balancer
+## Create a virtual machine scale set with a load balancer
 
 Create a VM scale set, set up a load balancer, and get SSH connection strings to the scale set VMs.
 
