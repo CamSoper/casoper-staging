@@ -1,27 +1,57 @@
 ---
-title: Azure SDK for Java SQL Database samples
-description: Get sample code for creating and updating Azure SQL databases using the Java SDK for Azure
-keywords: Azure, Java, SDK, API, Maven, Gradle, SQL database
-author: rloutlaw
-ms.author: routlaw
+title: Azure management libraries for .NET SQL Database samples
+description: Get sample code for creating and updating Azure SQL Database using the Azure management libraries for .NET.
+keywords: Azure, .NET, SDK, API, SQL, database
+author: camsoper
+ms.author: casoper
 manager: douge
-ms.date: 04/16/2017
+ms.date: 05/03/2017
 ms.topic: article
 ms.prod: azure
 ms.technology: azure
-ms.devlang: java
+ms.devlang: dotnet
 ms.service: multiple
-ms.assetid: e4537f38-a60d-4218-a9ba-3cba7af61b8b
+ms.assetid: 
 ---
 
+# Azure management libraries for .NET samples for SQL Database
 
-# Azure SDK for Java samples for SQL Database
+This article links to source you can use to create and configure Azure SQL Database.
 
-> [!WARNING]
-> TODO: Port to .NET
+[!include[Sample prerequisites](includes/sample-prereqs.md)]
 
-| **SQL Database** ||
-|---|---|
-| [Manage SQL Databases in elastic pools][2] | Create, delete, and move SQL databases in and out of elastic pools. | 
+## Authentication for all samples
 
-[6]: java-sdk-azure-configure-webapp-sources.md
+[!include[Create service principal](includes/create-sp.md)]
+
+[!include[File-based authentication](includes/file-based-auth.md)]
+
+[!include[Running the samples](includes/running-samples.md)]
+
+## Selected samples
+
+### Create and manage SQL databases
+
+Create SQL databases, set performance levels, and configure firewalls
+
+```cmd
+git clone https://github.com/Azure-Samples/sql-database-dotnet-manage-db.git
+```
+
+### Manage SQL databases in elastic pools
+
+Create, delete, and move SQL databases in and out of elastic pools.
+
+```cmd
+git clone https://github.com/Azure-Samples/sql-database-dotnet-manage-sql-dbs-in-elastic-pool.git
+```
+
+### Manage SQL databases across regions
+
+Create a master SQL databases and read-only databases from the master in multiple regions. Connect VMs to their nearest SQL database instance with a virtual network and firewall rules.
+
+```cmd
+git clone https://github.com/Azure-Samples/sql-database-dotnet-manage-sql-databases-across-regions.git
+```
+
+[!include[More samples](includes/more-samples.md)]

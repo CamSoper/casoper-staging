@@ -12,6 +12,8 @@
       href: /cli/azure/create-an-azure-service-principal-azure-cli?toc=%2fazure%2fdotnet-azure%2ftoc.json&bc=%2fazure%2fdotnet-azure%2fbreadcrumb%2ftoc.json
   - name: Concepts
     href: dotnet-sdk-azure-concepts.md
+  - name: Release notes
+    href: dotnet-sdk-azure-release-notes.md
 - name: Sample code
   items: 
   - name: Virtual machines

@@ -78,7 +78,7 @@ Other libraries require your application to run with a [service prinicpal](https
 
 [!include[Create service principal](includes/create-sp.md)]
 
-Two options are available to authenticate to the service principal to create and manage resources.
+Now that the service principal is created, two options are available to authenticate to the service principal to create and manage resources.
 
 ### Authenticate with token credentials
 
@@ -87,8 +87,8 @@ The first method is to build the token credential object in code.  You should st
 ```csharp
 var credentials = SdkContext.AzureCredentialsFactory
     .FromServicePrincipal(clientId,
-    "clientSecret",
-    "tenantId", 
+    clientSecret,
+    tenantId, 
     AzureEnvironment.AzureGlobalCloud);
 ```
 
