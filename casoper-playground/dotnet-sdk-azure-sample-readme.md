@@ -1,5 +1,5 @@
 ---
-title: Azure management libraries for .NET sample overview
+title: Azure management libraries for .NET sample readme
 description: Get sample code for creating and updating resources using the Azure management libraries for .NET.
 keywords: Azure, .NET, SDK, API, sample, example
 author: camsoper
@@ -14,7 +14,7 @@ ms.service: multiple
 ms.assetid: 
 ---
 
-# Azure management libraries for .NET sample overview
+# Azure management libraries for .NET sample instructions
 
 This article describes the prerequisites and authentication required for running the samples for the Azure management libraries for .NET.
 
