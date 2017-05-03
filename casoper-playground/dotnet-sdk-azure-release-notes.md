@@ -63,6 +63,7 @@ ms.date: 05/03/2017
   </tr>
 </table>
 
-> *Preview* features are flagged in documentation comments in libraries. These features are subject to change. They can be modified in any way, or even removed, in the future.
+> [!WARNING] 
+> *Preview* features are flagged in documentation comments in libraries. These features are subject to change. They can be modified in any way (or even removed) in the future.
 
 [!include[Contribute and community](includes/contribute.md)]
