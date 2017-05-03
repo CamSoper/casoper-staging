@@ -20,13 +20,6 @@ This article links to source you can use to create and configure Azure Web Apps.
 
 [!include[Sample prerequisites](includes/sample-prereqs.md)]
 
-## Authentication for all samples
-
-[!include[Create service principal](includes/create-sp.md)]
-
-[!include[File-based authentication](includes/file-based-auth.md)]
-
-[!include[Running the samples](includes/running-samples.md)]
 ## Selected samples
 
 ### Manage web app source control
@@ -76,6 +69,5 @@ Create an Azure SQL Database, deploy a web app using the database, and configure
 ```cmd
 git clone https://github.com/Azure-Samples/app-service-dotnet-manage-data-connections-for-web-apps.git
 ```
-
 
 [!include[More samples](includes/more-samples.md)]

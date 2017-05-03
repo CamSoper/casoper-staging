@@ -20,14 +20,6 @@ This article links to source you can use to create and configure Azure virtual m
 
 [!include[Sample prerequisites](includes/sample-prereqs.md)]
 
-## Authentication for all samples
-
-[!include[Create service principal](includes/create-sp.md)]
-
-[!include[File-based authentication](includes/file-based-auth.md)]
-
-[!include[Running the samples](includes/running-samples.md)]
-
 ## Selected samples
 
 ### Manage virtual machines
