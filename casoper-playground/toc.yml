@@ -17,7 +17,7 @@
 - name: Sample code
   items: 
   - name: Read me first
-    href: dotnet-sdk-azure-sample-overview.md
+    href: dotnet-sdk-azure-sample-readme.md
   - name: Virtual machines
     href: dotnet-sdk-azure-virtual-machine-samples.md
   - name: Web apps
