@@ -64,7 +64,7 @@ Use these libraries to **manage and provision** Azure resources in your applicat
 
 Service | Fluent package | Standard package
 --------|---------------------------|-------------------------
-[Analysis Services](/azure/analysis-services/) | | [![Microsoft.Azure.Management.Analysis](https://img.shields.io/nuget/v/Microsoft.Azure.Management.Analysis.svg)](https://www.nuget.org/packages/Microsoft.Azure.Management.ApiManagement)
+[Analysis Services](/azure/analysis-services/) | | [Microsoft.Azure.Management.Analysis ![Microsoft.Azure.Management.Analysis](https://img.shields.io/nuget/v/Microsoft.Azure.Management.Analysis.svg)](https://www.nuget.org/packages/Microsoft.Azure.Management.ApiManagement)
 [ApiManagement](/azure/api-management/) | | [![Microsoft.Azure.Management.ApiManagement](https://img.shields.io/nuget/v/Microsoft.Azure.Management.ApiManagement.svg)](https://www.nuget.org/packages/Microsoft.Azure.Management.ApiManagement)
 [Authorization](/rest/api/authorization) | | [![Microsoft.Azure.Management.Authorization](https://img.shields.io/nuget/v/Microsoft.Azure.Management.Authorization.svg)](https://www.nuget.org/packages/Microsoft.Azure.Management.Authorization)
 [Automation](/azure/automation/) | | [![Microsoft.Azure.Management.Automation](https://img.shields.io/nuget/v/Microsoft.Azure.Management.Automation.svg)](https://www.nuget.org/packages/Microsoft.Azure.Management.Automation)
