@@ -55,7 +55,7 @@ To use a specific version, include the version number like this:
 dotnet add package Microsoft.Azure.Management.Fluent -v 1.0.0
 ```
 
-## Azure Management Libraries for .NET
+## <a id="mgmt"></a>Azure Management Libraries for .NET
 
 Use these libraries to **manage and provision** Azure resources in your applications.  For example, your application may need to provision virtual machines, modify settings for Azure App Service, or modify resource groups.
 
@@ -105,7 +105,7 @@ Service | Package
 [Virtual Network](/azure/virtual-network/) | [Microsoft.Azure.Management.Network.Fluent](https://www.nuget.org/packages/Microsoft.Azure.Management.Network.Fluent)<br/>[Microsoft.Azure.Management.Network](https://www.nuget.org/packages/Microsoft.Azure.Management.Network)
 [Web Apps](/azure/app-service-web) | [Microsoft.Azure.Management.AppService.Fluent](https://www.nuget.org/packages/Microsoft.Azure.Management.AppService.Fluent)<br/>[Microsoft.Azure.Management.Websites](https://www.nuget.org/packages/Microsoft.Azure.Management.Websites)
 
-## Azure Client Libraries for .NET
+## <a id="data"></a>Azure Client Libraries for .NET
 
 Use these libraries to **consume and integrate** Azure services in your applications.  For example, your application may need to store documents in DocumentDB, read blobs from Azure Storage, or use SQL Database.
 
