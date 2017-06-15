@@ -20,25 +20,26 @@ ms.service: multiple
     <li> 
         <div class="cardSize">
             <div class="cardPadding">
-                <a href="dotnet-tools">
                 <div class="card">
                     <div class="cardText">
-                       <h2>Tools</h2>
-                        <span>Download Azure tools and plugins.</span>
+                        <a href="dotnet-tools.md">
+                            <h2>Tools</h2>
+                            <span>Download Azure tools and plugins.</span>
+                        </a>
                     </div>
                 </div>
-                </a>
             </div>
         </div>
-    </li><li>
+    </li>
+    <li>
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
-                    <div class="cardImageOuter">
-                    </div>
                     <div class="cardText">
-                        <h2>Libraries</h2>
-                        <a href="dotnet-sdk-azure-install">Use services and manage Azure resources.</a>
+                        <a href="dotnet-sdk-azure-install.md">
+                            <h2>Libraries</h2>
+                            <span>Use services and manage Azure resources.</span>
+                        </a>
                     </div>
                 </div>
             </div>
