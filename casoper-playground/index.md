@@ -1,22 +1,48 @@
 ---
-title: Azure libraries for .NET
-description: Overview of the Azure SDK for .NET
+title: Azure for .NET developers - Tutorials, API Reference | Microsoft Docs
+description: Tools, SDKs, tutorials, and samples to help you create and deploy .NET apps to Azure.
 keywords: Azure, .NET, SDK, API, NuGet
 author: camsoper
 ms.author: casoper
 manager: douge
+layout: LandingPage
 ms.date: 05/08/2017
 ms.topic: article
 ms.prod: azure
 ms.technology: azure
 ms.devlang: dotnet
 ms.service: multiple
-ms.assetid: 
 ---
 
-# Azure libraries for .NET
+# Azure for .NET developers
 
-The Azure libraries for .NET let you use Azure services and manage Azure resources from your application code. The libraries are available as [NuGet packages](dotnet-sdk-azure-install.md) for use in your .NET projects. 
+<ul class="panelContent">
+    <li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
+                        <h2>Tools</h2>
+                        <a href="dotnet-tools.md">Download Azure tools and plugins.</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li><li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                    </div>
+                    <div class="cardText">
+                        <h2>Libraries</h2>
+                        <a href="dotnet-sdk-azure-install.md">Use services and manage Azure resources.</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li>
+</ul>
 
 ## Manage Azure resources
 
@@ -42,7 +68,7 @@ Review the [install instructions](dotnet-sdk-azure-install.md) to start using th
 
 ## Consume Azure services
 
-In addition to using .NET APIs to create and programmatically manage resources within Azure, you can also then use .NET APIs to connect your applications to these resources and use them at runtime.  For example, you might connect to a SQL Database or store data within Azure Storage.  You can identify which NuGet package to use for a particular Azure service by browsing our [full list of NuGet packages](dotnet-sdk-azure-install.md#data).  Check out the [.NET developer center](https://azure.microsoft.com/develop/net/) to learn more about building .NET apps with Azure services.
+Use .NET APIs to connect your applications to these resources and use them at runtime.  For example, you might connect to a SQL Database or store data within Azure Storage.  You can identify which NuGet package to use for a particular Azure service by browsing our [full list of NuGet packages](dotnet-sdk-azure-install.md#data).  Check out the [.NET developer center](https://azure.microsoft.com/develop/net/) to learn more about building .NET apps with Azure services.
 
 ## Samples
 
