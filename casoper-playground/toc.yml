@@ -1,8 +1,8 @@
-- name: Azure libraries for .NET
+- name: Azure for .NET developers
   href: index.md
   items:
     - name: Tools
-      href: java-azure-tools.md
+      href: dotnet-tools.md
     - name: Libraries
       items: 
       - name: Install
