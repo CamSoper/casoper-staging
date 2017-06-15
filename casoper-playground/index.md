@@ -17,18 +17,18 @@ ms.service: multiple
 # Azure for .NET developers
 
 <ul class="panelContent">
-    <li>
+    <li> <a href="dotnet-tools">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <a href="dotnet-tools.md">
-                        <h2>Tools</h2>
-                        <span>Download Azure tools and plugins.</span></a>
+                       <h2>Tools</h2>
+                        <span>Download Azure tools and plugins.</span>
                     </div>
                 </div>
             </div>
         </div>
+        </a>
     </li><li>
         <div class="cardSize">
             <div class="cardPadding">
@@ -37,7 +37,7 @@ ms.service: multiple
                     </div>
                     <div class="cardText">
                         <h2>Libraries</h2>
-                        <a href="dotnet-sdk-azure-install.md">Use services and manage Azure resources.</a>
+                        <a href="dotnet-sdk-azure-install">Use services and manage Azure resources.</a>
                     </div>
                 </div>
             </div>
@@ -47,9 +47,7 @@ ms.service: multiple
 
 ## Manage Azure resources
 
-The Azure libraries for .NET let you create and manage Azure resources from your .NET applications.
-
-Many of the packages for managing Azure resources have a [fluent](dotnet-sdk-azure-concepts.md) interface to configure resources exactly to your specifications. For example, to create a Windows VM you would write the following code:
+Import the [Azure management libraries for .NET](dotnet-sdk-azure-install.md) to manage your Azure resources with an easy-to-use [fluent API](dotnet-sdk-azure-concepts.md). 
 
 ```csharp
 var windowsVM = azure.VirtualMachines.Define(windowsVmName)
@@ -65,20 +63,22 @@ var windowsVM = azure.VirtualMachines.Define(windowsVmName)
     .Create();
  ```
 
-Review the [install instructions](dotnet-sdk-azure-install.md) to start using the libraries immediately with your projects. Then read the [get started article](dotnet-sdk-azure-get-started.md) to set up authentication and run sample code against your own Azure subscription.  The [concepts article](dotnet-sdk-azure-concepts.md) goes into the conventions the SDK uses and how to leverage them to simplify your application code. New features, breaking changes, and migration instructions are available in the [release notes](dotnet-sdk-azure-release-notes.md).
+[Get started with the Azure management libraries for .NET](dotnet-sdk-azure-get-started.md)
 
-## Consume Azure services
+## Five-minute quickstarts
+Create and deploy an app using your favorite tools in five minutes.
+<ul>
+   <li><a href="">Visual Studio</a></li>
+   <li><a href="">Command line</a></li>
+</ul>
 
-Use .NET APIs to connect your applications to these resources and use them at runtime.  For example, you might connect to a SQL Database or store data within Azure Storage.  You can identify which NuGet package to use for a particular Azure service by browsing our [full list of NuGet packages](dotnet-sdk-azure-install.md#data).  Check out the [.NET developer center](https://azure.microsoft.com/develop/net/) to learn more about building .NET apps with Azure services.
+## Tutorials and samples
 
-## Samples
+Complete walkthroughs for app creation and deployment.
 
-The following samples cover common automation tasks with the Azure libraries for .NET:
-
-- [Virtual machines](dotnet-sdk-azure-virtual-machine-samples.md)
-- [Web apps](dotnet-sdk-azure-web-apps-samples.md)
-- [SQL Database](dotnet-sdk-azure-sql-database-samples.md)
-
-A unified [reference](/dotnet/api/overview/azure/?view=azure-dotnet) is available for all packages in both the service and management libraries. New features, breaking changes, and migration instructions are available in the [release notes](dotnet-sdk-azure-release-notes.md).
-
-[!include[Contribute and community](includes/contribute.md)]
+<ul>
+    <li><a href="/azure/sql-database/sql-database-connect-query-java">SQL Database</a></li>
+    <li><a href="/azure/app-service-web/app-service-web-tutorial-java-mysql">MySQL</a></li>
+    <li><a href="/azure/documentdb/documentdb-java-application">CosmosDB</a></li>
+    <li><a href="/azure/storage/storage-java-how-to-use-blob-storage">Azure Storage</a></li>
+</ul>
