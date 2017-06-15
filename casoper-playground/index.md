@@ -22,8 +22,9 @@ ms.service: multiple
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
+                        <a href="dotnet-tools.md">
                         <h2>Tools</h2>
-                        <a href="dotnet-tools.md">Download Azure tools and plugins.</a>
+                        <span>Download Azure tools and plugins.</span></a>
                     </div>
                 </div>
             </div>

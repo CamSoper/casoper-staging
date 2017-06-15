@@ -15,7 +15,7 @@
         href: dotnet-sdk-azure-authenticate.md
         items:
         - name: Create a service principal
-          href: /powershell/azure/create-azure-service-principal-azureps?toc=%2fdotnet%2fazure%2ftoc.json&bc=%2fdotnet%2fazure_breadcrumb%2ftoc.json
+          href: /powershell/azure/create-azure-service-principal-azureps?toc=%2fdotnet%2fazure%2ftoc.json&bc=%2fdotnet%2fazure_breadcrumb%2ftoc.json&view=azurermps-4.1.0
       - name: Release notes
         href: dotnet-sdk-azure-release-notes.md
       - name: Sample code
@@ -30,29 +30,19 @@
           href: dotnet-sdk-azure-sql-database-samples.md
     - name: Quickstarts
       items:
-        - name: Maven
-          href: java-quickstart-maven-webapps.md
-        - name: Eclipse  
-          href: https://docs.microsoft.com/azure/app-service-web/app-service-web-eclipse-create-hello-world-web-app
-          maintainContext: true
-        - name: IntelliJ
-          href: https://docs.microsoft.com/azure/app-service-web/app-service-web-intellij-create-hello-world-web-app
-          maintainContext: true
-        - name: Spring Boot
-          href: https://docs.microsoft.com/azure/app-service/app-service-deploy-spring-boot-web-app-on-azure
-          maintainContext: true
-        - name: Docker and Kubernetes
-          href: https://docs.microsoft.com/azure/container-service/container-service-deploy-spring-boot-app-on-kubernetes
-          maintainContext: true
+        - name: Visual Studio  
+          href: dotnet-quickstart-vs.md
+        - name: Command line
+          href: dotnet-quickstart-xplat.md
     - name: Tutorials
       items:
         - name: SQL Database
-          href: https://docs.microsoft.com/azure/sql-database/sql-database-connect-query-java
-        - name: MySQL
-          href: https://docs.microsoft.com/azure/app-service-web/app-service-web-tutorial-java-mysql
+          href: https://docs.microsoft.com/azure/sql-database/sql-database-connect-query-dotnet
         - name: CosmosDB
-          href: https://docs.microsoft.com/azure/cosmos-db/documentdb-java-application
+          href: https://docs.microsoft.com/azure/cosmos-db/documentdb-dotnet-application
         - name: Azure Storage
-          href: https://docs.microsoft.com/azure/storage/storage-java-how-to-use-blob-storage
+          href: https://docs.microsoft.com/azure/storage/storage-dotnet-how-to-use-blob-storage
+        - name: Redis Cache
+          href: https://docs.microsoft.com/azure/redis-cache/cache-web-app-howto
     - name: Samples
       href: https://azure.microsoft.com/resources/samples/?platform=dotnet
