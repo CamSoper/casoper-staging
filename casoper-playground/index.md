@@ -17,18 +17,19 @@ ms.service: multiple
 # Azure for .NET developers
 
 <ul class="panelContent">
-    <li> <a href="dotnet-tools">
+    <li> 
         <div class="cardSize">
             <div class="cardPadding">
+                <a href="dotnet-tools">
                 <div class="card">
                     <div class="cardText">
                        <h2>Tools</h2>
                         <span>Download Azure tools and plugins.</span>
                     </div>
                 </div>
+                </a>
             </div>
         </div>
-        </a>
     </li><li>
         <div class="cardSize">
             <div class="cardPadding">
@@ -68,8 +69,8 @@ var windowsVM = azure.VirtualMachines.Define(windowsVmName)
 ## Five-minute quickstarts
 Create and deploy an app using your favorite tools in five minutes.
 <ul>
-   <li><a href="">Visual Studio</a></li>
-   <li><a href="">Command line</a></li>
+   <li><a href="dotnet-quickstart-vs.md">Visual Studio</a></li>
+   <li><a href="dotnet-quickstart-xplat.md">Command line</a></li>
 </ul>
 
 ## Tutorials and samples
