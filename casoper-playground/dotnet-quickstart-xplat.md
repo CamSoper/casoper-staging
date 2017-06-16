@@ -67,7 +67,8 @@ git commit -a -m "Modified settings"
 
 ```
 
-> [!NOTE] If you've never run `git commit` in this environment before, you may be prompted to set your identity. Follow the on-screen instructions and then re-run the `git commit` command.
+> [!NOTE]
+> If you've never run `git commit` in this environment before, you may be prompted to set your identity. Follow the on-screen instructions and then re-run the `git commit` command.
 
 Restore the NuGet packages and build the application.
 
@@ -76,7 +77,8 @@ dotnet restore
 dotnet build
 ```
 
-> [!TIP] If you are using the tools on your own machine, you can test the application by running `dotnet run` and browsing to the displayed `localhost` address.  You are not able to browse to this address in the Cloud Shell, however.  
+> [!TIP]
+> If you are using the tools on your own machine, you can test the application by running `dotnet run` and browsing to the displayed `localhost` address.  You are not able to browse to this address in the Cloud Shell, however.  
 
 ## Configure Azure App Service and deploy the web app
 
