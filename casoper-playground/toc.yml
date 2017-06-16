@@ -4,9 +4,8 @@
     - name: Tools
       href: dotnet-tools.md
     - name: Libraries
+      href: dotnet-sdk-azure-install.md
       items: 
-      - name: Install
-        href: dotnet-sdk-azure-install.md
       - name: Get started
         href: dotnet-sdk-azure-get-started.md
       - name: Key concepts
