@@ -56,7 +56,7 @@ The application you're going to deploy is a [simple to-do app](https://github.co
 git clone https://github.com/Azure-Samples/dotnet-cosmosdb-quickstart
 
 # Change the working directory
-cd dotnet-core-todo
+cd dotnet-cosmosdb-quickstart
 
 # Replace authKey and endpoint values in appsettings.json
 sed -i "s|AUTHKEYVALUE|$cosmosAuthKey|g" appsettings.json
