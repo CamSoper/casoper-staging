@@ -122,6 +122,10 @@ The application will be built remotely and deployed.  Test the application by br
 az webapp show -n $webappname -g DotNetAzureTutorial --query defaultHostName -o tsv
 ```
 
+You can add new items to the to-do list by clicking **Create New**.
+
+![The completed app](./media/dotnet-quickstart/todo.png)
+
 ## Clean up
 
 When you're done testing the app and inspecting the code and resources, you can delete the Web App and CosmosDB account by deleting the resource group.
