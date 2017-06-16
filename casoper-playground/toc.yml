@@ -15,7 +15,8 @@
         href: dotnet-sdk-azure-authenticate.md
         items:
         - name: Create a service principal
-          href: /powershell/azure/create-azure-service-principal-azureps?toc=%2fdotnet%2fazure%2ftoc.json&bc=%2fdotnet%2fazure_breadcrumb%2ftoc.json&view=azurermps-4.1.0
+          href: https://docs.microsoft.com/powershell/azure/create-azure-service-principal-azureps?&view=azurermps-4.1.0
+          maintainContext: true
       - name: Release notes
         href: dotnet-sdk-azure-release-notes.md
       - name: Sample code
@@ -38,11 +39,15 @@
       items:
         - name: SQL Database
           href: https://docs.microsoft.com/azure/sql-database/sql-database-connect-query-dotnet
+          maintainContext: true
         - name: CosmosDB
           href: https://docs.microsoft.com/azure/cosmos-db/documentdb-dotnet-application
+          maintainContext: true
         - name: Azure Storage
           href: https://docs.microsoft.com/azure/storage/storage-dotnet-how-to-use-blob-storage
+          maintainContext: true
         - name: Redis Cache
           href: https://docs.microsoft.com/azure/redis-cache/cache-web-app-howto
+          maintainContext: true
     - name: Samples
       href: https://azure.microsoft.com/resources/samples/?platform=dotnet
