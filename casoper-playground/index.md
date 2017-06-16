@@ -68,19 +68,17 @@ var windowsVM = azure.VirtualMachines.Define(windowsVmName)
 [Get started with the Azure management libraries for .NET](dotnet-sdk-azure-get-started.md)
 
 ## Five-minute quickstarts
+
 Create and deploy an app using your favorite tools in five minutes.
-<ul>
-   <li><a href="dotnet-quickstart-vs.md">Visual Studio</a></li>
-   <li><a href="dotnet-quickstart-xplat.md">Command line</a></li>
-</ul>
+
+* [Visual Studio](dotnet-quickstart-vs.md)
+* [Command line](dotnet-quickstart-xplat.md)
 
 ## Tutorials and samples
 
 Complete walkthroughs for app creation and deployment.
 
-<ul>
-    <li><a href="/azure/sql-database/sql-database-connect-query-java">SQL Database</a></li>
-    <li><a href="/azure/app-service-web/app-service-web-tutorial-java-mysql">MySQL</a></li>
-    <li><a href="/azure/documentdb/documentdb-java-application">CosmosDB</a></li>
-    <li><a href="/azure/storage/storage-java-how-to-use-blob-storage">Azure Storage</a></li>
-</ul>
+* [SQL Database](/azure/sql-database/sql-database-connect-query-dotnet?toc=%2fdotnet%2fazure%2ftoc.json&bc=%2fdotnet%2fazure_breadcrumb%2ftoc.json)
+* [CosmosDB](/azure/cosmos-db/documentdb-dotnet-application?toc=%2fdotnet%2fazure%2ftoc.json&bc=%2fdotnet%2fazure_breadcrumb%2ftoc.json)
+* [Azure Storage](/azure/storage/storage-dotnet-how-to-use-blob-storage?toc=%2fdotnet%2fazure%2ftoc.json&bc=%2fdotnet%2fazure_breadcrumb%2ftoc.json)
+* [Redis Cache](/azure/redis-cache/cache-web-app-howto?toc=%2fdotnet%2fazure%2ftoc.json&bc=%2fdotnet%2fazure_breadcrumb%2ftoc.json)
