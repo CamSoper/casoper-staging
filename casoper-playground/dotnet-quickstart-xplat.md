@@ -49,11 +49,11 @@ cosmosAuthKey=$(az cosmosdb list-keys -n $cosmosdbname -g DotNetAzureTutorial --
 
 ## Download and configure the application
 
-The application you're going to deploy is a [simple to-do app](https://github.com/CamSoper/dotnet-core-todo) written using ASP.NET MVC Core using the CosmosDB client libraries.  Now you'll get the code for this tutorial and configure it with your CosmosDB information.
+The application you're going to deploy is a [simple to-do app](https://github.com/Azure-Samples/dotnet-cosmosdb-quickstart/) written using ASP.NET MVC Core using the CosmosDB client libraries.  Now you'll get the code for this tutorial and configure it with your CosmosDB information.
 
 ```azurecli-interactive
 # Get the code from GitHub
-git clone https://github.com/CamSoper/dotnet-core-todo
+git clone https://github.com/Azure-Samples/dotnet-cosmosdb-quickstart
 
 # Change the working directory
 cd dotnet-core-todo
