@@ -22,14 +22,6 @@
           maintainContext: true
     - name: Tutorials
       items:
-        - name: Use Redis Cache with ASP.NET
-          href: /azure/redis-cache/cache-web-app-howto
-          maintainContext: true
-        - name: Use Azure Blob Storage
-          href: /azure/storage/storage-dotnet-how-to-use-blob-storage
-          maintainContext: true
-    - name: How-To
-      items:
         - name: Databases
           href: dotnet-tutorials-services-databases.md
         - name: Storage
@@ -48,6 +40,12 @@
           href: dotnet-tutorials-services-security.md
         - name: Monitoring + Management
           href: dotnet-tutorials-services-monitoring.md
+    - name: How-To
+      items:
+        - name: Deploy with Visual Studio  
+          href: dotnet-quickstart-vs.md
+        - name: Deploy with command line tools
+          href: dotnet-quickstart-xplat.md
     - name: Samples
       items:
         - name: Instructions
