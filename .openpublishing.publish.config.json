@@ -7,7 +7,7 @@
       "build_source_folder": "casoper-playground",
       "build_output_subfolder": "casoper-playground",
       "locale": "en-us",
-      "version": 0,
+      "monikers": [],
       "open_to_public_contributors": true,
       "type_mapping": {
         "Conceptual": "Content",
@@ -15,7 +15,24 @@
         "RestApi": "Content"
       },
       "build_entry_point": "docs",
-      "template_folder": "_themes"
+      "template_folder": "_themes",
+      "version": 0
+    },
+    {
+      "docset_name": "dotnet-test-service-pages",
+      "build_source_folder": "dotnet-test-service-pages",
+      "build_output_subfolder": "dotnet-test-service-pages",
+      "locale": "en-us",
+      "monikers": [],
+      "open_to_public_contributors": true,
+      "type_mapping": {
+        "Conceptual": "Content",
+        "ManagedReference": "Content",
+        "RestApi": "Content"
+      },
+      "build_entry_point": "docs",
+      "template_folder": "_themes",
+      "version": 0
     }
   ],
   "notification_subscribers": [],
