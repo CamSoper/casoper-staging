@@ -22,7 +22,7 @@ Use the Azure libraries for .NET to manage, integrate, and consume Azure service
 |--------|--------|--------|
 | [Active Directory](/dotnet/api/overview/azure/activedirectory) | [App Service](/dotnet/api/overview/azure/appservice) | Automation |
 | Backup | Batch | Billing |
-| CDN | Cosmos DB | Data Factories |
+| CDN | [Cosmos DB](/dotnet-test-service-pages/cosmosdb) | Data Factories |
 | Data Lake Analytics | Data Lake Store | Devices |
 | DNS | Event Hub | HD Insights |
 | Insights | IoT | Key Vault |
@@ -30,11 +30,9 @@ Use the Azure libraries for .NET to manage, integrate, and consume Azure service
 | Notification Hubs | [PostgreSQL](/dotnet/api/overview/azure/postgresql) | Power BI |
 | Recovery Services | Redis Cache | Relay |
 | Resources | Search | Service Bus |
-| Service Fabric | [SQL](/dotnet/api/overview/azure/sql) | [Storage](/dotnet/api/overview/azure/storage) |
+| Service Fabric | [SQL](/dotnet-test-service-pages/sql) | [Storage](/dotnet-test-service-pages/storage) |
 | Stream Analytics | Traffic Manager | [Virtual Machines](/dotnet/api/overview/azure/virtualmachines) |
 | &nbsp; | &nbsp; | &nbsp; |
-
-
 
 ## Installation
 
