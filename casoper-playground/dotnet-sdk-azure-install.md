@@ -1,5 +1,5 @@
 ---
-title: Install Azure libraries for .NET
+title: Azure .NET API Reference
 description: Import Azure Management Libraries for .NET into your project
 keywords: Azure, .NET, SDK, API, NuGet
 author: camsoper
@@ -14,12 +14,27 @@ ms.service: multiple
 ms.assetid:
 ---
 
-# Azure libraries for .NET
+# Azure .NET API Reference
 
 Use the Azure libraries for .NET to manage, integrate, and consume Azure services in your .NET applications.
 
-* [Packages for managing Azure resources](#mgmt)
-* [Packages for integrating Azure services and consuming data](#data)
+| &nbsp; | &nbsp; | &nbsp; |
+|--------|--------|--------|
+| Active Directory | App Service | Automation |
+| Backup | Batch | Billing |
+| CDN | Cosmos DB | Data Factories |
+| Data Lake Analytics | Data Lake Store | Devices |
+| DNS | Event Hub | HD Insights |
+| Insights | IoT | Key Vault |
+| Media Services | MySQL | Network |
+| Notification Hubs | PostgreSQL | Power BI |
+| Recovery Services | Redis Cache | Relay |
+| Resources | Search | Service Bus |
+| Service Fabric | SQL | Storage |
+| Stream Analytics | Traffic Manager | Virtual Machines |
+| &nbsp; | &nbsp; | &nbsp; |
+
+
 
 ## Installation
 
