@@ -1,1 +1,0 @@
-# Welcome to dotnet-test-service-pages!

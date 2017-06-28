@@ -21,41 +21,44 @@ Work with data stored in  [Azure SQL Database](https://docs.microsoft.com/azure/
 
 The management libraries provide an interface to create, manage, and scale Azure SQL Database deployments from your .NET code. Set up and manage databases in [elastic pools](https://docs.microsoft.com/azure/sql-database/sql-database-elastic-pool) to share resources and configure databases across multiple regions from your code.
 
-## Client library
-
-```powershell
-Install-Package System.Data.SqlClient
-``` 
-
-```bash
-dotnet add package System.Data.SqlClient
-```
-
-## Management library
-
-```powershell
-Install-Package System.Data.SqlClient
-``` 
-
-```bash
-dotnet add package Microsoft.Azure.Management.Sql.Fluent
-```
-
 ## Install the libraries
 
-[Use NuGet to install the library packages](https://docs.microsoft.com/nuget/guides/install-nuget).
+[Get started with Azure libraries for .NET](dotnet-sdk-azure-get-started.md).
 
+### Visual Studio 
+
+In the Package Manager console, execute:
+
+```powershell
+# Client library
+Install-Package System.Data.SqlClient
+
+# Management library
+Install-Package Microsoft.Azure.Management.Sql.Fluent
+``` 
+
+### .NET Core command line
+
+In your project directory, execute:
+
+```bash
+# Client library
+dotnet add package System.Data.SqlClient
+
+# Management library
+dotnet add package Microsoft.Azure.Management.Sql.Fluent
+```
 ## Example
 
 ```csharp
 // Create the Azure management object
-var azure = Azure
+IAzure azure = Azure
     .Configure()
     .Authenticate(credentials)
     .WithDefaultSubscription();
 
 // Create the SQL server and database
-var sqlServer = azure.SqlServers.Define(sqlServerName)
+ISqlServer sqlServer = azure.SqlServers.Define(sqlServerName)
     .WithRegion(Region.USEast)
     .WithNewResourceGroup(rgName)
     .WithAdministratorLogin(adminUser)
@@ -63,10 +66,10 @@ var sqlServer = azure.SqlServers.Define(sqlServerName)
     .WithNewFirewallRule("0.0.0.0", "255.255.255.255")
     .Create();
 
-var sqlDb = sqlServer.Databases.Define(sqlDbName).Create();
+ISqlDatabase sqlDb = sqlServer.Databases.Define(sqlDbName).Create();
 
 // Build the connection string
-var builder = new SqlConnectionStringBuilder();
+SqlConnectionStringBuilder builder = new SqlConnectionStringBuilder();
 builder.DataSource = sqlServer.FullyQualifiedDomainName;
 builder.InitialCatalog = sqlDbName;
 builder.UserID = adminUser + "@" + sqlServer.Name; // Format user ID as "user@server"
@@ -74,22 +77,22 @@ builder.Password = dbPassword;
 builder.Encrypt = true;
 builder.TrustServerCertificate = true;
 
-using (var conn = new SqlConnection(builder.ConnectionString))
+using (SqlConnection conn = new SqlConnection(builder.ConnectionString))
 {
     // connect to the database
     conn.Open();
 
     // Create a table
-    var createCommand = new SqlCommand("CREATE TABLE CLOUD (name varchar(255), code int);", conn);
+    SqlCommand createCommand = new SqlCommand("CREATE TABLE CLOUD (name varchar(255), code int);", conn);
     createCommand.ExecuteNonQuery();
 
     // Insert a row
-    var insertCommand = new SqlCommand("INSERT INTO CLOUD (name, code ) VALUES ('Azure', 1);", conn);
+    SqlCommand insertCommand = new SqlCommand("INSERT INTO CLOUD (name, code ) VALUES ('Azure', 1);", conn);
     insertCommand.ExecuteNonQuery();
 
     // Read rows
-    var selectCommand = new SqlCommand("SELECT * FROM CLOUD", conn);
-    var results = selectCommand.ExecuteReader();
+    SqlCommand selectCommand = new SqlCommand("SELECT * FROM CLOUD", conn);
+    SqlDataReader results = selectCommand.ExecuteReader();
     while(results.Read())
     {
         Console.WriteLine("Name: {0} Code: {1}", results[0], results[1]);

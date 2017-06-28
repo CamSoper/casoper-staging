@@ -26,27 +26,33 @@ Use the Azure Storage client libraries to:
 
 Create, update, and manage Azure Storage accounts and query and regenerate access keys from your .NET code with the management libraries.
 
-## Client library
-
-```powershell
-Install-Package WindowsAzure.Storage
-``` 
-```bash
-dotnet add package WindowsAzure.Storage
-```
-
-## Management library
-
-```powershell
-Install-Package Microsoft.Azure.Management.Storage.Fluent
-``` 
-```bash
-dotnet add package Microsoft.Azure.Management.Storage.Fluent
-```
-
 ## Install the libraries
 
-[Use NuGet to install the library packages](https://docs.microsoft.com/nuget/guides/install-nuget).
+[Get started with Azure libraries for .NET](dotnet-sdk-azure-get-started.md).
+
+### Visual Studio 
+
+In the Package Manager console, execute:
+
+```powershell
+# Client library
+Install-Package WindowsAzure.Storage
+
+# Management library
+Install-Package Microsoft.Azure.Management.Storage.Fluent
+``` 
+
+### .NET Core command line
+
+In your project directory, execute:
+
+```bash
+# Client library
+dotnet add package WindowsAzure.Storage
+
+# Management library
+dotnet add package Microsoft.Azure.Management.Storage.Fluent
+```
 
 ## Example usage
 
