@@ -23,7 +23,7 @@ For sample source code, see the list of [Azure service samples](https://azure.mi
 | [Web app sign-in and sign-out with Azure AD][1] | Sign users in and out of your ASP.NET with the ADAL library.
 | [Desktop application authentication with Azure AD][2]| Integrate Azure AD into a Windows Desktop WPF app using ADAL. | 
 | [Web API authentication with Azure AD][3] | Protect a web API using bearer tokens from Azure AD. |
-|**Active Directory**||
+|**Key Vault**||
 | [Use Azure Key Vault from a Web Application][4] | Access a secret from an Azure Key Vault so that it can be used in your web application. | 
 
 [1]: /azure/active-directory/develop/active-directory-devquickstarts-webapp-dotnet
