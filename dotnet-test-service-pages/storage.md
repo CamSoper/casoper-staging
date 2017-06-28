@@ -44,6 +44,10 @@ Install-Package Microsoft.Azure.Management.Storage.Fluent
 dotnet add package Microsoft.Azure.Management.Storage.Fluent
 ```
 
+## Install the libraries
+
+[Use NuGet to install the library packages](https://docs.microsoft.com/nuget/guides/install-nuget).
+
 ## Example usage
 
 The following code writes a new file to an existing blob storage container using a provided [storage connection string](https://docs.microsoft.com/azure/storage/storage-configure-connection-string).

@@ -41,6 +41,10 @@ Install-Package System.Data.SqlClient
 dotnet add package Microsoft.Azure.Management.Sql.Fluent
 ```
 
+## Install the libraries
+
+[Use NuGet to install the library packages](https://docs.microsoft.com/nuget/guides/install-nuget).
+
 ## Example
 
 ```csharp

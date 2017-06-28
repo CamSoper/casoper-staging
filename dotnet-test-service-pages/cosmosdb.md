@@ -32,3 +32,7 @@ Install-Package Microsoft.Azure.Management.DocumentDB.Fluent
 ```bash
 dotnet add package Microsoft.Azure.Management.DocumentDB.Fluent 
 ```
+
+## Install the libraries
+
+[Use NuGet to install the library packages](https://docs.microsoft.com/nuget/guides/install-nuget).
