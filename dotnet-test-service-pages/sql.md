@@ -94,6 +94,7 @@ using (var conn = new SqlConnection(builder.ConnectionString))
     {
         Console.WriteLine("Name: {0} Code: {1}", results[0], results[1]);
     }
+}
  
 ```
 
