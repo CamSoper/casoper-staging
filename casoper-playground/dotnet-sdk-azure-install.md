@@ -28,7 +28,7 @@ Use the Azure libraries for .NET to manage, integrate, and consume Azure service
 | [Data Lake Analytics](/dotnet/api/overview/azure/datalakeanalytics) | [Data Lake Store](/dotnet/api/overview/azure/datalakestore) | [Devices](/dotnet/api/overview/azure/devices) |
 | [DNS](/dotnet/api/overview/azure/dns) | [Event Hub](/dotnet/api/overview/azure/eventhub) | [HD Insights](/dotnet/api/overview/azure/hdinsights) |
 | [Insights](/dotnet/api/overview/azure/insights) | [IoT](/dotnet/api/overview/azure/iot) | [Key Vault](/dotnet/api/overview/azure/keyvault) |
-| [Media Services](/dotnet/api/overview/azure/mediaservices) | [Mobile Services](/dotnet/api/overview/azure/mobileservices) [MySQL](/dotnet/api/overview/azure/mysql) | 
+| [Media Services](/dotnet/api/overview/azure/mediaservices) | [Mobile Services](/dotnet/api/overview/azure/mobileservices) | [MySQL](/dotnet/api/overview/azure/mysql) | 
 | [Network](/dotnet/api/overview/azure/network) | [Notification Hubs](/dotnet/api/overview/azure/notificationhubs) | [PostgreSQL](/dotnet/api/overview/azure/postgresql) |
 | [Power BI](/dotnet/api/overview/azure/powerbi) | [Recovery Services](/dotnet/api/overview/azure/recoveryservices) | [Redis Cache](/dotnet/api/overview/azure/rediscache) 
 | [Relay](/dotnet/api/overview/azure/relay) | [Resources](/dotnet/api/overview/azure/resources) | [Search](/dotnet/api/overview/azure/search) | 
