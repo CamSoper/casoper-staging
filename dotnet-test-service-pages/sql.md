@@ -1,5 +1,5 @@
 ---
-title: Azure SQL Database libraries for .NET
+title: Azure .NET SQL Database APIs
 description: Reference for Azure SQL Database libraries for .NET
 keywords: Azure, .NET, SDK, API, SQL, database
 author: camsoper
@@ -13,7 +13,7 @@ ms.devlang: dotnet
 ms.service: multiple
 ---
 
-# Azure SQL Database libraries for .NET
+# Azure .NET SQL Database APIs
 
 ## Overview
 
@@ -21,9 +21,9 @@ Work with data stored in  [Azure SQL Database](https://docs.microsoft.com/azure/
 
 The management libraries provide an interface to create, manage, and scale Azure SQL Database deployments from your .NET code. Set up and manage databases in [elastic pools](https://docs.microsoft.com/azure/sql-database/sql-database-elastic-pool) to share resources and configure databases across multiple regions from your code.
 
-## Install the libraries
+## Install the packages
 
-[Get started with Azure libraries for .NET](dotnet-sdk-azure-get-started.md).
+[Get started with Azure libraries for .NET](/dotnet/azure/dotnet-sdk-azure-get-started).
 
 ### Visual Studio 
 

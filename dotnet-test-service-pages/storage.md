@@ -1,5 +1,5 @@
 ---
-title: Azure Storage libraries for .NET
+title: Azure .NET Storage APIs
 description: Reference for Azure Storage libraries for .NET
 keywords: Azure, .NET, SDK, API, storage, blob
 author: camsoper
@@ -13,7 +13,7 @@ ms.devlang: dotnet
 ms.service: multiple
 ---
 
-# Azure Storage libraries
+# Azure .NET Storage APIs
 
 ## Overview
 
@@ -26,9 +26,9 @@ Use the Azure Storage client libraries to:
 
 Create, update, and manage Azure Storage accounts and query and regenerate access keys from your .NET code with the management libraries.
 
-## Install the libraries
+## Install the packages
 
-[Get started with Azure libraries for .NET](dotnet-sdk-azure-get-started.md).
+[Get started with Azure APIs for .NET](/dotnet/azure/dotnet-sdk-azure-get-started).
 
 ### Visual Studio 
 
@@ -60,14 +60,13 @@ The following code writes a new file to an existing blob storage container using
 
 ```csharp
 // Create the Azure management object
-var azure = Azure
+IAzure azure = Azure
     .Configure()
     .Authenticate(credentials)
     .WithDefaultSubscription();
 
 // Create the storage account
-Console.WriteLine("Creating storage account...");
-var storage = azure.StorageAccounts.Define(storageAccountName)
+IStorageAccount storage = azure.StorageAccounts.Define(storageAccountName)
     .WithRegion(Region.USEast)
     .WithNewResourceGroup(rgName)
     .Create();
@@ -80,27 +79,22 @@ string storageConnectionString = "DefaultEndpointsProtocol=https;"
     + ";EndpointSuffix=core.windows.net";
 
 //Create a client to connect to the storage account
-var account = CloudStorageAccount.Parse(storageConnectionString);
-var serviceClient = account.CreateCloudBlobClient();
+CloudStorageAccount account = CloudStorageAccount.Parse(storageConnectionString);
+CloudBlobClient serviceClient = account.CreateCloudBlobClient();
 
 // Create container. Name must be lower case.
-var container = serviceClient.GetContainerReference("helloazure");
+CloudBlobContainer container = serviceClient.GetContainerReference("helloazure");
 container.CreateIfNotExistsAsync().Wait();
 
 // Make the container public
-var containerPermissions = new BlobContainerPermissions()
+BlobContainerPermissions containerPermissions = new BlobContainerPermissions()
     { PublicAccess = BlobContainerPublicAccessType.Container };
 container.SetPermissionsAsync(containerPermissions).Wait();
 
 // write a blob to the container
-Console.WriteLine("Uploading blob...");
-var blob = container.GetBlockBlobReference("helloazure.txt");
+CloudBlockBlob blob = container.GetBlockBlobReference("helloazure.txt");
 blob.UploadTextAsync("Hello, Azure!").Wait();
-Console.WriteLine("Your blob is located at {0}", blob.StorageUri.PrimaryUri);
-
-// Wait for the user
-Console.WriteLine("Press enter to continue...");
-Console.ReadLine();        
+Console.WriteLine("Your blob is located at {0}", blob.StorageUri.PrimaryUri);     
 
 ```
 
