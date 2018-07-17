@@ -3,15 +3,16 @@
     "content": [
       {
         "files": [
-          "**/*.md"
+          "**/*.md",
+          "**/*.yml"
         ],
         "exclude": [
           "**/obj/**",
+          "casoper-playground/**",
           "**/includes/**",
           "README.md",
           "LICENSE",
-          "LICENSE-CODE",
-          "ThirdPartyNotices"
+          "LICENSE-CODE"
         ]
       }
     ],
@@ -19,10 +20,13 @@
       {
         "files": [
           "**/*.png",
-          "**/*.jpg"
+          "**/*.jpg",
+          "**/*.svg",
+          "**/*.gif"
         ],
         "exclude": [
           "**/obj/**",
+          "casoper-playground/**",
           "**/includes/**"
         ]
       }
@@ -32,6 +36,6 @@
     "globalMetadata": {},
     "fileMetadata": {},
     "template": [],
-    "dest": "dotnet-test-service-pages"
+    "dest": "casoper-playground"
   }
 }
