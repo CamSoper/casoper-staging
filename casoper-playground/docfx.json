@@ -3,12 +3,15 @@
     "content": [
       {
         "files": [
-          "**/*.md"
+          "**/*.md",
+          "**/*.yml"
         ],
         "exclude": [
           "**/obj/**",
           "casoper-playground/**",
           "**/includes/**",
+          "**/_themes/**",
+          "**/_themes.pdf/**",
           "README.md",
           "LICENSE",
           "LICENSE-CODE"
@@ -19,7 +22,9 @@
       {
         "files": [
           "**/*.png",
-          "**/*.jpg"
+          "**/*.jpg",
+          "**/*.svg",
+          "**/*.gif"
         ],
         "exclude": [
           "**/obj/**",

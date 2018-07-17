@@ -15,22 +15,6 @@
       "build_entry_point": "docs",
       "template_folder": "_themes",
       "version": 0
-    },
-    {
-      "docset_name": "dotnet-test-service-pages",
-      "build_source_folder": "dotnet-test-service-pages",
-      "build_output_subfolder": "dotnet-test-service-pages",
-      "locale": "en-us",
-      "monikers": [],
-      "open_to_public_contributors": true,
-      "type_mapping": {
-        "Conceptual": "Content",
-        "ManagedReference": "Content",
-        "RestApi": "Content"
-      },
-      "build_entry_point": "docs",
-      "template_folder": "_themes",
-      "version": 0
     }
   ],
   "notification_subscribers": [],
@@ -57,6 +41,10 @@
     "live": [
       "Publish",
       "Pdf"
+    ],
+    "master": [
+      "Publish",
+      "Pdf"
     ]
   },
   "need_generate_pdf_url_template": true,
@@ -65,6 +53,6 @@
       "template_folder": "_themes.pdf"
     }
   },
-  "need_generate_pdf": false,
+  "need_generate_pdf": true,
   "need_generate_intellisense": false
 }
